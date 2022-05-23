@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+   {{ partial "head.html" . }}
+   <body>
+      <div id="all">
+         {{ partial "nav.html" . }}
+         {{ partial "breadcrumbs.html" . }}
+         <div id="content">
+            <div class="container">
+               <div class="row">
+                  <!-- *** LEFT COLUMN *** -->
+                  <div class="col-md-9" id="blog-listing-medium">
+                     <div id="mobile-menu">
+                        {{ partial "product/product-sidebar.html" . }}
+                     </div>
+                     {{ .Content }}
+                     {{ if eq .RelPermalink "/cards/" }}
+                     <div class="row">
+                        {{ partial "product/main-cards-list.html" . }}
+                     </div>
+                     {{ end }}
+                     <div class="row">
+                        {{ if eq .RelPermalink "/cards/baby/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "baby" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/cards/family/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "family" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/cards/house/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "house" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/cards/irish/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "irish" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/cards/wedding/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "wedding" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ end }}
+                     </div>
+                     <ul class="pager">
+                        {{ if .Paginator.HasPrev }}
+                        <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "previous" }}</a></li>
+                        {{ else }}
+                        <li class="previous disabled"><a href="#">&larr; {{ i18n "previous" }}</a></li>
+                        {{ end }}
+                        {{ if .Paginator.HasNext }}
+                        <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "next" }} &rarr;</a></li>
+                        {{ else }}
+                        <li class="next disabled"><a href="#">{{ i18n "next" }} &rarr;</a></li>
+                        {{ end }}
+                     </ul>
+                  </div>
+                  <!-- /.col-md-9 -->
+                  <!-- *** LEFT COLUMN END *** -->
+                  <!-- *** RIGHT COLUMN ***-->
+                  <div class="col-md-3">
+                     <!-- *** MENUS AND WIDGETS *** -->
+                     {{ partial "product/product-sidebar.html" . }}
+                     <!-- *** MENUS AND FILTERS END *** -->
+                  </div>
+                  <!-- /.col-md-3 -->
+                  <!-- *** RIGHT COLUMN END *** -->
+               </div>
+               <!-- /.row -->
+            </div>
+            {{ partial "testimonials.html" . }}
+            <!-- /.container -->
+         </div>
+         <!-- /#content -->
+         {{ partial "footer.html" . }}
+      </div>
+      <!-- /#all -->
+      {{ partial "scripts.html" . }}
+   </body>
+</html>

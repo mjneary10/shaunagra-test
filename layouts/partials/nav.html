@@ -1,0 +1,91 @@
+<header>
+   <div class="topPageOffer">
+      <div class="container">
+         <div class="row">
+            <a href="{{ "/signup/" | relURL }}" >(Members Discounts | Special Offers)</a> 
+            <a href="{{ "/signup/" | relURL }}" class="btn btn-template-main btn-top-page">SIGN UP NOW</a>
+         </div>
+      </div>
+   </div>
+</header>
+<header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+   <div class="shopping-cart-top-right">
+
+    
+      
+     <a href="https://www.facebook.com/ShaunaGra17" target="_blank"><img src="/img/facebook.webp" class="social-image"></a>
+      <a href="https://www.instagram.com/michelleshaunagra/" target="_blank"><img src="/img/instagram.webp" class="social-image"></a>
+       <a href="https://www.pinterest.ie/shaunagra/" target="_blank"><img src="/img/pinterest.webp" class="social-image"></a>
+
+      <a title="Shopping Cart" href="#" class="snipcart-checkout">
+      <i class="fas cart-link fa-shopping-cart cart-color"></i>
+      </a>
+      <span class="snipcart-summary">
+      (<span class="snipcart-total-items"></span>)
+      </span>
+
+
+       
+
+
+   </div>
+
+
+   <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+      <div class="container">
+         <div class="navbar-header">
+            <a class="navbar-brand home" href="{{ "/" | relURL }}">
+            <img alt="Shauna Gra" src="{{ .Site.Params.logo | relURL }}.webp"/>
+            <!--<img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">-->
+            <!--<img src="{{ .Site.Params.logo_small | relURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">-->
+            <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+            </a>
+            <div class="navbar-buttons">
+               <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+               <span class="sr-only">{{ i18n "navToggle" }}</span>
+               <i class="fas fa-align-justify"></i>
+               </button>
+            </div>
+         </div>
+         <!--/.navbar-header -->
+         <div class="navbar-collapse collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-left">
+               {{ $current := . }}
+               {{ range .Site.Menus.main }}
+               {{ $topLevel := replace .URL "/" "" }}
+               <li class="dropdown{{ if eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
+               {{ if .HasChildren }}
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                  {{ range .Children }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                  {{ end }}
+               </ul>
+               {{ else }}
+               <a href="{{ .URL }}">{{ .Name }}</a>
+               {{ end  }}
+               </li>
+               {{ end }}
+            </ul>
+         </div>
+         <!--/.nav-collapse -->
+         <div class="collapse clearfix" id="search">
+            <form class="navbar-form" role="search">
+               <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                  <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                  </span>
+               </div>
+            </form>
+         </div>
+         <!--/.nav-collapse -->
+      </div>
+   </div>
+</header>
+
+<div class="container">
+   {{ partial "breadcrumb-nav.html" . }}
+</div>
+
+<!-- *** NAVBAR END ***-->

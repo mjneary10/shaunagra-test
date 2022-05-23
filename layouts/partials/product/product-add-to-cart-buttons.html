@@ -1,0 +1,185 @@
+{{ if eq .Params.productGroup "frames" }}
+<a title="Add To Cart" href="#" class="snipcart-add-item" 
+   data-item-id="{{ .Params.title }}" 
+   data-item-weight="{{ .Params.weight }}" 
+   data-item-name="{{ .Params.title }}" 
+   data-item-image="{{ .Params.image }}-small.webp" 
+   data-item-price="{{ .Params.price }}" 
+   data-item-url="{{ .Permalink }}" 
+
+   {{ if eq .Params.productType "baby" }}
+      data-item-custom1-name="Babys first name only"
+      data-item-custom1-required="true" 
+      data-item-custom2-name="Boy or girl?" 
+      data-item-custom2-required="true" 
+      data-item-custom3-name="Date format" 
+      data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom3-required="true" 
+
+      {{ if .Params.buttonBabyDateOfBirth }}
+      data-item-custom4-name="DOB IN ABOVE FORMAT" 
+      data-item-custom4-required="true" 
+      {{ end }}
+      {{ if .Params.buttonChristeningDate }}
+      data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
+      data-item-custom5-required="true" 
+      {{ end }}
+      {{ if .Params.buttonBabyTimeOfBirth }}
+      data-item-custom6-name="TIME OF BIRTH" 
+      data-item-custom6-required="true" 
+      {{ end }}
+      {{ if .Params.buttonBabyWeight }}
+      data-item-custom7-name="BABY WEIGHT" 
+      data-item-custom7-required="true" 
+      {{ end }}
+
+      data-item-custom8-name="Pricing options" 
+      data-item-custom8-options="Frame Only[+0.00]|Frame & (Birthday Card) Package (+3.50 Euro)[+3.50]|Frame & (Christening Card) Package (+3.50 Euro)[+3.50]" 
+   {{ end }}
+
+   {{ if eq .Params.productType "family" }}
+   
+      {{ if .Params.buttonRequiredNames }}
+      data-item-custom1-name="REQUIRED NAMES" 
+      data-item-custom1-required="true" 
+      {{ end }}
+   
+      data-item-custom2-name="Pricing options" 
+      data-item-custom2-options="Frame (up to 25 letters)[+0.00]|Frame & Card Package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters)[+5.00]|Frame & Card Package (26 to 40 letters) (+3.50 Euro)[+8.50]" 
+   {{ end }}
+
+   {{ if eq .Params.productType "wedding" }}
+   
+      {{ if .Params.buttonCoupleFirstNames }}
+      data-item-custom1-name="COUPLES FIRST NAMES" 
+      data-item-custom1-required="true" 
+      {{ end }}
+
+      data-item-custom2-name="Date format" 
+      data-item-custom2-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom2-required="true" 
+
+      {{ if .Params.buttonWeddingDate }}
+      data-item-custom3-name="WEDDING DATE IN ABOVE FORMAT" 
+      data-item-custom3-required="true" 
+      {{ end }}
+
+      data-item-custom4-name="Pricing options" 
+      data-item-custom4-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]" 
+   {{ end }}
+
+    {{ if eq .Params.productType "house" }}
+   
+      {{ if .Params.buttonCoupleInitials }}
+      data-item-custom1-name="COUPLES INITIALS" 
+      data-item-custom1-required="true" 
+      {{ end }}
+
+      data-item-custom4-name="Pricing options" 
+      data-item-custom4-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]" 
+   {{ end }}
+
+   {{ if eq .Params.productType "irish" }}
+   
+     
+   {{ end }}
+
+   
+   data-item-custom9-name="Message to Shauna Gra" 
+   data-item-custom9-type="textarea">
+<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+</a>
+{{ end }}
+
+
+
+{{ if eq .Params.productGroup "cards" }}
+<a title="Add To Cart" href="#" class="snipcart-add-item" 
+   data-item-id="{{ .Params.title }}" 
+   data-item-weight="{{ .Params.weight }}" 
+   data-item-name="{{ .Params.title }}" 
+   data-item-image="{{ .Params.image }}-small.webp" 
+   data-item-price="{{ .Params.price }}" 
+   data-item-url="{{ .Permalink }}" 
+
+   {{ if eq .Params.productType "baby" }}
+      data-item-custom1-name="Babys first name only"
+      data-item-custom1-required="true" 
+      data-item-custom2-name="Boy or girl?" 
+      data-item-custom2-required="true" 
+      data-item-custom3-name="Date format" 
+      data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom3-required="true" 
+
+      {{ if .Params.buttonBabyDateOfBirth }}
+      data-item-custom4-name="DOB IN ABOVE FORMAT" 
+      data-item-custom4-required="true" 
+      {{ end }}
+      {{ if .Params.buttonChristeningDate }}
+      data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
+      data-item-custom5-required="true" 
+      {{ end }}
+     
+
+      data-item-custom8-name="Pricing options" 
+      data-item-custom8-options="Frame Only[+0.00]|Frame & (Birthday Card) Package (+3.50 Euro)[+3.50]|Frame & (Christening Card) Package (+3.50 Euro)[+3.50]" 
+   {{ end }}
+
+   {{ if eq .Params.productType "family" }}
+   
+      {{ if .Params.buttonRequiredNames }}
+      data-item-custom1-name="REQUIRED NAMES" 
+      data-item-custom1-required="true" 
+      {{ end }}
+   
+      data-item-custom2-name="Pricing options" 
+      data-item-custom2-options="Frame (up to 25 letters)[+0.00]|Frame & Card Package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters)[+5.00]|Frame & Card Package (26 to 40 letters) (+3.50 Euro)[+8.50]" 
+   {{ end }}
+
+   {{ if eq .Params.productType "wedding" }}
+   
+      {{ if .Params.buttonCoupleFirstNames }}
+      data-item-custom1-name="COUPLES FIRST NAMES" 
+      data-item-custom1-required="true" 
+      {{ end }}
+
+      data-item-custom2-name="Date format" 
+      data-item-custom2-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom2-required="true" 
+
+      {{ if .Params.buttonWeddingDate }}
+      data-item-custom3-name="WEDDING DATE IN ABOVE FORMAT" 
+      data-item-custom3-required="true" 
+      {{ end }}
+
+      data-item-custom4-name="Pricing options" 
+      data-item-custom4-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]" 
+   {{ end }}
+
+    {{ if eq .Params.productType "house" }}
+   
+      {{ if .Params.buttonCoupleInitials }}
+      data-item-custom1-name="COUPLES INITIALS" 
+      data-item-custom1-required="true" 
+      {{ end }}
+
+      data-item-custom4-name="Pricing options" 
+      data-item-custom4-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]" 
+   {{ end }}
+
+   {{ if eq .Params.productType "irish" }}
+   
+     
+   {{ end }}
+
+   
+   data-item-custom9-name="Message to Shauna Gra" 
+   data-item-custom9-type="textarea">
+<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+</a>
+{{ end }}
+
+
+
+
+

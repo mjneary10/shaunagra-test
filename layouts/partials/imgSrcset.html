@@ -1,0 +1,19 @@
+<div class="picture">
+ 
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-srcset="{{ .Params.image }}-large.webp">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-srcset="{{ .Params.image }}-small.webp">
+      <!-- Fallback -->
+      <img
+        data-src="{{ .Params.image }}.png"
+        data-srcset="{{ .Params.image }}.png"
+        alt="{{ .Params.alt }}" class="{{ .Params.class }}">
+    </picture>
+ 
+</div>

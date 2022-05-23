@@ -1,0 +1,19 @@
+<div class="picture">
+ 
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-srcset="{{ .Get "src" }}.{{ .Get "type" }}">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-srcset="{{ .Get "src" }}-sm.{{ .Get "type" }}">
+      <!-- Fallback -->
+      <img
+        data-src="{{ .Get "src" }}.{{ .Get "type" }}"
+        data-srcset="{{ .Get "src" }}"
+        alt="{{ .Get "alt" }}" class="{{ .Get "class" }}">
+    </picture>
+ 
+</div>

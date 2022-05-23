@@ -1,0 +1,79 @@
+<section class="">
+   <div class="container">
+      <div class="row">
+         <hr class="prod-box-line">
+         <h2 class="center">Personalised Baby Cards</h2>
+
+          <p>Our baby gift frames can be used for any baby occasion, including: Personalised Baby Frames - Personalised Christening Frames - New Baby Frames - Frames For Newborn Babies - Newborn Baby Girl Presents - Gift For A Baby Girl - Gift For A Baby Boy - Gift  frame embellishments are all behind the safety glass, the frames are safe for infants, and make perfect baby presents. We are in Dublin Ireland, so postage is not expensive for up to three frames.</p>
+   <hr class="prod-box-line">
+   <br><br>
+         {{ range (where .Site.Pages "Type" "cards") }}
+         {{ if eq .Params.productType "baby" }}
+         {{ partial "product/product-thumbnail.html" . }}
+         {{ end }}
+         {{ end }}
+      </div>
+      <div class="row">
+         <br>
+         <br>
+         <hr class="prod-box-line">
+         <h2 class="center">Personalised Family Cards</h2>
+
+          <p>Our baby gift frames can be used for any baby occasion, including: Personalised Baby Frames - Personalised Christening Frames - New Baby Frames - Frames For Newborn Babies - Newborn Baby Girl Presents - Gift For A Baby Girl - Gift For A Baby Boy - Gift their attention. Because the frame embellishments are all behind the safety glass, the frames are safe for infants, and make perfect baby presents. We are in Dublin Ireland, so postage is not expensive for up to three frames.</p>
+   <hr class="prod-box-line">
+   <br><br>
+         
+         
+         {{ range (where .Site.Pages "Type" "cards") }}
+         {{ if eq .Params.productType "family" }}
+         {{ partial "product/product-thumbnail.html" . }}
+         {{ end }}
+         {{ end }}
+      </div>
+      <div class="row">
+         <br>
+         <br>
+         <hr class="prod-box-line">
+         <h2 class="center">Personalised Home Cards</h2>
+         <p>Our baby gift frames can be used for any baby occasion, including: Personalised Baby Frames - Personalised Christening Frames - New Baby Frames - Frames For Newborn Babies - Newborn Baby Girl Presents - Gift For A Baby Girl - Gift For A Baby Boy - Gift For se contact us. Babies and kids like our frames, because we use colourful embellishments, and bright backgrounds to get their attention. Because the frame embellishments are all behind the safety glass, the frames are safe for infants, and make perfect baby presents. We are in Dublin Ireland, so postage is not expensive for up to three frames.</p>
+         <hr class="prod-box-line">
+         <br>
+         <br>
+         {{ range (where .Site.Pages "Type" "cards") }}
+         {{ if eq .Params.productType "home" }}
+         {{ partial "product/product-thumbnail.html" . }}
+         {{ end }}
+         {{ end }}
+      </div>
+      <div class="row">
+         <br>
+         <br>
+         <hr class="prod-box-line">
+         <h2 class="center">Personalised Irish Cards</h2>
+         <p>Our baby gift frames can be used for any baby occasion, including: Personalised Baby Frames - Personalised Christening Frames - New Baby Frames - Frames For Newborn Babies - Newborn Baby Girl Presents - Gift For A Baby Girl - Gift For A Baby Boy - Gift For o get their attention. Because the frame embellishments are all behind the safety glass, the frames are safe for infants, and make perfect baby presents. We are in Dublin Ireland, so postage is not expensive for up to three frames.</p>
+         <hr class="prod-box-line">
+         <br>
+         <br>
+         {{ range (where .Site.Pages "Type" "cards") }}
+         {{ if eq .Params.productType "irish" }}
+         {{ partial "product/product-thumbnail.html" . }}
+         {{ end }}
+         {{ end }}
+      </div>
+      <div class="row">
+         <br>
+         <br>
+         <hr class="prod-box-line">
+         <h2 class="center">Personalised Wedding Cards</h2>
+         <p>Our baby gift frames can be used for any baby occasion, including: Personalised Baby Frames - Personalised Christening Frames - New Baby Frames - Frames For Newborn Babies - Newborn Baby Girl Presents - Gift For A Baby Girl - Gift For A Baby Boy - Gift For o get their attention. Because the frame embellishments are all behind the safety glass, the frames are safe for infants, and make perfect baby presents. We are in Dublin Ireland, so postage is not expensive for up to three frames.</p>
+         <hr class="prod-box-line">
+         <br>
+         <br>
+         {{ range (where .Site.Pages "Type" "cards") }}
+         {{ if eq .Params.productType "wedding" }}
+         {{ partial "product/product-thumbnail.html" . }}
+         {{ end }}
+         {{ end }}
+      </div>
+   </div>
+</section>

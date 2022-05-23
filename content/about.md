@@ -1,0 +1,7 @@
++++
+metaTitle = "About | Shauna Gra"
+title = "About"
+description = "Unique Handcrafted Gifts, Best Gift Ideas, Handmade Gifts For Her, Gifts For Him, Ireland, Secure Pay, Shipping Worldwide."
+keywords = ["personalised frames","personalised cards"]
++++
+I chose the name Shauna Gra because our beautiful daughter is called Shauna, which means "Present from God" in Irish, and "Gra" means love in Irish. So we thought combining the two fitted perfectly with what we were hoping to achieve, handcrafted gifts made with lots of love. The story behind how we started. We attended three weddings in September 2017 and gave each couple a personalised wedding frame. The first one I made for my brother-in-law, another one for our neighbours and the last one for a close friend, they were delighted with the frames. In fact, when I gave one to my friend, she began to cry she was so pleased. Before we knew what hit us, we had our first order from her sister for two gift frames. To date, most of our orders come from repeat customers. We have made over 70 frames so far and the number is growing speedily. We export our handcrafted gifts as far away as the USA. People keep coming back for more, that's a good thing.

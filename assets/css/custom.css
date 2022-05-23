@@ -1,0 +1,654 @@
+/* your styles go here */
+/* Example site test */
+
+
+
+ .test-color {
+     background-color: red;
+     padding: 0 
+}
+ .box-image-text .image {
+     min-height: 200px;
+     max-height: 200px;
+}
+ .box-simple {
+     min-height: 230px;
+}
+
+.box-image-text.blog .intro {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 18px;
+font-weight: 300;
+line-height: 1.4;
+}
+
+ .product-custom-boxes {
+     width: 100%;
+     background-color: #fff;
+     
+     
+     
+     margin-bottom: 10px 
+}
+ .product-custom-boxes td {
+     background-color: #ffffff;
+     border: 5px solid #fcf5f5;
+     
+     padding: 7px;
+     text-align: left;
+     
+     
+}
+
+.product-thumbnail {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px dashed black;
+    }
+
+.h2-product {
+    
+}
+
+.h2-product a{
+     font-size: 20px;
+  letter-spacing: 0.08em;
+}
+
+
+
+ .productPrice{
+     color: red;
+     font-size: 1.5em;
+}
+}
+
+ .redText{
+     color: red;
+     font-size: 1em;
+}
+ .productPreviousPrice {
+     color: black;
+     font-size: 1.5em;
+     text-decoration: line-through 
+}
+ .productFileProperties {
+     color: black;
+     font-size: 1.5em;
+}
+
+.productStatsTable{
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+   
+    }
+
+    .productStatsTable td{
+   border-bottom: 1px dotted black;
+    }
+
+     .productStatsTable p{
+    padding: 0px;
+    margin: 0px;
+    }
+.social-image{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.share-buttons {
+    width: 20px;
+   
+  
+   
+    
+}
+
+.pintwwwwwwerest-share-button{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+#breadcrumbs-nav {
+ 
+   
+}
+
+.navbar-brand>img {
+    margin-top: 4px;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+.bottom-margin {
+    margin-bottom: 10px;
+}
+
+#landingPageImageAndStats{
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+ a.anchor {
+     display: block;
+     position: relative;
+     top: -100px;
+     visibility: hidden 
+}
+
+.blog-pinterest-image {
+    width: 50%;
+}
+
+#landingpage-content {
+    text-align: center;
+   
+}
+
+.design-img-landingpage{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mc_embed_signup {
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.top-page-button {
+     padding-top: 1px;
+     padding-bottom: 1px;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 5px;
+     background-color: #ffffff;
+     color: #000000;
+     text-align: center;
+     font-size: 15px;
+}
+
+.top-page-button:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+
+ .reviewsStarsAmount td {
+     vertical-align: top 
+}
+
+
+
+.cart-link {
+    font-size: 1.5em;
+    
+}
+
+.shop-prod-row {
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    
+    padding: 10px;
+}
+
+.shop-product-single {
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    
+    padding: 10px;
+}
+
+.prod-box-line {
+ 
+    border-top: 5px dotted #b1b697;
+}
+
+.free-printables-row {
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+
+.blog-row {
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    
+    padding-top: 10px;
+   
+}
+/* Cart and shopping buttons */
+.shopping-buttons-color {
+    background-color: #ED9F9D;
+    color: #000000;
+}
+
+.cart-color {
+    
+}
+
+.shopping-cart-top-right{
+  
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    z-index: 30000;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Override for main buttons width, overrides style selected in config */
+.btn-template-main{
+    margin-bottom: 10px;
+}
+
+.sideBarButtons{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn {
+    width: 100%;
+   
+}
+
+.btn-share{
+    margin-bottom: 10px;
+   
+}
+
+.btn-top-page {
+    width: auto;
+    
+}
+
+
+.main-row-2-cols{
+    display: flex;
+    margin-top: 50px;
+    
+
+ }
+
+
+
+  .col-center-vertical{
+  
+  display: flex;
+  align-items: center;
+  
+ }
+
+
+
+.buyNowButton {
+    display: block;
+     width: 100%;
+     padding: 2px;
+     border-radius: 5px;
+     color: #fff;
+     text-align: center;
+     margin-bottom: 10px;
+     margin-top: 20px;
+     font-size: 1em;
+}
+
+.buyNowButton a {
+     text-decoration: none 
+}
+
+
+
+
+#mc-embedded-subscribe{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 96% !important;
+    display: block;
+     
+     padding: 2px;
+     border-radius: 5px;
+     color: #fff;
+     text-align: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     font-size: 2em;
+}
+
+
+
+
+#snipcart-header{
+    background-color: #f0b0ae;
+    }
+
+    #snipcart-footer{
+    background-color: #f0b0ae;
+    }
+
+.snip-layout .snip-product__thumbnail img {
+    max-height: 150% !important;
+    max-width: 100%;
+}
+
+
+ .pink {
+     background-color: pink;
+}
+
+.speical-offer-large-image {
+    margin-bottom: 20px;
+}
+
+.topPageOffer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+
+    }
+
+    .topPageOffer a{
+    color: #faa25b;
+    
+    text-decoration: none;
+
+    }
+
+   
+
+.digital-download-image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+img.img-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+ img.hover-shadow {
+     transition: all 0.3s;
+     cursor: pointer;
+}
+
+
+
+ img.openMainImage {
+     transition: all 0.3s;
+     cursor: pointer;
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+ .carousel-row {
+     max-width: 100%;
+     margin: 0 auto;
+     margin-top: 20px;
+     display: flex;
+     
+}
+ .carousel-row--img {
+     
+     margin-bottom: 10px;
+}
+ .carousel-row--img img {
+    width: 95%;
+     
+     object-fit: cover;
+     cursor: pointer;
+     transition: 0.4s;
+}
+ .carousel-row--img img:hover {
+     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ .column-box {
+     white-space: nowrap;
+     background-color: transparent;
+     width: 100%;
+     background: black;
+     overflow: hidden;
+}
+ .column-box .column {
+     width: 20%;
+     display: inline-block;
+     transition: all 1s;
+}
+ .column-box .column img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     cursor: pointer;
+}
+/* The Modal */
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 2000;
+     padding: 0px 0;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     background-color: white;
+}
+ .modal.no-select {
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+ .modal-content {
+     margin-top: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 20px;
+
+     width: 100vh;
+     overflow: hidden;
+}
+ @media only screen and (max-width: 37.5em) {
+     .modal-content {
+         width: 90%;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
+}
+ @keyframes anime {
+     0% {
+         opacity: 0;
+         transform: scale(0.9);
+    }
+     100% {
+         opacity: 1;
+         transform: scale(1);
+    }
+}
+ .my-slides {
+     display: none;
+     height: 75vh;
+     
+     transition: all 2s;
+     overflow: hidden;
+     animation: anime 0.8s ease-in;
+     position: relative;
+}
+ @media only screen and (max-width: 56.25em) {
+     .my-slides {
+         height: 45vh;
+    }
+
+     .modal-content {
+         width: 50vh;
+         height: 60vh;
+         margin-top: 20px;
+       
+    }
+}
+ @media only screen and (max-width: 37.5em) {
+     .my-slides {
+         height: 40vh;
+    }
+}
+ .my-slides img {
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+}
+ .my-slides--number {
+     color: black;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+}
+ .demo {
+     opacity: 0.5;
+     transition: all 0.4s;
+}
+ .demo.active, .demo:hover {
+     opacity: 1;
+}
+/* Caption text */
+ .caption-container {
+     text-align: center;
+     background-color: black;
+     padding: 6px 16px;
+     color: white;
+}
+/* The Close Button */
+ .close {
+     color: black;
+     position: absolute;
+     top: 10px;
+     right: 25px;
+     font-size: 50px;
+     font-weight: bold;
+}
+ .close:hover, .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;   
+}
+/* nextPage & previous buttons */
+ .prev, .nextPage {
+     cursor: pointer;
+     position: fixed;
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     color: black;
+     font-weight: bold;
+     font-size: 50px;
+     transition: 0.6s ease;
+     transform: translateY(-50%);
+}
+ @media only screen and (max-width: 37.5em) {
+     .prev, .nextPage {
+         position: fixed;
+         top: 95%;
+         padding: 10px;
+         font-size: 40px;
+         transform: translateY(-50%);
+    }
+}
+ .prev:active, .nextPage:active {
+     font-size: 30px;
+}
+/* Position the "nextPage button" to the right */
+ .nextPage {
+     right: 0;
+}
+ .prev {
+     left: 0;
+}
+ @media only screen and (max-width: 37.5em) {
+     .prev {
+         left: 80%;
+    }
+}
+/* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .nextPage:hover {
+     background-color: rgba(255, 255, 255, 0.1);
+}
+ @media only screen and (max-width: 37.5em) {
+     .prev:hover, .nextPage:hover {
+         background-color: transparent;
+    }
+
+     .topPageOffer a{
+    text-align: center;
+    font-size: 15px;
+
+
+    }
+
+    #landingPageImageAndStats{
+    
+    width: 100%;
+    
+
+}
+
+.shopping-cart-top-right{
+  
+    position: absolute;
+    right: 60px;
+    top: 18px;
+
+    
+}
+
+#mobile-menu {
+    display: block;
+}
+
+
+#breadcrumbs-nav {
+    
+}
+
+.blog-pinterest-image {
+    width: 100%;
+}
+
+.top-page-button {
+     width: 100%;
+}
+
+.box-image-text.blog .intro {
+  
+  font-size: 18px;
+
+}
+
+#mc-embedded-subscribe{
+     font-size: 1em;
+}
+
+
+}

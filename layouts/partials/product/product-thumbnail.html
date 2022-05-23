@@ -1,0 +1,27 @@
+                        <div class="col-md-4 center post ">
+                           <div class="product-thumbnail">
+                              
+                               <a href="{{ .Permalink }}">
+                              <picture>
+                                 <!-- Large screens -->
+                                 <source
+                                    data-srcset="{{ .Params.image }}-medium.webp">
+                                 <img
+                                    data-src="{{ .Params.image }}-medium.png"
+                                    data-srcset="{{ .Params.image }}-medium.png"
+                                    alt="{{ .Params.alt }}" class="{{ .Params.class }}">
+                              </picture>
+                           </a>
+                           <h2 class="h2-product"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                           {{ if .Params.saleOn }}
+                           <span class="productPrice">&euro;{{ .Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Params.downFrom }}</span>
+                           {{ else }}
+                           <span class="productPrice">&euro;{{ .Params.price }}</span>
+                           {{ end }}
+                           {{ partial "product/product-add-to-cart-buttons.html" . }}
+
+
+                              
+                           </div>
+                          
+                        </div>

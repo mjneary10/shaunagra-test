@@ -1,0 +1,14 @@
+<div class="row shop-product-single">
+   <div class="col-md-6">
+      {{ partial "product/product-gallery.html" . }}
+   </div>
+   <div class="col-md-6">
+     {{ partial "product/product-stats-and-price.html" . }}
+      <!--<img src="{{ "img/digital-download.png" | relURL }}" class="img-responsive digital-download-image" alt="">-->
+      {{ partial "product/product-add-to-cart-buttons.html" . }}
+      {{ partial "share-buttons.html" . }}
+   </div>
+
+</div>
+<br>
+ {{ .Params.description }}

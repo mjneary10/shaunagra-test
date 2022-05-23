@@ -1,0 +1,57 @@
+{{ if .IsHome -}}
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.defaultDescription }}",
+    "thumbnailUrl": "{{ .Site.Params.Logo | absURL }}.webp",
+    "license": "{{ .Site.Params.Copyright }}"
+}
+</script>
+
+
+{{ else if eq .Page.Params.pageType "product"}}
+<script type='application/ld+json'> 
+{
+  "@context": "https://www.schema.org",
+  "@type": "product",
+  "brand": "{{ .Site.Title }}",
+  "logo": "{{ .Site.Params.Logo | absURL }}.webp",
+  "name": "{{ .Params.Title }}",
+  "image": "{{ .Params.image | absURL }}.webp",
+  "description": "{{ .Params.description }}",
+  "url": "{{ .Permalink | absURL }}",
+  "aggregateRating": {
+    "@type": "aggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "350"
+  }
+}
+ </script>
+
+
+  {{ else if eq .Page.Params.pageType "post"}}
+
+<script type="application/ld+json">
+{ "@context": "https://schema.org", 
+ "@type": "BlogPosting",
+ "headline": "{{ .Params.jsonShortDescription }}",
+ "image": "{{ .Params.image | absURL }}.webp",
+ "editor": "Shauna Gra", 
+ "genre": "{{ .Params.title }}", 
+ "publisher": "Shauna Gra",
+ "url": "{{ .Permalink | absURL }}",
+ "datePublished": "{{ .Params.date }}",
+ "description": "{{ .Params.jsonShortDescription }}",
+ "articleBody": "{{ .Params.description }}",
+   "author": {
+    "@type": "Person",
+    "name": "Martin"
+  }
+ }
+</script>
+
+
+{{ end }}

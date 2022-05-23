@@ -1,0 +1,74 @@
+<div class="row">
+   <hr class="prod-box-line">
+   <h2 class="center">Personalised Baby Frames</h2>
+
+   <p>Our baby gift frames can be used for any baby occasion, including: Personalised Baby Frames - Personalised Christening Frames - New Baby Frames - Frames For Newborn Babies - Newborn Baby Girl Presents - Gift For A Baby Girl - Gift For A Baby Boy - Gift For Baby Twins. We create custom handmade frames for many baby and kids occasions. Our most popular are new baby, christenings, communions and kids birthdays. People find our baby frames very appealing, because of the personalization with baby names and date of birth. If you would like different words on the frame, please contact us. Babies and kids like our frames, because we use colourful embellishments, and bright backgrounds to get their attention. Because the frame embellishments are all behind the safety glass, the frames are safe for infants, and make perfect baby presents. We are in Dublin Ireland, so postage is not expensive for up to three frames.</p>
+   <hr class="prod-box-line">
+   <br><br>
+   {{ range (where .Site.Pages "Type" "frames") }}
+   {{ if eq .Params.productType "baby" }}
+   {{ partial "product/product-thumbnail.html" . }}
+   {{ end }}
+   {{ end }}
+</div>
+<div class="row">
+<br>
+<br>
+   <hr class="prod-box-line">
+   <h2 class="center">Personalised Family Frames</h2>
+   <p>Our personalised family frames would suite many occasions, including the following: Personalised New Home Frames - Personalised Birthday Frames - Personalised Frames For Him - Personalised Frames For Her - Personalised Mothers Day Gift - Personalised Memorial Frames - Personalised Frames For Teachers - Personalised Fathers Day Frames. We specialize in personalised family name box frames Therefore, customers buy these frames for many occasions as they contain all their family names. Customers often order these as custom frames for birthdays, mothers day, fathers day, memorial, or teacher frames. The following is a list of occasions we have created custom frame presents for. Many of our Irish customers request a fada on the frames (for the Irish language), making the perfect Irish gift for her, or the perfect Irish gift for him. We hope you enjoy surfing our site Shauna Gra (personalised frames Ireland).</p>
+
+   <hr class="prod-box-line">
+   <br>
+<br>
+   {{ range (where .Site.Pages "Type" "frames") }}
+   {{ if eq .Params.productType "family" }}
+   {{ partial "product/product-thumbnail.html" . }}
+   {{ end }}
+   {{ end }}
+</div>
+<div class="row">
+<br>
+<br>
+   <hr class="prod-box-line">
+   <h2 class="center">Personalised Home Frames</h2>
+   <p>Housewarming gift frames are perfect as a: Housewarming Gift - First home gift - Moving house gift - Moving in gift. Moving into a new house is a major event in peoples lives. Therefore, we create house warming gift frames for our customers. Whether you are buying your first home, or trading up, (or down), we can create a gift frame to suite. If you are looking for a new house gift, we can customize the frame with the house number. Even if your friends are moving into a house, apartment, flat, condo, bungalow or cabin, they need something for their walls. We insert the number of the house, and also a cute wooden key. Please see our range of frames below. If you cannot find one that suites, please contact us to arrange a custom housewarming gift.</p>
+   <hr class="prod-box-line">
+   <br>
+<br>
+   {{ range (where .Site.Pages "Type" "frames") }}
+   {{ if eq .Params.productType "house" }}
+   {{ partial "product/product-thumbnail.html" . }}
+   {{ end }}
+   {{ end }}
+</div>
+<div class="row">
+<br>
+<br>
+   <hr class="prod-box-line">
+   <h2 class="center">Personalised Irish Frames</h2>
+   <p>Here are some gift ideas for our unique Irish gifts: Irish Frames For Her - Irish Frames For Him - Irish Gift Souvenirs - Gift For Irish Mammy - Gift For Irish Daddy - Irish Blessing Gift - Irish Welcome Gift - Irish Roots Gift. Please see our unique Irish frames range below. If you have Irish roots, these frames will bring you right back to them. Created here in Dublin Ireland, in our craft store. These Irish blessing gift frames would make an ideal gift for your relatives abroad. The Irish language is called Gaelic, and (failte) means (welcome). The shamrock is a Celtic symbol for Ireland, and is on our gift frames as well. Our creative Irish frames would make a perfect gift for your Irish mammy, or Irish daddy. Both Michelle and Martin are from Ireland, so we have deep Celtic roots. Our customers have requested customizations to their Irish gift frames as well. Please check back shortly as we are constantly adding more frames to our range here at Shauna Gra personalised frames Ireland.</p>
+   <hr class="prod-box-line">
+   <br>
+<br>
+   {{ range (where .Site.Pages "Type" "frames") }}
+   {{ if eq .Params.productType "irish" }}
+   {{ partial "product/product-thumbnail.html" . }}
+   {{ end }}
+   {{ end }}
+</div>
+<div class="row">
+<br>
+<br>
+   <hr class="prod-box-line">
+   <h2 class="center">Personalised Wedding Frames</h2>
+   <p>Our personalised wedding frames would suit the following occasions: Personalised Wedding Gift - Personalised Engagement Gift - Wedding Anniversary Gift - Civil Ceremony Gift - Gift For The Bride - Gift For The Groom - Gift For The Bride & Groom - Wedding Keepsake Frame. We create handmade personalised wedding frames for couples. Hence, the frames have the bride and groom initials on them, and the wedding date. These personalised frames are ideal as a unique wedding present, engagement frame, or wedding anniversary frame. These personalised wedding frames are also perfect for cival ceremonys. Imagine the faces of the bride and groom, when they receive a gift frame unique to them. They would probably take in on honeymoon with them. Our wedding gift frames could be used as a gift for the bride, from the groom. Customers also purchase them as a gift for the groom, from the bride. Why not delight the bride and groom and pick a customised frame as a present. Our gift frames are sure to suite their house style and decor. All our frames and handmade by us here in Ireland, and we have many 5 star reviews for our personalised presents.</p>
+   <hr class="prod-box-line">
+   <br>
+<br>
+   {{ range (where .Site.Pages "Type" "frames") }}
+   {{ if eq .Params.productType "wedding" }}
+   {{ partial "product/product-thumbnail.html" . }}
+   {{ end }}
+   {{ end }}
+</div>

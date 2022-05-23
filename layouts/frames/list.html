@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+   {{ partial "head.html" . }}
+   <body>
+      <div id="all">
+         {{ partial "nav.html" . }}
+         {{ partial "breadcrumbs.html" . }}
+         <div id="content">
+            <div class="container">
+               <div class="row">
+                  <!-- *** LEFT COLUMN *** -->
+                  <div class="col-md-9">
+                     <div id="mobile-menu">
+                        {{ partial "product/product-sidebar.html" . }}
+                     </div>
+                     {{ .Content }}
+                     {{ if eq .RelPermalink "/frames/" }}
+                     <div class="row">
+                        {{ partial "product/main-frames-list.html" . }}
+                     </div>
+                     
+                     {{ end }}
+                     <div class="row">
+                        {{ if eq .RelPermalink "/frames/baby/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "baby" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/family/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "family" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/house/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "house" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/irish/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "irish" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/wedding/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "wedding" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ end }}
+                     </div>
+                     
+                  </div>
+                  <!-- /.col-md-9 -->
+                  <!-- *** LEFT COLUMN END *** -->
+                  <!-- *** RIGHT COLUMN ***-->
+                  <div class="col-md-3">
+                     <!-- *** MENUS AND WIDGETS *** -->
+                     {{ partial "product/product-sidebar.html" . }}
+                     <!-- *** MENUS AND FILTERS END *** -->
+                  </div>
+                  <!-- /.col-md-3 -->
+                  <!-- *** RIGHT COLUMN END *** -->
+               </div>
+               <!-- /.row -->
+            </div>
+            {{ partial "testimonials.html" . }}
+            <!-- /.container -->
+         </div>
+         <!-- /#content -->
+         {{ partial "footer.html" . }}
+      </div>
+      <!-- /#all -->
+      {{ partial "scripts.html" . }}
+   </body>
+</html>

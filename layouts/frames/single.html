@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+   {{ partial "head.html" . }}
+   <body>
+      <div id="all">
+         {{ partial "nav.html" . }}
+         {{ partial "breadcrumbs.html" . }}
+         <div id="content">
+            <div class="container">
+               <div class="row">
+                  <!-- *** LEFT COLUMN *** -->
+                  <div class="col-md-9" id="blog-post">
+                     {{ partial "product/product-single.html" . }}
+                     {{ partial "product/product-faq.html" . }}
+                     <br><br>
+                     <h2 class="bold-text center">Leave a comment...</h2>
+                     {{ if .Site.DisqusShortname }}
+                     <div id="comments">
+                        {{ template "_internal/disqus.html" . }}
+                     </div>
+                     {{ end }}
+                     <!-- /#post-content -->
+                  </div>
+                  <!-- /#blog-post -->
+                  <!-- *** LEFT COLUMN END *** -->
+                  <!-- *** RIGHT COLUMN *** -->
+                  <div class="col-md-3">
+                     <!-- *** MENUS AND WIDGETS *** -->
+                     {{ partial "product/product-sidebar.html" . }}
+                     <!-- *** MENUS AND FILTERS END *** -->
+                  </div>
+                  <!-- /.col-md-3 -->
+                  <!-- *** RIGHT COLUMN END *** -->
+               </div>
+               <!-- /.row -->
+            </div>
+            <!-- /.container -->
+            {{ partial "testimonials.html" . }}
+         </div>
+         <!-- /#content -->
+         {{ partial "footer.html" . }}
+      </div>
+      <!-- /#all -->
+      {{ partial "scripts.html" . }}
+   </body>
+</html>
