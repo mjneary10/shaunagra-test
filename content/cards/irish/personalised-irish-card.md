@@ -1,6 +1,6 @@
 +++
-metaTitle ="Personalised Baby Card"
-title = "Personalised Baby Card"
+metaTitle ="Personalised Irish Card"
+title = "Personalised Irish Card"
 price = "3.00"
 downFrom ="5.00"
 saleOn ="yes"
@@ -10,7 +10,7 @@ stockLeft ="2 Left"
 
 cardSize = "12cm by 12cm"
 cardColor = "Cream"
-cardWeight = "1000"
+cardWeight = "100"
 
 image ="/img/frames/baby/cute-personalised-baby-frame-balloon-clouds/cute-personalised-baby-frame-balloon-clouds"
 class ="lazy img-responsive hover-shadow"

@@ -6,10 +6,11 @@ downFrom ="5.00"
 saleOn ="yes"
 productGroup ="cards"
 productType = "family"
+stockLeft ="2 Left"
 
 cardSize = "12cm by 12cm"
 cardColor = "Cream"
-cardWeight = "1000"
+cardWeight = "100"
 
 image ="/img/frames/baby/cute-personalised-baby-frame-balloon-clouds/cute-personalised-baby-frame-balloon-clouds"
 class ="lazy img-responsive hover-shadow"
