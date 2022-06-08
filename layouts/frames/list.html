@@ -15,9 +15,9 @@
                      </div>
                      {{ .Content }}
                      {{ if eq .RelPermalink "/frames/" }}
-                     <div class="row">
+                     
                         {{ partial "product/main-frames-list.html" . }}
-                     </div>
+                  
                      
                      {{ end }}
                      <div class="row">
@@ -53,6 +53,13 @@
                         {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
                         {{ range $paginator.Pages }}
                         {{ if eq .Params.productType "wedding" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/pebble-art/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "pebble-art" }}
                         {{ partial "product/product-thumbnail.html" . }}
                         {{ end }}           
                         {{ end }}

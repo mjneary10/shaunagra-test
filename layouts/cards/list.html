@@ -15,9 +15,9 @@
                      </div>
                      {{ .Content }}
                      {{ if eq .RelPermalink "/cards/" }}
-                     <div class="row">
+                 
                         {{ partial "product/main-cards-list.html" . }}
-                     </div>
+                     
                      {{ end }}
                      <div class="row">
                         {{ if eq .RelPermalink "/cards/baby/" }}

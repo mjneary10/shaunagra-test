@@ -4,7 +4,7 @@
 
          {{ $current := . }}
          {{ if in .RelPermalink "/frames/" }}
-         <p class="center">FRAMES</p>
+         
          {{ range (readDir "content/frames/") }}
          {{ if .IsDir }}
          <a href="{{ "/frames/" | relURL }}{{ .Name | urlize | lower }}" 
@@ -13,7 +13,7 @@
          {{ end }}
          {{ end }}
          {{ else if in .RelPermalink "/cards/" }}
-         <p class="center">CARDS</p>
+        
          {{ range (readDir "content/cards/") }}
          {{ if .IsDir }}
          <a href="{{ "/cards/" | relURL }}{{ .Name | urlize | lower }}" 
