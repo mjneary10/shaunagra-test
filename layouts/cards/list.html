@@ -13,12 +13,18 @@
                      <div id="mobile-menu">
                         {{ partial "product/product-sidebar.html" . }}
                      </div>
+                     <br><br><br>
                      {{ .Content }}
                      {{ if eq .RelPermalink "/cards/" }}
                  
                         {{ partial "product/main-cards-list.html" . }}
-                     
-                     {{ end }}
+
+                     {{ else }}
+                     <br><br><br>
+
+                     <div class="container">
+                        <hr class="prod-box-line">
+                        <br><br>
                      <div class="row">
                         {{ if eq .RelPermalink "/cards/baby/" }}
                         {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
@@ -57,18 +63,10 @@
                         {{ end }}
                         {{ end }}
                      </div>
-                     <ul class="pager">
-                        {{ if .Paginator.HasPrev }}
-                        <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "previous" }}</a></li>
-                        {{ else }}
-                        <li class="previous disabled"><a href="#">&larr; {{ i18n "previous" }}</a></li>
-                        {{ end }}
-                        {{ if .Paginator.HasNext }}
-                        <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "next" }} &rarr;</a></li>
-                        {{ else }}
-                        <li class="next disabled"><a href="#">{{ i18n "next" }} &rarr;</a></li>
-                        {{ end }}
-                     </ul>
+                     </div>
+                     {{ end }}
+                     
+                     
                   </div>
                   <!-- /.col-md-9 -->
                   <!-- *** LEFT COLUMN END *** -->

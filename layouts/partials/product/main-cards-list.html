@@ -1,11 +1,11 @@
 <div class="container">
 <div class="row">
    <br><br>
-
+   <hr class="prod-box-line">
    <h2>Personalised Baby Cards</h2>
   
-   <hr class="prod-box-line">
-   <br><br>
+   
+   
 
    {{ range (where .Site.Pages "Type" "cards") }}
    {{ if eq .Params.productType "baby" }}

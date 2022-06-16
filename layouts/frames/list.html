@@ -20,6 +20,10 @@
                   
                      
                      {{ end }}
+                     <br>
+                     <br>
+                     <br>
+                     <div class="container">
                      <div class="row">
                         {{ if eq .RelPermalink "/frames/baby/" }}
                         {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
@@ -64,6 +68,7 @@
                         {{ end }}           
                         {{ end }}
                         {{ end }}
+                     </div>
                      </div>
                      
                   </div>

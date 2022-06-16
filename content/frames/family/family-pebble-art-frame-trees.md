@@ -19,5 +19,5 @@ image ="/img/frames/family/family-pebble-art-frame-trees/family-pebble-art-frame
 class ="lazy img-responsive hover-shadow"
 alt ="Family Pebble Art Frame Trees"
 
-description = "Family Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame Trees"
+description = "Family Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame Treeb"
 +++

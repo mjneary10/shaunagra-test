@@ -266,8 +266,7 @@ line-height: 1.4;
 }
 
 .sideBarButtons{
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 95%;
 }
 .btn {
     width: 100%;
