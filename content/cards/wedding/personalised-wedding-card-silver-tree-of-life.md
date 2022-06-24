@@ -9,6 +9,7 @@ productType = "wedding"
 stockLeft ="1 Left"
 
 cardSize = "6  by 6 inchs"
+cardLanguageOption = "Irish or English language"
 cardOption1 = "Plain white card, 250 gsm"
 cardOption2 = "Scallop edge 300 gsm"
 cardEnvelope = "Envelope included, 100 gsm"

@@ -130,6 +130,9 @@
 <hr class="prod-box-line">
 <ul>
    <li>{{ .Params.cardSize }}</li>
+   {{if .Params.cardLanguageOption}}
+   <li>{{ .Params.cardLanguageOption }}</li>
+   {{ end }}
    <li>{{ .Params.cardOption1 }}</li>
    {{if .Params.cardOption2}}
    <li>{{ .Params.cardOption2 }}</li>
