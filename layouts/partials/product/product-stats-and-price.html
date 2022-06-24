@@ -130,8 +130,11 @@
 <hr class="prod-box-line">
 <ul>
    <li>{{ .Params.cardSize }}</li>
-   <li>{{ .Params.cardColor }}</li>
-   <li>Envelope Included</li>
+   <li>{{ .Params.cardOption1 }}</li>
+   {{if .Params.cardOption2}}
+   <li>{{ .Params.cardOption2 }}</li>
+   {{ end }}
+   <li>{{ .Params.cardEnvelope }}</li>
   
 </ul>
 <hr class="prod-box-line">

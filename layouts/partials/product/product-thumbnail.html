@@ -1,14 +1,14 @@
-                        <div class="col-md-4 center post ">
+                        <div class="col-md-3 center post ">
                            <div class="product-thumbnail">
                               
                                <a href="{{ .Permalink }}">
                               <picture>
                                  <!-- Large screens -->
                                  <source
-                                    data-srcset="{{ .Params.image }}-medium.webp">
+                                    data-srcset="{{ .Params.image }}.webp">
                                  <img
-                                    data-src="{{ .Params.image }}-medium.png"
-                                    data-srcset="{{ .Params.image }}-medium.png"
+                                    data-src="{{ .Params.image }}.png"
+                                    data-srcset="{{ .Params.image }}.png"
                                     alt="{{ .Params.alt }}" class="{{ .Params.class }}">
                               </picture>
                            </a>
