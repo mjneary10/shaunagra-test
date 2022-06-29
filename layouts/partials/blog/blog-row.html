@@ -4,7 +4,7 @@
                                   <div>
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.image }}
-                                          {{ partial "imgSrcset.html" . }}
+                                          {{ partial "imgSrcsetMedium.html" . }}
                                           {{ else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                           {{ end }}

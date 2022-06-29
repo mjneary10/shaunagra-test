@@ -2,15 +2,7 @@
                            <div class="product-thumbnail">
                               
                                <a href="{{ .Permalink }}">
-                              <picture>
-                                 <!-- Large screens -->
-                                 <source
-                                    data-srcset="{{ .Params.image }}.webp">
-                                 <img
-                                    data-src="{{ .Params.image }}.png"
-                                    data-srcset="{{ .Params.image }}.png"
-                                    alt="{{ .Params.alt }}" class="{{ .Params.class }}">
-                              </picture>
+                              {{ partial "imgSrcsetMedium.html" . }}
                            </a>
                            <h2 class="h2-product"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                            {{ if .Params.saleOn }}

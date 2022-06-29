@@ -1,0 +1,23 @@
+
+
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        srcset="{{ .Params.image }}.webp">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        srcset="{{ .Params.image }}-medium.webp">
+      <!-- Fallback -->
+      <img
+        src="{{ .Params.image }}.png"
+        srcset="{{ .Params.image }}.png"
+        alt="{{ .Params.alt }}" class="{{ .Params.class }}">
+    </picture>
+
+
+
+
+
+   
