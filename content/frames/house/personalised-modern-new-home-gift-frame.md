@@ -1,6 +1,6 @@
 +++
-metaTitle ="Home Frame Number 1 | Shauna Gra"
-title = "Home Frame Number 1"
+metaTitle ="Personalised modern new home gift frame | Shauna Gra"
+title = "Personalised modern new home gift frame"
 price = "35.00"
 downFrom ="40.00"
 saleOn ="yes"
@@ -17,7 +17,7 @@ buttonCoupleInitials = "yes"
 
 image ="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-modern-new-home-gift-frame"
 class ="lazy img-responsive hover-shadow"
-alt ="Cute personalised baby frame balloon clouds"
+alt ="Personalised modern new home gift frame"
 
 description = "This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1"
 +++
