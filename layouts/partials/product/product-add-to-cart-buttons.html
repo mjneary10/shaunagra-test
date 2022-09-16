@@ -32,9 +32,13 @@
       data-item-custom7-name="BABY WEIGHT" 
       data-item-custom7-required="true" 
       {{ end }}
+      {{ if .Params.buttonBackgroundOption }}
+      data-item-custom8-name="Background options" 
+      data-item-custom8-options="As seen|1|2|3" 
+      {{ end }}
 
-      data-item-custom8-name="Pricing options" 
-      data-item-custom8-options="Frame Only[+0.00]|Frame & (Birthday Card) Package (+3.50 Euro)[+3.50]|Frame & (Christening Card) Package (+3.50 Euro)[+3.50]" 
+      data-item-custom9-name="Pricing options" 
+      data-item-custom9-options="Frame Only[+0.00]|Frame & (Birthday Card) Package (+3.50 Euro)[+3.50]|Frame & (Christening Card) Package (+3.50 Euro)[+3.50]" 
    {{ end }}
 
    {{ if eq .Params.productType "family" }}
@@ -85,8 +89,8 @@
    {{ end }}
 
    
-   data-item-custom9-name="Message to Shauna Gra" 
-   data-item-custom9-type="textarea">
+   data-item-custom10-name="Message to Shauna Gra" 
+   data-item-custom10-type="textarea">
 <span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
 </a>
 {{ end }}

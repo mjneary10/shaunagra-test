@@ -20,39 +20,41 @@
 <hr class="prod-box-line">
 
 <table class="product-custom-boxes">
-   <tr>
+   
       {{ if eq .Params.productType "baby" }} 
-      <td>Baby's Name...</td>
+      <tr><td>Baby's Name...</td></tr>
       {{ end }}
       {{if .Params.buttonBabyDateOfBirth}}
-      <td>Date Of Birth...</td>
+      <tr><td>Date Of Birth...</td></tr>
       {{ end }}
       {{if .Params.buttonChristeningDate}}
-      <td>Christening Date...</td>
+      <tr><td>Christening Date...</td></tr>
       {{ end }}
       {{if .Params.buttonRequiredNames}}
-      <td>Required Names...</td>
+      <tr><td>Required Names...</td></tr>
       {{ end }}
       {{if .Params.buttonCoupleFirstNames}}
-      <td>Couples First Names...</td>
+      <tr><td>Couples First Names...</td></tr>
       {{ end }}
       {{if .Params.buttonWeddingDate}}
-      <td>Date Of Wedding...</td>
+      <tr><td>Date Of Wedding...</td></tr>
       {{ end }}
       {{if .Params.buttonCoupleInitials}}
-      <td>Couples Initials...</td>
+      <tr><td>Couples Initials...</td></tr>
       {{ end }}
       {{ if eq .Params.productType "irish" }} 
-      <td>Message To Shauna Gra...</td>
+      <tr><td>Message To Shauna Gra...</td></tr>
       {{ end }}
-   </tr>
-   <tr>
       {{ if .Params.buttonBabyTimeOfBirth }}
-      <td>Time Of Birth...</td>
+      <tr><td>Time Of Birth...</td></tr>
       {{ end }}
       {{ if .Params.buttonBabyWeight }}
-      <td>Weight...</td>
+      <tr><td>Weight...</td></tr>
       {{ end }}
+      {{ if .Params.buttonBackgroundOption }}
+      <tr><td>Background options</td></tr>
+      {{ end }}
+     
    </tr>
 </table>
 <div class="row">
