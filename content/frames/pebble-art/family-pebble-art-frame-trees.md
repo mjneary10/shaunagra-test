@@ -8,12 +8,10 @@ productGroup ="frames"
 productType = "pebble-art"
 stockLeft ="2 Left"
 
-frameSize = "25cm by 25cm"
+frameSize = "9 by 9 inch"
 frameFront = "Safety Perspex"
 frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
-
-buttonRequiredNames = ""
 
 image ="/img/frames/pebble-art/family-pebble-art-frame-trees/family-pebble-art-frame-trees"
 class ="lazy img-responsive hover-shadow"

@@ -1,14 +1,14 @@
 +++
 metaTitle ="Animal jungle safari zoo frame | Shauna Gra"
 title = "Animal jungle safari zoo frame"
-price = "7.00"
-downFrom ="10.00"
+price = "30.00"
+downFrom ="35.00"
 saleOn ="yes"
 productGroup = "frames"
 productType = "baby"
-stockLeft = "2 Left" 
+stockLeft = "1 Left" 
  
-frameSize = "9 by 9 inch" 
+frameSize = "6.5 by 5 inch" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
@@ -17,6 +17,7 @@ buttonChristeningDate = ""
 buttonBabyDateOfBirth = "yes" 
 buttonBabyTimeOfBirth ="yes" 
 buttonBabyWeight = "yes" 
+
  
 image ="/img/frames/baby/animal-jungle-safari-zoo-frame/animal-jungle-safari-zoo-frame"
 class ="lazy img-responsive hover-shadow"

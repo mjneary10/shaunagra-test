@@ -1,22 +1,19 @@
 +++
 metaTitle ="Personalised family tree frame | Shauna Gra"
 title = "Personalised family tree frame"
-price = "7.00"
+price = "40.00"
 downFrom ="10.00"
-saleOn ="yes"
+saleOn =""
 productGroup = "frames"
 productType = "family"
-stockLeft = "2 Left" 
+stockLeft = "1 Left" 
  
 frameSize = "9 by 9 inch" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
  
-buttonChristeningDate = "" 
-buttonBabyDateOfBirth = "yes" 
-buttonBabyTimeOfBirth ="yes" 
-buttonBabyWeight = "yes" 
+buttonRequiredNames = "yes"
  
 image ="/img/frames/family/personalised-family-tree-frame/personalised-family-tree-frame"
 class ="lazy img-responsive hover-shadow"

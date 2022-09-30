@@ -1,14 +1,14 @@
 +++
 metaTitle ="Elephant print baby boy frame | Shauna Gra"
 title = "Elephant print baby boy frame"
-price = "7.00"
-downFrom ="10.00"
+price = "25.00"
+downFrom ="30.00"
 saleOn ="yes"
 productGroup = "frames"
 productType = "baby"
-stockLeft = "2 Left" 
+stockLeft = "1 Left" 
  
-frameSize = "9 by 9 inch" 
+frameSize = "8 by 6 inch" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
