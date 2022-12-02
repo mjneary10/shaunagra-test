@@ -23,5 +23,5 @@ image ="/img/frames/baby/animal-jungle-safari-zoo-frame/animal-jungle-safari-zoo
 class ="lazy img-responsive hover-shadow"
 alt ="Animal jungle safari zoo frame"
  
-description = "lkjlkjl lkjlkjl lkjlkj lkjlkjl lkjlkjl lkjlkj lkjjlkj "
+description = "A beautiful and vibrant frame sure to brighten up your nursery."
 +++

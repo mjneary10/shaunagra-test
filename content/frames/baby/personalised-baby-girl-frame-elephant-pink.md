@@ -1,14 +1,14 @@
 +++
 metaTitle ="Personalised baby girl frame elephant pink | Shauna Gra"
 title = "Personalised baby girl frame elephant pink"
-price = "35.00"
-downFrom ="40.00"
+price = "40.00"
+downFrom ="45.00"
 saleOn ="yes"
 productGroup ="frames"
 productType = "baby"
 stockLeft ="2 Left"
 
-frameSize = "9 by 9 inch"
+frameSize = "10 by 10 inch"
 frameFront = "Safety Perspex"
 frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
@@ -23,5 +23,5 @@ image ="/img/frames/baby/personalised-baby-girl-frame-elephant-pink/personalised
 class ="lazy img-responsive hover-shadow"
 alt ="Personalised baby girl frame elephant pink"
 
-description = "This is Cute personalised baby frame balloon cloudsCute personalised baby frame balloon cloudsCute personalised baby frame balloon cloudsCute personalised baby frame balloon cloudsCute personalised baby frame balloon cloudsCute personalised baby frame balloon cloudsCute personalised baby frame balloon clouds"
+description = "Personalised baby girl frame elephant pink, this is one of our most cute and popular personalised baby frames. With striking colors and the wow factor, it's sure to brighten up your little one's nursery room."
 +++

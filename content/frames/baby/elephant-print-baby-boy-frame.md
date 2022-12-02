@@ -22,5 +22,5 @@ image ="/img/frames/baby/elephant-print-baby-boy-frame/elephant-print-baby-boy-f
 class ="lazy img-responsive hover-shadow"
 alt ="Elephant print baby boy frame"
  
-description = "lkjlkjl lkjlkjl lkjlkj lkjlkjl lkjlkjl lkjlkj lkjjlkj "
+description = "This elephant print baby boy frame is fully personalisable, so makes the perfect new baby or christening gift."
 +++
