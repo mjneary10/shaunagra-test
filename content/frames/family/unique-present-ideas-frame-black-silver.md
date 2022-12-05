@@ -1,14 +1,14 @@
 +++
 metaTitle ="Unique present ideas frame black silver | Shauna Gra"
 title = "Unique present ideas frame black silver"
-price = "35.00"
-downFrom ="40.00"
+price = "40.00"
+downFrom ="45.00"
 saleOn ="yes"
 productGroup = "frames"
 productType = "family"
 stockLeft = "1 Left" 
  
-frameSize = "9 by 9 inch" 
+frameSize = "10 by 10 inch" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
@@ -19,5 +19,5 @@ image ="/img/frames/family/unique-present-ideas-frame-black-silver/unique-presen
 class ="lazy img-responsive hover-shadow"
 alt ="Unique present ideas frame black silver"
  
-description = "lkjlkjl lkjlkjl lkjlkj lkjlkjl lkjlkjl lkjlkj lkjjlkj "
+description = "This unique present idea is a frame with black and silver colors and a striking background. This frame has been one of our best-selling personalised family frames."
 +++

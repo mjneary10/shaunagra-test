@@ -8,7 +8,7 @@ productGroup ="frames"
 productType = "house"
 stockLeft ="2 Left"
 
-frameSize = "12cm by 12cm"
+frameSize = "4 by 4 inches"
 frameFront = "Safety Perspex"
 frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
@@ -19,5 +19,5 @@ image ="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-c
 class ="lazy img-responsive hover-shadow"
 alt ="Young couple personalised new house gift frame"
 
-description = "This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1"
+description = "This young couple personalised new house gift frame is ideal for anyone buying their first home. They will remember you forever!!."
 +++

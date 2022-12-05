@@ -1,14 +1,14 @@
 +++
 metaTitle ="Family tree photo frame atlas | Shauna Gra"
 title = "Family tree photo frame atlas"
-price = "35.00"
-downFrom ="40.00"
+price = "40.00"
+downFrom ="45.00"
 saleOn ="yes"
 productGroup = "frames"
 productType = "family"
 stockLeft = "1 Left" 
  
-frameSize = "9 by 9 inch" 
+frameSize = "10 by 10 inch" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
@@ -19,5 +19,5 @@ image ="/img/frames/family/family-tree-photo-frame-atlas/family-tree-photo-frame
 class ="lazy img-responsive hover-shadow"
 alt ="Family tree photo frame atlas"
  
-description = "lkjlkjl lkjlkjl lkjlkj lkjlkjl lkjlkjl lkjlkj lkjjlkj "
+description = "This family free frame has a modern atlas background and rustic hearts and mirrors. This frame has been one of our best-selling personalized family frames."
 +++

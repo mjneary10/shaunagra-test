@@ -8,7 +8,7 @@ productGroup ="frames"
 productType = "house"
 stockLeft ="2 Left"
 
-frameSize = "12cm by 12cm"
+frameSize = "6 by 4 inches"
 frameFront = "Safety Perspex"
 frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
@@ -19,5 +19,5 @@ image ="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-m
 class ="lazy img-responsive hover-shadow"
 alt ="Personalised modern new home gift frame"
 
-description = "This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1This is family frame numbe 1"
+description = "This personalised modern new home gift frame would be ideal for those special people moving house, or buying their first home. They will remember you forever!!."
 +++

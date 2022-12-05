@@ -1,14 +1,14 @@
 +++
 metaTitle ="Family Pebble Art Frame Trees | Shauna Gra"
 title = "Family Pebble Art Frame Trees"
-price = "35.00"
-downFrom ="40.00"
+price = "40.00"
+downFrom ="45.00"
 saleOn ="yes"
 productGroup ="frames"
 productType = "pebble-art"
 stockLeft ="2 Left"
 
-frameSize = "9 by 9 inch"
+frameSize = "10 by 10 inch"
 frameFront = "Safety Perspex"
 frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
@@ -17,5 +17,5 @@ image ="/img/frames/pebble-art/family-pebble-art-frame-trees/family-pebble-art-f
 class ="lazy img-responsive hover-shadow"
 alt ="Family Pebble Art Frame Trees"
 
-description = "Family Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame TreesFamily Pebble Art Frame Trees"
+description = "How cute is this family pebble art frame with trees and cute pebble family members. Why not make someone's day today, they will remember you forever!!."
 +++
