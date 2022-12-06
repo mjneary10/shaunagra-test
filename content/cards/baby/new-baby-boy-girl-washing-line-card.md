@@ -8,12 +8,16 @@ productGroup ="cards"
 productType = "baby"
 stockLeft ="2 Left"
 
-cardSize = "15cm by 15cm"
-cardColor = "White"
+cardSize = "6  by 6 inchs"
+cardLanguageOption = ""
+cardOption1 = "Plain white card, 250 gsm"
+cardOption2 = "Scallop edge 300 gsm"
+cardEnvelope = "Envelope included, 100 gsm"
 cardWeight = "100"
 
 buttonBabyDateOfBirth = "yes"
 buttonChristeningDate = ""
+buttonBabyParentsNames = "yes" 
 
 
 image ="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card"

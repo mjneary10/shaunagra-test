@@ -123,7 +123,30 @@
       data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
       data-item-custom5-required="true" 
       {{ end }}
-     
+      {{ if .Params.buttonBabyParentsNames }}
+      data-item-custom6-name="PARENTS FIRST NAMES" 
+      data-item-custom6-required="true" 
+      {{ end }}
+      {{ if .Params.cardOption1 }}
+      data-item-custom7-name="Card options" 
+      data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+1.00 Euro)[+1.00]"
+      {{ end }}
+      {{ if eq .Params.designOptions "4" }}
+      data-item-custom8-name="Design options" 
+      data-item-custom8-options="Please select|A|B|C|D"
+      data-item-custom8-required="true" 
+      {{ end }}
+      {{ if eq .Params.designOptions "3" }}
+      data-item-custom8-name="Design options" 
+      data-item-custom8-options="Please select|A|B|C"
+      data-item-custom8-required="true" 
+      {{ end }}
+      {{ if eq .Params.designOptions "2" }}
+      data-item-custom8-name="Design options" 
+      data-item-custom8-options="Please select|A|B"
+      data-item-custom8-required="true" 
+      {{ end }}
+   
 
      
    {{ end }}
