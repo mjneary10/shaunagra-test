@@ -179,6 +179,22 @@
       data-item-custom4-name="Card options" 
       data-item-custom4-options="Plain white card[+0.00]|Scallop edge (+1.00 Euro)[+1.00]" 
 
+      {{ if eq .Params.designOptions "4" }}
+      data-item-custom8-name="Design options" 
+      data-item-custom8-options="Please select|A|B|C|D"
+      data-item-custom8-required="true" 
+      {{ end }}
+      {{ if eq .Params.designOptions "3" }}
+      data-item-custom8-name="Design options" 
+      data-item-custom8-options="Please select|A|B|C"
+      data-item-custom8-required="true" 
+      {{ end }}
+      {{ if eq .Params.designOptions "2" }}
+      data-item-custom8-name="Design options" 
+      data-item-custom8-options="Please select|A|B"
+      data-item-custom8-required="true" 
+      {{ end }}
+
     
    {{ end }}
 

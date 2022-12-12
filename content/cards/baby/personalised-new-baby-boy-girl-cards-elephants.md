@@ -8,7 +8,6 @@ productGroup = "cards"
 productType = "baby"
 stockLeft = "2 Left" 
  
- 
 cardSize = "6  by 6 inchs"
 cardLanguageOption = ""
 cardOption1 = "Plain white card, 250 gsm"
@@ -25,5 +24,5 @@ image ="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personali
 class ="lazy img-responsive hover-shadow"
 alt ="Personalised new baby boy girl cards elephants"
  
-description = "lkjlkjl lkjlkjl lkjlkj lkjlkjl lkjlkjl lkjlkj lkjjlkj"
+description = "This is one of our cutest personalised baby boy or girl cards, with striking colors and cute elephants. You can choose from 4 designs at checkout."
 +++
