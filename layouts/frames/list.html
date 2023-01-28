@@ -67,6 +67,27 @@
                         {{ partial "product/product-thumbnail.html" . }}
                         {{ end }}           
                         {{ end }}
+                        {{ else if eq .RelPermalink "/frames/birthday/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "birthday" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/memorial/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "memorial" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/frames/custom/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "frames") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "custom" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
                         {{ end }}
                      </div>
                      </div>
