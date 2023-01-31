@@ -13,14 +13,14 @@
                      <div id="mobile-menu">
                         {{ partial "product/product-sidebar.html" . }}
                      </div>
-                     <br><br><br>
+                    
                      {{ .Content }}
                      {{ if eq .RelPermalink "/cards/" }}
                  
                         {{ partial "product/main-cards-list.html" . }}
 
                      {{ else }}
-                     <br><br><br>
+                     <br><br><br> <br><br><br>
 
                      <div class="container">
                         <hr class="prod-box-line">
