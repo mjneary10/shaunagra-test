@@ -8,7 +8,6 @@ productGroup = "cards"
 productType = "wedding"
 stockLeft = "2 Left" 
  
- 
 cardSize = "6  by 6 inchs"
 cardLanguageOption = ""
 cardOption1 = "Plain white card, 250 gsm"

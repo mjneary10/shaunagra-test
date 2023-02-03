@@ -217,6 +217,10 @@
 
    {{ if eq .Params.productType "irish" }}
    
+   {{ if .Params.button5CardPack }}
+      data-item-custom7-name="Card pack options" 
+      data-item-custom7-options="Please select|1 design, 5 cards (enter 1 design number below)[+0.00]|5 different designs (enter the 5 design numbers below)[+0.00]"
+      {{ end }}
      
    {{ end }}
 
