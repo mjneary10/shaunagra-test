@@ -189,13 +189,21 @@
       {{if .Params.buttonCoupleInitials}}
       <tr><td>Couples Initials...</td></tr>
       {{ end }}
-      {{ if eq .Params.productType "irish" }} 
+      {{if .Params.button5CardPack}}
       <tr><td>Choose type of pack</td></tr>
       <tr><td>Message To Shauna Gra...</td></tr>
       {{ end }}
+      {{if .Params.buttonPetName}}
+      <tr><td>Name Of Pet</td></tr>
+      {{ end }}
+      {{if .Params.buttonDesignOptions1}}
+      <tr><td>Choose Options...</td></tr>
+      <tr><td>Message To Shauna Gra...</td></tr>
+      {{ end }}
+      
    
    {{ if .Params.buttonBabyTimeOfBirth }}
-      tr><td>Time Of Birth...</td></tr>
+      <tr><td>Time Of Birth...</td></tr>
       {{ end }}
       {{ if .Params.buttonBabyWeight }}
       tr><td>Weight...</td></tr>

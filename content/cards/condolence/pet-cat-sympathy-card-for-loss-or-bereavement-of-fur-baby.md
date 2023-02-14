@@ -9,12 +9,15 @@ productType = "condolence"
 stockLeft = "2 Left" 
  
 cardSize = "6  by 6 inchs" 
-cardLanguageOption = "Irish only" 
+cardLanguageOption = "English only" 
 cardOption1 = "Plain white card, 250 gsm" 
 cardEnvelope = "Envelope included, 100 gsm" 
 cardWeight = "100" 
- 
-button5CardPack = "yes" 
+
+buttonPetName = "yes"
+
+buttonDesignOptions1 = "Cream"
+buttonDesignOptions2 = "White"
  
 image ="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby"
 class ="lazy img-responsive hover-shadow"

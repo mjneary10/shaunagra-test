@@ -10,8 +10,10 @@
    {{ if eq .Params.productType "baby" }}
       data-item-custom1-name="Babys first name only"
       data-item-custom1-required="true" 
+
       data-item-custom2-name="Boy or girl?" 
       data-item-custom2-required="true" 
+
       data-item-custom3-name="Date format" 
       data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
       data-item-custom3-required="true" 
@@ -20,24 +22,29 @@
       data-item-custom4-name="DOB IN ABOVE FORMAT" 
       data-item-custom4-required="true" 
       {{ end }}
+
       {{ if .Params.buttonChristeningDate }}
       data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
       data-item-custom5-required="true" 
       {{ end }}
+
       {{ if .Params.buttonBabyTimeOfBirth }}
       data-item-custom6-name="TIME OF BIRTH" 
       data-item-custom6-required="true" 
       {{ end }}
+
       {{ if .Params.buttonBabyWeight }}
       data-item-custom7-name="BABY WEIGHT" 
       data-item-custom7-required="true" 
       {{ end }}
+
       {{ if .Params.buttonBackgroundOption }}
       data-item-custom8-name="Background options" 
       data-item-custom8-options="As seen|1|2|3" 
       {{ end }}
 
       data-item-custom9-name="Pricing options" 
+
       data-item-custom9-options="Frame Only[+0.00]|Frame & (Birthday Card) Package (+3.50 Euro)[+3.50]|Frame & (Christening Card) Package (+3.50 Euro)[+3.50]" 
    {{ end }}
 
@@ -116,8 +123,10 @@
    {{ if eq .Params.productType "baby" }}
       data-item-custom1-name="Babys first name only"
       data-item-custom1-required="true" 
+
       data-item-custom2-name="Boy or girl?" 
       data-item-custom2-required="true" 
+
       data-item-custom3-name="Date format" 
       data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
       data-item-custom3-required="true" 
@@ -126,35 +135,39 @@
       data-item-custom4-name="DOB IN ABOVE FORMAT" 
       data-item-custom4-required="true" 
       {{ end }}
+
       {{ if .Params.buttonChristeningDate }}
       data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
       data-item-custom5-required="true" 
       {{ end }}
+
       {{ if .Params.buttonBabyParentsNames }}
       data-item-custom6-name="PARENTS FIRST NAMES" 
       data-item-custom6-required="true" 
       {{ end }}
+
       {{ if .Params.cardOption1 }}
       data-item-custom7-name="Card options" 
       data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+1.00 Euro)[+1.00]"
       {{ end }}
+
       {{ if eq .Params.designOptions "4" }}
       data-item-custom8-name="Design options" 
       data-item-custom8-options="Please select|A|B|C|D"
       data-item-custom8-required="true" 
       {{ end }}
+
       {{ if eq .Params.designOptions "3" }}
       data-item-custom8-name="Design options" 
       data-item-custom8-options="Please select|A|B|C"
       data-item-custom8-required="true" 
       {{ end }}
+
       {{ if eq .Params.designOptions "2" }}
       data-item-custom8-name="Design options" 
       data-item-custom8-options="Please select|A|B"
       data-item-custom8-required="true" 
       {{ end }}
-   
-
      
    {{ end }}
 
@@ -191,18 +204,19 @@
       data-item-custom8-options="Please select|A|B|C|D"
       data-item-custom8-required="true" 
       {{ end }}
+
       {{ if eq .Params.designOptions "3" }}
       data-item-custom8-name="Design options" 
       data-item-custom8-options="Please select|A|B|C"
       data-item-custom8-required="true" 
       {{ end }}
+
       {{ if eq .Params.designOptions "2" }}
       data-item-custom8-name="Design options" 
       data-item-custom8-options="Please select|A|B"
       data-item-custom8-required="true" 
       {{ end }}
 
-    
    {{ end }}
 
     {{ if eq .Params.productType "house" }}
@@ -212,7 +226,6 @@
       data-item-custom1-required="true" 
       {{ end }}
 
-      
    {{ end }}
 
    {{ if eq .Params.productType "irish" }}
@@ -225,6 +238,22 @@
       data-item-custom8-name="DESIGN NUMBERS HERE" 
       data-item-custom8-required="true" 
      
+   {{ end }}
+
+    {{ if eq .Params.productType "condolence" }}
+
+
+      {{ if .Params.buttonPetName }}
+      data-item-custom1-name="Name Of Pet"
+      data-item-custom1-required="true" 
+      {{ end }}
+   
+      {{ if .Params.buttonDesignOptions1 }}
+      data-item-custom7-name="DESIGN OPTIONS" 
+      data-item-custom7-options="Please select|{{ .Params.buttonDesignOptions1 }}[+0.00]|{{ if .Params.buttonDesignOptions2 }}{{ .Params.buttonDesignOptions2 }} {{ end }}[+0.00]|{{ if .Params.buttonDesignOptions3 }}{{ .Params.buttonDesignOptions3 }} {{ end }}|{{ if .Params.buttonDesignOptions4 }}{{ .Params.buttonDesignOptions4 }} {{ end }}" 
+      {{ end }}
+
+      
    {{ end }}
 
    

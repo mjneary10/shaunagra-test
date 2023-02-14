@@ -14,10 +14,14 @@ cardOption1 = "Plain white card, 250 gsm"
 cardEnvelope = "Envelope included, 100 gsm" 
 cardWeight = "100" 
  
-button5CardPack = "yes" 
+buttonDesignOptions1 = "Pink feather"
+buttonDesignOptions2 = "Pastel feather"
+buttonDesignOptions3 = "Heart white feather"
+buttonDesignOptions4 = "Heart feather birds"
  
 image ="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather"
 class ="lazy img-responsive hover-shadow"
+
 alt ="sorry for your loss sister card sympathy card sister with feather"
  
 description = "Description here."
