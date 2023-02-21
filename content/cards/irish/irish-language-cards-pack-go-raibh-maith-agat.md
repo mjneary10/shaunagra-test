@@ -1,8 +1,8 @@
 +++
 metaTitle ="Irish language cards pack go raibh maith agat | Shauna Gra"
 title = "Irish language cards pack go raibh maith agat"
-price = "5.00"
-downFrom ="7.00"
+price = "7.95.00"
+downFrom ="10.00"
 saleOn ="yes"
 productGroup = "cards"
 productType = "irish"
@@ -14,7 +14,9 @@ cardOption1 = "Plain white card, 250 gsm"
 cardEnvelope = "Envelope included, 100 gsm" 
 cardWeight = "100" 
  
-button5CardPack = "yes" 
+buttonCardPackOption1 = "1 card only"
+buttonCardPackOption2 = "Pack of 5"
+buttonCardPackOption2Price = "20"  
  
 image ="/img/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/irish-language-cards-pack-go-raibh-maith-agat"
 class ="lazy img-responsive hover-shadow"

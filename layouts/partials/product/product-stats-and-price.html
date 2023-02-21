@@ -189,8 +189,8 @@
       {{if .Params.buttonCoupleInitials}}
       <tr><td>Couples Initials...</td></tr>
       {{ end }}
-      {{if .Params.button5CardPack}}
-      <tr><td>Choose type of pack</td></tr>
+      {{if .Params.buttonCardPackOption1}}
+      <tr><td>Choose pack of 5</td></tr>
       <tr><td>Message To Shauna Gra...</td></tr>
       {{ end }}
       {{if .Params.buttonPetName}}
@@ -218,49 +218,6 @@
       <span class="productPrice">&euro;{{ .Params.price }}</span>
       {{ end }}
    </div>
-   <div class="col-md-6 productPrice center">
-      <p>{{ .Params.stockLeft }}</p>
-   </div>
-</div>
-{{ end }}
-{{ if eq .Params.buttonType "card-baby-boy-or-girl-name-date-time-weight" }}
-<div class="row">
-   <div class="col-md-6">
-      <a href="#{{ .Site.Params.testimonials.title }}">
-<img class="img-responsive" src="/img/product-review-ratings-left.webp">
-</a>
-   </div>
-   <div class="col-md-6">
-      <a href="#{{ .Site.Params.testimonials.title }}">
-<img class="img-responsive" src="/img/product-review-ratings-right.webp">
-</a>
-   </div>
-</div>
-<hr class="prod-box-line">
-<ul>
-   <li>{{ .Params.cardSize }}</li>
-   <li>{{ .Params.cardColor }}</li>
-</ul>
-<hr class="prod-box-line">
-<table class="product-custom-boxes">
-   <tr>
-      <td>Baby's Name...</td>
-      <td>Date Of Birth...</td>
-   </tr>
-   <tr>
-      <td>Time Of Birth...</td>
-      <td>Weight...</td>
-   </tr>
-</table>
-<div class="row">
-   <div class="col-md-6 center"> 
-      {{ if .Params.saleOn }}
-      <span class="productPrice">&euro;{{ .Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Params.downFrom }}</span>
-      {{ else }}
-      <span class="productPrice">&euro;{{ .Params.price }}</span>
-      {{ end }}
-   </div>
-   s
    <div class="col-md-6 productPrice center">
       <p>{{ .Params.stockLeft }}</p>
    </div>

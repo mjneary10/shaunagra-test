@@ -229,14 +229,28 @@
    {{ end }}
 
    {{ if eq .Params.productType "irish" }}
-   
-   {{ if .Params.button5CardPack }}
-      data-item-custom7-name="CARD PACK OPTIONS" 
-      data-item-custom7-options="Please select|One design, five cards (enter one design number below)[+0.00]|Five different designs (enter the five design numbers below)[+0.00]"
+
+    {{ if .Params.buttonIrishOrEnglish }}
+      data-item-custom1-name="Irish or English"
+      data-item-custom1-required="true" 
       {{ end }}
 
-      data-item-custom8-name="DESIGN NUMBERS HERE" 
+
+      {{ if .Params.buttonCardPackMultiSelect1 }}
+      data-item-custom7-options="Please select|{{ .Params.buttonCardPackMultiSelect1 }}[+0.00]|{{ if .Params.buttonCardPackMultiSelect2 }}{{ .Params.buttonCardPackMultiSelect2 }} {{ end }}[+0.00]|{{ if .Params.buttonCardPackMultiSelect3 }}{{ .Params.buttonCardPackMultiSelect3 }} {{ end }}|{{ if .Params.buttonCardPackMultiSelect4 }}{{ .Params.buttonCardPackMultiSelect4 }} {{ end }}" 
+
+      data-item-custom8-name="INSERT DESIGN NUMBERS BELOW" 
       data-item-custom8-required="true" 
+
+      {{ end }}
+   
+   {{ if .Params.buttonCardPackOption1 }}
+      data-item-custom7-name="CARD PACK OPTIONS" 
+      data-item-custom7-options="Please select|{{ .Params.buttonCardPackOption1 }}[+0.00]|{{ if .Params.buttonCardPackOption2 }}{{ .Params.buttonCardPackOption2 }} [+{{ .Params.buttonCardPackOption2Price }}]|{{ end }}{{ if .Params.buttonCardPackOption3 }}{{ .Params.buttonCardPackOption3 }} {{ end }}|{{ if .Params.buttonCardPackOption4 }}{{ .Params.buttonCardPackOption4 }} {{ end }}"
+      data-item-custom7-required="true" 
+      {{ end }}
+
+     
      
    {{ end }}
 
@@ -250,7 +264,8 @@
    
       {{ if .Params.buttonDesignOptions1 }}
       data-item-custom7-name="DESIGN OPTIONS" 
-      data-item-custom7-options="Please select|{{ .Params.buttonDesignOptions1 }}[+0.00]|{{ if .Params.buttonDesignOptions2 }}{{ .Params.buttonDesignOptions2 }} {{ end }}[+0.00]|{{ if .Params.buttonDesignOptions3 }}{{ .Params.buttonDesignOptions3 }} {{ end }}|{{ if .Params.buttonDesignOptions4 }}{{ .Params.buttonDesignOptions4 }} {{ end }}" 
+      data-item-custom7-options="Please select|{{ .Params.buttonDesignOptions1 }}[+0.00]|{{ if .Params.buttonDesignOptions2 }}{{ .Params.buttonDesignOptions2 }} {{ end }}[+0.00]|{{ if .Params.buttonDesignOptions3 }}{{ .Params.buttonDesignOptions3 }} {{ end }}|{{ if .Params.buttonDesignOptions4 }}{{ .Params.buttonDesignOptions4 }} {{ end }}"
+      data-item-custom7-required="true" 
       {{ end }}
 
       

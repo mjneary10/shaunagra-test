@@ -14,7 +14,9 @@ cardOption1 = "Plain white card, 250 gsm"
 cardEnvelope = "Envelope included, 100 gsm" 
 cardWeight = "100" 
  
-button5CardPack = "yes" 
+buttonCardPackOption1 = "1 card only"
+buttonCardPackOption2 = "Pack of 5"
+buttonCardPackOption2Price = "15" 
  
 image ="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card"
 class ="lazy img-responsive hover-shadow"

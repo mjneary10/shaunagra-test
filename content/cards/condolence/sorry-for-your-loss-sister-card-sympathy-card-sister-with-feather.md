@@ -1,6 +1,6 @@
 +++
-metaTitle ="sorry for your loss sister card sympathy card sister with feather | Shauna Gra"
-title = "sorry for your loss sister card sympathy card sister with feather"
+metaTitle ="Sorry for your loss sister card sympathy card sister with feather | Shauna Gra"
+title = "Sorry for your loss sister card sympathy card sister with feather"
 price = "5.00"
 downFrom ="7.00"
 saleOn ="yes"
@@ -9,7 +9,7 @@ productType = "condolence"
 stockLeft = "2 Left" 
  
 cardSize = "6  by 6 inchs" 
-cardLanguageOption = "Irish only" 
+cardLanguageOption = "English only" 
 cardOption1 = "Plain white card, 250 gsm" 
 cardEnvelope = "Envelope included, 100 gsm" 
 cardWeight = "100" 
@@ -24,5 +24,5 @@ class ="lazy img-responsive hover-shadow"
 
 alt ="sorry for your loss sister card sympathy card sister with feather"
  
-description = "Description here."
+description = "A beautiful “Sorry for the loss of your Sister, thinking of you at this very difficult time”.  It has a pink watercolour with an elegant pink feather on top of it.  Click here to buy."
 +++
