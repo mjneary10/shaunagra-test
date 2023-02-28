@@ -42,6 +42,7 @@ line-height: 1.4;
 }
 
 .product-thumbnail {
+    height: 620px;
     background-color: #ffffff;
     padding: 10px;
     margin-bottom: 20px;
@@ -616,7 +617,12 @@ img.img-center{
     width: 100%;
     
 
+
+
 }
+
+
+
 
 .shopping-cart-top-right{
   
@@ -654,5 +660,13 @@ img.img-center{
      font-size: 1em;
 }
 
+
+.product-thumbnail {
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px dashed black;
+    }
 
 }
