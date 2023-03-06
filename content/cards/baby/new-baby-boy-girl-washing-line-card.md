@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="New baby boy girl washing line card | Shauna Gra"
 title = "New baby boy girl washing line card"
 price = "3.00"

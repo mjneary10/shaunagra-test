@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Animal jungle safari zoo frame | Shauna Gra"
 title = "Animal jungle safari zoo frame"
 price = "30.00"

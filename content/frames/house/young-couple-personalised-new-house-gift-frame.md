@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Young couple personalised new house gift frame | Shauna Gra"
 title = "Young couple personalised new house gift frame"
 price = "35.00"

@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Elephant print baby boy frame | Shauna Gra"
 title = "Elephant print baby boy frame"
 price = "25.00"

@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Go raibh mile maith agat irish thak you card | Shauna Gra"
 title = "Go raibh mile maith agat irish thak you card"
 price = "5.00"

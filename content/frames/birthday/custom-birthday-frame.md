@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Custom birthday frame | Shauna Gra"
 title = "Custom birthday frame"
 price = "50.00"

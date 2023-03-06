@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Cute personalised baby frame balloon clouds | Shauna Gra"
 title = "Cute personalised baby frame balloon clouds"
 price = "40.00"

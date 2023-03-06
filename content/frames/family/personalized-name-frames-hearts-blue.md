@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Personalized name frames hearts blue | Shauna Gra"
 title = "Personalized name frames hearts blue"
 price = "40.00"

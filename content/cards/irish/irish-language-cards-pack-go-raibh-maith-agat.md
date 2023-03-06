@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Irish language cards pack go raibh maith agat | Shauna Gra"
 title = "Irish language cards pack go raibh maith agat"
 price = "7.95.00"

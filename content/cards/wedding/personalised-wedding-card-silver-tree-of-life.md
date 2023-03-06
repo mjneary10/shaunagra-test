@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Personalised wedding card silver tree of life | Shauna Gra"
 title = "Personalised wedding card silver tree of life"
 price = "8.95"

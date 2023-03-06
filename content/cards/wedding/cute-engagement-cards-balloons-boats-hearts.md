@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Cute engagement cards balloons boats hearts | Shauna Gra"
 title = "Cute engagement cards balloons boats hearts"
 price = "8.95"

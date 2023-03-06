@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Family Pebble Art Frame Trees | Shauna Gra"
 title = "Family Pebble Art Frame Trees"
 price = "40.00"

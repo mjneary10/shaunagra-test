@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Pet loss card dog personalized dog sympathy card | Shauna Gra"
 title = "Pet loss card dog personalized dog sympathy card"
 price = "5.00"

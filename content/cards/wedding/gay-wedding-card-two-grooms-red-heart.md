@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Gay wedding card two grooms red heart | Shauna Gra"
 title = "Gay wedding card two grooms red heart"
 price = "8.95"

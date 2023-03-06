@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Pet cat sympathy card for loss or bereavement of fur baby | Shauna Gra"
 title = "Pet cat sympathy card for loss or bereavement of fur baby"
 price = "5.00"

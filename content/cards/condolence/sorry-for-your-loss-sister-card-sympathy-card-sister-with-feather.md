@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Sorry for your loss sister card sympathy card sister with feather | Shauna Gra"
 title = "Sorry for your loss sister card sympathy card sister with feather"
 price = "5.00"

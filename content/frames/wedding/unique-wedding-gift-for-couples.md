@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Unique wedding gift for couples | Shauna Gra"
 title = "Unique wedding gift for couples"
 price = "40.00"

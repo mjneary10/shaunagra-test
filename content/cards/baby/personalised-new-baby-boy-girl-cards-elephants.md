@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Personalised new baby boy girl cards elephants | Shauna Gra"
 title = "Personalised new baby boy girl cards elephants"
 price = "3.00"

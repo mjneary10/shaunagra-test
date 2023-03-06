@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Personalised family tree frame | Shauna Gra"
 title = "Personalised family tree frame"
 price = "40.00"

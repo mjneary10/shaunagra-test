@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Unique present ideas frame black silver | Shauna Gra"
 title = "Unique present ideas frame black silver"
 price = "40.00"

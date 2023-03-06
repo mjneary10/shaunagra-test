@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Thank you card in irish language go raibh maith agat card | Shauna Gra"
 title = "Thank you card in irish language go raibh maith agat card"
 price = "5.00"

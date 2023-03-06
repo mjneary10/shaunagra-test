@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Family tree photo frame atlas | Shauna Gra"
 title = "Family tree photo frame atlas"
 price = "40.00"

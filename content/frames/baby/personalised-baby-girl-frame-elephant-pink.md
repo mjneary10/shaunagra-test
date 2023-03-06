@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Personalised baby girl frame elephant pink | Shauna Gra"
 title = "Personalised baby girl frame elephant pink"
 price = "40.00"
