@@ -196,8 +196,8 @@
       data-item-custom3-required="true" 
       {{ end }}
 
-      data-item-custom4-name="Card options" 
-      data-item-custom4-options="Plain white card[+0.00]|Scallop edge (+1.00 Euro)[+1.00]" 
+
+    
 
       {{ if eq .Params.designOptions "4" }}
       data-item-custom8-name="Design options" 
@@ -215,6 +215,19 @@
       data-item-custom8-name="Design options" 
       data-item-custom8-options="Please select|A|B"
       data-item-custom8-required="true" 
+      {{ end }}
+
+
+       {{ if .Params.buttonDesignOptions1 }}
+      data-item-custom7-name="DESIGN OPTIONS" 
+      data-item-custom7-options="Please select|{{ .Params.buttonDesignOptions1 }}[+{{ if .Params.buttonDesignOptions1PriceAddOn }}{{ .Params.buttonDesignOptions1PriceAddOn }} {{ end }}]
+
+      |{{ if .Params.buttonDesignOptions2 }}{{ .Params.buttonDesignOptions2 }} {{ end }}[+{{ if .Params.buttonDesignOptions2PriceAddOn }}{{ .Params.buttonDesignOptions2PriceAddOn }} {{ end }}]
+
+     |{{ if .Params.buttonDesignOptions3 }}{{ .Params.buttonDesignOptions3 }} {{ end }}[+{{ if .Params.buttonDesignOptions3PriceAddOn }}{{ .Params.buttonDesignOptions3PriceAddOn }} {{ end }}]
+
+      |{{ if .Params.buttonDesignOptions4 }}{{ .Params.buttonDesignOptions4 }} {{ end }}[+{{ if .Params.buttonDesignOptions4PriceAddOn }}{{ .Params.buttonDesignOptions4PriceAddOn }} {{ end }}]"
+      data-item-custom7-required="true" 
       {{ end }}
 
    {{ end }}
