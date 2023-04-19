@@ -9,7 +9,7 @@ productGroup ="cards"
 productType = "baby"
 stockLeft ="2 Left"
 
-cardSize = "6  by 6 inchs"
+cardSize = "6  by 6 inchs, 15 by 15 cm"
 cardLanguageOption = ""
 cardOption1 = "Plain white card, 250 gsm"
 cardOption2 = "Scallop edge 300 gsm"
