@@ -9,7 +9,7 @@ productGroup = "cards"
 productType = "condolence"
 stockLeft = "2 Left" 
  
-cardSize = "6  by 6 inchs" 
+cardSize = "6 by 6 inchs, 15 by 15 cm" 
 cardLanguageOption = "English only" 
 cardOption1 = "Plain white card, 250 gsm" 
 cardEnvelope = "Envelope included, 100 gsm" 
@@ -23,5 +23,5 @@ image ="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-car
 class ="lazy img-responsive hover-shadow"
 alt ="Sorry for your loss mam or nan thinking of you card"
  
-description = "This condolence card for the death of a mother says “Sorry for the loss of your Mam / Mom / Mother, Thinking of You”.  It has an elegant butterfly design on the front.  It has a pink watercolour at the back of the design.  You may like to choose the feather design option either.  Click here to buy."
+description = "This condolence card for the death of a mother says “Sorry for the loss of your Mam / Mom / Mother, Thinking of You”.  It has an elegant butterfly design on the front.  It has a pink watercolour at the back of the design.  You may like to choose the feather design option either."
 +++

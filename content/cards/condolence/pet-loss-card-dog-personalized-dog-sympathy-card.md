@@ -9,7 +9,7 @@ productGroup = "cards"
 productType = "condolence"
 stockLeft = "2 Left" 
  
-cardSize = "6  by 6 inchs" 
+cardSize = "6 by 6 inchs, 15 by 15 cm" 
 cardLanguageOption = "English only" 
 cardOption1 = "Plain white card, 250 gsm" 
 cardEnvelope = "Envelope included, 100 gsm" 

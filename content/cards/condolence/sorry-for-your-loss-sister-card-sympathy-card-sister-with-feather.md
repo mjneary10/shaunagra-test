@@ -9,7 +9,7 @@ productGroup = "cards"
 productType = "condolence"
 stockLeft = "2 Left" 
  
-cardSize = "6  by 6 inchs" 
+cardSize = "6 by 6 inchs, 15 by 15 cm" 
 cardLanguageOption = "English only" 
 cardOption1 = "Plain white card, 250 gsm" 
 cardEnvelope = "Envelope included, 100 gsm" 
@@ -25,5 +25,5 @@ class ="lazy img-responsive hover-shadow"
 
 alt ="sorry for your loss sister card sympathy card sister with feather"
  
-description = "A beautiful “Sorry for the loss of your Sister, thinking of you at this very difficult time”.  It has a pink watercolour with an elegant pink feather on top of it.  Click here to buy."
+description = "A beautiful “Sorry for the loss of your Sister, thinking of you at this very difficult time” card.  It has a pink watercolour with an elegant pink feather on top of it."
 +++

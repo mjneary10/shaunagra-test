@@ -9,7 +9,7 @@ productGroup = "frames"
 productType = "birthday"
 stockLeft = "2 Left" 
  
-frameSize = "10 by 10 inch" 
+frameSize = "10 by 10 inch, 25 by 25 cm" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 

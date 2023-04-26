@@ -9,7 +9,7 @@ productGroup = "cards"
 productType = "irish"
 stockLeft = "2 Left" 
  
-cardSize = "6  by 6 inchs" 
+cardSize = "6 by 6 inchs, 15 by 15 cm" 
 cardLanguageOption = "Irish or English" 
 cardOption1 = "Plain white card, 250 gsm" 
 cardEnvelope = "Envelope included, 100 gsm" 

@@ -9,7 +9,7 @@ productGroup = "frames"
 productType = "baby"
 stockLeft = "1 Left" 
  
-frameSize = "8 by 6 inch" 
+frameSize = "8 by 6 inch, 20 by 15 cm" 
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
