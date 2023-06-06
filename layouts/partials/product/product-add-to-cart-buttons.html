@@ -1,7 +1,7 @@
 {{ if eq .Params.productGroup "frames" }}
 <a title="Add To Cart" href="#" class="snipcart-add-item" 
    data-item-id="{{ .Params.title }}" 
-   data-item-weight="{{ .Params.weight }}" 
+   data-item-weight="{{ .Params.frameWeight }}" 
    data-item-name="{{ .Params.title }}" 
    data-item-image="{{ .Params.image }}-1-small.webp" 
    data-item-price="{{ .Params.price }}" 
@@ -114,7 +114,7 @@
 {{ if eq .Params.productGroup "cards" }}
 <a title="Add To Cart" href="#" class="snipcart-add-item" 
    data-item-id="{{ .Params.title }}" 
-   data-item-weight="{{ .Params.weight }}" 
+   data-item-weight="{{ .Params.cardWeight }}" 
    data-item-name="{{ .Params.title }}" 
    data-item-image="{{ .Params.image }}-1-small.webp" 
    data-item-price="{{ .Params.price }}" 
