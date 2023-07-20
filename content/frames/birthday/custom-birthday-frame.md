@@ -13,6 +13,9 @@ frameSize = "10 by 10 inch, 25 by 25 cm"
 frameFront = "Safety Perspex" 
 frameMounting = "Wall hung or free standing" 
 frameWeight = "1000" 
+
+buttonRequiredNames = "yes"
+buttonBabyDateOfBirth = "yes"
  
 
  

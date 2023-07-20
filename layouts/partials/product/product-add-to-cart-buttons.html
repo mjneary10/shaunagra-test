@@ -96,11 +96,53 @@
    {{ end }}
 
    {{ if eq .Params.productType "birthday" }}
+
+   {{ if .Params.buttonRequiredNames }}
+      data-item-custom1-name="REQUIRED NAMES" 
+      data-item-custom1-required="true" 
+      {{ end }}
    
-      data-item-custom4-name="Pricing options" 
-      data-item-custom4-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
+   data-item-custom2-name="Date format" 
+      data-item-custom2-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom2-required="true" 
+
+      {{ if .Params.buttonBabyDateOfBirth }}
+      data-item-custom3-name="DOB IN ABOVE FORMAT" 
+      data-item-custom3-required="true" 
+      {{ end }}
+
+      data-item-custom4-name="Preferred colours" 
+      data-item-custom4-required="true" 
+
+      data-item-custom5-name="Pricing options" 
+      data-item-custom5-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
+      
      
    {{ end }}
+
+
+
+    {{ if eq .Params.productType "custom" }}
+
+ 
+      data-item-custom1-name="Occasion" 
+      data-item-custom1-required="true" 
+   
+   
+  
+
+     
+
+      data-item-custom4-name="Preferred colours" 
+      data-item-custom4-required="true" 
+
+      data-item-custom5-name="Pricing options" 
+      data-item-custom5-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
+      
+     
+   {{ end }}
+
+   
 
    
    data-item-custom10-name="Message to Shauna Gra" 
