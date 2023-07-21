@@ -1,7 +1,7 @@
 +++
 metaTitle ="Personalised gay wedding day card handmade in ireland | Shauna Gra"
 title = "Personalised gay wedding day card handmade in ireland"
-price = "7.95"
+price = "8.95"
 downFrom ="10"
 saleOn ="yes"
 productGroup = "cards"
@@ -18,10 +18,10 @@ cardWeight = "100"
 buttonCoupleFirstNames ="yes" 
 buttonWeddingDate = "yes" 
 
-buttonDesignOptions1 = "White as shown" 
+buttonDesignOptions1 = "Irish" 
 
-buttonDesignOptions2 = "White scallop edge"
-buttonDesignOptions2PriceAddOn = "2"
+buttonDesignOptions2 = "English"
+
 
 
  

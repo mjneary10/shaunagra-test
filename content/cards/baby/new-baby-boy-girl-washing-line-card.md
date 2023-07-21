@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="New baby boy girl washing line card | Shauna Gra"
 title = "New baby boy girl washing line card"
-price = "3.00"
+price = "4.00"
 downFrom ="5.00"
 saleOn ="yes"
 productGroup = "cards"

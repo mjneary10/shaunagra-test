@@ -19,7 +19,7 @@ buttonIrishOrEnglish = "yes"
  
 buttonCardPackOption1 = "1 card only"
 buttonCardPackOption2 = "Pack of 5"
-buttonCardPackOption2Price = "20" 
+buttonCardPackOption2Price = "16.95" 
  
 image ="/img/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card"
 class ="lazy img-responsive hover-shadow"

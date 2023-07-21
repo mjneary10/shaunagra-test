@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised new baby boy girl cards elephants | Shauna Gra"
 title = "Personalised new baby boy girl cards elephants"
-price = "3.00"
+price = "4.00"
 downFrom ="5.00"
 saleOn ="yes"
 productGroup = "cards"

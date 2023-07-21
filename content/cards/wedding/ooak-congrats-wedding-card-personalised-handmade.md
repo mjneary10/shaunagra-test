@@ -1,7 +1,7 @@
 +++
 metaTitle ="Ooak congrats wedding card personalised handmade | Shauna Gra"
 title = "Ooak congrats wedding card personalised handmade"
-price = "7.95"
+price = "8.95"
 downFrom ="10"
 saleOn ="yes"
 productGroup = "cards"

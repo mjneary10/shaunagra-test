@@ -128,14 +128,25 @@
       data-item-custom1-name="Occasion" 
       data-item-custom1-required="true" 
    
-   
-  
 
-     
 
       data-item-custom4-name="Preferred colours" 
       data-item-custom4-required="true" 
 
+      data-item-custom5-name="Pricing options" 
+      data-item-custom5-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
+      
+     
+   {{ end }}
+
+
+
+   {{ if eq .Params.productType "memorial" }}
+
+ 
+      data-item-custom1-name="Person or pet name" 
+      data-item-custom1-required="true" 
+      
       data-item-custom5-name="Pricing options" 
       data-item-custom5-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
       
@@ -190,7 +201,7 @@
 
       {{ if .Params.cardOption1 }}
       data-item-custom7-name="Card options" 
-      data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+1.00 Euro)[+1.00]"
+      data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+2.00 Euro)[+2.00]"
       {{ end }}
 
       {{ if eq .Params.designOptions "4" }}
@@ -272,6 +283,13 @@
       data-item-custom7-required="true" 
       {{ end }}
 
+
+      
+        {{ if .Params.cardOption1 }}
+      data-item-custom9-name="Card options" 
+      data-item-custom9-options="Plain white card[+0.00]|Scallop edge (+2.00 Euro)[+2.00]"
+      {{ end }}
+
    {{ end }}
 
     {{ if eq .Params.productType "house" }}
@@ -327,8 +345,8 @@
    {{ end }}
 
    
-   data-item-custom9-name="Message to Shauna Gra" 
-   data-item-custom9-type="textarea">
+   data-item-custom10-name="Message to Shauna Gra" 
+   data-item-custom10-type="textarea">
 <span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
 </a>
 {{ end }}

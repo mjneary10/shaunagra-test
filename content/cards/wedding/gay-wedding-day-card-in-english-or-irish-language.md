@@ -17,15 +17,12 @@ cardWeight = "100"
  
 buttonCoupleFirstNames ="yes" 
 buttonWeddingDate = "yes" 
-buttonDesignOptions1 = "Irish, plain white" 
 
-buttonDesignOptions2 = "Irish, white, scallop" 
-buttonDesignOptions2PriceAddOn = "2"
+buttonDesignOptions1 = "Irish" 
 
-buttonDesignOptions3 = "English, plain white" 
+buttonDesignOptions2 = "English" 
 
-buttonDesignOptions4 = "English, white scallop" 
-buttonDesignOptions4PriceAddOn = "2"
+
  
 image ="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay-wedding-day-card-in-english-or-irish-language"
 class ="lazy img-responsive hover-shadow"

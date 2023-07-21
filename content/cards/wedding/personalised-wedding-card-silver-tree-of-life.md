@@ -19,6 +19,9 @@ cardWeight = "100"
 buttonCoupleFirstNames = "yes"
 buttonWeddingDate = "yes"
 
+buttonDesignOptions1 = "Irish" 
+buttonDesignOptions2 = "English" 
+
 image ="/img/cards/wedding/personalised-wedding-card-silver-tree-of-life/personalised-wedding-card-silver-tree-of-life"
 class ="lazy img-responsive hover-shadow"
 alt ="Personalised wedding card silver tree of life"

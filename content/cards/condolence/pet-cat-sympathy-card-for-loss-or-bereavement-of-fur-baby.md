@@ -17,8 +17,8 @@ cardWeight = "100"
 
 buttonPetName = "yes"
 
-buttonDesignOptions1 = "Cream"
-buttonDesignOptions2 = "White"
+buttonDesignOptions1 = "White"
+
  
 image ="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby"
 class ="lazy img-responsive hover-shadow"

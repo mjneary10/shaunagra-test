@@ -17,7 +17,7 @@ cardWeight = "100"
  
 buttonCardPackOption1 = "1 card only"
 buttonCardPackOption2 = "Pack of 5"
-buttonCardPackOption2Price = "15" 
+buttonCardPackOption2Price = "14.95" 
  
 image ="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card"
 class ="lazy img-responsive hover-shadow"
