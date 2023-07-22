@@ -68,6 +68,13 @@
                         {{ partial "product/product-thumbnail.html" . }}
                         {{ end }}           
                         {{ end }}
+                        {{ else if eq .RelPermalink "/cards/engagement/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "engagement" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
                         {{ end }}
                      </div>
                      </div>

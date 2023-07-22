@@ -6,7 +6,7 @@ price = "8.95"
 downFrom ="10.00"
 saleOn ="yes"
 productGroup = "cards"
-productType = "wedding"
+productType = "engagement"
 stockLeft = "2 Left" 
  
 cardSize = "6 by 6 inchs, 15 by 15 cm"
@@ -20,7 +20,7 @@ cardWeight = "100"
 buttonCoupleFirstNames = "yes"
 buttonWeddingDate = "yes"
  
-image ="/img/cards/wedding/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts"
+image ="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts"
 class ="lazy img-responsive hover-shadow"
 alt ="Cute engagement cards balloons boats hearts"
  
