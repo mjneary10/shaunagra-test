@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Thank you card in irish language go raibh maith agat card | Shauna Gra"
 title = "Thank you card in irish language go raibh maith agat card"
-price = "5.00"
+price = "5.95"
 downFrom ="7.00"
 saleOn ="yes"
 productGroup = "cards"
@@ -17,7 +17,7 @@ cardWeight = "100"
  
 buttonCardPackOption1 = "1 card only"
 buttonCardPackOption2 = "Pack of 5"
-buttonCardPackOption2Price = "14.95" 
+buttonCardPackOption2Price = "16.00" 
  
 image ="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card"
 class ="lazy img-responsive hover-shadow"

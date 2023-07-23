@@ -1,8 +1,8 @@
 +++
 metaTitle ="Personalised wedding day congrats card for mr and mrs | Shauna Gra"
 title = "Personalised wedding day congrats card for mr and mrs"
-price = "8.95"
-downFrom ="10"
+price = "5.95"
+downFrom ="9.00"
 saleOn ="yes"
 productGroup = "cards"
 productType = "wedding"

@@ -1,8 +1,8 @@
 +++
 metaTitle ="Gay wedding day card in english or irish language | Shauna Gra"
 title = "Gay wedding day card in english or irish language"
-price = "7.95"
-downFrom ="10"
+price = "5.95"
+downFrom ="8.00"
 saleOn ="yes"
 productGroup = "cards"
 productType = "wedding"

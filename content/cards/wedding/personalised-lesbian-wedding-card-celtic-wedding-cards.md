@@ -1,7 +1,7 @@
 +++
 metaTitle ="Personalised lesbian wedding card celtic wedding cards | Shauna Gra"
 title = "Personalised lesbian wedding card celtic wedding cards"
-price = "8.95"
+price = "5.95"
 downFrom ="10"
 saleOn ="yes"
 productGroup = "cards"

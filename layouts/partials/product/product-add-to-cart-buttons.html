@@ -199,7 +199,7 @@
       data-item-custom6-required="true" 
       {{ end }}
 
-      {{ if .Params.cardOption1 }}
+      {{ if .Params.cardOption2 }}
       data-item-custom7-name="Card options" 
       data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+2.00 Euro)[+2.00]"
       {{ end }}
@@ -285,7 +285,7 @@
 
 
       
-        {{ if .Params.cardOption1 }}
+        {{ if .Params.cardOption2 }}
       data-item-custom9-name="Card options" 
       data-item-custom9-options="Plain white card[+0.00]|Scallop edge (+2.00 Euro)[+2.00]"
       {{ end }}
@@ -334,6 +334,12 @@
       data-item-custom1-name="Name Of Pet"
       data-item-custom1-required="true" 
       {{ end }}
+
+
+      {{ if .Params.cardOption2 }}
+      data-item-custom7-name="Card options" 
+      data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+2.00 Euro)[+2.00]"
+      {{ end }}
    
       {{ if .Params.buttonDesignOptions1 }}
       data-item-custom7-name="DESIGN OPTIONS" 
@@ -342,6 +348,25 @@
       {{ end }}
 
       
+   {{ end }}
+
+
+   {{ if eq .Params.productType "engagement" }}
+   
+      {{ if .Params.buttonCoupleFirstNames }}
+      data-item-custom1-name="COUPLES FIRST NAMES" 
+      data-item-custom1-required="true" 
+      {{ end }}
+
+      data-item-custom2-name="Date format" 
+      data-item-custom2-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom2-required="true" 
+
+      {{ if .Params.buttonWeddingDate }}
+      data-item-custom3-name="ENGAGEMENT DATE IN ABOVE FORMAT" 
+      data-item-custom3-required="true" 
+      {{ end }}
+
    {{ end }}
 
    

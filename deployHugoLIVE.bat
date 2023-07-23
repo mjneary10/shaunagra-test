@@ -1,8 +1,8 @@
 @echo off
 
-cd C:\Marty\MDP-Graphics\Website\mdp-graphics.com
+cd C:\Marty\ShaunaGra\shaunagra-custom-frames.ie
 hugo
 pause 
 cd C:\Marty\ShaunaGra\Documentation\Grunt and scripts
-grunt ftp_push:hugoLive
+grunt ftp_push:hugoShaunaGraLiveFromMain
 pause

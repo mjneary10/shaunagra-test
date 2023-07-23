@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Sorry for your loss mam or nan thinking of you card | Shauna Gra"
 title = "Sorry for your loss mam or nan thinking of you card"
-price = "5.00"
+price = "5.95"
 downFrom ="7.00"
 saleOn ="yes"
 productGroup = "cards"

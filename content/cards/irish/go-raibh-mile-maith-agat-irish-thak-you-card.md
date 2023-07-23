@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Go raibh mile maith agat irish thak you card | Shauna Gra"
 title = "Go raibh mile maith agat irish thak you card"
-price = "4.00"
+price = "4.95"
 downFrom ="6.00"
 saleOn ="yes"
 productGroup = "cards"
@@ -17,7 +17,7 @@ cardWeight = "100"
  
 buttonCardPackOption1 = "1 card only"
 buttonCardPackOption2 = "Pack of 5"
-buttonCardPackOption2Price = "15.95" 
+buttonCardPackOption2Price = "15.00" 
  
 image ="/img/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/go-raibh-mile-maith-agat-irish-thak-you-card"
 class ="lazy img-responsive hover-shadow"

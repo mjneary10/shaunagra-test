@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="sorry for your loss brother card with cross condolence card brother | Shauna Gra"
 title = "Sorry for your loss brother card with cross condolence card brother"
-price = "5.00"
+price = "5.95"
 downFrom ="7.00"
 saleOn ="yes"
 productGroup = "cards"
