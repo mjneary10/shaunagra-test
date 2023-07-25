@@ -15,7 +15,7 @@ frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
 
 buttonChristeningDate = "yes"
-buttonBabyDateOfBirth = "yes"
+
 buttonBabyTimeOfBirth =""
 buttonBabyWeight = ""
 buttonBackgroundOption = "yes"

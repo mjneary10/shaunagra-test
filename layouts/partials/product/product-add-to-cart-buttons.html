@@ -24,7 +24,7 @@
       {{ end }}
 
       {{ if .Params.buttonChristeningDate }}
-      data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
+      data-item-custom5-name="DATE IN ABOVE FORMAT" 
       data-item-custom5-required="true" 
       {{ end }}
 
@@ -54,9 +54,28 @@
       data-item-custom1-name="REQUIRED NAMES" 
       data-item-custom1-required="true" 
       {{ end }}
-   
-      data-item-custom2-name="Pricing options" 
-      data-item-custom2-options="Frame (up to 25 letters)[+0.00]|Frame & Card Package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters)[+5.00]|Frame & Card Package (26 to 40 letters) (+3.50 Euro)[+8.50]" 
+
+      {{ if .Params.buttonFamilySurname }}
+      data-item-custom2-name="FAMILY SURNAME (up to 10 letters)" 
+      data-item-custom2-required="true" 
+
+      {{ end }}
+
+
+      {{ if .Params.removePricingOptions }}
+
+      {{ else if .Params.justFrameAndCardPriceOptions }}
+       data-item-custom3-name="Pricing options" 
+      data-item-custom3-options="Frame only|Frame & Card Package (+3.50 Euro)[+3.50]" 
+      {{ else }}
+
+   data-item-custom3-name="Pricing options" 
+      data-item-custom3-options="Frame (up to 25 letters)[+0.00]|Frame & Card Package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters)[+5.00]|Frame & Card Package (26 to 40 letters) (+3.50 Euro)[+8.50]" 
+
+      {{ end }}
+ 
+
+      
    {{ end }}
 
    {{ if eq .Params.productType "wedding" }}
@@ -111,11 +130,14 @@
       data-item-custom3-required="true" 
       {{ end }}
 
-      data-item-custom4-name="Preferred colours" 
-      data-item-custom4-required="true" 
+       data-item-custom4-name="Wooden tiles or print" 
+      data-item-custom4-options="Wooden tiles|Print"
 
-      data-item-custom5-name="Pricing options" 
-      data-item-custom5-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
+      data-item-custom5-name="Preferred colours" 
+      data-item-custom5-required="true" 
+
+      data-item-custom6-name="Pricing options" 
+      data-item-custom6-options="Frame Only[+0.00]|Frame & Card Package (+3.50 Euro)[+3.50]"
       
      
    {{ end }}
@@ -190,7 +212,7 @@
       {{ end }}
 
       {{ if .Params.buttonChristeningDate }}
-      data-item-custom5-name="CHRISTENING DATE IN ABOVE FORMAT" 
+      data-item-custom5-name="DATE IN ABOVE FORMAT" 
       data-item-custom5-required="true" 
       {{ end }}
 

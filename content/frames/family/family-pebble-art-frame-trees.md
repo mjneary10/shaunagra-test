@@ -14,6 +14,8 @@ frameFront = "Safety Perspex"
 frameMounting = "Wall hung or free standing"
 frameWeight = "1000"
 
+removePricingOptions = "yes"
+
 image ="/img/frames/family/family-pebble-art-frame-trees/family-pebble-art-frame-trees"
 class ="lazy img-responsive hover-shadow"
 alt ="Family Pebble Art Frame Trees"

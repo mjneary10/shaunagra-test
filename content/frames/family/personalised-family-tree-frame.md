@@ -15,6 +15,8 @@ frameMounting = "Wall hung or free standing"
 frameWeight = "1000" 
  
 buttonRequiredNames = "yes"
+buttonFamilySurname = "yes"
+justFrameAndCardPriceOptions = "yes"
  
 image ="/img/frames/family/personalised-family-tree-frame/personalised-family-tree-frame"
 class ="lazy img-responsive hover-shadow"
