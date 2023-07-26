@@ -1,6 +1,6 @@
-baseURL = "https://transcendent-cocada-58da96.netlify.app//"
+# baseURL = "https://transcendent-cocada-58da96.netlify.app//"
 # baseURL = "https://mdpwebdevelopment.com/"
-# baseURL = "https://shaunagra-custom-frames.ie/hugo-test/"
+baseURL = "https://shaunagra-custom-frames.ie/"
 title = "Personalised Frames Ireland | Gift Frames & Cards"
 theme = "hugo-universal-theme"
 
