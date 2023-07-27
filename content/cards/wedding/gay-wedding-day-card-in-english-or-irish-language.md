@@ -28,5 +28,5 @@ image ="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay
 class ="lazy img-responsive hover-shadow"
 alt ="Gay wedding day card in english or irish language"
  
-description = "Description here."
+description = "This card is available in English or Irish."
 +++
