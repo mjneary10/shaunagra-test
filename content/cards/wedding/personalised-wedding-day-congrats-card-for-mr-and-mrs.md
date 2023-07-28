@@ -28,5 +28,5 @@ image ="/img/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs
 class ="lazy img-responsive hover-shadow"
 alt ="Personalised wedding day congrats card for mr and mrs"
  
-description = "Description here."
+description = "A cute cartoon Mr and Mrs Wedding day card suitable for a couple's big day!  The main design of this Shauna Gra Wedding day card has a bride and groom standing in front of a vibrant sunset.  This keepsake Irish Wedding card is perfect for your son, daughter, grandson, granddaughter or best friend's day.  The bride has long dark hair and the groom has dark hair and a beard.  This wedding day card reads (Congratulations, First Name & First name on your wedding day) then it has the date of the wedding at the bottom of the design.  Click here to purchase yours today!  Limited quantity available too!"
 +++

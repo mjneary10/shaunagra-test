@@ -26,5 +26,5 @@ image ="/img/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-card
 class ="lazy img-responsive hover-shadow"
 alt ="Personalised lesbian wedding card celtic wedding cards"
  
-description = "Description here."
+description = "The perfect personalised Irish lesbian wedding card, with an elegant Celtic heart layered on top of a pink watercolour heart.  This LGBT Card for a wedding is perfect for your daughter, granddaughter, niece or best friend's big day!  This two brides card has the following wording; Congratulations, then the first names personalised of the two brides.  It has a simple pink Celtic love heart in the middle.  Underneath it has the wording (on your wedding day).  Lastly, it has the date of the happy event!  Click here to purchase this Irish handmade card which is perfect for a Lesbian Civil Ceremony.  It's exclusive to Shauna Gra too!"
 +++
