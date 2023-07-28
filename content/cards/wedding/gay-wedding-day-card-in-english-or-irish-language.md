@@ -1,6 +1,6 @@
 +++
 metaTitle ="Gay wedding day card in english or irish language | Shauna Gra"
-title = "Gay wedding day card in english or irish language"
+title = "Gay wedding day card in english or irish language with Celtic blue heart"
 price = "5.95"
 downFrom ="8.00"
 saleOn ="yes"
@@ -28,5 +28,5 @@ image ="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay
 class ="lazy img-responsive hover-shadow"
 alt ="Gay wedding day card in english or irish language"
  
-description = "This card is available in English or Irish."
+description = "An elegant Gay Wedding Day Card suitable for your son, grandson, nephew, or best friend's Civil Ceremony.  This Congrats Gay Wedding Card has the two grooms first names personalised on it.  In the middle of this Mr & Mr Wedding Card it has an Irish Celtic Heart layered on top of a blue watercolour heart.  This keepsake Two Grooms Card also has the date of the wedding on it at the bottom.  This Irish Handmade card is available in the Irish or English Language and only available from Shauna Gra!  Click here to purchase yours today."
 +++
