@@ -27,5 +27,5 @@ image ="/img/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/ooak
 class ="lazy img-responsive hover-shadow"
 alt ="Ooak congrats wedding card personalised handmade"
  
-description = "Description here."
+description = "One of a kind congrats wedding card."
 +++
