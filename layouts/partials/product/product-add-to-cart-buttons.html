@@ -392,10 +392,18 @@
    {{ end }}
 
    {{ if eq .Params.productType "christmas" }}
-   {{ if .Params.cardOption2 }}
+
+
+   {{ if .Params.buttonCard10Pack }}
+      data-item-custom1-name="Card options" 
+      data-item-custom1-options="10 plain white cards[+0.00]|10 scallop edge (+10.00 Euro)[+10.00]"
+      
+   {{ else if .Params.cardOption2 }}
       data-item-custom1-name="Card options" 
       data-item-custom1-options="5 plain white cards[+0.00]|5 scallop edge (+5.00 Euro)[+5.00]"
       {{ end }}
+
+      
 
        {{ if .Params.buttonFamilySurname }}
       data-item-custom2-name="FAMILY SURNAME" 
