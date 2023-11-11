@@ -391,6 +391,26 @@
 
    {{ end }}
 
+   {{ if eq .Params.productType "christmas" }}
+   {{ if .Params.cardOption2 }}
+      data-item-custom1-name="Card options" 
+      data-item-custom1-options="5 plain white cards[+0.00]|5 scallop edge (+5.00 Euro)[+5.00]"
+      {{ end }}
+
+       {{ if .Params.buttonFamilySurname }}
+      data-item-custom2-name="FAMILY SURNAME" 
+      data-item-custom2-required="true" 
+
+      {{ end }}
+
+      {{ if .Params.buttonIrishOrEnglish }}
+      data-item-custom3-name="Irish or English"
+      data-item-custom3-required="true" 
+      {{ end }}
+     
+
+   {{ end }}
+
    
    data-item-custom10-name="Message to Shauna Gra" 
    data-item-custom10-type="textarea">
