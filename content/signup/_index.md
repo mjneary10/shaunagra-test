@@ -1,10 +1,10 @@
 +++
-metaTitle ="Shauna Gra Signup"
-title = "Shauna Gra Signup"
+metaTitle ="Shauna Gra Members Signup"
+title = "Shauna Gra Members Signup"
 description = "Members Discounts And Special Offers | Shauna Gra"
 +++
-You can sign up here for special offers, news, and discounts.
+Why not sign up to our members area today and get 20% off for life and many other benefits.
 
-
+{{< signup-benefits-shortcode >}}
 {{< signup-form >}}
 
