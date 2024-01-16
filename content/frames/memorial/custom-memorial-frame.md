@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Custom memorial frame | Shauna Gra"
 title = "Custom memorial frame"
-price = "50.00"
+price = "62.50"
 downFrom ="55.00"
 saleOn ="yes"
 productGroup = "frames"

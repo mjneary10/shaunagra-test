@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Elephant print baby boy frame | Shauna Gra"
 title = "Elephant print baby boy frame"
-price = "30.00"
+price = "37.50"
 downFrom ="35.00"
 saleOn ="yes"
 productGroup = "frames"

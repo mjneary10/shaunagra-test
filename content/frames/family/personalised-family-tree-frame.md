@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised family tree frame | Shauna Gra"
 title = "Personalised family tree frame"
-price = "40.00"
+price = "50.00"
 downFrom ="50.00"
 saleOn ="yes"
 productGroup = "frames"

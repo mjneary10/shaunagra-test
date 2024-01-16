@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Family tree photo frame atlas | Shauna Gra"
 title = "Family tree photo frame atlas"
-price = "40.00"
+price = "50.00"
 downFrom ="45.00"
 saleOn ="yes"
 productGroup = "frames"

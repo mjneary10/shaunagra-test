@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Cute personalised baby frame balloon clouds | Shauna Gra"
 title = "Cute personalised baby frame balloon clouds"
-price = "45.00"
+price = "56.25"
 downFrom ="50.00"
 saleOn ="yes"
 productGroup = "frames"

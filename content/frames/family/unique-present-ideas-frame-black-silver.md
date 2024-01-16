@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Unique present ideas frame black silver | Shauna Gra"
 title = "Unique present ideas frame black silver"
-price = "40.00"
+price = "50.00"
 downFrom ="45.00"
 saleOn ="yes"
 productGroup = "frames"

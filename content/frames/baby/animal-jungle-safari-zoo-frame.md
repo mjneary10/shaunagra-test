@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Animal jungle safari zoo frame | Shauna Gra"
 title = "Animal jungle safari zoo frame"
-price = "35.00"
+price = "43.75"
 downFrom ="40.00"
 saleOn ="yes"
 productGroup = "frames"

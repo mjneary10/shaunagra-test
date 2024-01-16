@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Family Pebble Art Frame Trees | Shauna Gra"
 title = "Family Pebble Art Frame Trees"
-price = "40.00"
+price = "50.00"
 downFrom ="45.00"
 saleOn ="yes"
 productGroup = "frames"

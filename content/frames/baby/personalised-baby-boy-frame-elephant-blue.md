@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised baby boy frame elephant blue | Shauna Gra"
 title = "Personalised baby boy frame elephant blue"
-price = "45.00"
+price = "56.25"
 downFrom ="50.00"
 saleOn ="yes"
 productGroup = "frames"

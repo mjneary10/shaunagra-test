@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised modern new home gift frame | Shauna Gra"
 title = "Personalised modern new home gift frame"
-price = "35.00"
+price = "43.75"
 downFrom ="40.00"
 saleOn ="yes"
 productGroup = "frames"

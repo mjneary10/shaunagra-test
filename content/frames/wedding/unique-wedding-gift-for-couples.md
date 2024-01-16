@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Unique wedding gift for couples | Shauna Gra"
 title = "Unique wedding gift for couples"
-price = "45.00"
+price = "56.25"
 downFrom ="50.00"
 saleOn ="yes"
 productGroup = "frames"
