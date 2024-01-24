@@ -33,42 +33,48 @@ paginate = 30
     url  = "/cards/"
     weight = 3
 
+    [[menu.main]]
+    identifier = "prints"
+    name = "Prints"
+    url  = "/prints/"
+    weight = 4
+
 [[menu.main]]
     identifier = "sale-news"
     name = "Sale News"
     url  = "/sale-news/"
-    weight = 4
+    weight = 5
 
 
     [[menu.main]]
     identifier = "reviews"
     name = "Reviews"
     url  = "/reviews/"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     identifier="blog"
     name = "Blog"
     url  = "/blog/"
-    weight = 6
+    weight = 7
 
 [[menu.main]]
     identifier="about"
     name = "About"
     url  = "/about/"
-    weight = 7
+    weight = 8
 
 [[menu.main]]
     identifier = "faq"
     name = "FAQ"
     url  = "/faq/"
-    weight = 8
+    weight = 9
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
-    weight = 9
+    weight = 10
 
 
 
