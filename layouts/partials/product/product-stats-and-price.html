@@ -118,7 +118,120 @@
 
 
 
+{{ if eq .Params.productGroup "prints" }}
+<div class="row">
+   <div class="col-md-6">
+      <a href="#{{ .Site.Params.testimonials.title }}">
+<img class="img-responsive" src="/img/product-review-ratings-left.webp">
+</a>
+   </div>
+   <div class="col-md-6">
+      <a href="#{{ .Site.Params.testimonials.title }}">
+<img class="img-responsive" src="/img/product-review-ratings-right.webp">
+</a>
+   </div>
+</div>
+<hr class="prod-box-line">
+<ul>
+   <li>{{ .Params.printSize }}</li>
+   <li>{{ .Params.printPaper }}</li>
+   <li>{{ .Params.printFrame }}</li>
+</ul>
+<hr class="prod-box-line">
 
+<table class="product-custom-boxes">
+   
+      {{ if eq .Params.productType "baby" }} 
+      <tr><td>Baby's Name...</td></tr>
+      {{ end }}
+      {{if .Params.buttonBabyDateOfBirth}}
+      <tr><td>Date Of Birth...</td></tr>
+      {{ end }}
+      {{if .Params.buttonChristeningDate}}
+      <tr><td>Christening Date...</td></tr>
+      {{ end }}
+      {{if .Params.buttonRequiredNames}}
+      <tr><td>Required Names...</td></tr>
+      {{ end }}
+      {{if .Params.buttonCoupleFirstNames}}
+      <tr><td>Couples First Names...</td></tr>
+      {{ end }}
+      {{if .Params.buttonWeddingDate}}
+      <tr><td>Date Of Wedding...</td></tr>
+      {{ end }}
+      {{if .Params.buttonCoupleInitials}}
+      <tr><td>Couples Initials...</td></tr>
+      {{ end }}
+      {{ if eq .Params.productType "irish" }} 
+      <tr><td>Message To Shauna Gra...</td></tr>
+      {{ end }}
+      {{ if .Params.buttonBabyTimeOfBirth }}
+      <tr><td>Time Of Birth...</td></tr>
+      {{ end }}
+      {{ if .Params.buttonBabyWeight }}
+      <tr><td>Weight...</td></tr>
+      {{ end }}
+      {{ if .Params.buttonBackgroundOption }}
+      <tr><td>Background options</td></tr>
+      {{ end }}
+      {{ if eq .Params.productType "birthday" }} 
+      <tr><td>Message To Shauna Gra...</td></tr>
+      {{ end }}
+     
+   </tr>
+</table>
+<div class="row">
+   <div class="col-md-6 center"> 
+      
+      <span class="productPrice">&euro;{{ .Params.price }}</span>
+     
+   </div>
+   <div class="col-md-6 productPrice center">
+      <p>{{ .Params.stockLeft }}</p>
+   </div>
+</div>
+{{ end }}
+{{ if eq .Params.buttonType "card-baby-boy-or-girl-name-date-time-weight" }}
+<div class="row">
+   <div class="col-md-6">
+      <a href="#{{ .Site.Params.testimonials.title }}">
+<img class="img-responsive" src="/img/product-review-ratings-left.webp">
+</a>
+   </div>
+   <div class="col-md-6">
+      <a href="#{{ .Site.Params.testimonials.title }}">
+<img class="img-responsive" src="/img/product-review-ratings-right.webp">
+</a>
+   </div>
+</div>
+<hr class="prod-box-line">
+<ul>
+   <li>{{ .Params.cardSize }}</li>
+   <li>{{ .Params.cardColor }}</li>
+</ul>
+<hr class="prod-box-line">
+<table class="product-custom-boxes">
+   <tr>
+      <td>Baby's Name...</td>
+      <td>Date Of Birth...</td>
+   </tr>
+   <tr>
+      <td>Time Of Birth...</td>
+      <td>Weight...</td>
+   </tr>
+</table>
+<div class="row">
+   <div class="col-md-6 center"> 
+      
+      <span class="productPrice">&euro;{{ .Params.price }}</span>
+     
+   </div>
+   
+   <div class="col-md-6 productPrice center">
+      <p>{{ .Params.stockLeft }}</p>
+   </div>
+</div>
+{{ end }}
 
 
 
@@ -217,3 +330,4 @@
    </div>
 </div>
 {{ end }}
+

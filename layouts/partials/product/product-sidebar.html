@@ -20,7 +20,17 @@
          {{ if in $current.RelPermalink (.Name | urlize | lower | printf "/cards/%s/") }} class="btn btn-template-main sideBarButtons active"{{ end }}
          class="btn btn-template-main sideBarButtons">{{ .Name }}</a>			    
          {{ end }}
-         {{ end }}                
+         {{ end }}       
+
+          {{ else if in .RelPermalink "/prints/" }}
+        
+         {{ range (readDir "content/prints/") }}
+         {{ if .IsDir }}
+         <a href="{{ "/prints/" | relURL }}{{ .Name | urlize | lower }}" 
+         {{ if in $current.RelPermalink (.Name | urlize | lower | printf "/prints/%s/") }} class="btn btn-template-main sideBarButtons active"{{ end }}
+         class="btn btn-template-main sideBarButtons">{{ .Name }}</a>             
+         {{ end }}
+         {{ end }}                         
           
          {{ end }}       
       </ul>

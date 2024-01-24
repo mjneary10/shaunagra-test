@@ -186,6 +186,50 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {{ if eq .Params.productGroup "cards" }}
 <a title="Add To Cart" href="#" class="snipcart-add-item" 
    data-item-id="{{ .Params.title }}" 
@@ -425,6 +469,111 @@
 <span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
 </a>
 {{ end }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{ if eq .Params.productGroup "prints" }}
+<a title="Add To Cart" href="#" class="snipcart-add-item" 
+   data-item-id="{{ .Params.title }}" 
+   data-item-weight="{{ .Params.weight }}" 
+   data-item-name="{{ .Params.title }}" 
+   data-item-image="{{ .Params.image }}-1-small.webp" 
+   data-item-price="{{ .Params.price }}" 
+   data-item-url="{{ .Permalink }}" 
+
+   {{ if eq .Params.productType "baby" }}
+
+
+      data-item-custom1-name="Babys first name only"
+      data-item-custom1-required="true" 
+
+      data-item-custom2-name="Boy or girl?" 
+      data-item-custom2-required="true" 
+
+      data-item-custom3-name="Date format" 
+      data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+      data-item-custom3-required="true" 
+
+      {{ if .Params.buttonBabyDateOfBirth }}
+      data-item-custom4-name="DOB IN ABOVE FORMAT" 
+      data-item-custom4-required="true" 
+      {{ end }}
+
+      {{ if .Params.buttonChristeningDate }}
+      data-item-custom5-name="DATE IN ABOVE FORMAT" 
+      data-item-custom5-required="true" 
+      {{ end }}
+
+      data-item-custom6-name="DO YOU UNDERSTAND THIS IS A PRINT ONLY WITH NO FRAME? (type yes)" 
+      data-item-custom6-required="true" 
+
+     
+     
+   {{ end }}
+
+
+
+    
+
+   
+     
+
+ 
+
+   
+   data-item-custom10-name="Message to Shauna Gra" 
+   data-item-custom10-type="textarea">
+<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+</a>
+{{ end }}
+
 
 
 
