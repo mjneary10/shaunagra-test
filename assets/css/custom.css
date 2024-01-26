@@ -41,8 +41,13 @@ line-height: 1.4;
      
 }
 
+.members-discount{
+  text-align: center;
+    
+}
+
 .product-thumbnail {
-    height: 620px;
+    
     background-color: #ffffff;
     padding: 10px;
     margin-bottom: 20px;

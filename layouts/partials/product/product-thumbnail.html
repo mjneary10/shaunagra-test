@@ -9,6 +9,11 @@
                            <span class="productPrice">&euro;{{ .Params.price }}</span>
                            
                            {{ partial "product/product-add-to-cart-buttons.html" . }}
+                           <aside class="members-discount">
+                              <p>Or sign up for 20% OFF</p>
+                           <a href="{{ "/signup/" | relURL }}" class="btn btn-template-main btn-top-page">GET DISCOUNT</a>
+                           </aside>
+                           
                            </div>
                           
                         </div>
