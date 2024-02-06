@@ -27,7 +27,14 @@
                         <hr class="prod-box-line">
                         <br><br>
                      <div class="row">
-                        {{ if eq .RelPermalink "/cards/baby/" }}
+                        {{ if eq .RelPermalink "/cards/confirmation/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "confirmation" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
+                        {{ else if eq .RelPermalink "/cards/baby/" }}
                         {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
                         {{ range $paginator.Pages }}
                         {{ if eq .Params.productType "baby" }}

@@ -239,6 +239,48 @@
    data-item-price="{{ .Params.price }}" 
    data-item-url="{{ .Permalink }}" 
 
+   {{ if eq .Params.productType "confirmation" }}
+   data-item-custom1-name="Kids first name only"
+   data-item-custom1-required="true" 
+
+   data-item-custom2-name="Boy or girl?" 
+   data-item-custom2-required="true" 
+
+   data-item-custom3-name="Date format" 
+   data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" 
+   data-item-custom3-required="true" 
+
+   {{ if .Params.buttonBabyDateOfBirth }}
+   data-item-custom4-name="DATE IN ABOVE FORMAT" 
+   data-item-custom4-required="true" 
+   {{ end }}
+
+
+   {{ if .Params.cardOption2 }}
+   data-item-custom7-name="Card options" 
+   data-item-custom7-options="Plain white card[+0.00]|Scallop edge (+2.00 Euro)[+2.00]"
+   {{ end }}
+
+   {{ if eq .Params.designOptions "4" }}
+   data-item-custom8-name="Design options" 
+   data-item-custom8-options="Please select|A|B|C|D"
+   data-item-custom8-required="true" 
+   {{ end }}
+
+   {{ if eq .Params.designOptions "3" }}
+   data-item-custom8-name="Design options" 
+   data-item-custom8-options="Please select|A|B|C"
+   data-item-custom8-required="true" 
+   {{ end }}
+
+   {{ if eq .Params.designOptions "2" }}
+   data-item-custom8-name="Design options" 
+   data-item-custom8-options="Please select|A|B"
+   data-item-custom8-required="true" 
+   {{ end }}
+  
+{{ end }}
+
    {{ if eq .Params.productType "baby" }}
       data-item-custom1-name="Babys first name only"
       data-item-custom1-required="true" 
