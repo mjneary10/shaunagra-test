@@ -34,6 +34,13 @@
                         {{ partial "product/product-thumbnail.html" . }}
                         {{ end }}           
                         {{ end }}
+                        {{ else if eq .RelPermalink "/cards/communion/" }}
+                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
+                        {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "communion" }}
+                        {{ partial "product/product-thumbnail.html" . }}
+                        {{ end }}           
+                        {{ end }}
                         {{ else if eq .RelPermalink "/cards/baby/" }}
                         {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
                         {{ range $paginator.Pages }}
