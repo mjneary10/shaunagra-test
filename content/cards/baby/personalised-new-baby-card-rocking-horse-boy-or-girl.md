@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised new baby card rocking horse boy or girl | Shauna Gra"
 title = "Personalised new baby card rocking horse boy or girl"
-price = "5.95"
+price = "7.95"
 downFrom ="7.00"
 saleOn ="yes"
 productGroup = "cards"
