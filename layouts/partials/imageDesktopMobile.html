@@ -1,0 +1,18 @@
+<picture>
+  <!-- Large screens -->
+  <source
+    media="(min-width: 600px)"
+    srcset="{{ .Scratch.Get "url" }}.webp">
+  <!-- Small screens -->
+  <source
+    media="(max-width: 599px)"
+    srcset="{{ .Scratch.Get "url" }}-mobile.webp">
+  <!-- Fallback -->
+  <img
+    src="{{ .Scratch.Get "url" }}.png"
+    srcset="{{ .Scratch.Get "url" }}.png"
+    alt="{{ .Scratch.Get "alt" }}"
+    class="{{ .Scratch.Get "class" }}"
+    width="{{ .Scratch.Get "width" }}"
+    height="{{ .Scratch.Get "height" }}">
+</picture>

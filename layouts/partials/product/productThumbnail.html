@@ -1,0 +1,22 @@
+<li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="{{ .Permalink }}">
+      <picture>
+        <source srcset="{{ .Params.image }}-medium.webp">
+        <!-- Fallback -->
+        <img src="{{ .Params.image }}-medium.png" srcset="{{ .Params.image }}-medium.png"
+          alt="{{ .Params.title }}" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="{{ .Permalink }}">
+      {{ .Params.title}}
+    </a>
+  </div>
+  <p class="price">&euro;{{ .Params.price }}</p>
+  <div class="cta padding-small border-top">
+    {{ .Scratch.Set "customBoxes" "no"}}
+    {{ partial "product/snipcart-button.html" . }}
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>

@@ -1,0 +1,37 @@
+<section class="grid grid-main">
+   <div class="normal-width-element">
+      <ul class="list-reset filter-list">
+
+         {{ $current := . }}
+         {{ if in .RelPermalink "/frames/" }}
+         
+         {{ range (readDir "content/frames/") }}
+         {{ if .IsDir }}
+         <li><a href="{{ "/frames/" | relURL }}{{ .Name | urlize | lower }}" 
+            {{ if in $current.RelPermalink (.Name | urlize | lower | printf "/frames/%s/") }} class="filter-buttons active-filter"{{ end }}
+            class="filter-buttons">{{ .Name }}</a>	</li>		    
+         {{ end }}
+         {{ end }}
+
+         {{ else if in .RelPermalink "/cards/" }}
+         {{ range (readDir "content/cards/") }}
+         {{ if .IsDir }}
+         <li><a href="{{ "/cards/" | relURL }}{{ .Name | urlize | lower }}" 
+            {{ if in $current.RelPermalink (.Name | urlize | lower | printf "/cards/%s/") }} class="filter-buttons active-filter"{{ end }}
+            class="filter-buttons">{{ .Name }}</a></li>			    
+         {{ end }}
+         {{ end }}        
+         
+         {{ else if in .RelPermalink "/prints/" }}
+         {{ range (readDir "content/prints/") }}
+         {{ if .IsDir }}
+         <li><a href="{{ "/prints/" | relURL }}{{ .Name | urlize | lower }}" 
+            {{ if in $current.RelPermalink (.Name | urlize | lower | printf "/prints/%s/") }} class="filter-buttons active-filter"{{ end }}
+            class="filter-buttons">{{ .Name }}</a>	</li>		    
+         {{ end }}
+         {{ end }}      
+          
+         {{ end }}       
+      </ul>
+   </div>
+</section>

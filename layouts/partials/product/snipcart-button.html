@@ -1,0 +1,113 @@
+{{ if .Params.stock }}
+{{ if not (in .Params.stock "0") }}
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="{{ .Params.title }}"
+data-item-weight="{{ .Params.weight}}"
+data-item-name="{{ .Params.title }}"
+data-item-image="{{ .Params.image }}.webp"
+data-item-price="{{ .Params.price }}"
+data-item-url="{{ .Permalink }}"
+
+{{ if .Params.dataItemCustom1Name }} data-item-custom1-name="{{ .Params.dataItemCustom1Name }}"{{ end }}
+{{ if .Params.dataItemCustom1Options }} data-item-custom1-options="{{ .Params.dataItemCustom1Options }}"{{ end }}
+{{ if .Params.dataItemCustom1Required }} data-item-custom1-required="{{ .Params.dataItemCustom1Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom2Name }} data-item-custom2-name="{{ .Params.dataItemCustom2Name }}"{{ end }}
+{{ if .Params.dataItemCustom2Options }} data-item-custom2-options="{{ .Params.dataItemCustom2Options }}"{{ end }}
+{{ if .Params.dataItemCustom2Required }} data-item-custom2-required="{{ .Params.dataItemCustom2Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom3Name }} data-item-custom3-name="{{ .Params.dataItemCustom3Name }}"{{ end }}
+{{ if .Params.dataItemCustom3Options }} data-item-custom3-options="{{ .Params.dataItemCustom3Options }}"{{ end }}
+{{ if .Params.dataItemCustom3Required }} data-item-custom3-required="{{ .Params.dataItemCustom3Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom4Name }} data-item-custom4-name="{{ .Params.dataItemCustom4Name }}"{{ end }}
+{{ if .Params.dataItemCustom4Options }} data-item-custom4-options="{{ .Params.dataItemCustom4Options }}"{{ end }}
+{{ if .Params.dataItemCustom4Required }} data-item-custom4-required="{{ .Params.dataItemCustom4Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom5Name }} data-item-custom5-name="{{ .Params.dataItemCustom5Name }}"{{ end }}
+{{ if .Params.dataItemCustom5Options }} data-item-custom5-options="{{ .Params.dataItemCustom5Options }}"{{ end }}
+{{ if .Params.dataItemCustom5Required }} data-item-custom5-required="{{ .Params.dataItemCustom5Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom6Name }} data-item-custom6-name="{{ .Params.dataItemCustom6Name }}"{{ end }}
+{{ if .Params.dataItemCustom6Options }} data-item-custom6-options="{{ .Params.dataItemCustom6Options }}"{{ end }}
+{{ if .Params.dataItemCustom6Required }} data-item-custom6-required="{{ .Params.dataItemCustom6Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom7Name }} data-item-custom7-name="{{ .Params.dataItemCustom7Name }}"{{ end }}
+{{ if .Params.dataItemCustom7Options }} data-item-custom7-options="{{ .Params.dataItemCustom7Options }}"{{ end }}
+{{ if .Params.dataItemCustom7Required }} data-item-custom7-required="{{ .Params.dataItemCustom7Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom8Name }} data-item-custom8-name="{{ .Params.dataItemCustom8Name }}"{{ end }}
+{{ if .Params.dataItemCustom8Options }} data-item-custom8-options="{{ .Params.dataItemCustom8Options }}"{{ end }}
+{{ if .Params.dataItemCustom8Required }} data-item-custom8-required="{{ .Params.dataItemCustom8Required }}"{{ end }}
+
+{{ if .Params.dataItemCustom9Name }} data-item-custom9-name="{{ .Params.dataItemCustom9Name }}"{{ end }}
+{{ if .Params.dataItemCustom9Options }} data-item-custom9-options="{{ .Params.dataItemCustom9Options }}"{{ end }}
+{{ if .Params.dataItemCustom9Required }} data-item-custom9-required="{{ .Params.dataItemCustom9Required }}"{{ end }}
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+{{ $test := .Scratch.Get "customBoxes" }}
+
+{{ if eq $test "yes"}}
+
+<table class="product-custom-boxes ">
+    <tbody>
+      {{ if .Params.dataItemCustom1Name}}
+      <tr >
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom1Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom2Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom2Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom3Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom3Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom4Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom4Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom5Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom5Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom6Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom6Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom7Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom7Name}}...</td>
+      </tr>
+      {{end}}
+      {{ if .Params.dataItemCustom8Name}}
+      <tr>
+        <td class="border-round-edge padding-small">{{.Params.dataItemCustom8Name}}...</td>
+      </tr>
+      {{end}}
+
+    </tbody>
+  </table>
+  {{end}}
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+{{else }}
+<p>Out Of Stock</p>
+{{end }}
+{{end}}
+

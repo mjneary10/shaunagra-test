@@ -1,0 +1,89 @@
+{{$link := .Params.image }}
+  {{$alt := .Params.title }}
+  {{$productGroup := .Params.productGroup}}
+  {{$count := 6 }}
+  {{$numCount := 0 }}
+
+  <section class="grid grid-main">
+    <section class="normal-width-element">
+      <article class="grid grid-prod-page">
+        <div class="product-thumbs flex flex-row">
+          {{ range $sequence := (seq 6) }}
+          <img class="demo cursor" src="{{$link}}-{{$sequence}}-small.webp" onclick="currentSlide({{$sequence}})"
+            alt="{{$alt}}">
+          {{end}}
+          {{ range $sequence := (seq 4) }}
+          {{ $count = add $count 1 }}
+          <img class="demo cursor" src="/img/{{$productGroup}}/common/{{$sequence}}-small.webp"
+            onclick="currentSlide({{ $count  }})" alt="{{$alt}}">
+          {{end}}
+        </div>
+
+        <div class="product-images">
+          <!-- Full-width images with number text -->
+          {{ range $sequence := (seq 6) }}
+          {{ $numCount = add $numCount 1 }}
+          <div class="mySlides">
+            <div class="numbertext">{{$numCount}} / 10</div>
+            <img src="{{$link}}-{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}">
+          </div>
+          {{end}}
+          {{ range $sequence := (seq 4) }}
+          {{ $numCount = add $numCount 1 }}
+          <div class="mySlides">
+            <div class="numbertext">{{$numCount}} / 10</div>
+            <img src="/img/{{$productGroup}}/common/{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}">
+          </div>
+          {{end}}
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="product-details padding-small color1-bg">
+          <h3 class="product-title">{{ .Params.title }}</h3>
+          <p class="price">&euro;{{ .Params.price }}</p>
+
+          <ul class="list-reset border-round-edge color2-bg">
+            {{ if .Params.attribute1}}
+            <li>{{ .Params.attribute1}}</li>
+            {{end}}
+            {{ if .Params.attribute2}}
+            <li>{{ .Params.attribute2}}</li>
+            {{end}}
+            {{ if .Params.attribute3}}
+            <li>{{ .Params.attribute3}}</li>
+            {{end}}
+            {{ if .Params.attribute4}}
+            <li>{{ .Params.attribute4}}</li>
+            {{end}}
+            {{ if .Params.attribute5}}
+            <li>{{ .Params.attribute5}}</li>
+            {{end}}
+          </ul>
+
+          {{ .Scratch.Set "customBoxes" "yes"}}
+         
+          {{partial "product/snipcart-button.html" . }}
+          <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+
+        </div>
+        <article class="product-info">
+
+          <aside class="color3-bg padding-small margin-large-bottom">
+            <p> {{ .Params.description }}</p>
+           
+        </aside>
+          
+        </article>
+        <article class="prod-reviews">
+          <aside class="">
+            
+         
+        </aside>
+        </article>
+      </article>
+
+    </section>
+  </section>
