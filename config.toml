@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = "https://shaunagra-custom-frames.ie/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 pageType = "normal"
