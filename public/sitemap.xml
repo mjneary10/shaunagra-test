@@ -1,444 +1,169 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  
   <url>
-    <loc>https://shaunagra-custom-frames.ie/blog/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+    <loc>http://example.org/frames/baby/animal-jungle-safari-zoo-frame/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/christening-card-personalised-goddaughter-godson-twins/</loc>
+  </url><url>
+    <loc>http://example.org/prints/baby/christening-print-with-church-for-girl-or-boy-personalised-name/</loc>
+  </url><url>
+    <loc>http://example.org/prints/baby/christening-print-with-flowers-personalised-name-for-girl-or-boy/</loc>
+  </url><url>
+    <loc>http://example.org/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/</loc>
+  </url><url>
+    <loc>http://example.org/cards/engagement/cute-engagement-cards-balloons-boats-hearts/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/</loc>
+  </url><url>
+    <loc>http://example.org/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/personalised-new-baby-boy-girl-cards-elephants/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/</loc>
+  </url><url>
+    <loc>http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/new-baby-boy-girl-washing-line-card/</loc>
+  </url><url>
+    <loc>http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/</loc>
+  </url><url>
+    <loc>http://example.org/about/</loc>
+  </url><url>
+    <loc>http://example.org/blog/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/contact/</loc>
+  </url><url>
+    <loc>http://example.org/frames/birthday/custom-birthday-frame/</loc>
+  </url><url>
+    <loc>http://example.org/frames/custom/</loc>
+  </url><url>
+    <loc>http://example.org/frames/custom/custom-frame/</loc>
+  </url><url>
+    <loc>http://example.org/frames/memorial/custom-memorial-frame/</loc>
+  </url><url>
+    <loc>http://example.org/frames/baby/cute-personalised-baby-frame-balloon-clouds/</loc>
+  </url><url>
+    <loc>http://example.org/frames/baby/elephant-print-baby-boy-frame/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/family-pebble-art-frame-trees/</loc>
+  </url><url>
+    <loc>http://example.org/frames/pebble-art/family-pebble-art-frame-trees/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/family-tree-photo-frame-atlas/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/gay-wedding-card-two-grooms-red-heart/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/</loc>
+  </url><url>
+    <loc>http://example.org/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/</loc>
+  </url><url>
+    <loc>http://example.org/frames/pebble-art/</loc>
+  </url><url>
+    <loc>http://example.org/frames/baby/personalised-baby-boy-frame-elephant-blue/</loc>
+  </url><url>
+    <loc>http://example.org/cards/baby/</loc>
+  </url><url>
+    <loc>http://example.org/frames/baby/</loc>
+  </url><url>
+    <loc>http://example.org/frames/baby/personalised-baby-girl-frame-elephant-pink/</loc>
+  </url><url>
+    <loc>http://example.org/prints/baby/</loc>
+  </url><url>
+    <loc>http://example.org/frames/birthday/</loc>
+  </url><url>
+    <loc>http://example.org/cards/</loc>
+  </url><url>
+    <loc>http://example.org/cards/christmas/</loc>
+  </url><url>
+    <loc>http://example.org/cards/condolence/</loc>
+  </url><url>
+    <loc>http://example.org/cards/confirmation/</loc>
+  </url><url>
+    <loc>http://example.org/cards/engagement/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/personalised-family-tree-frame/</loc>
+  </url><url>
+    <loc>http://example.org/frames/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/personalised-grandparents-family-tree-gift-frame/</loc>
+  </url><url>
+    <loc>http://example.org/cards/house/</loc>
+  </url><url>
+    <loc>http://example.org/frames/house/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/</loc>
+  </url><url>
+    <loc>http://example.org/frames/memorial/</loc>
+  </url><url>
+    <loc>http://example.org/frames/house/personalised-modern-new-home-gift-frame/</loc>
+  </url><url>
+    <loc>http://example.org/prints/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/personalised-wedding-card-silver-tree-of-life/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/</loc>
+  </url><url>
+    <loc>http://example.org/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/</loc>
+  </url><url>
+    <loc>http://example.org/frames/wedding/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/personalized-name-frames-hearts-blue/</loc>
+  </url><url>
+    <loc>http://example.org/reviews/</loc>
+  </url><url>
+    <loc>http://example.org/signup/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url><url>
+    <loc>http://example.org/test/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/</loc>
+  </url><url>
+    <loc>http://example.org/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/</loc>
+  </url><url>
+    <loc>http://example.org/frames/family/unique-present-ideas-frame-black-silver/</loc>
+  </url><url>
+    <loc>http://example.org/frames/wedding/unique-wedding-gift-for-couples/</loc>
+  </url><url>
+    <loc>http://example.org/frames/house/young-couple-personalised-new-house-gift-frame/</loc>
   </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/categories/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/shauna-gra-website-revamp/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/tags/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/tags/website/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/categories/website/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/about/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/baby/animal-jungle-safari-zoo-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/contact/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/birthday/custom-birthday-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/custom/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/custom/custom-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/memorial/custom-memorial-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-cards-balloons-boats-hearts/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/baby/cute-personalised-baby-frame-balloon-clouds/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/baby/elephant-print-baby-boy-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/family-pebble-art-frame-trees/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/pebble-art/family-pebble-art-frame-trees/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/family-tree-photo-frame-atlas/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/faq/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-card-two-grooms-red-heart/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/baby/new-baby-boy-girl-washing-line-card/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/pebble-art/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/baby/personalised-baby-boy-frame-elephant-blue/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/baby/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/baby/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/baby/personalised-baby-girl-frame-elephant-pink/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/birthday/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/christmas/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/engagement/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/personalised-family-tree-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/personalised-grandparents-family-tree-gift-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/house/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/house/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/memorial/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/house/personalised-modern-new-home-gift-frame/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-boy-girl-cards-elephants/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-card-silver-tree-of-life/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/wedding/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/personalized-name-frames-hearts-blue/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/reviews/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/sale-news/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/signup/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/family/unique-present-ideas-frame-black-silver/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/wedding/unique-wedding-gift-for-couples/</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>https://shaunagra-custom-frames.ie/frames/house/young-couple-personalised-new-house-gift-frame/</loc>
-  </url>
-  
-  
 </urlset>

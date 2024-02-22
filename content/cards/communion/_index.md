@@ -1,5 +1,6 @@
 +++
-type = "indexFile"
+type = "communion"
+pageType = "product"
 metaTitle = "Personalised Communion Cards | Shauna Gra Personalised Frames And Cards"
 title = "Personalised communion cards"
 description = "Personalised communion cards, handmade, world wide delivery."

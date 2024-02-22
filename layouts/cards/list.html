@@ -1,129 +1,51 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-   {{ partial "head.html" . }}
-   <body>
-{{ partial "snipcart.html" . }}
-      <div id="all">
-         {{ partial "nav.html" . }}
-         {{ partial "breadcrumbs.html" . }}
-         <div id="content">
-            <div class="container">
-               <div class="row">
-                  <!-- *** LEFT COLUMN *** -->
-                  <div class="col-md-9">
-                     <div id="mobile-menu">
-                        {{ partial "product/product-sidebar.html" . }}
-                     </div>
-                    
-                     {{ .Content }}
-                     {{ if eq .RelPermalink "/cards/" }}
-                 
-                        {{ partial "product/main-cards-list.html" . }}
+{{ define "main" }}
+<main>
+ 
+  
+  {{ partial "product/top-filter-buttons.html" . }}
 
-                     {{ else }}
-                     <br><br><br> <br><br><br>
+  
+  
 
-                     <div class="container">
-                        <hr class="prod-box-line">
-                        <br><br>
-                     <div class="row">
-                        {{ if eq .RelPermalink "/cards/confirmation/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "confirmation" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/communion/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "communion" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/baby/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "baby" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/family/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "family" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/house/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "house" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/irish/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "irish" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/wedding/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "wedding" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/condolence/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "condolence" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/engagement/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "engagement" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ else if eq .RelPermalink "/cards/christmas/" }}
-                        {{ $paginator := .Paginate (where .Site.Pages "Type" "cards") }}
-                        {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "christmas" }}
-                        {{ partial "product/product-thumbnail.html" . }}
-                        {{ end }}           
-                        {{ end }}
-                        {{ end }}
-                     </div>
-                     </div>
-                     {{ end }}
-                     
-                     
-                  </div>
-                  <!-- /.col-md-9 -->
-                  <!-- *** LEFT COLUMN END *** -->
-                  <!-- *** RIGHT COLUMN ***-->
-                  <div class="col-md-3">
-                     <!-- *** MENUS AND WIDGETS *** -->
-                     {{ partial "product/product-sidebar.html" . }}
-                     <!-- *** MENUS AND FILTERS END *** -->
-                  </div>
-                  <!-- /.col-md-3 -->
-                  <!-- *** RIGHT COLUMN END *** -->
-               </div>
-               <!-- /.row -->
-            </div>
-            {{ partial "testimonials.html" . }}
-            <!-- /.container -->
-         </div>
-         <!-- /#content -->
-         {{ partial "footer.html" . }}
-      </div>
-      <!-- /#all -->
-      {{ partial "scripts.html" . }}
-   </body>
-</html>
+  <section class="grid grid-main">
+    <aside class="normal-width-element">
+      {{ if eq .RelPermalink "/cards/" }}
+      {{$type :=""}}
+      {{ $section := site.GetPage "cards" }}
+      {{ range $section.Pages }}
+      {{ $type = .Type }}
+      {{ partial "product/list-section-heading.html" . }}
+      <ul class="grid grid-products padding-small text-center list-reset">
+        {{ range (where .Site.Pages "Type" "cards") }}
+        {{ if eq .Params.productType $type }}
+        {{ partial "product/productThumbnail.html" . }}
+        {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{else}}
+
+      {{$type :=""}}
+      {{ $type = .Type }}
+ 
+      <section class="grid grid-main">
+        <article class="normal-width-element">
+          {{ partial "product/list-section-heading.html" . }}
+          <ul class="grid grid-products padding-small text-center list-reset">
+            {{ range (where .Site.Pages "Type" "cards") }}
+            {{ if eq .Params.productType $type }}
+            {{ partial "product/productThumbnail.html" . }}
+            {{ end }}
+            {{ end }}
+          </ul>
+        </article>
+      </section>
+      {{end}}
+
+    </aside>
+  </section>
+
+
+
+</main>
+{{end}}

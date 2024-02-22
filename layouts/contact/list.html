@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main>
+  <section class="grid grid-main">
+    <article class="normal-width-element">
+      {{ partial "product/list-section-heading.html" . }}
+    </article>
+  </section>
+  <section class="grid grid-main">
+      <article class="normal-width-element margin-small">
+       <div id="contact-container" class="container color4-bg">
+        <form action="https://formspree.io/f/xayvlkqa" method="post">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          
+          <label for="email">Email</label>
+          <input type="email" autocomplete="email"  id="email" name="email" placeholder="Your email.." required>
+      
+          
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+       </div>
+      
+    
+
+  
+
+  
+</main>
+{{end}}

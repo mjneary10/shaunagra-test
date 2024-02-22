@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Personalised Frames Ireland | Gift Frames &amp; Cards</title>
-    <link>https://shaunagra-custom-frames.ie/blog/</link>
-    <description>Recent content in Blog on Personalised Frames Ireland | Gift Frames &amp; Cards</description>
+    <title>Blog on My New Hugo Site</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://shaunagra-custom-frames.ie/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Shauna Gra website revamp</title>
-      <link>https://shaunagra-custom-frames.ie/shauna-gra-website-revamp/</link>
-      <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://shaunagra-custom-frames.ie/shauna-gra-website-revamp/</guid>
-      <description>We have finally upgraded our website. Why? to make it easier to update, faster, and more mobile and user-friendly. We have also updated our product list with many new designs for frames. We now sell cards also, and the famous frame and card package is still available (purchase a frame and upgrade to include a card that is personalised to suite the frame and occasion).</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

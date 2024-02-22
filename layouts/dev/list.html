@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="grid">
+        <aside class="about non-full-width-element margin-main-t-b">
+            <p>Aside</p>
+        </aside>
+    </section>
+
+    <section class="grid">
+        <aside class="about inner-box-right">
+            Inner right
+        </aside>
+          
+        </aside>
+        <aside class="about inner-box-left">
+            Inner left
+        </aside>
+    </section>
+
+
+    <style>
+
+        .inner-box-left{
+            grid-column: 2/3;
+        }
+
+        .inner-box-right{
+            grid-column: 3/4;
+        }
+        .about,
+        .frames {
+            height: 200px;
+            background-color: green;
+            
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 20em)) 1fr;
+        }
+
+        .padding-main {
+            padding: 10px;
+        }
+
+        .non-full-width-element {
+            grid-column: 2/4;
+        }
+
+        .full-width-element {
+            grid-column: 1/5;
+        }
+
+        .margin-main-t-b {
+            margin: 30px 0;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

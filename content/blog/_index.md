@@ -1,5 +1,6 @@
 +++
-metaTitle = "Blog | Shauna Gra Personalised Frames And Cards"
+pageType = "normal"
+metaTitle = "Personalised Baby Cards | Shauna Gra Personalised Frames And Cards"
 title = "Blog"
-description = "Blog for Shauna Gra Personalised Frames And Cards."
+description = "This is our blog page. We will be updating it shortly."
 +++

@@ -1,0 +1,588 @@
+/* CSS here to get it working then clean it up at some stage *******************************************/
+
+/* Contact form */
+
+#contact-container input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:var(--color3);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:var(--color2);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+ 
+  padding: 20px;
+}
+
+/* -------------------- */
+
+
+
+
+
+hr{
+  margin: 0;
+}
+.filter-buttons{
+  display: block;
+  border: 1px solid;
+  margin: 5px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+a.filter-buttons {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.filter-buttons:hover{
+  background-color: rgb(237, 218, 233);
+  text-decoration: none;
+}
+.active-filter{
+  background-color: rgb(237, 218, 233);
+}
+
+.grid-top-nav{
+ display: flex;
+ 
+}
+.logo4{
+  grid-column: 1/2;
+  grid-row: 1;
+  justify-self: flex-start;
+}
+.cart{
+  justify-self: center;
+  grid-column: 2/3;
+  grid-row: 1;
+  
+}
+
+.mainNav4{
+  grid-column: 1/5;
+  grid-row: 2;
+  text-align: center;
+  display: none;
+ 
+}
+
+.toggle{
+  display: block;
+}
+
+.mainNav4 ul li{
+  width: 100%;
+  
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.burger{
+  grid-column: 3/4;
+  grid-row: 1;
+  text-align: right;
+}
+
+.burger{
+  justify-self: flex-end;
+  margin: 5px;
+  border: 1px solid;
+}
+
+.burger-bar{
+  width: 40px;
+  height: 2px;
+  background-color: #faa25b;
+  margin: 5px;
+}
+
+
+
+
+
+
+@media screen and (min-width:600px) {
+  .grid-top-nav {
+    grid-template-columns: 1fr minmax(30em, 50em) 1fr;
+}
+
+.container{
+  width: 50%;
+}
+
+.filter-list{
+  display: flex;
+}
+
+.cart {
+    justify-self: right;
+    grid-column: 4/5;
+    grid-row: 1;
+    width: 20px;
+    height: 20px;
+   
+}
+
+.burger {
+    display: none;
+}
+
+.mainNav4 {
+    grid-column: 2/3;
+    grid-row: 1;
+    display: block;
+   
+}
+
+.mainNav4 ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mainNav4 ul li {
+    width: 10%;
+    text-align: center;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS here to get it working then clean it up at some stage *******************************************/
+/* CSS reset items */
+
+:root {
+  --color1: #faecec;
+  --color2: #f8dfef;
+  --color3: #f1e4e4;
+  --color4: #aedbed;
+}
+
+body {
+  font-family: roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #898388;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+h1{
+  font-size: 1.5em;
+  border-bottom: solid 5px #faa25b;
+}
+h2{
+  font-size: 1.25em;
+  border-bottom: solid 1px #faa25b;
+}
+h3{
+  font-size: 1em;
+  border-bottom: solid 1px #faa25b;
+}
+
+/* unvisited link */
+a:link {
+  color:#e77c30;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #e77c30;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e77c30;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #e77c30;
+  text-decoration: underline;
+}
+
+
+.color1-bg{
+  background-color: var(--color1);
+}
+
+.color2-bg{
+  background-color: var(--color2);
+}
+
+
+.color3-bg{
+  background-color: var(--color3);
+}
+
+
+.color4-bg{
+  background-color: var(--color4);
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.list-reset {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Other items */
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  font-size: 1em;
+}
+
+.btn a {
+  text-decoration: none
+}
+
+/* Grid items */
+
+.grid {
+  display: grid;
+}
+
+.grid-top-nav {
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.grid-footer {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-prod-page {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+
+/* Flex items */
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.flex-space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-start {
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  }
+
+  .flex-end {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+  }
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* Margin items */
+
+.margin-large-t-b {
+  margin: 100px 0;
+}
+
+.margin-large-bottom {
+  margin-bottom: 100px;
+}
+
+.margin-small {
+  margin: 10px;
+}
+
+/* Padding items */
+
+.padding-large {
+  padding: 100px 10px 100px 10px;
+}
+.padding-large-t-b{
+  padding: 100px 0;;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+/* Alignment items */
+
+.text-center {
+  text-align: center;
+}
+
+/* Border items */
+
+.border-round-edge {
+  border: 1px solid #ffe066;
+  border-radius: 10px;
+}
+
+.border-top {
+  border-top: 1px solid #ffe066;
+}
+
+/* Product related items */
+
+.grid-products {
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.price {
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: red;
+}
+ .cta {
+ 
+}
+
+
+.product-images {
+  grid-row: 1;
+}
+
+.product-thumbs {
+  gap: 10px;
+  grid-row: 2;
+  overflow: scroll;
+ 
+}
+
+.product-custom-boxes {
+  width: 100%;
+
+}
+.product-custom-boxes td{
+  background-color: white;
+}
+.product-custom-boxes a:hover{
+text-decoration: none;
+}
+
+
+
+.buyNowButton {
+  background-color: #ed9f9d;
+  color: #fff;
+}
+
+.mySlides {
+  display: none;
+}
+.mySlides:first-child{
+  display: block;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+ 
+  background-color: rgb(241, 198, 157);
+  cursor: pointer;
+  position: absolute;
+  top: 380px;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(210, 161, 161, 0.8);
+}
+
+.numbertext {
+  color: black;
+  background-color: rgb(241, 198, 157);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 100;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width:600px) {
+
+  .grid-main {
+    grid-template-columns: 1fr repeat(2, minmax(auto, 42em)) 1fr;
+  }
+
+  .normal-width-element {
+    grid-column: 2/4;
+  }
+
+  .full-width-element {
+    grid-column: 1/5;
+  }
+
+  .inner-block-left {
+    grid-column: 2/3;
+  }
+
+  .inner-block-right {
+    grid-column: 3/4;
+  }
+
+  .padding-large {
+    padding: 100px;
+  }
+
+  .grid-top-nav {
+    grid-template-columns: 1fr minmax(30em, 50em) 1fr;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .grid-prod-page {
+    grid-template-columns: 8em 6fr 3fr;
+    grid-template-rows:max-content
+  }
+
+  .product-thumbs {
+    grid-column: 1/2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    height: 616px;
+  }
+
+  .product-info {
+    grid-column: 1/3;
+  }
+
+.product-images{
+  position: relative;
+}
+}
+
+  /* ---------wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww-------------------------- */
+  .test-color {
+    background-color: rgb(35, 138, 229);
+  }
+
+  .inner-block-left {
+   
+  }
+
+ 
