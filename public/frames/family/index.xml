@@ -2,61 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personalised Family Frames on My New Hugo Site</title>
-    <link>http://example.org/frames/family/</link>
+    <link>https://shaunagra-custom-frames.ie/frames/family/</link>
     <description>Recent content in Personalised Family Frames on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/frames/family/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Family Pebble Art Frame Trees</title>
-      <link>http://example.org/frames/family/family-pebble-art-frame-trees/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/frames/family/family-pebble-art-frame-trees/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://shaunagra-custom-frames.ie/frames/family/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Family tree photo frame atlas</title>
-      <link>http://example.org/frames/family/family-tree-photo-frame-atlas/</link>
+      <link>https://shaunagra-custom-frames.ie/frames/family/family-tree-photo-frame-atlas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/frames/family/family-tree-photo-frame-atlas/</guid>
+      <guid>https://shaunagra-custom-frames.ie/frames/family/family-tree-photo-frame-atlas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personalised family tree frame</title>
-      <link>http://example.org/frames/family/personalised-family-tree-frame/</link>
+      <link>https://shaunagra-custom-frames.ie/frames/family/personalised-family-tree-frame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/frames/family/personalised-family-tree-frame/</guid>
+      <guid>https://shaunagra-custom-frames.ie/frames/family/personalised-family-tree-frame/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personalised Grandparents Family Tree Gift Frame</title>
-      <link>http://example.org/frames/family/personalised-grandparents-family-tree-gift-frame/</link>
+      <link>https://shaunagra-custom-frames.ie/frames/family/personalised-grandparents-family-tree-gift-frame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/frames/family/personalised-grandparents-family-tree-gift-frame/</guid>
+      <guid>https://shaunagra-custom-frames.ie/frames/family/personalised-grandparents-family-tree-gift-frame/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personalized name frames hearts blue</title>
-      <link>http://example.org/frames/family/personalized-name-frames-hearts-blue/</link>
+      <link>https://shaunagra-custom-frames.ie/frames/family/personalized-name-frames-hearts-blue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/frames/family/personalized-name-frames-hearts-blue/</guid>
+      <guid>https://shaunagra-custom-frames.ie/frames/family/personalized-name-frames-hearts-blue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unique present ideas frame black silver</title>
-      <link>http://example.org/frames/family/unique-present-ideas-frame-black-silver/</link>
+      <link>https://shaunagra-custom-frames.ie/frames/family/unique-present-ideas-frame-black-silver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/frames/family/unique-present-ideas-frame-black-silver/</guid>
+      <guid>https://shaunagra-custom-frames.ie/frames/family/unique-present-ideas-frame-black-silver/</guid>
       <description></description>
     </item>
     

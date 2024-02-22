@@ -5,61 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+  
     
     <style type="text/CSS">
-        html{font-family:sans-serif;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{padding:0;margin:0}h1{margin:50px 0 60px;padding:10px;font-size:2em;color:grey;border-bottom:5px solid #f08c00;text-transform:uppercase;text-align:center}h2{text-align:center}.grid4{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center}a{color:#f08c00;text-decoration:none}a:hover{text-decoration:underline;transition-delay:.5s}p{text-align:justify;text-align:center;padding:10px;margin:0}.btn{padding:px;margin:5px;text-decoration:none;color:orange;border:1px solid orange;background-color:#fff;text-transform:uppercase}.btn:hover{background-color:orange;color:#fff}.logo4{grid-column:1/2;justify-self:flex-start}.cart4{justify-self:center;grid-column:2/3;grid-row:1;text-align:center}.burger{display:inline;grid-column:3/4;grid-row:1;justify-self:flex-end;width:3em;height:3em;text-align:center}.mainNav4{grid-column:1/4;display:none}.mainNav4 ul{padding:0;margin:0;list-style-type:none}.mainNav4.toggle{display:block}.mainNav4 ul li{width:100%}.mainNav4 ul li a{display:block;text-decoration:none;border-bottom:1px solid #fff}.mainNav4 ul li a:hover{border-bottom:1px solid}.top-links{border-top:1px dotted grey;border-bottom:1px dotted grey}.offer-1,.offer-2{display:flex;justify-content:center;align-items:center}.offer-1{border-bottom:1px solid}footer{background-color:#faebd7;border-top:1px solid}.about,.links,.contact-footer,.signup-footer{border:1px solid}.links ul{list-style-type:none;border:0;padding:0}.footer-top,.footer-bottom>*{text-align:center}@media screen and (min-width:600px){.grid{display:grid;grid-template-columns:1fr repeat(2,minmax(auto,42em))1fr}p{text-align:left}.offer-1{justify-content:flex-start;border-bottom:0}.offer-2{justify-content:flex-end}.offer-1{grid-column:2/3}.offer-2{grid-column:3/4}.breadcrumbs-content,.footer-top,.footer-bottom,.grid4{grid-column:2/4}.grid4{grid-template-columns:1fr minmax(30em,50em)1fr}.cart4{justify-self:right;grid-column:3/4}.burger{display:none}.mainNav4{grid-column:2/3;display:block;width:100%;justify-self:center}.mainNav4 ul{display:flex;justify-content:space-around;padding:0;list-style-type:none}.mainNav4 ul li{width:19%;text-align:center}.footer-top,.footer-bottom{display:flex}.footer-top>*{width:25%}.footer-bottom{align-content:space-between}} 
-    </style>
+      #contact-container input[type=text],select,textarea{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}input[type=submit]{width:100%;background-color:var(--color3);padding:12px 20px;border:none;border-radius:4px;cursor:pointer}input[type=submit]:hover{background-color:var(--color2)}.container{margin-left:auto;margin-right:auto;border-radius:5px;padding:20px}hr{margin:0}.filter-buttons{display:block;border:1px solid;margin:5px;padding:2px;text-align:center;border-radius:5px}a.filter-buttons{text-decoration:none;text-transform:uppercase}a.filter-buttons:hover{background-color:#eddae9;text-decoration:none}.active-filter{background-color:#eddae9}.grid-top-nav{display:flex}.logo4{grid-column:1/2;grid-row:1;justify-self:flex-start}.cart{justify-self:center;grid-column:2/3;grid-row:1}.mainNav4{grid-column:1/5;grid-row:2;text-align:center;display:none}.toggle{display:block}.mainNav4 ul li{width:100%;margin-bottom:5px;padding:5px}.burger{grid-column:3/4;grid-row:1;text-align:right}.burger{justify-self:flex-end;margin:5px;border:1px solid}.burger-bar{width:40px;height:2px;background-color:#faa25b;margin:5px}@media screen and (min-width:600px){.grid-top-nav{grid-template-columns:1fr minmax(30em,50em)1fr}.container{width:50%}.filter-list{display:flex}.cart{justify-self:right;grid-column:4/5;grid-row:1;width:20px;height:20px}.burger{display:none}.mainNav4{grid-column:2/3;grid-row:1;display:block}.mainNav4 ul{display:flex;justify-content:space-around;padding:0;list-style-type:none}.mainNav4 ul li{width:10%;text-align:center}}:root{--color1:#faecec;--color2:#f8dfef;--color3:#f1e4e4;--color4:#aedbed}body{font-family:roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.42857143;color:#898388;text-align:center}h1,h2,h3,h4{text-transform:uppercase;letter-spacing:.06em}h1{font-size:1.5em;border-bottom:solid 5px #faa25b}h2{font-size:1.25em;border-bottom:solid 1px #faa25b}h3{font-size:1em;border-bottom:solid 1px #faa25b}a:link{color:#e77c30;text-decoration:none}a:visited{color:#e77c30}a:hover{color:#e77c30;text-decoration:underline}a:active{color:#e77c30;text-decoration:underline}.color1-bg{background-color:var(--color1)}.color2-bg{background-color:var(--color2)}.color3-bg{background-color:var(--color3)}.color4-bg{background-color:var(--color4)}body{padding:0;margin:0}.list-reset{list-style-type:none;padding:0;margin:0}.img-responsive{width:100%;height:auto}.btn{display:block;padding:10px;border-radius:5px;text-align:center;margin:10px;font-size:1em}.btn a{text-decoration:none}.grid{display:grid}.grid-top-nav{grid-template-columns:1fr 1fr 1fr;align-items:center}.grid-footer{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}.grid-prod-page{grid-template-columns:1fr;grid-template-rows:auto auto auto}.flex{display:flex}.flex-center{display:flex;justify-content:center;align-items:center}.flex-space-between{display:flex;justify-content:space-between;align-items:center}.flex-start{display:flex;justify-content:flex-start;align-items:center}.flex-end{display:flex;justify-content:flex-end;align-items:center}.flex-column{flex-direction:column}.margin-large-t-b{margin:100px 0}.margin-large-bottom{margin-bottom:100px}.margin-small{margin:10px}.padding-large{padding:100px 10px}.padding-large-t-b{padding:100px 0}.padding-small{padding:10px}.text-center{text-align:center}.border-round-edge{border:1px solid #ffe066;border-radius:10px}.border-top{border-top:1px solid #ffe066}.grid-products{gap:20px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.price{margin-top:auto;font-weight:700;font-size:1.5em;color:red}.cta{}.product-images{grid-row:1}.product-thumbs{gap:10px;grid-row:2;overflow:scroll}.product-custom-boxes{width:100%}.product-custom-boxes td{background-color:#fff}.product-custom-boxes a:hover{text-decoration:none}.buyNowButton{background-color:#ed9f9d;color:#fff}.mySlides{display:none}.mySlides:first-child{display:block}.cursor{cursor:pointer}.prev,.next{background-color:#f1c69d;cursor:pointer;position:absolute;top:380px;width:auto;padding:16px;margin-top:-50px;color:#000;font-weight:700;font-size:20px;border-radius:0 3px 3px 0;user-select:none;-webkit-user-select:none}.next{right:0;border-radius:3px 0 0 3px}.prev{left:0}.prev:hover,.next:hover{background-color:rgba(210,161,161,.8)}.numbertext{color:#000;background-color:#f1c69d;font-size:12px;padding:8px 12px;position:absolute;top:100}.caption-container{text-align:center;background-color:#222;padding:2px 16px;color:#fff}.row:after{content:"";display:table;clear:both}.demo{opacity:.6}.active,.demo:hover{opacity:1}@media screen and (min-width:600px){.grid-main{grid-template-columns:1fr repeat(2,minmax(auto,42em))1fr}.normal-width-element{grid-column:2/4}.full-width-element{grid-column:1/5}.inner-block-left{grid-column:2/3}.inner-block-right{grid-column:3/4}.padding-large{padding:100px}.grid-top-nav{grid-template-columns:1fr minmax(30em,50em)1fr}.burger{display:none}.grid-prod-page{grid-template-columns:8em 6fr 3fr;grid-template-rows:max-content}.product-thumbs{grid-column:1/2;grid-row:1;display:flex;flex-direction:column;height:616px}.product-info{grid-column:1/3}.product-images{position:relative}}.test-color{background-color:#238ae5}.inner-block-left{} 
+      </style>
+  
+    <script src="/js/myJs.js"></script>
 
-    
-    <style type="text/CSS">
-        .full-width-element{background-color:bisque;padding-top:30px;padding-bottom:60px;margin-bottom:70px}.img-responsive{padding:0;margin:0;width:100%;height:auto}.welcome,.intro-image{display:flex;justify-content:center;align-items:center}button{margin:5px}.welcome{margin-bottom:60px}.welcome,.intro-image{flex-direction:column}.intro-image{margin-bottom:80px}@media screen and (min-width:600px){h1{margin:0}.welcome{grid-column:2/3}.welcome-image{grid-column:3/4}.welcome{margin-bottom:0}.intro,.baby-frames-intro,.baby-frames-thumbs,.top-content{grid-column:2/4}.banner{grid-column:1/5}.intro{grid-gap:20px;text-align:center;margin-top:100px;margin-bottom:100px}.intro-image{margin-bottom:0}.full-width-element{padding-top:100px;padding-bottom:100px}}
-    </style>
-
-    
-    <style type="text/CSS">
-        .listing li{display:flex;flex-direction:column;justify-content:center;align-items:center}.listing{list-style:none;display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));padding:10px;margin:0;text-align:center}.listing li{border:1px solid #ffe066;border-radius:10px;margin-bottom:60px}.listing .cta{border-top:1px solid #ffe066;padding:10px;text-align:center}.listing .body{padding:10px}.listing .body:a{font-size:20px}.price{margin-top:auto;font-weight:700;font-size:1.5em;color:red}.product-grid{display:grid;grid-template-columns:1fr;grid-template-rows:auto auto auto}h2.product-title{text-transform:uppercase}.product-images{grid-row:1}.product-thumbs{gap:10px;grid-row:2;display:flex;flex-direction:row;overflow:scroll}.product-details{text-align:left;background-color:#fcf5f5}.product-custom-boxes{width:100%;background-color:#fff;margin-bottom:10px}.product-custom-boxes td{background-color:#fff;border:5px solid #fcf5f5;padding:7px;text-align:left}.buyNowButton{display:block;padding:10px;border-radius:5px;background-color:#ed9f9d;color:#fff;text-align:center;margin:10px;font-size:1em}.buyNowButton a{text-decoration:none}.mySlides{display:none}.cursor{cursor:pointer}.prev,.next{color:#000;background-color:red;cursor:pointer;position:absolute;top:320px;width:auto;padding:16px;margin-top:-50px;color:#fff;font-weight:700;font-size:20px;border-radius:0 3px 3px 0;user-select:none;-webkit-user-select:none}.next{right:0;border-radius:3px 0 0 3px}.prev:hover,.next:hover{background-color:rgba(0,0,0,.8)}.numbertext{color:#f2f2f2;background-color:red;font-size:12px;padding:8px 12px;position:absolute;top:100}.caption-container{text-align:center;background-color:#222;padding:2px 16px;color:#fff}.row:after{content:"";display:table;clear:both}.demo{opacity:.6}.active,.demo:hover{opacity:1}@media screen and (min-width:600px){h1{margin:0}h2.product-title{text-align:left}.list-content{grid-column:2/4}.product-content{grid-column:2/4}.product-grid{display:grid;grid-template-columns:8em 6fr 3fr;grid-template-rows:38.5em}.product-thumbs{grid-column:1/2;grid-row:1;display:flex;flex-direction:column}.product-info{grid-column:1/3}}
-    </style>
-
-   <script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = slides.length }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
-  captionText.innerHTML = dots[slideIndex - 1].alt;
-}
-
-   </script>
-
-</head>
+  </head>
 
 <body>
-    
-    
+  
+  
 <script>
   window.SnipcartSettings = {
     publicApiKey: "MmUxNWY3MTctOGRmMS00NmVmLTgxZGYtNGNiMTkyNjMyNGFjNjM2NjYyMjQxNjYzNTExNzIz",
@@ -70,101 +28,279 @@ function showSlides(n) {
 </script>
 
 <header>
-  <section class="grid top-offers">
-    <aside class="offer-1">
-      <p>Members discounts and special offers</p>
-      <a href="/signUp/" class="btn">Sign Up Now</a>
+  <section class="grid grid-main">
+    <aside class="inner-block-left flex-center">
+      <p>Fast worldwide shipping</p>
+      
     </aside>
-    <aside class="offer-2">
+
+    <aside class="inner-block-right flex-center">
       <p>Order lead time is 3 weeks</p>
     </aside>
   </section>
-  <div class="grid top-links">
-    <section class="grid4">
-      <a href="/%20/">
-        <div class="logo4"><img src="/img/logo.webp" alt=""></div>
-      </a>
-      <nav class="mainNav4" id="myTopnav">
-        <ul>
-          <li><a href="/frames/">Frames</a></li>
-          <li><a href="/cards/">Cards</a></li>
-          <li><a href="/prints/">Prints</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/reviews/">Reviews</a></li>
-          <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="cart4"><img src="/img/logo.webp" alt=""></div>
-      <a href="javascript:void(0);" class="burger" onclick="myFunction()"><img src="img/logo.webp" alt=""></a>
-    </section>
-  </div>
-  <section class="grid breadcrumbs">
-    <aside class="breadcrumbs-content">
-      <a href="/">Home</a>
-    </aside>
-  </section>
-</header>
-
-    
-
-    
-<main>
-  <section class="grid full-width-element">
-    <aside class="baby-frames-intro">
-      <h1>Personalised cards</h1>
-      <section class="grid">
-        <article class="list-content">
-          <p>Welcome to our handmade personalised cards page. We can design and create cards for all occasions. I am particularly drawn to making extra special Engagement Cards, Wedding Cards and Baby Cards. I also make birthday cards, pet loss cards too, you name it, we can create it. The beauty of my cards is that I can translate them for you in to the Irish Language if you require. So, if you are looking for something extra special, please contact me. I am concious of the beautiful island we live on so I try as much as possible to use recycled card, and reuse bubble wrap and cardboard too! This is saving our planet and also saving my customers pockets too on cutting down on useless waste.</p>
-        </article>
-      </section>
-    </aside>
-  </section>
-
- 
-
-  <section class="grid">
-    
-    <aside class="baby-frames-intro">
-      
-      
-      
-      
-      
-            
-            <hr>
-            <h2>Personalised baby cards</h2>
-            <hr>
-            Are you looking for a new baby card that is personalised for a girl or a boy or unisex, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake baby card. Don’t forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/christening-card-personalised-goddaughter-godson-twins/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins.webp">
+<hr>
+  <section class="grid grid-main">
+    <section class="normal-width-element">
+     
+        <section class="grid grid-top-nav">
           
-          <img
-            src="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins.png"
-            srcset="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins.png"
-            alt="Christening card personalised goddaughter godson twins"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/christening-card-personalised-goddaughter-godson-twins/">
-        Christening card personalised goddaughter godson twins
-      </a>
+            <div class="logo4">
+              <a href="/">
+              <img src="/img/logo.webp" alt="">
+            </a>
+            </div>
+       
+          <nav class="mainNav4" id="myTopnav">
+            <ul class="list-reset">
+              <li><a href="/frames/">Frames</a></li>
+              <li><a href="/cards/">Cards</a></li>
+              <li><a href="/prints/">Prints</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/reviews/">Reviews</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <a title="Shopping Cart" href="#" class="snipcart-checkout">
+
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" alt="" title=""
+                class="snipcart-cart-header__icon snipcart__icon">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587H15.31l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.285 9.883V20.47h6.572v3.294h-6.572z"
+                  fill="currentColor"></path>
+              </svg>
+             
+            </a>
+          </div>
+         
+            <div class="burger">
+              <a href="javascript:void(0);"  onclick="myFunction()">
+              <div class="burger-bar"></div>
+              <div class="burger-bar"></div>
+              <div class="burger-bar"></div>
+            </a>
+            </div>
+        
+        </section>
+      </div> 
+    </section>
+  </section>
+<hr>
+  <section class="grid grid-main">
+    <aside class="normal-width-element padding-small">
+      <div id="breadcrumbs-nav">
+        <a href="/">Home</a>
+        
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+                / <a href="/cards/">Cards</a>
+            
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+        
     </div>
+   
+    </aside>
+  </section>
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
+</header>
+  
+
+  
+<main>
+ 
+  
+  <section class="grid grid-main">
+   <div class="normal-width-element">
+      <ul class="list-reset filter-list">
+
+         
+         
+         
+         
+         
+         
+         <li><a href="/cards/baby" 
+            
+            class="filter-buttons">baby</a></li>			    
+         
+         
+         
+         <li><a href="/cards/christmas" 
+            
+            class="filter-buttons">christmas</a></li>			    
+         
+         
+         
+         <li><a href="/cards/communion" 
+            
+            class="filter-buttons">communion</a></li>			    
+         
+         
+         
+         <li><a href="/cards/condolence" 
+            
+            class="filter-buttons">condolence</a></li>			    
+         
+         
+         
+         <li><a href="/cards/confirmation" 
+            
+            class="filter-buttons">confirmation</a></li>			    
+         
+         
+         
+         <li><a href="/cards/engagement" 
+            
+            class="filter-buttons">engagement</a></li>			    
+         
+         
+         
+         <li><a href="/cards/irish" 
+            
+            class="filter-buttons">irish</a></li>			    
+         
+         
+         
+         <li><a href="/cards/wedding" 
+            
+            class="filter-buttons">wedding</a></li>			    
+         
+                 
+         
+                
+      </ul>
+   </div>
+</section>
+
+  
+  
+
+  <section class="grid grid-main">
+    <aside class="normal-width-element">
       
+      
+      
+      
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised baby cards</h3>
+    Are you looking for a new baby card that is personalised for a girl or a boy or unisex, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake baby card. Don&#39;t forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/christening-card-personalised-goddaughter-godson-twins/">
+      <picture>
+        <source srcset="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins-medium.webp">
+        
+        <img src="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins-medium.png" srcset="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins-medium.png"
+          alt="Christening card personalised goddaughter godson twins" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/christening-card-personalised-goddaughter-godson-twins/">
+      Christening card personalised goddaughter godson twins
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
 
 
 
@@ -174,9 +310,9 @@ data-item-weight="100"
 data-item-name="Christening card personalised goddaughter godson twins"
 data-item-image="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/christening-card-personalised-goddaughter-godson-twins.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/christening-card-personalised-goddaughter-godson-twins/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/christening-card-personalised-goddaughter-godson-twins/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -216,7 +352,11 @@ data-item-url="http://example.org/cards/baby/christening-card-personalised-godda
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -225,39 +365,35 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls.webp">
-          
-          <img
-            src="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls.png"
-            srcset="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls.png"
-            alt="Cute personalised newborn twins card for boys or girls"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/">
-        Cute personalised newborn twins card for boys or girls
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/">
+      <picture>
+        <source srcset="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls-medium.webp">
+        
+        <img src="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls-medium.png" srcset="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls-medium.png"
+          alt="Cute personalised newborn twins card for boys or girls" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/">
+      Cute personalised newborn twins card for boys or girls
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -267,9 +403,9 @@ data-item-weight="100"
 data-item-name="Cute personalised newborn twins card for boys or girls"
 data-item-image="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/cute-personalised-newborn-twins-card-for-boys-or-girls.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -309,7 +445,11 @@ data-item-url="http://example.org/cards/baby/cute-personalised-newborn-twins-car
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -318,35 +458,126 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english.webp">
-          
-          <img
-            src="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english.png"
-            srcset="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english.png"
-            alt="Newborn personalised baby card with teddies Irish or English"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/">
-        Newborn personalised baby card with teddies Irish or English
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/new-baby-boy-girl-washing-line-card/">
+      <picture>
+        <source srcset="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card-medium.webp">
+        
+        <img src="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card-medium.png" srcset="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card-medium.png"
+          alt="New baby boy girl washing line card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/new-baby-boy-girl-washing-line-card/">
+      New baby boy girl washing line card
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="New baby boy girl washing line card"
+data-item-weight="100"
+data-item-name="New baby boy girl washing line card"
+data-item-image="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/new-baby-boy-girl-washing-line-card/"
+
+ data-item-custom1-name="Baby&#39;s first name only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Boy or girl?"
+
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Date format"
+ data-item-custom3-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Date in above format"
+
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="Parents names"
+
+ data-item-custom5-required="true"
+
+ data-item-custom6-name="Card options"
+ data-item-custom6-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom6-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/">
+      <picture>
+        <source srcset="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english-medium.webp">
+        
+        <img src="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english-medium.png" srcset="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english-medium.png"
+          alt="Newborn personalised baby card with teddies Irish or English" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/">
+      Newborn personalised baby card with teddies Irish or English
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
 
 
 
@@ -356,9 +587,9 @@ data-item-weight="100"
 data-item-name="Newborn personalised baby card with teddies Irish or English"
 data-item-image="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -398,7 +629,11 @@ data-item-url="http://example.org/cards/baby/newborn-personalised-baby-card-with
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -407,35 +642,33 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers.webp">
-          
-          <img
-            src="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers.png"
-            srcset="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers.png"
-            alt="Personalised boy or girl christening card church and flowers"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/">
-        Personalised boy or girl christening card church and flowers
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers-medium.png" srcset="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers-medium.png"
+          alt="Personalised boy or girl christening card church and flowers" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/">
+      Personalised boy or girl christening card church and flowers
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -445,9 +678,9 @@ data-item-weight="100"
 data-item-name="Personalised boy or girl christening card church and flowers"
 data-item-image="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/personalised-boy-or-girl-christening-card-church-and-flowers.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-boy-or-girl-christening-card-church-and-flowers/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -487,7 +720,11 @@ data-item-url="http://example.org/cards/baby/personalised-boy-or-girl-christenin
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -496,35 +733,33 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl.webp">
-          
-          <img
-            src="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl.png"
-            srcset="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl.png"
-            alt="Personalised christening card floral cross boy or girl"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/">
-        Personalised christening card floral cross boy or girl
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl-medium.png" srcset="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl-medium.png"
+          alt="Personalised christening card floral cross boy or girl" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/">
+      Personalised christening card floral cross boy or girl
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -534,9 +769,9 @@ data-item-weight="100"
 data-item-name="Personalised christening card floral cross boy or girl"
 data-item-image="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -576,7 +811,11 @@ data-item-url="http://example.org/cards/baby/personalised-christening-card-flora
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -585,37 +824,39 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/personalised-new-baby-boy-girl-cards-elephants/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants.webp">
-          
-          <img
-            src="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants.png"
-            srcset="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants.png"
-            alt="Personalised new baby boy girl cards elephants"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/personalised-new-baby-boy-girl-cards-elephants/">
-        Personalised new baby boy girl cards elephants
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-boy-girl-cards-elephants/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants-medium.png" srcset="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants-medium.png"
+          alt="Personalised new baby boy girl cards elephants" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-boy-girl-cards-elephants/">
+      Personalised new baby boy girl cards elephants
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -625,9 +866,9 @@ data-item-weight="100"
 data-item-name="Personalised new baby boy girl cards elephants"
 data-item-image="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/personalised-new-baby-boy-girl-cards-elephants/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-boy-girl-cards-elephants/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -667,7 +908,11 @@ data-item-url="http://example.org/cards/baby/personalised-new-baby-boy-girl-card
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -676,35 +921,31 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor.webp">
-          
-          <img
-            src="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor.png"
-            srcset="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor.png"
-            alt="Personalised new baby card boy or girl cute elephants watercolor"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/">
-        Personalised new baby card boy or girl cute elephants watercolor
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor-medium.png" srcset="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor-medium.png"
+          alt="Personalised new baby card boy or girl cute elephants watercolor" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/">
+      Personalised new baby card boy or girl cute elephants watercolor
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -714,9 +955,9 @@ data-item-weight="100"
 data-item-name="Personalised new baby card boy or girl cute elephants watercolor"
 data-item-image="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-watercolor/"
 
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -756,7 +997,11 @@ data-item-url="http://example.org/cards/baby/personalised-new-baby-card-boy-or-g
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -765,35 +1010,209 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies.webp">
-          
-          <img
-            src="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies.png"
-            srcset="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies.png"
-            alt="Personalised twins christening card cute babies and teddies"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/">
-        Personalised twins christening card cute babies and teddies
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/personalised-new-baby-card-rocking-horse-boy-or-girl-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/personalised-new-baby-card-rocking-horse-boy-or-girl-medium.png" srcset="/img/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/personalised-new-baby-card-rocking-horse-boy-or-girl-medium.png"
+          alt="Personalised new baby card rocking horse boy or girl" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/">
+      Personalised new baby card rocking horse boy or girl
+    </a>
+  </div>
+  <p class="price">&euro;7.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised new baby card rocking horse boy or girl"
+data-item-weight="100"
+data-item-name="Personalised new baby card rocking horse boy or girl"
+data-item-image="/img/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/personalised-new-baby-card-rocking-horse-boy-or-girl.webp"
+data-item-price="7.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/"
+
+ data-item-custom1-name="Baby&#39;s first name only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Boy or girl?"
+
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Date format"
+ data-item-custom3-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Date in above format"
+
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="Card options"
+
+ data-item-custom5-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/personalised-new-parents-card-for-new-baby-with-teddy-bear-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/personalised-new-parents-card-for-new-baby-with-teddy-bear-medium.png" srcset="/img/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/personalised-new-parents-card-for-new-baby-with-teddy-bear-medium.png"
+          alt="Personalised new parents card for new baby with teddy bear" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/">
+      Personalised new parents card for new baby with teddy bear
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised new parents card for new baby with teddy bear"
+data-item-weight="100"
+data-item-name="Personalised new parents card for new baby with teddy bear"
+data-item-image="/img/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/personalised-new-parents-card-for-new-baby-with-teddy-bear.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-bear/"
+
+ data-item-custom1-name="Baby&#39;s first name only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Boy or girl?"
+
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Date format"
+ data-item-custom3-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Date in above format"
+
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="Parents names"
+
+ data-item-custom5-required="true"
+
+ data-item-custom6-name="Card options"
+ data-item-custom6-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom6-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/">
+      <picture>
+        <source srcset="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies-medium.webp">
+        
+        <img src="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies-medium.png" srcset="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies-medium.png"
+          alt="Personalised twins christening card cute babies and teddies" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/">
+      Personalised twins christening card cute babies and teddies
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
 
 
 
@@ -803,112 +1222,9 @@ data-item-weight="100"
 data-item-name="Personalised twins christening card cute babies and teddies"
 data-item-image="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/personalised-twins-christening-card-cute-babies-and-teddies.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/baby/personalised-twins-christening-card-cute-babies-and-teddies/"
 
- data-item-custom1-name="Baby's first name only"
-
- data-item-custom1-required="true"
-
- data-item-custom2-name="Boy or girl?"
-
- data-item-custom2-required="true"
-
- data-item-custom3-name="Date format"
- data-item-custom3-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
- data-item-custom3-required="true"
-
- data-item-custom4-name="Date in above format"
-
- data-item-custom4-required="true"
-
- data-item-custom5-name="Parents names"
-
- data-item-custom5-required="true"
-
- data-item-custom6-name="Card options"
- data-item-custom6-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
- data-item-custom6-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/baby/new-baby-boy-girl-washing-line-card/">
-        <picture>
-          <source
-            srcset="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card.webp">
-          
-          <img
-            src="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card.png"
-            srcset="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card.png"
-            alt="New baby boy girl washing line card"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/baby/new-baby-boy-girl-washing-line-card/">
-        New baby boy girl washing line card
-      </a>
-    </div>
-    
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="New baby boy girl washing line card"
-data-item-weight="250"
-data-item-name="New baby boy girl washing line card"
-data-item-image="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-washing-line-card.webp"
-data-item-price="5.95"
-data-item-url="http://example.org/cards/baby/new-baby-boy-girl-washing-line-card/"
-
- data-item-custom1-name="Baby's first name only"
+ data-item-custom1-name="Baby&#39;s first name only"
 
  data-item-custom1-required="true"
 
@@ -948,7 +1264,11 @@ data-item-url="http://example.org/cards/baby/new-baby-boy-girl-washing-line-card
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -957,112 +1277,139 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
       
-            
-            <hr>
-            <h2>Personalised christmas cards</h2>
-            <hr>
-            Are you looking for a perfect christmas card, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake christmas card.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/">
-        <picture>
-          <source
-            srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit.webp">
-          
-          <img
-            src="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit.png"
-            srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit.png"
-            alt="Irish language christmas cards pack of 5 nollaig shona duit"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/">
-        Irish language christmas cards pack of 5 nollaig shona duit
-      </a>
-    </div>
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised christmas cards</h3>
+    Are you looking for a perfect christmas card, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake christmas card.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/">
+      <picture>
+        <source srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit-medium.webp">
+        
+        <img src="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit-medium.png" srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit-medium.png"
+          alt="Irish language christmas cards pack of 5 nollaig shona duit" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/">
+      Irish language christmas cards pack of 5 nollaig shona duit
+    </a>
+  </div>
+  <p class="price">&euro;20</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;20</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -1072,7 +1419,7 @@ data-item-weight="250"
 data-item-name="Irish language christmas cards pack of 5 nollaig shona duit"
 data-item-image="/img/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit.webp"
 data-item-price="20"
-data-item-url="http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-5-nollaig-shona-duit/"
 
  data-item-custom1-name="Family surname"
 
@@ -1114,7 +1461,11 @@ data-item-url="http://example.org/cards/christmas/irish-language-christmas-cards
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -1123,37 +1474,37 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/">
-        <picture>
-          <source
-            srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit.webp">
-          
-          <img
-            src="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit.png"
-            srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit.png"
-            alt="Irish language christmas cards pack of 10 nollaig shona duit"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/">
-        Irish language christmas cards pack of 10 nollaig shona duit
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/">
+      <picture>
+        <source srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit-medium.webp">
+        
+        <img src="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit-medium.png" srcset="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit-medium.png"
+          alt="Irish language christmas cards pack of 10 nollaig shona duit" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/">
+      Irish language christmas cards pack of 10 nollaig shona duit
+    </a>
+  </div>
+  <p class="price">&euro;30</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;30</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -1163,7 +1514,7 @@ data-item-weight="500"
 data-item-name="Irish language christmas cards pack of 10 nollaig shona duit"
 data-item-image="/img/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit.webp"
 data-item-price="30"
-data-item-url="http://example.org/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/christmas/irish-language-christmas-cards-pack-of-10-nollaig-shona-duit/"
 
  data-item-custom1-name="Family surname"
 
@@ -1205,7 +1556,11 @@ data-item-url="http://example.org/cards/christmas/irish-language-christmas-cards
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -1214,703 +1569,77 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+      </ul>
       
-            
-            <hr>
-            <h2>Personalised condolence cards</h2>
-            <hr>
-            Are you looking for a special handmade in Ireland condolence card to give to a loved one that has had a bereavement in the family?  I have a number of condolence cards suitable for the loss of a mother, father, sister, brother or general bereavement.  My personalised bereavement cards also include for the loss of a fur baby, either the death of a dog or a cat.  These are the perfect keepsake card to show someone you are thinking about them during a very difficult time.  After all, actions speak louder than words, and it would be a little comfort to know someone went to the trouble of sending such a special card.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/">
-        <picture>
-          <source
-            srcset="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby.webp">
-          
-          <img
-            src="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby.png"
-            srcset="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby.png"
-            alt="Pet cat sympathy card for loss or bereavement of fur baby"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/">
-        Pet cat sympathy card for loss or bereavement of fur baby
-      </a>
-    </div>
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised communion cards</h3>
+    Personalised communion cards, handmade, world wide delivery.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/">
+      <picture>
+        <source srcset="/img/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/personalised-boys-godson-communion-card-cute-blue-and-white-medium.webp">
+        
+        <img src="/img/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/personalised-boys-godson-communion-card-cute-blue-and-white-medium.png" srcset="/img/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/personalised-boys-godson-communion-card-cute-blue-and-white-medium.png"
+          alt="Personalised boys godson communion card cute blue and white" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/">
+      Personalised boys godson communion card cute blue and white
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;6.95</p>
-    <div class="cta">
-      
+    
 
 
 
 <a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Pet cat sympathy card for loss or bereavement of fur baby"
+data-item-id="Personalised boys godson communion card cute blue and white"
 data-item-weight="100"
-data-item-name="Pet cat sympathy card for loss or bereavement of fur baby"
-data-item-image="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby.webp"
-data-item-price="6.95"
-data-item-url="http://example.org/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/"
-
- data-item-custom1-name="Pet first name"
-
- data-item-custom1-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/">
-        <picture>
-          <source
-            srcset="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card.webp">
-          
-          <img
-            src="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card.png"
-            srcset="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card.png"
-            alt="Pet loss card dog personalized dog sympathy card"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/">
-        Pet loss card dog personalized dog sympathy card
-      </a>
-    </div>
-    
-    <p class="price">&euro;6.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Pet loss card dog personalized dog sympathy card"
-data-item-weight="100"
-data-item-name="Pet loss card dog personalized dog sympathy card"
-data-item-image="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card.webp"
-data-item-price="6.95"
-data-item-url="http://example.org/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/"
-
- data-item-custom1-name="Pet first name"
-
- data-item-custom1-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/">
-        <picture>
-          <source
-            srcset="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother.webp">
-          
-          <img
-            src="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother.png"
-            srcset="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother.png"
-            alt="Sorry for your loss brother card with cross condolence card brother"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/">
-        Sorry for your loss brother card with cross condolence card brother
-      </a>
-    </div>
-    
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Sorry for your loss brother card with cross condolence card brother"
-data-item-weight="100"
-data-item-name="Sorry for your loss brother card with cross condolence card brother"
-data-item-image="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother.webp"
+data-item-name="Personalised boys godson communion card cute blue and white"
+data-item-image="/img/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/personalised-boys-godson-communion-card-cute-blue-and-white.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/"
-
- data-item-custom1-name="Card options"
- data-item-custom1-options="Brother cross|Brother, feather|Brother, Celtic Cross|Brother, butterflies"
- data-item-custom1-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/">
-        <picture>
-          <source
-            srcset="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card.webp">
-          
-          <img
-            src="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card.png"
-            srcset="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card.png"
-            alt="Sorry for your loss mam or nan thinking of you card"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/">
-        Sorry for your loss mam or nan thinking of you card
-      </a>
-    </div>
-    
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Sorry for your loss mam or nan thinking of you card"
-data-item-weight="100"
-data-item-name="Sorry for your loss mam or nan thinking of you card"
-data-item-image="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card.webp"
-data-item-price="5.95"
-data-item-url="http://example.org/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/"
-
- data-item-custom1-name="Card options"
- data-item-custom1-options="Butterfly, pink circle|Butterfly, Mam|Butterfly, Nan"
- data-item-custom1-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/">
-        <picture>
-          <source
-            srcset="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather.webp">
-          
-          <img
-            src="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather.png"
-            srcset="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather.png"
-            alt="Sorry for your loss sister card sympathy card sister with feather"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/">
-        Sorry for your loss sister card sympathy card sister with feather
-      </a>
-    </div>
-    
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Sorry for your loss sister card sympathy card sister with feather"
-data-item-weight="100"
-data-item-name="Sorry for your loss sister card sympathy card sister with feather"
-data-item-image="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather.webp"
-data-item-price="5.95"
-data-item-url="http://example.org/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/"
-
- data-item-custom1-name="Card options"
- data-item-custom1-options="Pink feather|Pastel feather|Heart white feather|Heart feather birds"
- data-item-custom1-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/">
-        <picture>
-          <source
-            srcset="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant.webp">
-          
-          <img
-            src="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant.png"
-            srcset="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant.png"
-            alt="Sympathy card dad blue butterfly simple and elegant"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/">
-        Sympathy card dad blue butterfly simple and elegant
-      </a>
-    </div>
-    
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Sympathy card dad blue butterfly simple and elegant"
-data-item-weight="100"
-data-item-name="Sympathy card dad blue butterfly simple and elegant"
-data-item-image="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant.webp"
-data-item-price="5.95"
-data-item-url="http://example.org/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/"
-
- data-item-custom1-name="Card options"
- data-item-custom1-options="Butterfly, Dad|Butterfly, Father|Feather, Dad|Feather, Father"
- data-item-custom1-required="true"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-data-item-custom10-name="Message to Shauna Gra" 
-data-item-custom10-type="textarea">
-
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-
-
-</a>
-
-
-
-
-
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
-      
-            
-            <hr>
-            <h2>Personalised confirmation cards</h2>
-            <hr>
-            Are you looking for personalised confirmation cards? Check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake confirmation card. Don&#39;t forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/">
-        <picture>
-          <source
-            srcset="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date.webp">
-          
-          <img
-            src="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date.png"
-            srcset="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date.png"
-            alt="Personalised confirmation card for godson son name and date"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/">
-        Personalised confirmation card for godson son name and date
-      </a>
-    </div>
-    
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
-
-
-
-<a title="Add To Cart" href="#" class="snipcart-add-item"
-data-item-id="Personalised confirmation card for godson son name and date"
-data-item-weight="100"
-data-item-name="Personalised confirmation card for godson son name and date"
-data-item-image="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date.webp"
-data-item-price="5.95"
-data-item-url="http://example.org/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/communion/personalised-boys-godson-communion-card-cute-blue-and-white/"
 
  data-item-custom1-name="Kids first name only"
 
@@ -1952,7 +1681,11 @@ data-item-url="http://example.org/cards/confirmation/personalised-confirmation-c
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -1961,102 +1694,1056 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
       
-            
-            <hr>
-            <h2>Personalised engagement cards</h2>
-            <hr>
-            One of my favourite items to make are my unique Irish Engagements cards.  My designs are unique to the designs that are out there as I use cute little embellishments to give them a three dimensional effect.  To go that extra mile too I can include beautiful white ribbon too.  My handmade engagement cards are perfect for that special momnet in time.  My LGBT cards are actual some of my best selling cards too!  A small selection is up on my website but I will be continually adding more of my cards over the next few months.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/">
-        <picture>
-          <source
-            srcset="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple.webp">
-          
-          <img
-            src="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple.png"
-            srcset="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple.png"
-            alt="Cute engagement card with dogs for a couple"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/">
-        Cute engagement card with dogs for a couple
-      </a>
-    </div>
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised condolence cards</h3>
+    Are you looking for a special handmade in Ireland condolence card to give to a loved one that has had a bereavement in the family?  I have a number of condolence cards suitable for the loss of a mother, father, sister, brother or general bereavement.  My personalised bereavement cards also include for the loss of a fur baby, either the death of a dog or a cat.  These are the perfect keepsake card to show someone you are thinking about them during a very difficult time.  After all, actions speak louder than words, and it would be a little comfort to know someone went to the trouble of sending such a special card.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/">
+      <picture>
+        <source srcset="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby-medium.webp">
+        
+        <img src="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby-medium.png" srcset="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby-medium.png"
+          alt="Pet cat sympathy card for loss or bereavement of fur baby" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/">
+      Pet cat sympathy card for loss or bereavement of fur baby
+    </a>
+  </div>
+  <p class="price">&euro;6.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Pet cat sympathy card for loss or bereavement of fur baby"
+data-item-weight="100"
+data-item-name="Pet cat sympathy card for loss or bereavement of fur baby"
+data-item-image="/img/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby.webp"
+data-item-price="6.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/pet-cat-sympathy-card-for-loss-or-bereavement-of-fur-baby/"
+
+ data-item-custom1-name="Pet first name"
+
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/">
+      <picture>
+        <source srcset="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card-medium.webp">
+        
+        <img src="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card-medium.png" srcset="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card-medium.png"
+          alt="Pet loss card dog personalized dog sympathy card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/">
+      Pet loss card dog personalized dog sympathy card
+    </a>
+  </div>
+  <p class="price">&euro;6.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Pet loss card dog personalized dog sympathy card"
+data-item-weight="100"
+data-item-name="Pet loss card dog personalized dog sympathy card"
+data-item-image="/img/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/pet-loss-card-dog-personalized-dog-sympathy-card.webp"
+data-item-price="6.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-card-dog-personalized-dog-sympathy-card/"
+
+ data-item-custom1-name="Pet first name"
+
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/">
+      <picture>
+        <source srcset="/img/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/pet-loss-sympathy-card-for-dog-condolence-card-medium.webp">
+        
+        <img src="/img/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/pet-loss-sympathy-card-for-dog-condolence-card-medium.png" srcset="/img/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/pet-loss-sympathy-card-for-dog-condolence-card-medium.png"
+          alt="Pet loss sympathy card for dog condolence card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/">
+      Pet loss sympathy card for dog condolence card
+    </a>
+  </div>
+  <p class="price">&euro;6.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Pet loss sympathy card for dog condolence card"
+data-item-weight="100"
+data-item-name="Pet loss sympathy card for dog condolence card"
+data-item-image="/img/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/pet-loss-sympathy-card-for-dog-condolence-card.webp"
+data-item-price="6.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/"
+
+ data-item-custom1-name="Pet first name"
+
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/">
+      <picture>
+        <source srcset="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother-medium.webp">
+        
+        <img src="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother-medium.png" srcset="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother-medium.png"
+          alt="Sorry for your loss brother card with cross condolence card brother" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/">
+      Sorry for your loss brother card with cross condolence card brother
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Sorry for your loss brother card with cross condolence card brother"
+data-item-weight="100"
+data-item-name="Sorry for your loss brother card with cross condolence card brother"
+data-item-image="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condolence-card-brother/"
+
+ data-item-custom1-name="Card options"
+ data-item-custom1-options="Brother cross|Brother, feather|Brother, Celtic Cross|Brother, butterflies"
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/">
+      <picture>
+        <source srcset="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card-medium.webp">
+        
+        <img src="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card-medium.png" srcset="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card-medium.png"
+          alt="Sorry for your loss mam or nan thinking of you card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/">
+      Sorry for your loss mam or nan thinking of you card
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Sorry for your loss mam or nan thinking of you card"
+data-item-weight="100"
+data-item-name="Sorry for your loss mam or nan thinking of you card"
+data-item-image="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/sorry-for-your-loss-mam-or-nan-thinking-of-you-card.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-card/"
+
+ data-item-custom1-name="Card options"
+ data-item-custom1-options="Butterfly, pink circle|Butterfly, Mam|Butterfly, Nan"
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/">
+      <picture>
+        <source srcset="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather-medium.webp">
+        
+        <img src="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather-medium.png" srcset="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather-medium.png"
+          alt="Sorry for your loss sister card sympathy card sister with feather" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/">
+      Sorry for your loss sister card sympathy card sister with feather
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Sorry for your loss sister card sympathy card sister with feather"
+data-item-weight="100"
+data-item-name="Sorry for your loss sister card sympathy card sister with feather"
+data-item-image="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/"
+
+ data-item-custom1-name="Card options"
+ data-item-custom1-options="Pink feather|Pastel feather|Heart white feather|Heart feather birds"
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/">
+      <picture>
+        <source srcset="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant-medium.webp">
+        
+        <img src="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant-medium.png" srcset="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant-medium.png"
+          alt="Sympathy card dad blue butterfly simple and elegant" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/">
+      Sympathy card dad blue butterfly simple and elegant
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Sympathy card dad blue butterfly simple and elegant"
+data-item-weight="100"
+data-item-name="Sympathy card dad blue butterfly simple and elegant"
+data-item-image="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/sympathy-card-dad-blue-butterfly-simple-and-elegant.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegant/"
+
+ data-item-custom1-name="Card options"
+ data-item-custom1-options="Butterfly, Dad|Butterfly, Father|Feather, Dad|Feather, Father"
+ data-item-custom1-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
       
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised confirmation cards</h3>
+    Are you looking for personalised confirmation cards? Check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake confirmation card. Don&#39;t forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/">
+      <picture>
+        <source srcset="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date-medium.webp">
+        
+        <img src="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date-medium.png" srcset="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date-medium.png"
+          alt="Personalised confirmation card for godson son name and date" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/">
+      Personalised confirmation card for godson son name and date
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised confirmation card for godson son name and date"
+data-item-weight="100"
+data-item-name="Personalised confirmation card for godson son name and date"
+data-item-image="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/"
+
+ data-item-custom1-name="Kids first name only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Boy or girl?"
+
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Date format"
+ data-item-custom3-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Date in above format"
+
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="Card options"
+ data-item-custom5-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom5-required="true"
+
+ data-item-custom6-name="Design options"
+ data-item-custom6-options="A|B|C|D"
+ data-item-custom6-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/">
+      <picture>
+        <source srcset="/img/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/personalised-girls-confirmation-card-cute-hearts-and-flowers-medium.webp">
+        
+        <img src="/img/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/personalised-girls-confirmation-card-cute-hearts-and-flowers-medium.png" srcset="/img/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/personalised-girls-confirmation-card-cute-hearts-and-flowers-medium.png"
+          alt="Personalised girls confirmation card cute hearts and flowers" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/">
+      Personalised girls confirmation card cute hearts and flowers
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised girls confirmation card cute hearts and flowers"
+data-item-weight="100"
+data-item-name="Personalised girls confirmation card cute hearts and flowers"
+data-item-image="/img/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/personalised-girls-confirmation-card-cute-hearts-and-flowers.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/confirmation/personalised-girls-confirmation-card-cute-hearts-and-flowers/"
+
+ data-item-custom1-name="Kids first name only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Boy or girl?"
+
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Date format"
+ data-item-custom3-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Date in above format"
+
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="Card options"
+ data-item-custom5-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom5-required="true"
+
+ data-item-custom6-name="Design options"
+ data-item-custom6-options="A|B|C|D"
+ data-item-custom6-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+      
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised engagement cards</h3>
+    One of my favourite items to make are my unique Irish Engagements cards. My designs are unique to the designs that are out there as I use cute little embellishments to give them a three dimensional effect. To go that extra mile too I can include beautiful white ribbon too. My handmade engagement cards are perfect for that special momnet in time. My LGBT cards are actual some of my best selling cards too! A small selection is up on my website but I will be continually adding more of my cards over the next few months.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/">
+      <picture>
+        <source srcset="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple-medium.webp">
+        
+        <img src="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple-medium.png" srcset="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple-medium.png"
+          alt="Cute engagement card with dogs for a couple" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/">
+      Cute engagement card with dogs for a couple
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
 
 
 
@@ -2066,7 +2753,7 @@ data-item-weight="100"
 data-item-name="Cute engagement card with dogs for a couple"
 data-item-image="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-engagement-card-with-dogs-for-a-couple.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/"
 
  data-item-custom1-name="Couples first names only"
 
@@ -2108,7 +2795,11 @@ data-item-url="http://example.org/cards/engagement/cute-engagement-card-with-dog
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -2117,35 +2808,31 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                          <li>
-    <div class="body">
-      <a href="http://example.org/cards/engagement/cute-engagement-cards-balloons-boats-hearts/">
-        <picture>
-          <source
-            srcset="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts.webp">
-          
-          <img
-            src="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts.png"
-            srcset="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts.png"
-            alt="Cute engagement cards balloons boats hearts"
-            class="img-responsive"
-            width="400"
-            height="600">
-        </picture>
-      </a>
-      <a class="product-title" href="http://example.org/cards/engagement/cute-engagement-cards-balloons-boats-hearts/">
-        Cute engagement cards balloons boats hearts
-      </a>
-    </div>
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-cards-balloons-boats-hearts/">
+      <picture>
+        <source srcset="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts-medium.webp">
+        
+        <img src="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts-medium.png" srcset="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts-medium.png"
+          alt="Cute engagement cards balloons boats hearts" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-cards-balloons-boats-hearts/">
+      Cute engagement cards balloons boats hearts
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
     
-    <p class="price">&euro;5.95</p>
-    <div class="cta">
-      
+    
 
 
 
@@ -2155,7 +2842,7 @@ data-item-weight="100"
 data-item-name="Cute engagement cards balloons boats hearts"
 data-item-image="/img/cards/engagement/cute-engagement-cards-balloons-boats-hearts/cute-engagement-cards-balloons-boats-hearts.webp"
 data-item-price="5.95"
-data-item-url="http://example.org/cards/engagement/cute-engagement-cards-balloons-boats-hearts/"
+data-item-url="https://shaunagra-custom-frames.ie/cards/engagement/cute-engagement-cards-balloons-boats-hearts/"
 
  data-item-custom1-name="Couples first names only"
 
@@ -2197,7 +2884,11 @@ data-item-url="http://example.org/cards/engagement/cute-engagement-cards-balloon
 data-item-custom10-name="Message to Shauna Gra" 
 data-item-custom10-type="textarea">
 
-<span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
 
 
 </a>
@@ -2206,446 +2897,1440 @@ data-item-custom10-type="textarea">
 
 
 
-    </div>
-  </li>
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
-      
-            
-            <hr>
-            <h2>Personalised home cards</h2>
-            <hr>
-            Personalised home cards, handmade, new home, moving house, world wide delivery.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
-      
-            
-            <hr>
-            <h2>Personalised Irish cards</h2>
-            <hr>
-            Personalised Irish cards, handmade, world wide delivery.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
-      
-            
-            <hr>
-            <h2>Personalised wedding cards</h2>
-            <hr>
-            Personalised wedding cards, handmade, engagement, anniversary, world wide delivery.
-            <section class="grid">
-              <article class="baby-frames-thumbs">
-                <ul class="listing">
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                      
-                  
-                </ul>
-              </article>
-            </section>
-      
-  
-
-  
-  <br>
-  <section class="grid">
-    <article class="baby-frames-thumbs">
-      <ul class="listing">
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
         
-            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
       </ul>
-    </article>
-  </section>
+      
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised Irish cards</h3>
+    I love to make cards in the Irish language for all sorts of occasions. In particular I tend to make them for engagements, weddings, new baby, pet loss etc. If you don&#39;t see a card for the occasion you would like please get in touch. I may even have one designed for the occasion you require!
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/">
+      <picture>
+        <source srcset="/img/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card-medium.webp">
+        
+        <img src="/img/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card-medium.png" srcset="/img/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card-medium.png"
+          alt="Carta as gaeilge Irish language go raibh maith agat card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/">
+      Carta as gaeilge Irish language go raibh maith agat card
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Carta as gaeilge Irish language go raibh maith agat card"
+data-item-weight="100"
+data-item-name="Carta as gaeilge Irish language go raibh maith agat card"
+data-item-image="/img/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/irish/carta-as-gaeilge-irish-language-go-raibh-maith-agat-card/"
+
+ data-item-custom1-name="English or Irish"
+ data-item-custom1-options="English|Irish"
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Card pack options"
+ data-item-custom2-options="1 card only|Pack of 5[&#43;16.00]"
+ data-item-custom2-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/">
+      <picture>
+        <source srcset="/img/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/go-raibh-mile-maith-agat-irish-thak-you-card-medium.webp">
+        
+        <img src="/img/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/go-raibh-mile-maith-agat-irish-thak-you-card-medium.png" srcset="/img/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/go-raibh-mile-maith-agat-irish-thak-you-card-medium.png"
+          alt="Go raibh mile maith agat Irish thak you card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/">
+      Go raibh mile maith agat Irish thak you card
+    </a>
+  </div>
+  <p class="price">&euro;4.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Go raibh mile maith agat Irish thak you card"
+data-item-weight="100"
+data-item-name="Go raibh mile maith agat Irish thak you card"
+data-item-image="/img/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/go-raibh-mile-maith-agat-irish-thak-you-card.webp"
+data-item-price="4.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/irish/go-raibh-mile-maith-agat-irish-thak-you-card/"
+
+ data-item-custom1-name="Irish only"
+ data-item-custom1-options="Irish"
+
+
+ data-item-custom2-name="Card pack options"
+ data-item-custom2-options="1 card only|Pack of 5[&#43;15.00]"
+ data-item-custom2-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/">
+      <picture>
+        <source srcset="/img/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/irish-language-cards-pack-go-raibh-maith-agat-medium.webp">
+        
+        <img src="/img/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/irish-language-cards-pack-go-raibh-maith-agat-medium.png" srcset="/img/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/irish-language-cards-pack-go-raibh-maith-agat-medium.png"
+          alt="Irish language cards pack go raibh maith agat" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/">
+      Irish language cards pack go raibh maith agat
+    </a>
+  </div>
+  <p class="price">&euro;21.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Irish language cards pack go raibh maith agat"
+data-item-weight="250"
+data-item-name="Irish language cards pack go raibh maith agat"
+data-item-image="/img/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/irish-language-cards-pack-go-raibh-maith-agat.webp"
+data-item-price="21.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/"
+
+ data-item-custom1-name="Irish only"
+ data-item-custom1-options="Irish"
+
+
+ data-item-custom2-name="Card pack options"
+ data-item-custom2-options="Pack of 5 only"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/">
+      <picture>
+        <source srcset="/img/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/irish-thank-you-card-5-pack-go-raibh-maith-agat-medium.webp">
+        
+        <img src="/img/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/irish-thank-you-card-5-pack-go-raibh-maith-agat-medium.png" srcset="/img/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/irish-thank-you-card-5-pack-go-raibh-maith-agat-medium.png"
+          alt="Irish thank you card 5 pack go raibh maith agat" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/">
+      Irish thank you card 5 pack go raibh maith agat
+    </a>
+  </div>
+  <p class="price">&euro;24.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Irish thank you card 5 pack go raibh maith agat"
+data-item-weight="250"
+data-item-name="Irish thank you card 5 pack go raibh maith agat"
+data-item-image="/img/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/irish-thank-you-card-5-pack-go-raibh-maith-agat.webp"
+data-item-price="24.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/"
+
+ data-item-custom1-name="Irish only"
+ data-item-custom1-options="Irish"
+
+
+ data-item-custom2-name="Card pack options"
+ data-item-custom2-options="One design, 5 cards|5 different designs"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Insert five design numbers below"
+
+ data-item-custom3-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/">
+      <picture>
+        <source srcset="/img/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/thank-you-card-go-raibh-mile-maith-agat-irish-language-medium.webp">
+        
+        <img src="/img/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/thank-you-card-go-raibh-mile-maith-agat-irish-language-medium.png" srcset="/img/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/thank-you-card-go-raibh-mile-maith-agat-irish-language-medium.png"
+          alt="Thank you card go raibh mile maith agat Irish language" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/">
+      Thank you card go raibh mile maith agat Irish language
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Thank you card go raibh mile maith agat Irish language"
+data-item-weight="250"
+data-item-name="Thank you card go raibh mile maith agat Irish language"
+data-item-image="/img/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/thank-you-card-go-raibh-mile-maith-agat-irish-language.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/"
+
+ data-item-custom1-name="English or Irish"
+ data-item-custom1-options="English|Irish"
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Card pack options"
+ data-item-custom2-options="1 card only|Pack of 5[&#43;16.00]"
+ data-item-custom2-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/">
+      <picture>
+        <source srcset="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card-medium.webp">
+        
+        <img src="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card-medium.png" srcset="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card-medium.png"
+          alt="Thank you card in Irish language go raibh maith agat card" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/">
+      Thank you card in Irish language go raibh maith agat card
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Thank you card in Irish language go raibh maith agat card"
+data-item-weight="250"
+data-item-name="Thank you card in Irish language go raibh maith agat card"
+data-item-image="/img/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/thank-you-card-in-irish-language-go-raibh-maith-agat-card.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/irish/thank-you-card-in-irish-language-go-raibh-maith-agat-card/"
+
+ data-item-custom1-name="Irish only"
+ data-item-custom1-options="Irish"
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Card pack options"
+ data-item-custom2-options="1 card only|Pack of 5[&#43;16.00]"
+ data-item-custom2-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+      </ul>
+      
+      
+      <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised wedding cards</h3>
+    One of my favourite items to make are my unique Irish Wedding Day cards. My designs are unique to the designs that are out there as I use cute little embellishments to give them a three dimensional effect. To go that extra mile too I can include beautiful white ribbon too. My handmade Irish wedding cards are perfect for civil ceremonies, as a gay wedding day card or a lesbian wedding card. My LGBT cards are actual some of my best selling cards too! A small selection is up on my website but I will be continually adding more of my cards over the next few months. If you have seen one of my designs on Etsy and would like to purchase through my website, please get in touch and I can organise this for you.
+</aside>
+
+      <ul class="grid grid-products padding-small text-center list-reset">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-card-two-grooms-red-heart/">
+      <picture>
+        <source srcset="/img/cards/wedding/gay-wedding-card-two-grooms-red-heart/gay-wedding-card-two-grooms-red-heart-medium.webp">
+        
+        <img src="/img/cards/wedding/gay-wedding-card-two-grooms-red-heart/gay-wedding-card-two-grooms-red-heart-medium.png" srcset="/img/cards/wedding/gay-wedding-card-two-grooms-red-heart/gay-wedding-card-two-grooms-red-heart-medium.png"
+          alt="Gay wedding card two grooms red heart" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-card-two-grooms-red-heart/">
+      Gay wedding card two grooms red heart
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Gay wedding card two grooms red heart"
+data-item-weight="100"
+data-item-name="Gay wedding card two grooms red heart"
+data-item-image="/img/cards/wedding/gay-wedding-card-two-grooms-red-heart/gay-wedding-card-two-grooms-red-heart.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-card-two-grooms-red-heart/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card options"
+ data-item-custom4-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="English or Irish"
+ data-item-custom5-options="English|Irish"
+ data-item-custom5-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/">
+      <picture>
+        <source srcset="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay-wedding-day-card-in-english-or-irish-language-medium.webp">
+        
+        <img src="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay-wedding-day-card-in-english-or-irish-language-medium.png" srcset="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay-wedding-day-card-in-english-or-irish-language-medium.png"
+          alt="Gay wedding day card in English or Irish language with Celtic blue heart" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/">
+      Gay wedding day card in English or Irish language with Celtic blue heart
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Gay wedding day card in English or Irish language with Celtic blue heart"
+data-item-weight="100"
+data-item-name="Gay wedding day card in English or Irish language with Celtic blue heart"
+data-item-image="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay-wedding-day-card-in-english-or-irish-language.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card options"
+ data-item-custom4-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="English or Irish"
+ data-item-custom5-options="English|Irish"
+ data-item-custom5-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/">
+      <picture>
+        <source srcset="/img/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/ooak-congrats-wedding-card-personalised-handmade-medium.webp">
+        
+        <img src="/img/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/ooak-congrats-wedding-card-personalised-handmade-medium.png" srcset="/img/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/ooak-congrats-wedding-card-personalised-handmade-medium.png"
+          alt="Ooak congrats wedding card personalised handmade" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/">
+      Ooak congrats wedding card personalised handmade
+    </a>
+  </div>
+  <p class="price">&euro;6.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Ooak congrats wedding card personalised handmade"
+data-item-weight="100"
+data-item-name="Ooak congrats wedding card personalised handmade"
+data-item-image="/img/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/ooak-congrats-wedding-card-personalised-handmade.webp"
+data-item-price="6.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card/design options"
+ data-item-custom4-options="White and silver|Brown and gold"
+ data-item-custom4-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/">
+      <picture>
+        <source srcset="/img/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/personalised-gay-wedding-day-card-handmade-in-ireland-medium.webp">
+        
+        <img src="/img/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/personalised-gay-wedding-day-card-handmade-in-ireland-medium.png" srcset="/img/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/personalised-gay-wedding-day-card-handmade-in-ireland-medium.png"
+          alt="Personalised gay wedding day card handmade in ireland" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/">
+      Personalised gay wedding day card handmade in ireland
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised gay wedding day card handmade in ireland"
+data-item-weight="100"
+data-item-name="Personalised gay wedding day card handmade in ireland"
+data-item-image="/img/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/personalised-gay-wedding-day-card-handmade-in-ireland.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card options"
+ data-item-custom4-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom4-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/">
+      <picture>
+        <source srcset="/img/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/personalised-lesbian-wedding-card-celtic-wedding-cards-medium.webp">
+        
+        <img src="/img/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/personalised-lesbian-wedding-card-celtic-wedding-cards-medium.png" srcset="/img/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/personalised-lesbian-wedding-card-celtic-wedding-cards-medium.png"
+          alt="Personalised lesbian wedding card celtic wedding cards" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/">
+      Personalised lesbian wedding card celtic wedding cards
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised lesbian wedding card celtic wedding cards"
+data-item-weight="100"
+data-item-name="Personalised lesbian wedding card celtic wedding cards"
+data-item-image="/img/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/personalised-lesbian-wedding-card-celtic-wedding-cards.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/personalised-lesbian-wedding-card-celtic-wedding-cards/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card options"
+ data-item-custom4-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="English or Irish"
+ data-item-custom5-options="English|Irish"
+ data-item-custom5-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-card-silver-tree-of-life/">
+      <picture>
+        <source srcset="/img/cards/wedding/personalised-wedding-card-silver-tree-of-life/personalised-wedding-card-silver-tree-of-life-medium.webp">
+        
+        <img src="/img/cards/wedding/personalised-wedding-card-silver-tree-of-life/personalised-wedding-card-silver-tree-of-life-medium.png" srcset="/img/cards/wedding/personalised-wedding-card-silver-tree-of-life/personalised-wedding-card-silver-tree-of-life-medium.png"
+          alt="Personalised wedding card silver tree of life" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-card-silver-tree-of-life/">
+      Personalised wedding card silver tree of life
+    </a>
+  </div>
+  <p class="price">&euro;7.50</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised wedding card silver tree of life"
+data-item-weight="100"
+data-item-name="Personalised wedding card silver tree of life"
+data-item-image="/img/cards/wedding/personalised-wedding-card-silver-tree-of-life/personalised-wedding-card-silver-tree-of-life.webp"
+data-item-price="7.50"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-card-silver-tree-of-life/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card options"
+ data-item-custom4-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="English or Irish"
+ data-item-custom5-options="English|Irish"
+ data-item-custom5-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/">
+      <picture>
+        <source srcset="/img/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/personalised-wedding-day-congrats-card-for-mr-and-mrs-medium.webp">
+        
+        <img src="/img/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/personalised-wedding-day-congrats-card-for-mr-and-mrs-medium.png" srcset="/img/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/personalised-wedding-day-congrats-card-for-mr-and-mrs-medium.png"
+          alt="Personalised wedding day congrats card for mr and mrs" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/">
+      Personalised wedding day congrats card for mr and mrs
+    </a>
+  </div>
+  <p class="price">&euro;5.95</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised wedding day congrats card for mr and mrs"
+data-item-weight="100"
+data-item-name="Personalised wedding day congrats card for mr and mrs"
+data-item-image="/img/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/personalised-wedding-day-congrats-card-for-mr-and-mrs.webp"
+data-item-price="5.95"
+data-item-url="https://shaunagra-custom-frames.ie/cards/wedding/personalised-wedding-day-congrats-card-for-mr-and-mrs/"
+
+ data-item-custom1-name="Couples first names only"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Date format"
+ data-item-custom2-options="EU (day-month-year)(23-5-18)[&#43;0.00]|USA (month-day-year)(5-23-18)[&#43;0.00]"
+ data-item-custom2-required="true"
+
+ data-item-custom3-name="Wedding date in above format"
+
+ data-item-custom3-required="true"
+
+ data-item-custom4-name="Card options"
+ data-item-custom4-options="Plain white card|Scallop edge (&#43;2 Euro)[&#43;2.00]"
+ data-item-custom4-required="true"
+
+ data-item-custom5-name="English or Irish"
+ data-item-custom5-options="English|Irish"
+ data-item-custom5-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+      
+      
 
     </aside>
   </section>
-  
 
-  
+
+
 </main>
 
 
-    
-    <footer class="grid">
-  <section class="footer-top">
-    <aside class="about">
-      <h2>About</h2>
-      <p>I chose the name Shauna Gra because our beautiful daughter is called Shauna, which means Present from God in
-        Irish, and Gra means love in Irish. So we thought combining the two fitted perfectly with what we were hoping
-        to achieve, handcrafted gifts made with lots of love.</p>
-    </aside>
-    <aside class="links">
-      <h2>Links</h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Frames</a></li>
-        <li><a href="#">Cards</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-    </aside>
-    <aside class="contact-footer">
-      <h2>Contact</h2>
-      <p>You can contact us here if you like.</p>
-    </aside>
-    <aside class="signup-footer">
-      <h2>Sign Up</h2>
-      <p>You can sign up here if you like.</p>
-    </aside>
+  
+  <footer class="grid grid-main color3-bg text-center">
+  <section class="normal-width-element">
+    <ul class="grid grid-footer list-reset">
+      <li class="padding-small"><h2>About</h2>
+        <p>I chose the name Shauna Gra because our beautiful daughter is called Shauna, which means Present from God in
+          Irish, and Gra means love in Irish. So we thought combining the two fitted perfectly with what we were hoping
+          to achieve, handcrafted gifts made with lots of love.</p></li>
+      <li class="padding-small"><h2>Links</h2>
+        <ul class="list-reset">
+          <li><a href="/">Home</a></li>
+          <li><a href="/frames/">Frames</a></li>
+          <li><a href="/cards/">Cards</a></li>
+          <li><a href="/prints/">Prints</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/reviews/">Reviews</a></li>
+          <li><a href="/contact/">Contact</a></li>
+  
+        </ul></li>
+        <li class="padding-small"><h2>Contact</h2>
+        <p>If you would like to contact us with any questions.</p>
+        <a href="/contact/">Contact us</a></li>
+        <li class="padding-small"> <h2>Sign Up</h2>
+        <p>Why not signup to our members area and get lifetime discounts, and special offers.</p>
+        <a href="/signup">Signup</a></li>
+    </ul>
   </section>
-  <section class="grid footer-bottom">
-    <aside class="copyright">
-      <p>Copyright stuff here</p>
+  <section class="full-width-element color1-bg">
+    <aside class="inner-block-left flex-center">
+      <p>&copy 2024 Shauna Gra</p>
     </aside>
-    <aside class="webdev">
+    <aside class="inner-block-right flex-center">
       <p>Website developed by MDP Web Development</p>
     </aside>
   </section>
 </footer>
-    
+  
+
 </body>
 
 </html>

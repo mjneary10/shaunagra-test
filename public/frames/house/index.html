@@ -5,61 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+  
     
     <style type="text/CSS">
-        html{font-family:sans-serif;font-size:16px;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{padding:0;margin:0}h1{margin:50px 0 60px;padding:10px;font-size:2em;color:grey;border-bottom:5px solid #f08c00;text-transform:uppercase;text-align:center}h2{text-align:center}.grid4{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center}a{color:#f08c00;text-decoration:none}a:hover{text-decoration:underline;transition-delay:.5s}p{text-align:justify;text-align:center;padding:10px;margin:0}.btn{padding:px;margin:5px;text-decoration:none;color:orange;border:1px solid orange;background-color:#fff;text-transform:uppercase}.btn:hover{background-color:orange;color:#fff}.logo4{grid-column:1/2;justify-self:flex-start}.cart4{justify-self:center;grid-column:2/3;grid-row:1;text-align:center}.burger{display:inline;grid-column:3/4;grid-row:1;justify-self:flex-end;width:3em;height:3em;text-align:center}.mainNav4{grid-column:1/4;display:none}.mainNav4 ul{padding:0;margin:0;list-style-type:none}.mainNav4.toggle{display:block}.mainNav4 ul li{width:100%}.mainNav4 ul li a{display:block;text-decoration:none;border-bottom:1px solid #fff}.mainNav4 ul li a:hover{border-bottom:1px solid}.top-links{border-top:1px dotted grey;border-bottom:1px dotted grey}.offer-1,.offer-2{display:flex;justify-content:center;align-items:center}.offer-1{border-bottom:1px solid}footer{background-color:#faebd7;border-top:1px solid}.about,.links,.contact-footer,.signup-footer{border:1px solid}.links ul{list-style-type:none;border:0;padding:0}.footer-top,.footer-bottom>*{text-align:center}@media screen and (min-width:600px){.grid{display:grid;grid-template-columns:1fr repeat(2,minmax(auto,42em))1fr}p{text-align:left}.offer-1{justify-content:flex-start;border-bottom:0}.offer-2{justify-content:flex-end}.offer-1{grid-column:2/3}.offer-2{grid-column:3/4}.breadcrumbs-content,.footer-top,.footer-bottom,.grid4{grid-column:2/4}.grid4{grid-template-columns:1fr minmax(30em,50em)1fr}.cart4{justify-self:right;grid-column:3/4}.burger{display:none}.mainNav4{grid-column:2/3;display:block;width:100%;justify-self:center}.mainNav4 ul{display:flex;justify-content:space-around;padding:0;list-style-type:none}.mainNav4 ul li{width:19%;text-align:center}.footer-top,.footer-bottom{display:flex}.footer-top>*{width:25%}.footer-bottom{align-content:space-between}} 
-    </style>
+      #contact-container input[type=text],select,textarea{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}input[type=submit]{width:100%;background-color:var(--color3);padding:12px 20px;border:none;border-radius:4px;cursor:pointer}input[type=submit]:hover{background-color:var(--color2)}.container{margin-left:auto;margin-right:auto;border-radius:5px;padding:20px}hr{margin:0}.filter-buttons{display:block;border:1px solid;margin:5px;padding:2px;text-align:center;border-radius:5px}a.filter-buttons{text-decoration:none;text-transform:uppercase}a.filter-buttons:hover{background-color:#eddae9;text-decoration:none}.active-filter{background-color:#eddae9}.grid-top-nav{display:flex}.logo4{grid-column:1/2;grid-row:1;justify-self:flex-start}.cart{justify-self:center;grid-column:2/3;grid-row:1}.mainNav4{grid-column:1/5;grid-row:2;text-align:center;display:none}.toggle{display:block}.mainNav4 ul li{width:100%;margin-bottom:5px;padding:5px}.burger{grid-column:3/4;grid-row:1;text-align:right}.burger{justify-self:flex-end;margin:5px;border:1px solid}.burger-bar{width:40px;height:2px;background-color:#faa25b;margin:5px}@media screen and (min-width:600px){.grid-top-nav{grid-template-columns:1fr minmax(30em,50em)1fr}.container{width:50%}.filter-list{display:flex}.cart{justify-self:right;grid-column:4/5;grid-row:1;width:20px;height:20px}.burger{display:none}.mainNav4{grid-column:2/3;grid-row:1;display:block}.mainNav4 ul{display:flex;justify-content:space-around;padding:0;list-style-type:none}.mainNav4 ul li{width:10%;text-align:center}}:root{--color1:#faecec;--color2:#f8dfef;--color3:#f1e4e4;--color4:#aedbed}body{font-family:roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.42857143;color:#898388;text-align:center}h1,h2,h3,h4{text-transform:uppercase;letter-spacing:.06em}h1{font-size:1.5em;border-bottom:solid 5px #faa25b}h2{font-size:1.25em;border-bottom:solid 1px #faa25b}h3{font-size:1em;border-bottom:solid 1px #faa25b}a:link{color:#e77c30;text-decoration:none}a:visited{color:#e77c30}a:hover{color:#e77c30;text-decoration:underline}a:active{color:#e77c30;text-decoration:underline}.color1-bg{background-color:var(--color1)}.color2-bg{background-color:var(--color2)}.color3-bg{background-color:var(--color3)}.color4-bg{background-color:var(--color4)}body{padding:0;margin:0}.list-reset{list-style-type:none;padding:0;margin:0}.img-responsive{width:100%;height:auto}.btn{display:block;padding:10px;border-radius:5px;text-align:center;margin:10px;font-size:1em}.btn a{text-decoration:none}.grid{display:grid}.grid-top-nav{grid-template-columns:1fr 1fr 1fr;align-items:center}.grid-footer{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}.grid-prod-page{grid-template-columns:1fr;grid-template-rows:auto auto auto}.flex{display:flex}.flex-center{display:flex;justify-content:center;align-items:center}.flex-space-between{display:flex;justify-content:space-between;align-items:center}.flex-start{display:flex;justify-content:flex-start;align-items:center}.flex-end{display:flex;justify-content:flex-end;align-items:center}.flex-column{flex-direction:column}.margin-large-t-b{margin:100px 0}.margin-large-bottom{margin-bottom:100px}.margin-small{margin:10px}.padding-large{padding:100px 10px}.padding-large-t-b{padding:100px 0}.padding-small{padding:10px}.text-center{text-align:center}.border-round-edge{border:1px solid #ffe066;border-radius:10px}.border-top{border-top:1px solid #ffe066}.grid-products{gap:20px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.price{margin-top:auto;font-weight:700;font-size:1.5em;color:red}.cta{}.product-images{grid-row:1}.product-thumbs{gap:10px;grid-row:2;overflow:scroll}.product-custom-boxes{width:100%}.product-custom-boxes td{background-color:#fff}.product-custom-boxes a:hover{text-decoration:none}.buyNowButton{background-color:#ed9f9d;color:#fff}.mySlides{display:none}.mySlides:first-child{display:block}.cursor{cursor:pointer}.prev,.next{background-color:#f1c69d;cursor:pointer;position:absolute;top:380px;width:auto;padding:16px;margin-top:-50px;color:#000;font-weight:700;font-size:20px;border-radius:0 3px 3px 0;user-select:none;-webkit-user-select:none}.next{right:0;border-radius:3px 0 0 3px}.prev{left:0}.prev:hover,.next:hover{background-color:rgba(210,161,161,.8)}.numbertext{color:#000;background-color:#f1c69d;font-size:12px;padding:8px 12px;position:absolute;top:100}.caption-container{text-align:center;background-color:#222;padding:2px 16px;color:#fff}.row:after{content:"";display:table;clear:both}.demo{opacity:.6}.active,.demo:hover{opacity:1}@media screen and (min-width:600px){.grid-main{grid-template-columns:1fr repeat(2,minmax(auto,42em))1fr}.normal-width-element{grid-column:2/4}.full-width-element{grid-column:1/5}.inner-block-left{grid-column:2/3}.inner-block-right{grid-column:3/4}.padding-large{padding:100px}.grid-top-nav{grid-template-columns:1fr minmax(30em,50em)1fr}.burger{display:none}.grid-prod-page{grid-template-columns:8em 6fr 3fr;grid-template-rows:max-content}.product-thumbs{grid-column:1/2;grid-row:1;display:flex;flex-direction:column;height:616px}.product-info{grid-column:1/3}.product-images{position:relative}}.test-color{background-color:#238ae5}.inner-block-left{} 
+      </style>
+  
+    <script src="/js/myJs.js"></script>
 
-    
-    <style type="text/CSS">
-        .full-width-element{background-color:bisque;padding-top:30px;padding-bottom:60px;margin-bottom:70px}.img-responsive{padding:0;margin:0;width:100%;height:auto}.welcome,.intro-image{display:flex;justify-content:center;align-items:center}button{margin:5px}.welcome{margin-bottom:60px}.welcome,.intro-image{flex-direction:column}.intro-image{margin-bottom:80px}@media screen and (min-width:600px){h1{margin:0}.welcome{grid-column:2/3}.welcome-image{grid-column:3/4}.welcome{margin-bottom:0}.intro,.baby-frames-intro,.baby-frames-thumbs,.top-content{grid-column:2/4}.banner{grid-column:1/5}.intro{grid-gap:20px;text-align:center;margin-top:100px;margin-bottom:100px}.intro-image{margin-bottom:0}.full-width-element{padding-top:100px;padding-bottom:100px}}
-    </style>
-
-    
-    <style type="text/CSS">
-        .listing li{display:flex;flex-direction:column;justify-content:center;align-items:center}.listing{list-style:none;display:grid;gap:20px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));padding:10px;margin:0;text-align:center}.listing li{border:1px solid #ffe066;border-radius:10px;margin-bottom:60px}.listing .cta{border-top:1px solid #ffe066;padding:10px;text-align:center}.listing .body{padding:10px}.listing .body:a{font-size:20px}.price{margin-top:auto;font-weight:700;font-size:1.5em;color:red}.product-grid{display:grid;grid-template-columns:1fr;grid-template-rows:auto auto auto}h2.product-title{text-transform:uppercase}.product-images{grid-row:1}.product-thumbs{gap:10px;grid-row:2;display:flex;flex-direction:row;overflow:scroll}.product-details{text-align:left;background-color:#fcf5f5}.product-custom-boxes{width:100%;background-color:#fff;margin-bottom:10px}.product-custom-boxes td{background-color:#fff;border:5px solid #fcf5f5;padding:7px;text-align:left}.buyNowButton{display:block;padding:10px;border-radius:5px;background-color:#ed9f9d;color:#fff;text-align:center;margin:10px;font-size:1em}.buyNowButton a{text-decoration:none}.mySlides{display:none}.cursor{cursor:pointer}.prev,.next{color:#000;background-color:red;cursor:pointer;position:absolute;top:320px;width:auto;padding:16px;margin-top:-50px;color:#fff;font-weight:700;font-size:20px;border-radius:0 3px 3px 0;user-select:none;-webkit-user-select:none}.next{right:0;border-radius:3px 0 0 3px}.prev:hover,.next:hover{background-color:rgba(0,0,0,.8)}.numbertext{color:#f2f2f2;background-color:red;font-size:12px;padding:8px 12px;position:absolute;top:100}.caption-container{text-align:center;background-color:#222;padding:2px 16px;color:#fff}.row:after{content:"";display:table;clear:both}.demo{opacity:.6}.active,.demo:hover{opacity:1}@media screen and (min-width:600px){h1{margin:0}h2.product-title{text-align:left}.list-content{grid-column:2/4}.product-content{grid-column:2/4}.product-grid{display:grid;grid-template-columns:8em 6fr 3fr;grid-template-rows:38.5em}.product-thumbs{grid-column:1/2;grid-row:1;display:flex;flex-direction:column}.product-info{grid-column:1/3}}
-    </style>
-
-   <script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) { slideIndex = 1 }
-  if (n < 1) { slideIndex = slides.length }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
-  captionText.innerHTML = dots[slideIndex - 1].alt;
-}
-
-   </script>
-
-</head>
+  </head>
 
 <body>
-    
-    
+  
+  
 <script>
   window.SnipcartSettings = {
     publicApiKey: "MmUxNWY3MTctOGRmMS00NmVmLTgxZGYtNGNiMTkyNjMyNGFjNjM2NjYyMjQxNjYzNTExNzIz",
@@ -70,22 +28,533 @@ function showSlides(n) {
 </script>
 
 <header>
-  <section class="grid top-offers">
-    <aside class="offer-1">
-      <p>Members discounts and special offers</p>
-      <a href="/signUp/" class="btn">Sign Up Now</a>
+  <section class="grid grid-main">
+    <aside class="inner-block-left flex-center">
+      <p>Fast worldwide shipping</p>
+      
     </aside>
-    <aside class="offer-2">
+
+    <aside class="inner-block-right flex-center">
       <p>Order lead time is 3 weeks</p>
     </aside>
   </section>
-  <div class="grid top-links">
-    <section class="grid4">
-      <a href="/%20/">
-        <div class="logo4"><img src="/img/logo.webp" alt=""></div>
-      </a>
-      <nav class="mainNav4" id="myTopnav">
-        <ul>
+<hr>
+  <section class="grid grid-main">
+    <section class="normal-width-element">
+     
+        <section class="grid grid-top-nav">
+          
+            <div class="logo4">
+              <a href="/">
+              <img src="/img/logo.webp" alt="">
+            </a>
+            </div>
+       
+          <nav class="mainNav4" id="myTopnav">
+            <ul class="list-reset">
+              <li><a href="/frames/">Frames</a></li>
+              <li><a href="/cards/">Cards</a></li>
+              <li><a href="/prints/">Prints</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/reviews/">Reviews</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <a title="Shopping Cart" href="#" class="snipcart-checkout">
+
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" alt="" title=""
+                class="snipcart-cart-header__icon snipcart__icon">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587H15.31l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.285 9.883V20.47h6.572v3.294h-6.572z"
+                  fill="currentColor"></path>
+              </svg>
+             
+            </a>
+          </div>
+         
+            <div class="burger">
+              <a href="javascript:void(0);"  onclick="myFunction()">
+              <div class="burger-bar"></div>
+              <div class="burger-bar"></div>
+              <div class="burger-bar"></div>
+            </a>
+            </div>
+        
+        </section>
+      </div> 
+    </section>
+  </section>
+<hr>
+  <section class="grid grid-main">
+    <aside class="normal-width-element padding-small">
+      <div id="breadcrumbs-nav">
+        <a href="/">Home</a>
+        
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+                / <a href="/frames/">Frames</a>
+            
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+                / <a href="/frames/house/">House</a>
+            
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+        
+    </div>
+   
+    </aside>
+  </section>
+    
+</header>
+  
+
+  
+<main>
+ 
+  
+  <section class="grid grid-main">
+   <div class="normal-width-element">
+      <ul class="list-reset filter-list">
+
+         
+         
+         
+         
+         
+         
+         
+         <li><a href="/frames/baby" 
+            
+            class="filter-buttons">baby</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/birthday" 
+            
+            class="filter-buttons">birthday</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/custom" 
+            
+            class="filter-buttons">custom</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/family" 
+            
+            class="filter-buttons">family</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/house" 
+             class="filter-buttons active-filter"
+            class="filter-buttons">house</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/memorial" 
+            
+            class="filter-buttons">memorial</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/pebble-art" 
+            
+            class="filter-buttons">pebble-art</a>	</li>		    
+         
+         
+         
+         <li><a href="/frames/wedding" 
+            
+            class="filter-buttons">wedding</a>	</li>		    
+         
+         
+
+                
+      </ul>
+   </div>
+</section>
+
+  
+
+
+  <section class="grid grid-main">
+    <aside class="normal-width-element">
+      
+
+      
+      
+      <section class="grid grid-main">
+        <article class="normal-width-element">
+          <aside class="color3-bg padding-large margin-small">
+    <h3>Personalised Home Frames</h3>
+    Housewarming gift frames are perfect as a: Housewarming Gift - First home gift - Moving house gift - Moving in gift. Moving into a new house is a major event in peoples lives. Therefore, we create house warming gift frames for our customers. Whether you are buying your first home, or trading up, (or down), we can create a gift frame to suite. If you are looking for a new house gift, we can customize the frame with the house number. Even if your friends are moving into a house, apartment, flat, condo, bungalow or cabin, they need something for their walls. We insert the number of the house, and also a cute wooden key. Please see our range of frames below. If you cannot find one that suites, please contact us to arrange a custom housewarming gift.
+</aside>
+
+          <ul class="grid grid-products padding-small text-center list-reset">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/frames/house/personalised-modern-new-home-gift-frame/">
+      <picture>
+        <source srcset="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-modern-new-home-gift-frame-medium.webp">
+        
+        <img src="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-modern-new-home-gift-frame-medium.png" srcset="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-modern-new-home-gift-frame-medium.png"
+          alt="Personalised modern new home gift frame" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/frames/house/personalised-modern-new-home-gift-frame/">
+      Personalised modern new home gift frame
+    </a>
+  </div>
+  <p class="price">&euro;43.75</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Personalised modern new home gift frame"
+data-item-weight="1000"
+data-item-name="Personalised modern new home gift frame"
+data-item-image="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-modern-new-home-gift-frame.webp"
+data-item-price="43.75"
+data-item-url="https://shaunagra-custom-frames.ie/frames/house/personalised-modern-new-home-gift-frame/"
+
+ data-item-custom1-name="Couples initials"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Frame &amp; card package"
+ data-item-custom2-options="Frame only|Frame &amp; card package (3.50 Euro)[&#43;3.50]"
+ data-item-custom2-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="border-round-edge margin-large-bottom">
+  <div class="body padding-small">
+    <a href="https://shaunagra-custom-frames.ie/frames/house/young-couple-personalised-new-house-gift-frame/">
+      <picture>
+        <source srcset="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-couple-personalised-new-house-gift-frame-medium.webp">
+        
+        <img src="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-couple-personalised-new-house-gift-frame-medium.png" srcset="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-couple-personalised-new-house-gift-frame-medium.png"
+          alt="Young couple personalised new house gift frame" class="img-responsive" width="400" height="600">
+      </picture>
+    </a>
+    <a class="product-title" href="https://shaunagra-custom-frames.ie/frames/house/young-couple-personalised-new-house-gift-frame/">
+      Young couple personalised new house gift frame
+    </a>
+  </div>
+  <p class="price">&euro;25.00</p>
+  <div class="cta padding-small border-top">
+    
+    
+
+
+
+<a title="Add To Cart" href="#" class="snipcart-add-item"
+data-item-id="Young couple personalised new house gift frame"
+data-item-weight="1000"
+data-item-name="Young couple personalised new house gift frame"
+data-item-image="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-couple-personalised-new-house-gift-frame.webp"
+data-item-price="25.00"
+data-item-url="https://shaunagra-custom-frames.ie/frames/house/young-couple-personalised-new-house-gift-frame/"
+
+ data-item-custom1-name="Couples initials"
+
+ data-item-custom1-required="true"
+
+ data-item-custom2-name="Frame &amp; card package"
+ data-item-custom2-options="Frame only|Frame &amp; card package (3.50 Euro)[&#43;3.50]"
+ data-item-custom2-required="true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+data-item-custom10-name="Message to Shauna Gra" 
+data-item-custom10-type="textarea">
+
+
+
+
+
+<span class="btn buyNowButton">ADD TO CART</span>
+
+
+</a>
+
+
+
+
+
+  </div>
+  <p>Or sign up for 20% OFF</p>
+  <a href="/signup/" class="filter-buttons">Get discount</a>
+</li>
+            
+            
+          </ul>
+        </article>
+      </section>
+      
+
+    </aside>
+  </section>
+
+
+
+</main>
+
+
+  
+  <footer class="grid grid-main color3-bg text-center">
+  <section class="normal-width-element">
+    <ul class="grid grid-footer list-reset">
+      <li class="padding-small"><h2>About</h2>
+        <p>I chose the name Shauna Gra because our beautiful daughter is called Shauna, which means Present from God in
+          Irish, and Gra means love in Irish. So we thought combining the two fitted perfectly with what we were hoping
+          to achieve, handcrafted gifts made with lots of love.</p></li>
+      <li class="padding-small"><h2>Links</h2>
+        <ul class="list-reset">
+          <li><a href="/">Home</a></li>
           <li><a href="/frames/">Frames</a></li>
           <li><a href="/cards/">Cards</a></li>
           <li><a href="/prints/">Prints</a></li>
@@ -93,133 +562,27 @@ function showSlides(n) {
           <li><a href="/about/">About</a></li>
           <li><a href="/reviews/">Reviews</a></li>
           <li><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="cart4"><img src="/img/logo.webp" alt=""></div>
-      <a href="javascript:void(0);" class="burger" onclick="myFunction()"><img src="img/logo.webp" alt=""></a>
-    </section>
-  </div>
-  <section class="grid breadcrumbs">
-    <aside class="breadcrumbs-content">
-      <a href="/">Home</a>
-    </aside>
-  </section>
-</header>
-
-    
-
-    
-<main>
-  <section class="grid full-width-element">
-    <aside class="baby-frames-intro">
-      <h1>Personalised Home Frames</h1>
-      <section class="grid">
-        <article class="list-content">
-          <p>Practical Housewarming Gifts, Best New Home Gifts For Couples &amp; Homeowners, Online Gifts For First Home, Shauna Gra, Dublin Ireland, Worldwide Delivery</p>
-        </article>
-      </section>
-    </aside>
-  </section>
-
-  <section class="grid">
-    <aside class="baby-frames-intro">
-      
-
   
-  <br>
-  <section class="grid">
-    <article class="baby-frames-thumbs">
-      <ul class="listing">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-      </ul>
-    </article>
+        </ul></li>
+        <li class="padding-small"><h2>Contact</h2>
+        <p>If you would like to contact us with any questions.</p>
+        <a href="/contact/">Contact us</a></li>
+        <li class="padding-small"> <h2>Sign Up</h2>
+        <p>Why not signup to our members area and get lifetime discounts, and special offers.</p>
+        <a href="/signup">Signup</a></li>
+    </ul>
   </section>
-
+  <section class="full-width-element color1-bg">
+    <aside class="inner-block-left flex-center">
+      <p>&copy 2024 Shauna Gra</p>
     </aside>
-  </section>
-  
-
-  
-</main>
-
-
-    
-    <footer class="grid">
-  <section class="footer-top">
-    <aside class="about">
-      <h2>About</h2>
-      <p>I chose the name Shauna Gra because our beautiful daughter is called Shauna, which means Present from God in
-        Irish, and Gra means love in Irish. So we thought combining the two fitted perfectly with what we were hoping
-        to achieve, handcrafted gifts made with lots of love.</p>
-    </aside>
-    <aside class="links">
-      <h2>Links</h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Frames</a></li>
-        <li><a href="#">Cards</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-    </aside>
-    <aside class="contact-footer">
-      <h2>Contact</h2>
-      <p>You can contact us here if you like.</p>
-    </aside>
-    <aside class="signup-footer">
-      <h2>Sign Up</h2>
-      <p>You can sign up here if you like.</p>
-    </aside>
-  </section>
-  <section class="grid footer-bottom">
-    <aside class="copyright">
-      <p>Copyright stuff here</p>
-    </aside>
-    <aside class="webdev">
+    <aside class="inner-block-right flex-center">
       <p>Website developed by MDP Web Development</p>
     </aside>
   </section>
 </footer>
-    
+  
+
 </body>
 
 </html>
