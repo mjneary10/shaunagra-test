@@ -1,8 +1,8 @@
 +++
 type = "indexFile"
 metaTitle = "Personalised cards | Shauna Gra"
-title = "Testing frames"
+title = "Testing cards"
 description = "Shauna Gra Handmade Cards, Swords Dublin Irlenad, World Wide Delivery"
 +++
-Testing frames here
+Testing cards here
 

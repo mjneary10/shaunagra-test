@@ -19,7 +19,11 @@
       }
     </style>
 
+{{ if eq .RelPermalink "/test/frames/" }}
 
+
+
+{{end}}
 
 <hr>
 <h2>Duplicate product titles</h2>
@@ -98,6 +102,11 @@
 
 <hr>
 
+<a href="/test/frames/">Frames</a><br>
+<a href="/test/cards/">Cards</a><br>
+<a href="/test/prints/">Prints</a><br>
+
+{{ if eq .RelPermalink "/test/cards/" }}
     <h1>********************************************* CARDS *********************************************</h1>
    
 
@@ -169,9 +178,11 @@
           {{ end }}
         </table>
     {{ end }}
+    {{end}}
   
-  
+
     <hr>
+    {{ if eq .RelPermalink "/test/frames/" }}
     <h1>********************************************* FRAMES *********************************************</h1>
    
 
@@ -244,12 +255,15 @@
           {{ end }}
         </table>
     {{ end }}
+
+    {{end}}
   
 
 
 
 
     <hr>
+    {{ if eq .RelPermalink "/test/prints/" }}
     <h1>********************************************* PRINTS *********************************************</h1>
    
 
@@ -322,6 +336,7 @@
           {{ end }}
         </table>
     {{ end }}
+    {{end}}
   
 
 
