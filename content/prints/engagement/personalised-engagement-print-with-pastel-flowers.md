@@ -32,5 +32,5 @@ dataItemCustom4Required = "true"
 
 image ="/img/prints/engagement/personalised-engagement-print-with-pastel-flowers/personalised-engagement-print-with-pastel-flowers"
 
-description = "Personalised engagement print with pastel flowers, on of our best selling prints."
+description = "Personalised engagement print with pastel flowers, one of our best selling prints."
 +++

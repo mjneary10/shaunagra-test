@@ -32,5 +32,5 @@ dataItemCustom4Required = "true"
 
 image ="/img/prints/engagement/personalised-engagement-print-with-black-roses/personalised-engagement-print-with-black-roses"
 
-description = "Personalised engagement print with black roses, on of our best selling prints."
+description = "Personalised engagement print with black roses, one of our best selling prints."
 +++
