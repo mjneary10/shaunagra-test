@@ -10,7 +10,7 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "house"
 
-attribute1 = "6 by 4 inches, 15 by 10 cm" 
+attribute1 = "6 by 8 inch, 16 by 20 cm" 
 attribute2 = "Safety perspex"
 attribute3 = "Wall hung or free standing"
 

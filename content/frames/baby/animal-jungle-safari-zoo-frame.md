@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Animal jungle safari zoo frame | Shauna Gra"
 title = "Animal jungle safari zoo frame"
-price = "14.95"
+price = "37.50"
 weight = "1000"
 stock = "2"
 creationDate = "09/02/2023"
@@ -10,9 +10,9 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "baby"
  
-attribute1 = "6.5 by 5 inch, 16 by 12 cm" 
+attribute1 = "6 by 8 inch, 16 by 20 cm" 
 attribute2 = "Safety Perspex"
-attribute3 = "Wall hung or free standing"
+attribute3 = "Wall hung"
 
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "Baby's first name only"

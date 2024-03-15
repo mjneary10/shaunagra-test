@@ -3,7 +3,7 @@ pageType = "product"
 metaTitle ="Young couple personalised new house gift frame | Shauna Gra"
 title = "Young couple personalised new house gift frame"
 price = "25.00"
-weight = "1000"
+weight = "500"
 stock = "2"
 creationDate = "09/02/2023"
 
@@ -11,7 +11,7 @@ productGroup = "frames"
 productType = "house"
 
 attribute1 = "4 by 4 inches, 10 by 10 cm" 
-attribute2 = "Safety perspex"
+attribute2 = "Real glass"
 attribute3 = "Wall hung or free standing"
 
 #---------------------------------------------------------------------------------------------#

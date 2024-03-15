@@ -11,7 +11,7 @@ productGroup = "frames"
 productType = "family"
  
 attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Glass"
+attribute2 = "Real glass"
 attribute3 = "Wall hung or free standing"
  
 #---------------------------------------------------------------------------------------------#
@@ -19,7 +19,7 @@ dataItemCustom1Name = "Required names"
 dataItemCustom1Required = "true"
 
 dataItemCustom2Name = "Frame & card package"
-dataItemCustom2Options = "Frame (up to 25 letters)|Frame & card package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters)|Frame & card package (26 to 40 letters) (+3.50 Euro)"
+dataItemCustom2Options = "Frame (up to 25 letters)|Frame & card package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters) (+5 Euro)[+5]|Frame & card package (26 to 40 letters) (+3.50 Euro)[+8.50]"
 dataItemCustom2Required = "true"
 #---------------------------------------------------------------------------------------------#
  

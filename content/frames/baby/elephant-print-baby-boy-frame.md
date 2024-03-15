@@ -10,9 +10,9 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "baby"
  
-attribute1 = "8 by 6 inch, 20 by 15 cm" 
+attribute1 = "5 by 7 inch, 13 by 18 cm" 
 attribute2 = "Safety Perspex"
-attribute3 = "Wall hung or free standing"
+attribute3 = "Wall hung"
  
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "Baby's first name only"

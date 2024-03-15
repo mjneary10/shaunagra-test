@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Boy or girl cute new baby personalised frame | Shauna Gra"
 title = "Boy or girl cute new baby personalised frame"
-price = "14.95"
+price = "37.50"
 weight = "1000"
 stock = "2"
 creationDate = "06/03/2024"
@@ -10,9 +10,9 @@ creationDate = "06/03/2024"
 productGroup = "frames"
 productType = "baby"
  
-attribute1 = "6.5 by 5 inch, 16 by 12 cm" 
+attribute1 = "5 by 7 inch, 13 by 18 cm" 
 attribute2 = "Safety Perspex"
-attribute3 = "Wall hung or free standing"
+attribute3 = "Wall hung"
 
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "Baby's first name only"

@@ -11,7 +11,7 @@ productGroup = "frames"
 productType = "house"
 
 attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Safety perspex"
+attribute2 = "Real glass"
 attribute3 = "Wall hung or free standing"
 
 #---------------------------------------------------------------------------------------------#
