@@ -3,7 +3,7 @@ pageType = "product"
 metaTitle ="Wedding print personalised with eucalyptus and couple heads | Shauna Gra"
 title = "Wedding print personalised with eucalyptus and couple heads"
 price = "14.95"
-weight = "100" 
+weight = "250" 
 stock = "2"
 creationDate = "13/03/2024"
 

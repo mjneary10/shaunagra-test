@@ -3,7 +3,7 @@ pageType = "product"
 metaTitle ="Personalised engagement print with pastel flowers | Shauna Gra"
 title = "Personalised engagement print with pastel flowers"
 price = "14.95"
-weight = "100" 
+weight = "250" 
 stock = "2"
 creationDate = "11/03/2024"
 

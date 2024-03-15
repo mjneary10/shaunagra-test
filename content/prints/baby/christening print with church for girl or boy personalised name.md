@@ -3,7 +3,7 @@ pageType = "product"
 metaTitle ="Christening print with church for girl or boy personalised name | Shauna Gra"
 title = "Christening print with church for girl or boy personalised name"
 price = "14.95"
-weight = "100" 
+weight = "250" 
 stock = "2"
 creationDate = "09/02/2024"
 

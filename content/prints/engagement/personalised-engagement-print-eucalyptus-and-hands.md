@@ -3,7 +3,7 @@ pageType = "product"
 metaTitle ="Personalised engagement print eucalyptus and hands | Shauna Gra"
 title = "Personalised engagement print eucalyptus and hands"
 price = "14.95"
-weight = "100" 
+weight = "250" 
 stock = "2"
 creationDate = "13/03/2024"
 

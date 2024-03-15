@@ -3,7 +3,7 @@ pageType = "product"
 metaTitle ="Christening print with flowers personalised name for girl or boy | Shauna Gra"
 title = "Christening print with flowers personalised name for girl or boy"
 price = "14.95"
-weight = "100" 
+weight = "250" 
 stock = "2"
 creationDate = "09/02/2024"
 
