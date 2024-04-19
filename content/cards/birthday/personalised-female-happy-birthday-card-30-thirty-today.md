@@ -19,9 +19,13 @@ attribute4 = "Envelope included, 100 gsm"
 dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
 
-dataItemCustom6Name = "Card options"
-dataItemCustom6Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom6Required = "true"
+dataItemCustom2Name = "Card options"
+dataItemCustom2Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom2Required = "true"
+
+dataItemCustom3Name = "Design options"
+dataItemCustom3Options = "A|B|C|D"
+dataItemCustom3Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/personalised-female-happy-birthday-card-30-thirty-today/personalised-female-happy-birthday-card-30-thirty-today"
