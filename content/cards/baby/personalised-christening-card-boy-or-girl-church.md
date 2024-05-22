@@ -39,3 +39,5 @@ image ="/img/cards/baby/personalised-christening-card-boy-or-girl-church/persona
  
 description = "Personalised christening card for a boy or girl, with a cute church."
 +++
+
+Personalised christening card for a boy or girl, with a cute church.

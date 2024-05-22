@@ -32,3 +32,5 @@ image ="/img/cards/birthday/personalised-30th-birthday-card-for-friend-handbag/p
 
 description = "Personalised 30th birthday card for friend with cute handbag."
 +++
+
+Personalised 30th birthday card for friend with cute handbag.

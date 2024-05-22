@@ -42,3 +42,5 @@ image ="/img/cards/baby/christening-card-personalised-goddaughter-godson-twins/c
  
 description = "This is one of our cutest personalised christening cards, suitable for boys or girls, godson goddaughter and twins also. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised christening cards, suitable for boys or girls, godson goddaughter and twins also. You can choose from 4 designs at checkout.

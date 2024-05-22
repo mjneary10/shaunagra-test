@@ -42,3 +42,5 @@ image ="/img/cards/baby/personalised-new-parents-card-for-new-baby-with-teddy-be
 
 description = "This is one of our most popular personalised new parents cards, for a new baby, with striking colors and a cute teddy."
 +++
+
+This is one of our most popular personalised new parents cards, for a new baby, with striking colors and a cute teddy.

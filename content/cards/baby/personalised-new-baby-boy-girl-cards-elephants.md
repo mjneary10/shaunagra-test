@@ -42,3 +42,5 @@ image ="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personali
  
 description = "This is one of our cutest personalised baby boy or girl cards, with striking colors and cute elephants. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised baby boy or girl cards, with striking colors and cute elephants. You can choose from 4 designs at checkout.

@@ -42,3 +42,5 @@ image ="/img/cards/baby/cute-personalised-newborn-twins-card-for-boys-or-girls/c
  
 description = "This is one of our cutest personalised newborn twins cards, suitable for a boy or girl, with striking colors and cute babies and monkeys. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised newborn twins cards, suitable for a boy or girl, with striking colors and cute babies and monkeys. You can choose from 4 designs at checkout.

@@ -4,7 +4,7 @@ metaTitle ="Personalised modern new home gift frame | Shauna Gra"
 title = "Personalised modern new home gift frame"
 price = "43.75"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "frames"
@@ -27,3 +27,5 @@ image ="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-m
 
 description = "This personalised modern new home gift frame would be ideal for those special people moving house, or buying their first home. They will remember you forever!!."
 +++
+
+This personalised modern new home gift frame would be ideal for those special people moving house, or buying their first home. They will remember you forever!!.

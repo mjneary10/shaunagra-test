@@ -40,3 +40,5 @@ image ="/img/cards/wedding/gay-wedding-day-card-in-english-or-irish-language/gay
  
 description = "An elegant Gay Wedding Day Card suitable for your son, grandson, nephew, or best friend's Civil Ceremony.  This Congrats Gay Wedding Card has the two grooms first names personalised on it.  In the middle of this Mr & Mr Wedding Card it has an Irish Celtic Heart layered on top of a blue watercolour heart.  This keepsake Two Grooms Card also has the date of the wedding on it at the bottom.  This Irish Handmade card is available in the Irish or English Language and only available from Shauna Gra!  Click here to purchase yours today."
 +++
+
+An elegant Gay Wedding Day Card suitable for your son, grandson, nephew, or best friend's Civil Ceremony. This Congrats Gay Wedding Card has the two grooms first names personalised on it. In the middle of this Mr & Mr Wedding Card it has an Irish Celtic Heart layered on top of a blue watercolour heart. This keepsake Two Grooms Card also has the date of the wedding on it at the bottom. This Irish Handmade card is available in the Irish or English Language and only available from Shauna Gra! Click here to purchase yours today.

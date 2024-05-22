@@ -38,3 +38,5 @@ image ="/img/prints/baby/christening-print-with-church-for-girl-or-boy-personali
 
 description = "Christening print with church for girl or boy personalised name."
 +++
+
+Christening print with church for girl or boy personalised name.

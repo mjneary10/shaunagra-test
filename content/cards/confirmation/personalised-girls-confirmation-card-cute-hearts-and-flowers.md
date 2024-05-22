@@ -42,3 +42,5 @@ image ="/img/cards/confirmation/personalised-girls-confirmation-card-cute-hearts
  
 description = "This is one of our cutest personalised girls confirmation cards. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised girls confirmation cards. You can choose from 4 designs at checkout.

@@ -42,3 +42,5 @@ image ="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-na
  
 description = "This is one of our cutest personalised confirmation cards, suitable for boys or girls, godson also. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised confirmation cards, suitable for boys or girls, godson also. You can choose from 4 designs at checkout.

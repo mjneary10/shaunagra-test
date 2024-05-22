@@ -37,3 +37,5 @@ image ="/img/prints/wedding/wedding-print-personalised-with-rings-and-flowers/we
 
 description = "Wedding print personalised with rings and cute flowers, one of our best selling wedding prints."
 +++
+
+Wedding print personalised with rings and cute flowers, one of our best selling wedding prints.

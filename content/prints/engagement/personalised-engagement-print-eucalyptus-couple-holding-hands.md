@@ -37,3 +37,5 @@ image ="/img/prints/engagement/personalised-engagement-print-eucalyptus-couple-h
 
 description = "Personalised engagement print with cute eucalyptus border and a couple holding hands, one of our best selling prints."
 +++
+
+Personalised engagement print with cute eucalyptus border and a couple holding hands, one of our best selling prints.

@@ -25,3 +25,5 @@ image ="/img/cards/condolence/sorry-for-your-loss-brother-card-with-cross-condol
  
 description = "A simple but elegant (Sorry for the loss of your Brother, thinking of you at this very difficult time) card.  It has a blue watercolour in the middle of my design.  You can pick an elegant feather on top of it or Celtic cross or swarm of butterflies."
 +++
+
+A simple but elegant (Sorry for the loss of your Brother, thinking of you at this very difficult time) card. It has a blue watercolour in the middle of my design. You can pick an elegant feather on top of it or Celtic cross or swarm of butterflies.

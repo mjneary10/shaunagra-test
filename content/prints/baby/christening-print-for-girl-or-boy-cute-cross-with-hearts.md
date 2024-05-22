@@ -38,3 +38,5 @@ image ="/img/prints/baby/christening-print-for-girl-or-boy-cute-cross-with-heart
 
 description = "Christening print for girl or boy cute cross with hearts. This is one of our best selling christening prints."
 +++
+
+Christening print for girl or boy cute cross with hearts. This is one of our best selling christening prints.

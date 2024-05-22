@@ -32,3 +32,5 @@ image ="/img/cards/birthday/personalised-30th-birthday-card-daughter-makeup-bag-
 
 description = "Personalised 30th birthday card for daughter, makeup bag, female."
 +++
+
+Personalised 30th birthday card for daughter, makeup bag, female.

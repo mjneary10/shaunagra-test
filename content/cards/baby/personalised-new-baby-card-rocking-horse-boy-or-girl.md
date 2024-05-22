@@ -38,3 +38,5 @@ image ="/img/cards/baby/personalised-new-baby-card-rocking-horse-boy-or-girl/per
 
 description = "This is one of our cutest baby boy or girl rocking horse cards, with striking colors and a cute rocking horse."
 +++
+
+This is one of our cutest baby boy or girl rocking horse cards, with striking colors and a cute rocking horse.

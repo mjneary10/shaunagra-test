@@ -42,3 +42,5 @@ image ="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/p
  
 description = "This is one of our most popular personalised christening cards with a floral cross, and is suitable for boys or girls. You can choose from 4 designs at checkout."
 +++
+
+This is one of our most popular personalised christening cards with a floral cross, and is suitable for boys or girls. You can choose from 4 designs at checkout.

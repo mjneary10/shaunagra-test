@@ -41,3 +41,5 @@ image ="/img/cards/birthday/2nd-birthday-personalised-card-cute-rabbit-or-panda/
 
 description = "2nd birthday personalised card cute rabbit or panda."
 +++
+
+2nd birthday personalised card cute rabbit or panda.

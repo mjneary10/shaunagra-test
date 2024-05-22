@@ -43,3 +43,5 @@ image ="/img/cards/birthday/age-4-5-6-7-cute-police-dog-birthday-card-personalis
 
 description = "Age 4, 5, 6, or 7, cute police dog birthday card that is personalised for a grandson."
 +++
+
+Age 4, 5, 6, or 7, cute police dog birthday card that is personalised for a grandson.

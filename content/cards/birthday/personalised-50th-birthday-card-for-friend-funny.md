@@ -32,3 +32,5 @@ image ="/img/cards/birthday/personalised-50th-birthday-card-for-friend-funny/per
 
 description = "Personalised 50th birthday card for friend funny."
 +++
+
+Personalised 50th birthday card for friend funny.

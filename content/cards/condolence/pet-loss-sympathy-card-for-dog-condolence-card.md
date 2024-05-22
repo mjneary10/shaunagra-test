@@ -24,3 +24,5 @@ image ="/img/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/pet
  
 description = "This dog sympathy card is perfect to give to a dog owner to show them you understand they are going through an extremely difficult time.  After all, the loss of a dog is like the loss of a close family member."
 +++
+
+This dog sympathy card is perfect to give to a dog owner to show them you understand they are going through an extremely difficult time. After all, the loss of a dog is like the loss of a close family member.

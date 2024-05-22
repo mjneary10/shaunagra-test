@@ -25,3 +25,5 @@ image ="/img/cards/condolence/sympathy-card-dad-blue-butterfly-simple-and-elegan
  
 description = "This Dad sympathy card for the mourning of a father says (Sorry for the loss of your Dad / Father, Thinking of You).  It has an elegant butterfly design on the front.  It has a blue watercolour at the back of the design.  You may like to choose the feather design option either."
 +++
+
+This Dad sympathy card for the mourning of a father says (Sorry for the loss of your Dad / Father, Thinking of You). It has an elegant butterfly design on the front. It has a blue watercolour at the back of the design. You may like to choose the feather design option either.

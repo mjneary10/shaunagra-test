@@ -42,3 +42,5 @@ image ="/img/cards/baby/personalised-new-baby-card-boy-or-girl-cute-elephants-wa
  
 description = "This is one of our cutest personalised new baby cards, suitable for a boy or girl, with striking colors and cute elephants. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised new baby cards, suitable for a boy or girl, with striking colors and cute elephants. You can choose from 4 designs at checkout.

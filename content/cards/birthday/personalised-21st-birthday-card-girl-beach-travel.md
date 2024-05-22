@@ -32,3 +32,5 @@ image ="/img/cards/birthday/personalised-21st-birthday-card-girl-beach-travel/pe
 
 description = "Personalised 21st birthday card girl with beach and travel vibes."
 +++
+
+Personalised 21st birthday card girl with beach and travel vibes.

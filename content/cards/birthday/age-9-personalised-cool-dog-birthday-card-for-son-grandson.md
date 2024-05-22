@@ -43,3 +43,5 @@ image ="/img/cards/birthday/age-9-personalised-cool-dog-birthday-card-for-son-gr
 
 description = "Age 9 personalised cool dog birthday card, perfect for a son or grandson"
 +++
+
+Age 9 personalised cool dog birthday card, perfect for a son or grandson

@@ -47,3 +47,5 @@ image ="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-eng
  
 description = "This is one of our cutest personalised welcome to the world baby cards, suitable for boys or girls, with striking colors and cute teddies. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised welcome to the world baby cards, suitable for boys or girls, with striking colors and cute teddies. You can choose from 4 designs at checkout.

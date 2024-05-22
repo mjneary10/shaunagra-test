@@ -37,3 +37,5 @@ image ="/img/prints/wedding/wedding-print-personalised-with-eucalyptus-leaves-an
 
 description = "Wedding print personalised with eucalyptus leaves and a cute couple, one of our best selling wedding prints."
 +++
+
+Wedding print personalised with eucalyptus leaves and a cute couple, one of our best selling wedding prints.

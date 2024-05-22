@@ -42,3 +42,5 @@ image ="/img/cards/baby/new-baby-boy-girl-washing-line-card/new-baby-boy-girl-wa
 
 description = "This is one of our cutest baby boy or girl washing line cards, with striking colors and cute birds."
 +++
+
+This is one of our cutest baby boy or girl washing line cards, with striking colors and cute birds.

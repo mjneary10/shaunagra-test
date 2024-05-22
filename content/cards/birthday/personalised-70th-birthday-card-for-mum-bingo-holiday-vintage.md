@@ -36,3 +36,5 @@ image ="/img/cards/birthday/personalised-70th-birthday-card-for-mum-bingo-holida
 
 description = "Personalised 70th birthday card for mum with cute bingo, holiday and vintage vibes"
 +++
+
+Personalised 70th birthday card for mum with cute bingo, holiday and vintage vibes

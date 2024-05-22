@@ -41,5 +41,7 @@ dataItemCustom6Required = "true"
 
 image ="/img/cards/birthday/3rd-birthday-personalised-zoo-jungle-safari-card/3rd-birthday-personalised-zoo-jungle-safari-card"
 
-description = "3rd birthday personalised zoo jungle safari card ."
+description = "3rd birthday personalised zoo jungle safari card."
 +++
+
+3rd birthday personalised zoo jungle safari card.

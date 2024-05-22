@@ -40,3 +40,5 @@ image ="/img/cards/wedding/personalised-tree-of-life-wedding-card-rustic-hearts/
 
 description = "Personalised tree of life wedding card with rustic hearts, this is one of our most popular wedding cards."
 +++
+
+Personalised tree of life wedding card with rustic hearts, this is one of our most popular wedding cards.

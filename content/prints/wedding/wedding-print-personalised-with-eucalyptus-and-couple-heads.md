@@ -37,3 +37,5 @@ image ="/img/prints/wedding/wedding-print-personalised-with-eucalyptus-and-coupl
 
 description = "Wedding print personalised with eucalyptus and couple heads, one of our best selling wedding prints."
 +++
+
+Wedding print personalised with eucalyptus and couple heads, one of our best selling wedding prints.

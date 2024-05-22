@@ -37,3 +37,5 @@ image ="/img/prints/engagement/personalised-engagement-print-eucalyptus-couple-i
 
 description = "Personalised engagement print with cute eucalyptus border and couple in love on a bench, one of our best selling prints."
 +++
+
+Personalised engagement print with cute eucalyptus border and couple in love on a bench, one of our best selling prints.

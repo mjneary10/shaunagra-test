@@ -40,3 +40,5 @@ image ="/img/cards/wedding/gay-wedding-card-two-grooms-red-heart/gay-wedding-car
 
 description = "Gay wedding day card for your son, grandson, nephew, best friends or a stylish male couple you know. This keepsake Mr & Mr card is handmade in Ireland. The text on the card reads (congratulations (couple's first names) on your wedding day), and it has a red watercolor heart with two grooms in suits. It is personalised with the date of the wedding."
 +++
+
+Gay wedding day card for your son, grandson, nephew, best friends or a stylish male couple you know. This keepsake Mr & Mr card is handmade in Ireland. The text on the card reads (congratulations (couple's first names) on your wedding day), and it has a red watercolor heart with two grooms in suits. It is personalised with the date of the wedding.

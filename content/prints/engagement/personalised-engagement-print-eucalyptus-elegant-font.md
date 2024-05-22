@@ -37,3 +37,5 @@ image ="/img/prints/engagement/personalised-engagement-print-eucalyptus-elegant-
 
 description = "Personalised engagement print with eucalyptus border and elegant font, one of our best selling prints."
 +++
+
+Personalised engagement print with eucalyptus border and elegant font, one of our best selling prints.

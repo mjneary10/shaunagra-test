@@ -42,3 +42,5 @@ image ="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flo
  
 description = "This is one of our cutest personalised christening cards, suitable for boys or girls, with striking colors and a modern design. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised christening cards, suitable for boys or girls, with striking colors and a modern design. You can choose from 4 designs at checkout.

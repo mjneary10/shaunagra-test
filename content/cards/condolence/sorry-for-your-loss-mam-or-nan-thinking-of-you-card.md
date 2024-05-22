@@ -25,3 +25,5 @@ image ="/img/cards/condolence/sorry-for-your-loss-mam-or-nan-thinking-of-you-car
  
 description = "This condolence card for the death of a mother says “Sorry for the loss of your Mam / Mom / Mother, Thinking of You”.  It has an elegant butterfly design on the front.  It has a pink watercolour at the back of the design.  You may like to choose the feather design option either."
 +++
+
+This condolence card for the death of a mother says “Sorry for the loss of your Mam / Mom / Mother, Thinking of You”. It has an elegant butterfly design on the front. It has a pink watercolour at the back of the design. You may like to choose the feather design option either.

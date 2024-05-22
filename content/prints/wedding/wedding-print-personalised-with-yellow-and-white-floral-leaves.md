@@ -37,3 +37,5 @@ image ="/img/prints/wedding/wedding-print-personalised-with-yellow-and-white-flo
 
 description = "Wedding print personalised with cute yellow and white floral leaves, one of our best selling wedding prints."
 +++
+
+Wedding print personalised with cute yellow and white floral leaves, one of our best selling wedding prints.

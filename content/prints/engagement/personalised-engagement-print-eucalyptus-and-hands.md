@@ -34,3 +34,5 @@ image ="/img/prints/engagement/personalised-engagement-print-eucalyptus-and-hand
 
 description = "Personalised engagement print with modern eucalyptus and romantic hands, one of our best selling prints."
 +++
+
+Personalised engagement print with modern eucalyptus and romantic hands, one of our best selling prints.

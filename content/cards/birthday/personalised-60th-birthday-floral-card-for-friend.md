@@ -32,3 +32,5 @@ image ="/img/cards/birthday/personalised-60th-birthday-floral-card-for-friend/pe
 
 description = "Personalised 60th birthday floral card for friend, of of our best selling birthday cards."
 +++
+
+Personalised 60th birthday floral card for friend, of of our best selling birthday cards.

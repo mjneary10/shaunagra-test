@@ -27,3 +27,13 @@ image ="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-c
 
 description = "This young couple personalised new house gift frame is ideal for anyone buying their first home. They will remember you forever!!."
 +++
+
+Are you looking for a personalised new house frame for a young couple as a gift? I have a cute new home frame that is customised with the initials of the couples first names. I have used little wooden letters, and they are both frames individually using hand painted silver frames. There is a cute little rustic heart shaped embellishment in the middle of the frames. Lastly I have used a cute little bird cage which is left in the natural wood. All the items are glued on to an elegant grey and white background.
+
+You can also choose to add in a frame to match the occasion of your card. Please add to cart at the time of ordering and let me know the couples first names and the date they moved into their new house.
+
+Specifications
+
+6 x 6 inches
+
+Real glass frontage

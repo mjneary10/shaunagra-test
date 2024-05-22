@@ -39,3 +39,5 @@ image ="/img/cards/engagement/cute-engagement-card-with-dogs-for-a-couple/cute-e
  
 description = "This is one of our cutest personalised engagement cards, with striking colors and cute dogs on it. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised engagement cards, with striking colors and cute dogs on it. You can choose from 4 designs at checkout.

@@ -37,3 +37,5 @@ image ="/img/prints/wedding/wedding-print-personalised-with-pink-roses/wedding-p
 
 description = "Wedding print personalised with pink roses, one of our best selling wedding prints."
 +++
+
+Wedding print personalised with pink roses, one of our best selling wedding prints.

@@ -25,3 +25,5 @@ image ="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sist
  
 description = "A beautiful (Sorry for the loss of your Sister, thinking of you at this very difficult time) card.  It has a pink watercolour with an elegant pink feather on top of it."
 +++
+
+A beautiful (Sorry for the loss of your Sister, thinking of you at this very difficult time) card. It has a pink watercolour with an elegant pink feather on top of it.

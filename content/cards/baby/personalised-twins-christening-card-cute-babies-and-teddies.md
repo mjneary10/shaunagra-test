@@ -42,3 +42,5 @@ image ="/img/cards/baby/personalised-twins-christening-card-cute-babies-and-tedd
  
 description = "This is one of our cutest personalised twins christening cards, suitable for boys or girls, with striking colors and cute babies and teddies. You can choose from 4 designs at checkout."
 +++
+
+This is one of our cutest personalised twins christening cards, suitable for boys or girls, with striking colors and cute babies and teddies. You can choose from 4 designs at checkout.
