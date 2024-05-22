@@ -75,6 +75,19 @@
       <article class="product-info">
         <aside class="color3-bg padding-small margin-large-bottom">
           <p>{{ .Content }}</p>
+          <ul class="list-reset">
+            {{ if .Params.attribute1}}
+            <li>{{ .Params.attribute1}}</li>
+            {{end}} {{ if .Params.attribute2}}
+            <li>{{ .Params.attribute2}}</li>
+            {{end}} {{ if .Params.attribute3}}
+            <li>{{ .Params.attribute3}}</li>
+            {{end}} {{ if .Params.attribute4}}
+            <li>{{ .Params.attribute4}}</li>
+            {{end}} {{ if .Params.attribute5}}
+            <li>{{ .Params.attribute5}}</li>
+            {{end}}
+          </ul>
         </aside>
       </article>
       <article class="prod-reviews">

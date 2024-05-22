@@ -29,3 +29,7 @@ description = "This personalised modern new home gift frame would be ideal for t
 +++
 
 This personalised modern new home gift frame would be ideal for those special people moving house, or buying their first home. They will remember you forever!!.
+
+If anything is unclear please get in touch and I will be happy to clarify things for you.
+
+Specifications are: -

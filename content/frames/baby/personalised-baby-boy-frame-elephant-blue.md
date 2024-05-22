@@ -48,9 +48,3 @@ The background I have used is made up of simple blue hearts not to take away fro
 Why not choose our baby boy or girl frame & card package too so your card will match the same theme as your frame, saving you time & money. The handmade baby card made to match this particular frame has a cute little grey elephant with a blue bow and he is sitting in front of a blue watercolour background. You can choose the card for proud new parents on the birth of their baby boy. If you prefer you can have the card made for the baby boy’s baptism, christening or naming ceremony date. This customised frame design can also be adapted for a girl if require. Please contact me if you would like a different colour scheme.
 
 Specifications are: -
-
-10 x 10 inches
-
-Real glass frontage.
-
-Hook on the back for wall hanging.

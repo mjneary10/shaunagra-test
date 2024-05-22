@@ -42,9 +42,3 @@ This personalized wedding décor gift is exclusive to Shauna Grá so you can be 
 I can easily adapt this design for a gay wedding frame too, please get in touch to discuss.
 
 Specifications are: -
-
-10 x 10 inches
-
-Real glass frontage.
-
-Hook on the back for wall hanging.

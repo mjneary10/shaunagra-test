@@ -44,9 +44,3 @@ You can add in a personalised card to go with your personalised grandparents kee
 Please get in touch if you have any queries about this product.
 
 Specifications are: -
-
-10 x 10 inches
-
-Real glass frontage.
-
-Hook on the back for wall hanging.

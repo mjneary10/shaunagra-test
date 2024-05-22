@@ -24,3 +24,7 @@ A beautiful and vibrant family Irish pebble art frame made for a family of four.
 I can also make a card to go with this frame, please consider asking this to your cart when ordering your special pebble art frame.
 
 If you would like to have a pebble art frame made especially for someone please get in touch and we can discuss your options.
+
+If anything is unclear please get in touch and I will be happy to clarify things for you.
+
+Specifications are: -

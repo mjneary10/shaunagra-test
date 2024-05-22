@@ -1,356 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
-  <main>
-    <style>
-      .test-table{
-       width: max-content;
-      }
-      table td {
-        padding:5px;
-        border: 1px solid;
-       
-       
-      }
+  <body>
+    <main>
+      <style>
+        .test-table {
+          width: max-content;
+        }
+        table td {
+          padding: 5px;
+          border: 1px solid;
+        }
 
-      table th {
-        background-color: antiquewhite;
-        
-      }
-    </style>
+        table th {
+          background-color: antiquewhite;
+        }
+      </style>
 
-{{ if eq .RelPermalink "/test/frames/" }}
+      {{ if eq .RelPermalink "/test/frames/" }} {{end}}
 
+      <hr />
+      <h2>Duplicate product titles</h2>
+      <hr />
+      {{ $value1 :="" }} {{ range ( .Site.RegularPages) }} {{ $counting :=0 }}
+      {{$value1 = .Params.title}} {{ range ( .Site.RegularPages) }} {{ if eq
+      .Params.title $value1}} {{ $counting = add $counting 1 }} {{ if ge
+      $counting 2}}
 
+      <p>{{$value1}} <a href="{{.Permalink}}">Link</a></p>
 
-{{end}}
+      {{end}} {{end}} {{end}} {{end}}
 
-<hr>
-<h2>Duplicate product titles</h2>
-<hr>
-    {{ $value1 :="" }}
-    {{ range ( .Site.RegularPages) }}
-    {{ $counting :=0 }}
-    {{$value1 = .Params.title}}
-    {{ range ( .Site.RegularPages) }}
-    {{ if eq .Params.title $value1}}
-    {{ $counting = add $counting 1 }}
+      <hr />
+      <h2>Product check</h2>
+      <hr />
+      {{ $counter :=0 }} {{ range ( .Site.RegularPages) }} {{ $counter = add
+      $counter 1 }} {{if not .Params.pageType }}
+      <a href="{{.Permalink}}">pageType</a>
+      {{end}} {{if not .Params.metaTitle }}
+      <a href="{{.Permalink}}">metaTitle</a>
+      {{end}} {{if not .Params.title }}
+      <a href="{{.Permalink}}">Title</a> | {{end}} {{if not .Params.price }}
+      <a href="{{.Permalink}}">Price</a> | {{end}} {{if not .Params.weight }}
+      <a href="{{.Permalink}}">Weight</a>
+      {{end}} {{if not .Params.stock }}
+      <a href="{{.Permalink}}">stock</a>
+      {{end}} {{if not .Params.creationDate }}
+      <a href="{{.Permalink}}">creationDate</a>
+      {{end}} {{if not .Params.productGroup }}
+      <a href="{{.Permalink}}">productGroup</a>
+      {{end}} {{if not .Params.productType }}
+      <a href="{{.Permalink}}">productType</a>
+      {{end}} {{if not .Params.image }}
+      <a href="{{.Permalink}}">Image</a>
+      {{end}} {{if not .Params.description }}
+      <a href="{{.Permalink}}">description</a>
+      {{end}} {{end}}
+      <p>{{$counter}} pages checked</p>
 
-    {{ if ge $counting 2}}
+      <hr />
 
-    <p>{{$value1}} <a href="{{.Permalink}}">Link</a></p>
+      <a href="/test/frames/">Frames</a><br />
+      <a href="/test/cards/">Cards</a><br />
+      <a href="/test/prints/">Prints</a><br />
 
-    {{end}}
-    {{end}}
-    {{end}}
+      {{ if eq .RelPermalink "/test/cards/" }}
+      <h1>
+        ********************************************* CARDS
+        *********************************************
+      </h1>
 
-    {{end}}
+      {{$type :=""}} {{ $section := site.GetPage "cards" }} {{ range
+      $section.Pages }} {{ $type = .Type }}
+      <hr />
+      <h2>{{ .Params.title }}</h2>
+      <hr />
+      <table class="test-table">
+        <tr>
+          <th>Date</th>
+          <th>Page Type</th>
+          <th>Product</th>
+          <th>Type</th>
+          <th>Title</th>
+          <th>Price</th>
+          <th>Weight</th>
+          <th>Stock</th>
+          <th>Link</th>
+          <th>Image</th>
+          <th>Attribute 1</th>
+          <th>Attribute 2</th>
+          <th>Attribute 3</th>
+          <th>Attribute 4</th>
+          <th>Attribute 5</th>
+          <th>Custom 1</th>
+          <th>Custom 2</th>
+          <th>Custom 3</th>
+          <th>Custom 4</th>
+          <th>Custom 5</th>
+          <th>Custom 6</th>
+          <th>Custom 7</th>
+          <th>Custom 8</th>
+          <th>Custom 9</th>
+          <th>Description</th>
+        </tr>
+        {{ range (where .Site.Pages "Type" "cards") }} {{ if eq
+        .Params.productType $type }}
+        <tr>
+          <td>{{.Params.creationDate }}</td>
+          <td>{{ .Params.pageType}}</td>
+          <td>{{.Type}}</td>
+          <td>{{$type}}</td>
+          <td>{{.Params.title}}</td>
+          <td>{{.Params.price}}</td>
+          <td>{{.Params.weight}}</td>
+          <td>{{.Params.stock}}</td>
+          <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
+          <td><a href="{{.Params.image}}.webp" target="_blank">Image</a></td>
+          <td>{{.Params.attribute1}}</td>
+          <td>{{.Params.attribute2}}</td>
+          <td>{{.Params.attribute3}}</td>
+          <td>{{.Params.attribute4}}</td>
+          <td>{{.Params.attribute5}}</td>
+          <td>{{.Params.dataItemCustom1Name}}</td>
+          <td>{{.Params.dataItemCustom2Name}}</td>
+          <td>{{.Params.dataItemCustom3Name}}</td>
+          <td>{{.Params.dataItemCustom4Name}}</td>
+          <td>{{.Params.dataItemCustom5Name}}</td>
+          <td>{{.Params.dataItemCustom6Name}}</td>
+          <td>{{.Params.dataItemCustom7Name}}</td>
+          <td>{{.Params.dataItemCustom8Name}}</td>
+          <td>{{.Params.dataItemCustom9Name}}</td>
+          <td>{{.Params.description}}</td>
+        </tr>
+        {{ end }} {{ end }}
+      </table>
+      {{ end }} {{end}}
 
-    <hr>
-<h2>Product check</h2>
-    <hr>
-    {{ $counter :=0 }}
-    {{ range ( .Site.RegularPages) }}
-    {{ $counter = add $counter 1 }}
+      <hr />
+      {{ if eq .RelPermalink "/test/frames/" }}
+      <h1>
+        ********************************************* FRAMES
+        *********************************************
+      </h1>
 
-    {{if not .Params.pageType }}
-    <a href="{{.Permalink}}">pageType</a>
-    {{end}}
-    {{if not .Params.metaTitle }}
-    <a href="{{.Permalink}}">metaTitle</a>
-    {{end}}
-    {{if not .Params.title }}
-    <a href="{{.Permalink}}">Title</a> |
-    {{end}}
-    {{if not .Params.price }}
-    <a href="{{.Permalink}}">Price</a> |
-    {{end}}
-    {{if not .Params.weight }}
-    <a href="{{.Permalink}}">Weight</a>
-    {{end}}
-    {{if not .Params.stock }}
-    <a href="{{.Permalink}}">stock</a>
-    {{end}}
-    {{if not .Params.creationDate }}
-    <a href="{{.Permalink}}">creationDate</a>
-    {{end}}
+      {{$type :=""}} {{ $section := site.GetPage "frames" }} {{ range
+      $section.Pages }} {{ $type = .Type }}
+      <hr />
+      <h2>{{ .Params.title }}</h2>
+      <hr />
+      <table class="test-table">
+        <tr>
+          <th>Date</th>
+          <th>Page Type</th>
+          <th>Product</th>
+          <th>Type</th>
+          <th>Title</th>
+          <th>Price</th>
+          <th>Weight</th>
+          <th>Stock</th>
+          <th>Link</th>
+          <th>Image</th>
+          <th>Attribute 1</th>
+          <th>Attribute 2</th>
+          <th>Attribute 3</th>
+          <th>Attribute 4</th>
+          <th>Attribute 5</th>
+          <th>Custom 1</th>
+          <th>Custom 2</th>
+          <th>Custom 3</th>
+          <th>Custom 4</th>
+          <th>Custom 5</th>
+          <th>Custom 6</th>
+          <th>Custom 7</th>
+          <th>Custom 8</th>
+          <th>Custom 9</th>
+          <th>Description</th>
+        </tr>
+        {{ range (where .Site.Pages "Type" "frames") }} {{ if eq
+        .Params.productType $type }}
+        <tr>
+          <td>{{.Params.creationDate }}</td>
+          <td>{{ .Params.pageType}}</td>
+          <td>{{.Type}}</td>
+          <td>{{$type}}</td>
+          <td>{{.Params.title}}</td>
+          <td>{{.Params.price}}</td>
+          <td>{{.Params.weight}}</td>
+          <td>{{.Params.stock}}</td>
+          <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
+          <td><a href="{{.Params.image}}.webp" target="_blank">Image</a></td>
+          <td>{{.Params.attribute1}}</td>
+          <td>{{.Params.attribute2}}</td>
+          <td>{{.Params.attribute3}}</td>
+          <td>{{.Params.attribute4}}</td>
+          <td>{{.Params.attribute5}}</td>
 
-    {{if not .Params.productGroup }}
-    <a href="{{.Permalink}}">productGroup</a>
-    {{end}}
-    {{if not .Params.productType }}
-    <a href="{{.Permalink}}">productType</a>
-    {{end}}
+          <td>{{.Params.dataItemCustom1Name}}</td>
+          <td>{{.Params.dataItemCustom2Name}}</td>
+          <td>{{.Params.dataItemCustom3Name}}</td>
+          <td>{{.Params.dataItemCustom4Name}}</td>
+          <td>{{.Params.dataItemCustom5Name}}</td>
+          <td>{{.Params.dataItemCustom6Name}}</td>
+          <td>{{.Params.dataItemCustom7Name}}</td>
+          <td>{{.Params.dataItemCustom8Name}}</td>
+          <td>{{.Params.dataItemCustom9Name}}</td>
+          <td>{{.Params.description}}</td>
+        </tr>
+        {{ end }} {{ end }}
+      </table>
+      {{ end }} {{end}}
 
+      <hr />
+      {{ if eq .RelPermalink "/test/prints/" }}
+      <h1>
+        ********************************************* PRINTS
+        *********************************************
+      </h1>
 
-    {{if not .Params.image }}
-    <a href="{{.Permalink}}">Image</a>
-    {{end}}
+      {{$type :=""}} {{ $section := site.GetPage "prints" }} {{ range
+      $section.Pages }} {{ $type = .Type }}
+      <hr />
+      <h2>{{ .Params.title }}</h2>
+      <hr />
+      <table class="test-table">
+        <tr>
+          <th>Date</th>
+          <th>Page Type</th>
+          <th>Product</th>
+          <th>Type</th>
+          <th>Title</th>
+          <th>Price</th>
+          <th>Weight</th>
+          <th>Stock</th>
+          <th>Link</th>
+          <th>Image</th>
+          <th>Attribute 1</th>
+          <th>Attribute 2</th>
+          <th>Attribute 3</th>
+          <th>Attribute 4</th>
+          <th>Attribute 5</th>
+          <th>Custom 1</th>
+          <th>Custom 2</th>
+          <th>Custom 3</th>
+          <th>Custom 4</th>
+          <th>Custom 5</th>
+          <th>Custom 6</th>
+          <th>Custom 7</th>
+          <th>Custom 8</th>
+          <th>Custom 9</th>
+          <th>Description</th>
+        </tr>
+        {{ range (where .Site.Pages "Type" "prints") }} {{ if eq
+        .Params.productType $type }}
+        <tr>
+          <td>{{.Params.creationDate }}</td>
+          <td>{{ .Params.pageType}}</td>
+          <td>{{.Type}}</td>
+          <td>{{$type}}</td>
+          <td>{{.Params.title}}</td>
+          <td>{{.Params.price}}</td>
+          <td>{{.Params.weight}}</td>
+          <td>{{.Params.stock}}</td>
+          <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
+          <td><a href="{{.Params.image}}.webp" target="_blank">Image</a></td>
+          <td>{{.Params.attribute1}}</td>
+          <td>{{.Params.attribute2}}</td>
+          <td>{{.Params.attribute3}}</td>
+          <td>{{.Params.attribute4}}</td>
+          <td>{{.Params.attribute5}}</td>
 
-    {{if not .Params.description }}
-    <a href="{{.Permalink}}">description</a>
-    {{end}}
-
-
-    {{end}}
-    <p>{{$counter}} pages checked</p>
-    
-
-
-
-
-
-<hr>
-
-<a href="/test/frames/">Frames</a><br>
-<a href="/test/cards/">Cards</a><br>
-<a href="/test/prints/">Prints</a><br>
-
-{{ if eq .RelPermalink "/test/cards/" }}
-    <h1>********************************************* CARDS *********************************************</h1>
-   
-
-    {{$type :=""}}
-    {{ $section := site.GetPage "cards" }}
-    {{ range $section.Pages }}
-    {{ $type = .Type }}
-    <hr>
-    <h2>{{ .Params.title }}</h2>
-    <hr>
-    <table class="test-table">
-      <tr>
-        <th>Date</th>
-        <th>Page Type</th>
-        <th>Product</th>
-        <th>Type</th>
-        <th>Title</th>
-        <th>Price</th>
-        <th>Weight</th>
-        <th>Stock</th>
-        <th>Link</th>
-        <th>Image</th>
-        <th>Attribute 1</th>
-        <th>Attribute 2</th>
-        <th>Attribute 3</th>
-        <th>Attribute 4</th>
-        <th>Attribute 5</th>
-        <th>Custom 1</th>
-        <th>Custom 2</th>
-        <th>Custom 3</th>
-        <th>Custom 4</th>
-        <th>Custom 5</th>
-        <th>Custom 6</th>
-        <th>Custom 7</th>
-        <th>Custom 8</th>
-        <th>Custom 9</th>
-        <th>Description</th>
-      </tr>
-          {{ range (where .Site.Pages "Type" "cards") }}
-          {{ if eq .Params.productType $type }} 
-            <tr>
-              <td>{{.Params.creationDate }}</td>
-              <td>{{ .Params.pageType}}</td>
-              <td>{{.Type}}</td>
-              <td>{{$type}}</td>
-              <td>{{.Params.title}}</td>
-              <td>{{.Params.price}}</td>
-              <td>{{.Params.weight}}</td>
-              <td>{{.Params.stock}}</td>
-              <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
-              <td><a href="{{.Params.image}}.webp" target="_blank">Image</a></td>
-              <td>{{.Params.attribute1}}</td>
-              <td>{{.Params.attribute2}}</td>
-              <td>{{.Params.attribute3}}</td>
-              <td>{{.Params.attribute4}}</td>
-              <td>{{.Params.attribute5}}</td>
-              <td>{{.Params.dataItemCustom1Name}}</td>
-              <td>{{.Params.dataItemCustom2Name}}</td>
-              <td>{{.Params.dataItemCustom3Name}}</td>
-              <td>{{.Params.dataItemCustom4Name}}</td>
-              <td>{{.Params.dataItemCustom5Name}}</td>
-              <td>{{.Params.dataItemCustom6Name}}</td>
-              <td>{{.Params.dataItemCustom7Name}}</td>
-              <td>{{.Params.dataItemCustom8Name}}</td>
-              <td>{{.Params.dataItemCustom9Name}}</td>   
-              <td>{{.Params.description}}</td>   
-            </tr>
-          {{ end }}
-          {{ end }}
-        </table>
-    {{ end }}
-    {{end}}
-  
-
-    <hr>
-    {{ if eq .RelPermalink "/test/frames/" }}
-    <h1>********************************************* FRAMES *********************************************</h1>
-   
-
-    {{$type :=""}}
-    {{ $section := site.GetPage "frames" }}
-    {{ range $section.Pages }}
-    {{ $type = .Type }}
-    <hr>
-    <h2>{{ .Params.title }}</h2>
-    <hr>
-    <table class="test-table">
-      <tr>
-        <th>Date</th>
-        <th>Page Type</th>
-        <th>Product</th>
-        <th>Type</th>
-        <th>Title</th>
-        <th>Price</th>
-        <th>Weight</th>
-        <th>Stock</th>
-        <th>Link</th>
-        <th>Image</th>
-        <th>Attribute 1</th>
-        <th>Attribute 2</th>
-        <th>Attribute 3</th>
-        <th>Attribute 4</th>
-        <th>Attribute 5</th>
-        <th>Custom 1</th>
-        <th>Custom 2</th>
-        <th>Custom 3</th>
-        <th>Custom 4</th>
-        <th>Custom 5</th>
-        <th>Custom 6</th>
-        <th>Custom 7</th>
-        <th>Custom 8</th>
-        <th>Custom 9</th>
-        <th>Description</th>
-      </tr>
-          {{ range (where .Site.Pages "Type" "frames") }}
-          {{ if eq .Params.productType $type }} 
-            <tr>
-              <td>{{.Params.creationDate }}</td>
-              <td>{{ .Params.pageType}}</td>
-              <td>{{.Type}}</td>
-              <td>{{$type}}</td>
-              <td>{{.Params.title}}</td>
-              <td>{{.Params.price}}</td>
-              <td>{{.Params.weight}}</td>
-              <td>{{.Params.stock}}</td>
-              <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
-              <td><a href="{{.Params.image}}.webp" target="_blank">Image</a></td>
-              <td>{{.Params.attribute1}}</td>
-              <td>{{.Params.attribute2}}</td>
-              <td>{{.Params.attribute3}}</td>
-              <td>{{.Params.attribute4}}</td>
-              <td>{{.Params.attribute5}}</td>
-              
-              <td>{{.Params.dataItemCustom1Name}}</td>
-              <td>{{.Params.dataItemCustom2Name}}</td>
-              <td>{{.Params.dataItemCustom3Name}}</td>
-              <td>{{.Params.dataItemCustom4Name}}</td>
-              <td>{{.Params.dataItemCustom5Name}}</td>
-              <td>{{.Params.dataItemCustom6Name}}</td>
-              <td>{{.Params.dataItemCustom7Name}}</td>
-              <td>{{.Params.dataItemCustom8Name}}</td>
-              <td>{{.Params.dataItemCustom9Name}}</td>    
-              <td>{{.Params.description}}</td>  
-            </tr>
-          {{ end }}
-          {{ end }}
-        </table>
-    {{ end }}
-
-    {{end}}
-  
-
-
-
-
-    <hr>
-    {{ if eq .RelPermalink "/test/prints/" }}
-    <h1>********************************************* PRINTS *********************************************</h1>
-   
-
-    {{$type :=""}}
-    {{ $section := site.GetPage "prints" }}
-    {{ range $section.Pages }}
-    {{ $type = .Type }}
-    <hr>
-    <h2>{{ .Params.title }}</h2>
-    <hr>
-    <table class="test-table">
-      <tr>
-        <th>Date</th>
-        <th>Page Type</th>
-        <th>Product</th>
-        <th>Type</th>
-        <th>Title</th>
-        <th>Price</th>
-        <th>Weight</th>
-        <th>Stock</th>
-        <th>Link</th>
-        <th>Image</th>
-        <th>Attribute 1</th>
-        <th>Attribute 2</th>
-        <th>Attribute 3</th>
-        <th>Attribute 4</th>
-        <th>Attribute 5</th>
-        <th>Custom 1</th>
-        <th>Custom 2</th>
-        <th>Custom 3</th>
-        <th>Custom 4</th>
-        <th>Custom 5</th>
-        <th>Custom 6</th>
-        <th>Custom 7</th>
-        <th>Custom 8</th>
-        <th>Custom 9</th>
-        <th>Description</th>
-      </tr>
-          {{ range (where .Site.Pages "Type" "prints") }}
-          {{ if eq .Params.productType $type }} 
-            <tr>
-              <td>{{.Params.creationDate }}</td>
-              <td>{{ .Params.pageType}}</td>
-              <td>{{.Type}}</td>
-              <td>{{$type}}</td>
-              <td>{{.Params.title}}</td>
-              <td>{{.Params.price}}</td>
-              <td>{{.Params.weight}}</td>
-              <td>{{.Params.stock}}</td>
-              <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
-              <td><a href="{{.Params.image}}.webp" target="_blank">Image</a></td>
-              <td>{{.Params.attribute1}}</td>
-              <td>{{.Params.attribute2}}</td>
-              <td>{{.Params.attribute3}}</td>
-              <td>{{.Params.attribute4}}</td>
-              <td>{{.Params.attribute5}}</td>
-              
-              <td>{{.Params.dataItemCustom1Name}}</td>
-              <td>{{.Params.dataItemCustom2Name}}</td>
-              <td>{{.Params.dataItemCustom3Name}}</td>
-              <td>{{.Params.dataItemCustom4Name}}</td>
-              <td>{{.Params.dataItemCustom5Name}}</td>
-              <td>{{.Params.dataItemCustom6Name}}</td>
-              <td>{{.Params.dataItemCustom7Name}}</td>
-              <td>{{.Params.dataItemCustom8Name}}</td>
-              <td>{{.Params.dataItemCustom9Name}}</td>    
-              <td>{{.Params.description}}</td>    
-            </tr>
-          {{ end }}
-          {{ end }}
-        </table>
-    {{ end }}
-    {{end}}
-  
-
-
-
-
-
-
-
-
-    
-  </main>
-
-
-
-</body>
-
+          <td>{{.Params.dataItemCustom1Name}}</td>
+          <td>{{.Params.dataItemCustom2Name}}</td>
+          <td>{{.Params.dataItemCustom3Name}}</td>
+          <td>{{.Params.dataItemCustom4Name}}</td>
+          <td>{{.Params.dataItemCustom5Name}}</td>
+          <td>{{.Params.dataItemCustom6Name}}</td>
+          <td>{{.Params.dataItemCustom7Name}}</td>
+          <td>{{.Params.dataItemCustom8Name}}</td>
+          <td>{{.Params.dataItemCustom9Name}}</td>
+          <td>{{.Params.description}}</td>
+        </tr>
+        {{ end }} {{ end }}
+      </table>
+      {{ end }} {{end}}
+    </main>
+  </body>
 </html>

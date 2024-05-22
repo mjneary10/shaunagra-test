@@ -40,9 +40,3 @@ This bespoke customised wedding frame gift is made up of wooden tiles to spell o
 If you would like a customised wedding card to match this particular frame, please add this option to your cart. The bespoke card will be made to match the theme of this frame using a printed version of a tree. There are two types of cards to choose from. You can choose the plain white version which is 250gsm (no embellishments) or the 300gsm version. This type has the 3 rustic heart buttons in three of the corners and the bottom right has a handmade button. Please add the frame & card package to your cart if you would like to include the card to match.
 
 Specifications are: -
-
-10 x 10 inches.
-
-Real glass frontage.
-
-Hook on the back for wall hanging.

@@ -32,8 +32,6 @@ Are you looking for a personalised new house frame for a young couple as a gift?
 
 You can also choose to add in a frame to match the occasion of your card. Please add to cart at the time of ordering and let me know the couples first names and the date they moved into their new house.
 
-Specifications
+If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-6 x 6 inches
-
-Real glass frontage
+Specifications are: -

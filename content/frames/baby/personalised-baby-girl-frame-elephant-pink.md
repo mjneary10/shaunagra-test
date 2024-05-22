@@ -49,9 +49,3 @@ The background I have used is made up of simple and modern pink circles not to t
 Why not choose our baby boy or girl frame & card package too so your card will match the same theme as your frame, saving you time & money. The custom baby card made to match this particular frame has a cute little grey elephant with a pink bow holding a pink balloon she is standing in front of a pink star background. You can choose the card for proud new parents on the birth of their baby girl. If you prefer you can have the card made for the baby girl’s baptism, christening or naming ceremony date. This customised frame design can also be adapted for a boy if require. Please contact me if you would like a different colour scheme.
 
 Specifications are: -
-
-10 x 10 inches
-
-Real glass frontage.
-
-Hook on the back for wall hanging.

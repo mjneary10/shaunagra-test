@@ -34,3 +34,7 @@ I have vast selection of embellishments including religious crosses, butterflies
 Note: I do not print out photos to include in my design, however I can leave a space to accommodate a photo of a loved one by including little pegs to attach at a later date.
 
 Please add to your basket a handmade card if you would like me to make you one of a similar design to match your frame. I can also send this type of gift to a loved one direct and rest assured I never include prices in my packaging.
+
+If anything is unclear please get in touch and I will be happy to clarify things for you.
+
+Specifications are: -
