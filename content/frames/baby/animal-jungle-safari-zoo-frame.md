@@ -51,9 +51,3 @@ Please note from time to time due to stock supply I may not have the exact same 
 This frame is handmade in Ireland.
 
 Specifications are: -
-
-6.6 inches x 5 inches
-
-Safety Perspex glass (not real glass).
-
-Hook on the back for wall hanging.
