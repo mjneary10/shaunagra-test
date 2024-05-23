@@ -43,4 +43,24 @@ image ="/img/cards/baby/personalised-boy-or-girl-christening-card-church-and-flo
 description = "This is one of our cutest personalised christening cards, suitable for boys or girls, with striking colors and a modern design. You can choose from 4 designs at checkout."
 +++
 
-This is one of our cutest personalised christening cards, suitable for boys or girls, with striking colors and a modern design. You can choose from 4 designs at checkout.
+This unique christening card with a church or cross design is made in Ireland. It is an Irish handcrafted baptism card suitable to give to your daughter, son, niece, nephew or best friend on their baby girl or boy's christening day. One design has an arch window with a floral design and a gold cross in the middle. The girl version is made up of delicate pink roses while the boy version is made up of delicate green ecalyptus arrangement. I also have a version with a modern church design. All cards have the wording “With Love On Your Christening Day”, personalised with the baby's first name and the date of the Christening. They also have a sweet gold background too.
+
+You can choose a
+
+6 x 6 inch white card with plain edge. This comes with a matching envelope of 100gsm
+
+OR
+
+6 x 6 inch white scallop edge card on 3 sides. This comes with a matching envelope of 100gsm. It also has 3 rustic heart embellishments on three of the corners and the final bottom right hand corner has a little button with handmae with love on it.
+
+Check out these other Christening Cards that you may love too!
+
+https://shaunagra-custom-frames.ie/cards/baby/christening-card-personalised-goddaughter-godson-twins/
+
+https://shaunagra-custom-frames.ie/cards/baby/personalised-christening-card-boy-or-girl-church/
+
+https://shaunagra-custom-frames.ie/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/
+
+https://shaunagra-custom-frames.ie/cards/baby/personalised-christening-card-boy-or-girl-church/
+
+Specifications are: -
