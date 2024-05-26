@@ -33,4 +33,12 @@ image ="/img/cards/birthday/personalised-30th-birthday-card-for-friend-handbag/p
 description = "Personalised 30th birthday card for friend with cute handbag."
 +++
 
-Personalised 30th birthday card for friend with cute handbag.
+A unique customised 30th birthday greeting card for your best friend that loves her handbags. This personalised card is suitable for a 30 year old female reads “To an amazing friend (first name), thirty today is on the handbag and then it has “Happy Birthday”. I can change the word friend to daughter, granddaughter, niece or bestie either. There are 4 different types of hand bags to choose from so you are sure to find one that suits. Just include what title you would like when ordering.
+
+You may like the following designs either:-
+
+https://shaunagra-custom-frames.ie/cards/birthday/personalised-30th-birthday-card-daughter-makeup-bag-female/
+
+https://shaunagra-custom-frames.ie/cards/birthday/personalised-female-happy-birthday-card-30-thirty-today/
+
+Specifications are: -

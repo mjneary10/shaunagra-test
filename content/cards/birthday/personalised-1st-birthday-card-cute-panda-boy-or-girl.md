@@ -41,4 +41,10 @@ image ="/img/cards/birthday/personalised-1st-birthday-card-cute-panda-boy-or-gir
 description = "Personalised 1st birthday card cute panda for a boy or girl"
 +++
 
-Personalised 1st birthday card cute panda for a boy or girl
+A special first birthday card handmade in Ireland for a little girl or boy who turns one years old with a cute panda on the front. This large number milestone card for a 1 year old is perfect for your grandson, granddaughter, godchild, niece, nephew or a special boy or girl. It is available in the English or Irish Language. It reads “Happy Birthday to You” or “Lá breithe sona duit” with the girl or boy's first name on the front in white surrounded by a pink or blue banner. The girl version has a pink square border with a little panda sitting down wearing a vibrant and colourful party hat in rainbow colours. The panda is beside a large number pink 1. The boy version has a blue square border with a similar little panda sitting down wearing a party hat with stripes. Underneath it has the words “year old today” or “bhliain d'aois innu” once again surrounded by a pink or blue banner and the text is in white.
+
+You may like this design either for a 1 year old!
+
+https://shaunagra-custom-frames.ie/cards/birthday/personalised-1st-birthday-card-cute-lion-or-tiger/
+
+Specifications are: -

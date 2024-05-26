@@ -42,4 +42,14 @@ image ="/img/cards/birthday/personalised-2nd-birthday-card-cute-large-numbers/pe
 description = "Personalised 1st birthday card cute lion or tiger."
 +++
 
-Personalised 1st birthday card cute lion or tiger.
+A cute large number birthday card suitable for a 2 year old boy or girl that is personalised and handmade in Ireland. This second birthday card is available in the Irish or English language too. It has a dot square frame in either pink or blue. The number 2 is the main focus of the card in pink or blue with little white dots. It has a crown at the very top. It reads “Happy Birthday to You” or “Lá breithe sona duit” with the girl or boy's first name on the front. Underneath it has the words “year old today” or “bhliain d'aois innu”
+
+You might prefer this design either for a girl:-
+
+https://shaunagra-custom-frames.ie/cards/birthday/2nd-birthday-personalised-card-cute-rabbit-or-panda/
+
+or this one for a boy:-
+
+https://shaunagra-custom-frames.ie/cards/birthday/2nd-birthday-personalised-card-son-cute-dinosaur-irish-or-english/
+
+Specifications are: -

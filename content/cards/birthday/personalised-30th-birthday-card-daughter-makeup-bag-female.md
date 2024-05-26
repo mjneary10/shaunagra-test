@@ -33,4 +33,10 @@ image ="/img/cards/birthday/personalised-30th-birthday-card-daughter-makeup-bag-
 description = "Personalised 30th birthday card for daughter, makeup bag, female."
 +++
 
-Personalised 30th birthday card for daughter, makeup bag, female.
+A bespoke personalised 30th birthday greeting card for your daughter, granddaughter, niece or bestie that loves make up. This birthday card would also be suitable for a beautician / make up artist or someone in the beauty industry. Card wording has “To an amazing daughter, (daughter's first name), “thirty today” is on a make up bag and underneath it has the words “Happy Birthday”. There are 4 different types of make up bags to choose from so you are sure to find one that suits. Wording can be changed to another title / name on the card too. Just include what title you would like when ordering.
+
+Check out this other selection of 30th birthday cards that are personalised suitable for a female.
+
+https://shaunagra-custom-frames.ie/cards/birthday/personalised-female-happy-birthday-card-30-thirty-today/
+
+Specifications are: -

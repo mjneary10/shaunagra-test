@@ -44,4 +44,6 @@ image ="/img/cards/birthday/3rd-birthday-personalised-zoo-jungle-safari-card/3rd
 description = "3rd birthday personalised zoo jungle safari card."
 +++
 
-3rd birthday personalised zoo jungle safari card.
+A lovely and colourful jungle or safari themed birthday card for your daughter, son, granddaughter, grandson, niece or nephew that turns 3. There are 4 designs to choose from for this customised birthday card for a girl or boy. Card reads “Happy Birthday to you”, then it is personalised with the girl or boy's first name. It has a large number 3 included in my animal / zoo themed design with the word “today” beside it. Lastly it has the date of birth at the bottom. Option A & D have zoo theme and Options B & C are general safari theme. All designs are suitable for boy, girl or unisex. Font for a boy is in blue or pink for a girl. I can put the font in a green colour if you would prefer this either. Please include in your message when ordering.
+
+Specifications are: -

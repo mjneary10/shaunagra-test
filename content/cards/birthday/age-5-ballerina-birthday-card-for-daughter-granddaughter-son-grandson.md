@@ -44,4 +44,6 @@ image ="/img/cards/birthday/age-5-ballerina-birthday-card-for-daughter-granddaug
 description = "Age 5 ballerina cute birthday card, perfect for a daughter, granddaughter, son or grandson."
 +++
 
-Age 5 ballerina cute birthday card, perfect for a daughter, granddaughter, son or grandson.
+The perfect ballerina birthday greeting card suitable for your 5 year old daughter, granddaughter, goddaughter, niece or a special little girl that is handmade in Ireland. There are 4 designs to choose from. The card reads “Happy Birthday”, little girl's first name, then date of birth. The middle of my card you can choose from 4 little girls. Option A has a cute ballerina with long brown hair and fair skin, Option B has a little girl with blonde hair and fair skin, Option C has a little girl with brown hair and fair skin, Option D has a little girl with dark skin and black curly hair.
+
+Specifications are: -

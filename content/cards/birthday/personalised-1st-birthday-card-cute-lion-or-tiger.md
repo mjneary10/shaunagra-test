@@ -42,4 +42,10 @@ image ="/img/cards/birthday/personalised-1st-birthday-card-cute-lion-or-tiger/pe
 description = "Personalised 1st birthday card cute lion or tiger."
 +++
 
-Personalised 1st birthday card cute lion or tiger.
+A special 1st birthday card that is personalised for your son, grandson, godson or nephew. This customised card design is available in the Irish or English language too. It reads “Happy Birthday to You” or “Lá breithe sona duit” with the boy's first name on the front. The main design has either a cute baby lion with a little gold crown sitting down or a cute baby tiger sitting. They are both beside a large number 1. Underneath it has the words “year old today” or “bhliain d'aois innu”. Both designs have a square border the lion one is in blue and the tiger one in orange.
+
+You may like this design either for a 1 year old!
+
+https://shaunagra-custom-frames.ie/cards/birthday/personalised-1st-birthday-card-cute-panda-boy-or-girl/
+
+Specifications are: -

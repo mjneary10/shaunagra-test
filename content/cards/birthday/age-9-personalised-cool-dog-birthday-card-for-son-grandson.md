@@ -44,4 +44,6 @@ image ="/img/cards/birthday/age-9-personalised-cool-dog-birthday-card-for-son-gr
 description = "Age 9 personalised cool dog birthday card, perfect for a son or grandson"
 +++
 
-Age 9 personalised cool dog birthday card, perfect for a son or grandson
+This is a cool personalised birthday card for your son, grandson, godson or nephew that is a cool kid and loves dogs. Text reads “To a cool son / grandson, Happy Birthday (boy's first name). The middle of my design has a cool dog on the front with a large number 9. Lastly it has the date of birth at the bottom of my card. There are 4 different types of cartoon dog images to choose from as well. The title on the card can be changed from Grandson to Godson or Nephew or something else. Please let me know in your message when ordering.
+
+Specifications are: -
