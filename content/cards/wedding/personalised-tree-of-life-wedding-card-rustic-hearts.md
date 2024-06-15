@@ -42,3 +42,5 @@ description = "Personalised tree of life wedding card with rustic hearts, this i
 +++
 
 Personalised tree of life wedding card with rustic hearts, this is one of our most popular wedding cards.
+
+Specifications are: -
