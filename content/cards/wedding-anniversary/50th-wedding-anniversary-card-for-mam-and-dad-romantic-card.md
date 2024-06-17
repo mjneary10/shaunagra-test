@@ -24,9 +24,13 @@ dataItemCustom1Required = "true"
 dataItemCustom2Name = "Anniversary date in above format"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Card options"
-dataItemCustom43Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom43equired = "true"
+dataItemCustom3Name = "Design options"
+dataItemCustom3Options = "A|B|C|D"
+dataItemCustom3Required = "true"
+
+dataItemCustom4Name = "Card options"
+dataItemCustom4Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom4equired = "true"
 
 #---------------------------------------------------------------------------------------------#
 
