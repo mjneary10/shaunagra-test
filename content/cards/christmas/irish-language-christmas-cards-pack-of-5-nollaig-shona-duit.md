@@ -4,7 +4,7 @@ metaTitle ="Irish language christmas cards pack of 5 nollaig shona duit | Shauna
 title = "Irish language christmas cards pack of 5 nollaig shona duit"
 price = "20"
 weight = "250"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

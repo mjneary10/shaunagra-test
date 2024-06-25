@@ -4,7 +4,7 @@ metaTitle ="Personalised christening card boy or girl church | Shauna Gra"
 title = "Personalised christening card boy or girl church"
 price = "7.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "23/04/2024"
 
 productGroup = "cards"

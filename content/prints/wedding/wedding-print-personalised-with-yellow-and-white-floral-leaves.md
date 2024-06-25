@@ -4,7 +4,7 @@ metaTitle ="Wedding print personalised with yellow and white floral leaves | Sha
 title = "Wedding print personalised with yellow and white floral leaves"
 price = "14.95"
 weight = "250" 
-stock = "2"
+stock = "0"
 creationDate = "13/03/2024"
 
 productGroup = "prints"

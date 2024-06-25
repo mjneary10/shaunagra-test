@@ -4,7 +4,7 @@ metaTitle ="Personalised new baby frame with cute horses pony cars | Shauna Gra"
 title = "Personalised new baby frame with cute horses pony cars"
 price = "56.25"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "06/03/2023"
 
 productGroup = "frames"

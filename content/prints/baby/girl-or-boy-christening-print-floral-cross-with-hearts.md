@@ -4,7 +4,7 @@ metaTitle ="Girl or boy christening print floral cross with hearts | Shauna Gra"
 title = "Girl or boy christening print floral cross with hearts"
 price = "14.95"
 weight = "250" 
-stock = "2"
+stock = "0"
 creationDate = "09/02/2024"
 
 productGroup = "prints"

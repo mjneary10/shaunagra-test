@@ -4,7 +4,7 @@ metaTitle ="Custom frame | Shauna Gra"
 title = "Custom frame"
 price = "62.50"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

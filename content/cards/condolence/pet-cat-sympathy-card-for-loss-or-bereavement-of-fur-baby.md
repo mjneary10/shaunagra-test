@@ -4,7 +4,7 @@ metaTitle ="Pet cat sympathy card for loss or bereavement of fur baby | Shauna G
 title = "Pet cat sympathy card for loss or bereavement of fur baby"
 price = "6.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

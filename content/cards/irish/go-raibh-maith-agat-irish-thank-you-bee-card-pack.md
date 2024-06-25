@@ -4,7 +4,7 @@ metaTitle ="Go raibh maith agat irish thank you bee card pack | Shauna Gra"
 title = "Go raibh maith agat irish thank you bee card pack"
 price = "21.95"
 weight = "250"
-stock = "2"
+stock = "0"
 creationDate = "19/06/2024"
 
 productGroup = "cards"

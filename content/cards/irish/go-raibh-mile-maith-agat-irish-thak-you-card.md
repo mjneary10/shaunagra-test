@@ -4,7 +4,7 @@ metaTitle ="Go raibh mile maith agat Irish thak you card | Shauna Gra"
 title = "Go raibh mile maith agat Irish thak you card"
 price = "4.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

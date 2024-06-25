@@ -4,7 +4,7 @@ metaTitle ="Age 4 5 6 7 cute police dog birthday card personalised for grandson 
 title = "Age 4 5 6 7 cute police dog birthday card personalised for grandson"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "03/05/2024"
 
 productGroup = "cards"

@@ -4,7 +4,7 @@ metaTitle ="Sorry for your loss mam or nan thinking of you card | Shauna Gra"
 title = "Sorry for your loss mam or nan thinking of you card"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

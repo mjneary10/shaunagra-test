@@ -4,7 +4,7 @@ metaTitle ="Personalised christening card floral cross boy or girl | Shauna Gra"
 title = "Personalised christening card floral cross boy or girl"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

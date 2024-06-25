@@ -4,7 +4,7 @@ metaTitle ="Family Pebble Art Frame Trees | Shauna Gra"
 title = "Family Pebble Art Frame Trees"
 price = "50.00"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

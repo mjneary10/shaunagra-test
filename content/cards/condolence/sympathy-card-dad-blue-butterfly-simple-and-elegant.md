@@ -4,7 +4,7 @@ metaTitle ="Sympathy card dad blue butterfly simple and elegant | Shauna Gra"
 title = "Sympathy card dad blue butterfly simple and elegant"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

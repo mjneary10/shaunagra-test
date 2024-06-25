@@ -4,7 +4,7 @@ metaTitle ="Thank you card in Irish language go raibh maith agat card | Shauna G
 title = "Thank you card in Irish language go raibh maith agat card"
 price = "5.95"
 weight = "250"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

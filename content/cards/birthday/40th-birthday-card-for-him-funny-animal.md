@@ -4,7 +4,7 @@ metaTitle ="40th birthday card for him funny animal | Shauna Gra"
 title = "40th birthday card for him funny animal"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "13/06/2024"
 
 productGroup = "cards"

@@ -4,7 +4,7 @@ metaTitle ="Age 5 ballerina birthday card for daughter granddaughter son grandso
 title = "Age 5 ballerina birthday card for daughter granddaughter son grandson"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "03/05/2024"
 
 productGroup = "cards"

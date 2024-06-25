@@ -4,7 +4,7 @@ metaTitle ="Personalised baby boy frame elephant blue | Shauna Gra"
 title = "Personalised baby boy frame elephant blue"
 price = "56.25"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

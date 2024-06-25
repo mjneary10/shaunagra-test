@@ -4,7 +4,7 @@ metaTitle ="Pet loss card dog personalized dog sympathy card | Shauna Gra"
 title = "Pet loss card dog personalized dog sympathy card"
 price = "6.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

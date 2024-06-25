@@ -4,7 +4,7 @@ metaTitle ="21st birthday card for son drinks beer | Shauna Gra"
 title = "21st birthday card for son drinks beer"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "13/06/2024"
 
 productGroup = "cards"

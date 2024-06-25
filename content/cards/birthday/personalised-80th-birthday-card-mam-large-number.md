@@ -4,7 +4,7 @@ metaTitle ="Personalised 80th birthday card mam large number | Shauna Gra"
 title = "Personalised 80th birthday card mam large number"
 price = "5.95"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "27/05/2024"
 
 productGroup = "cards"

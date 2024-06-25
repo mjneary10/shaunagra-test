@@ -4,7 +4,7 @@ metaTitle ="New baby gift frame moon and stars print boy or girl with card | Sha
 title = "New baby gift frame moon and stars print boy or girl with card"
 price = "56.25"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "27/02/2023"
 
 productGroup = "frames"

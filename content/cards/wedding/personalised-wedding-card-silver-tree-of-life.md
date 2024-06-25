@@ -4,7 +4,7 @@ metaTitle ="Personalised wedding card silver tree of life | Shauna Gra"
 title = "Personalised wedding card silver tree of life"
 price = "7.50"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

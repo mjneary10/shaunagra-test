@@ -4,7 +4,7 @@ metaTitle ="Wedding card for daughter with blonde hair romantic personalised car
 title = "Wedding card for daughter with blonde hair romantic personalised card"
 price = "7.50"
 weight = "100"
-stock = "2"
+stock = "0"
 creationDate = "19/06/2024"
 
 productGroup = "cards"

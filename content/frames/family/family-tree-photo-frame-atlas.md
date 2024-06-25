@@ -4,7 +4,7 @@ metaTitle ="Family tree photo frame atlas | Shauna Gra"
 title = "Family tree photo frame atlas"
 price = "50.00"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "frames"
