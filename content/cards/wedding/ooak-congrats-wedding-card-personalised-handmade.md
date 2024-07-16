@@ -4,7 +4,7 @@ metaTitle ="Ooak congrats wedding card personalised handmade | Shauna Gra"
 title = "Ooak congrats wedding card personalised handmade"
 price = "6.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

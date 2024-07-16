@@ -4,7 +4,7 @@ metaTitle ="Personalized name frames hearts blue | Shauna Gra"
 title = "Personalized name frames hearts blue"
 price = "50.00"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

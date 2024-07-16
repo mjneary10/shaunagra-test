@@ -4,7 +4,7 @@ metaTitle ="Personalised engagement print with black roses | Shauna Gra"
 title = "Personalised engagement print with black roses"
 price = "14.95"
 weight = "250" 
-stock = "0"
+stock = "2"
 creationDate = "12/03/2024"
 
 productGroup = "prints"

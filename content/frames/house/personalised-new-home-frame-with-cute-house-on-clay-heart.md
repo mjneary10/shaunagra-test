@@ -4,7 +4,7 @@ metaTitle ="Personalised new home frame with cute house on clay heart | Shauna G
 title = "Personalised new home frame with cute house on clay heart"
 price = "56.25"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "06/03/2023"
 
 productGroup = "frames"

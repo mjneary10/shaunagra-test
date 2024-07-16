@@ -4,7 +4,7 @@ metaTitle ="Unique present ideas frame black silver | Shauna Gra"
 title = "Unique present ideas frame black silver"
 price = "50.00"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

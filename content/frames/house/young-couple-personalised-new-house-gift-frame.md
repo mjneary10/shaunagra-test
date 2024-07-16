@@ -4,7 +4,7 @@ metaTitle ="Young couple personalised new house gift frame | Shauna Gra"
 title = "Young couple personalised new house gift frame"
 price = "25.00"
 weight = "500"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

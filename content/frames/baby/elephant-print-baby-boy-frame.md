@@ -4,7 +4,7 @@ metaTitle ="Cute personalised frame for baby girl in pink with elephant | Shauna
 title = "Cute personalised frame for baby girl in pink with elephant"
 price = "37.50"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

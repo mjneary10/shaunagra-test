@@ -4,7 +4,7 @@ metaTitle ="40th birthday card for him funny monkey | Shauna Gra"
 title = "40th birthday card for him funny monkey"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "27/05/2024"
 
 productGroup = "cards"

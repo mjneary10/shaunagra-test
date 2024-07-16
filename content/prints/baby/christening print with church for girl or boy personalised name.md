@@ -4,7 +4,7 @@ metaTitle ="Christening print with church for girl or boy personalised name | Sh
 title = "Christening print with church for girl or boy personalised name"
 price = "14.95"
 weight = "250" 
-stock = "0"
+stock = "2"
 creationDate = "09/02/2024"
 
 productGroup = "prints"

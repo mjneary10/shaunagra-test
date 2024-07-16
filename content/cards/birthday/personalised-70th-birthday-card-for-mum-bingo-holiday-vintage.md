@@ -4,7 +4,7 @@ metaTitle ="Personalised 70th birthday card for mum bingo holiday vintage| Shaun
 title = "Personalised 70th birthday card for mum bingo holiday vintage"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "23/04/2024"
 
 productGroup = "cards"

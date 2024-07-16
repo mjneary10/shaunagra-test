@@ -4,7 +4,7 @@ metaTitle ="Personalised new baby card rocking horse boy or girl | Shauna Gra"
 title = "Personalised new baby card rocking horse boy or girl"
 price = "7.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "19/02/2023"
 
 productGroup = "cards"

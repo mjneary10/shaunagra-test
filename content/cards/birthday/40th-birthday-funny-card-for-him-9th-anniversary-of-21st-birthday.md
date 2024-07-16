@@ -4,7 +4,7 @@ metaTitle ="40th birthday funny card for him 9th anniversary of 21st birthday | 
 title = "40th birthday funny card for him 9th anniversary of 21st birthday"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "27/05/2024"
 
 productGroup = "cards"

@@ -4,7 +4,7 @@ metaTitle ="Personalised baby girl frame elephant pink | Shauna Gra"
 title = "Personalised baby girl frame elephant pink"
 price = "56.25"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

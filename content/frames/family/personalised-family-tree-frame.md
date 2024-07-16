@@ -4,7 +4,7 @@ metaTitle ="Personalised family tree frame | Shauna Gra"
 title = "Personalised family tree frame"
 price = "50.00"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

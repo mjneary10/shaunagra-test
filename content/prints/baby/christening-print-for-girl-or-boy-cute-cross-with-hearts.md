@@ -4,7 +4,7 @@ metaTitle ="Christening print for girl or boy cute cross with hearts | Shauna Gr
 title = "Christening print for girl or boy cute cross with hearts"
 price = "14.95"
 weight = "250" 
-stock = "0"
+stock = "2"
 creationDate = "07/03/2024"
 
 productGroup = "prints"

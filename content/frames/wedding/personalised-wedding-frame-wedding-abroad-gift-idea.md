@@ -4,7 +4,7 @@ metaTitle ="Customised Wedding Frame Token Gift Idea  | Shauna Gra"
 title = "Customised wedding frame token gift idea"
 price = "56.25"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "11/04/2024"
 
 productGroup = "frames"

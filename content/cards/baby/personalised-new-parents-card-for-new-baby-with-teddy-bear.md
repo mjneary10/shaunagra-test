@@ -4,7 +4,7 @@ metaTitle ="Personalised new parents card for new baby with teddy bear | Shauna 
 title = "Personalised new parents card for new baby with teddy bear"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

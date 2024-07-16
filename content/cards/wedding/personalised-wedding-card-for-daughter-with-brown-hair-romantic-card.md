@@ -4,7 +4,7 @@ metaTitle ="Personalised wedding card for daughter with brown hair romantic card
 title = "Personalised wedding card for daughter with brown hair romantic card"
 price = "7.50"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "17/06/2024"
 
 productGroup = "cards"

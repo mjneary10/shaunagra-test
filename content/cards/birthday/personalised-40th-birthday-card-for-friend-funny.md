@@ -4,7 +4,7 @@ metaTitle ="Personalised 40th birthday card for friend funny| Shauna Gra"
 title = "Personalised 40th birthday card for friend funny"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "23/04/2024"
 
 productGroup = "cards"

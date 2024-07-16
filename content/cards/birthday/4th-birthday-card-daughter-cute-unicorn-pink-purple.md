@@ -4,7 +4,7 @@ metaTitle ="4th birthday card daughter cute unicorn pink purple  | Shauna Gra"
 title = "4th birthday card daughter cute unicorn pink purple"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/05/2024"
 
 productGroup = "cards"

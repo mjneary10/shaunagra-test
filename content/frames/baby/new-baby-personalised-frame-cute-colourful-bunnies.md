@@ -4,7 +4,7 @@ metaTitle ="New baby personalised frame cute colourful bunnies | Shauna Gra"
 title = "New baby personalised frame cute colourful bunnies"
 price = "56.25"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "06/03/2023"
 
 productGroup = "frames"

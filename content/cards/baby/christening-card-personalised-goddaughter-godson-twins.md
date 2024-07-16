@@ -4,7 +4,7 @@ metaTitle ="Christening card personalised with church design for godchild | Shau
 title = "Christening card personalised with church design for godchild"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

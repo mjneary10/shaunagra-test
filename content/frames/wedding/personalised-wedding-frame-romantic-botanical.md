@@ -4,7 +4,7 @@ metaTitle ="Personalised wedding frame romantic botanical | Shauna Gra"
 title = "Personalised wedding frame romantic botanical"
 price = "56.25"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "11/04/2024"
 
 productGroup = "frames"

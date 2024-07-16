@@ -4,7 +4,7 @@ metaTitle ="Personalised new baby card boy or girl cute elephants watercolor | S
 title = "Personalised new baby card boy or girl cute elephants watercolor"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

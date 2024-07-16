@@ -4,7 +4,7 @@ metaTitle ="Personalised 2nd birthday card cute large numbers | Shauna Gra"
 title = "Personalised 2nd birthday card cute large numbers"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/05/2024"
 
 productGroup = "cards"

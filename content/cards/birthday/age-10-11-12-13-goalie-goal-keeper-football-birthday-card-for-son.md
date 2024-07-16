@@ -4,7 +4,7 @@ metaTitle ="Age 10 11 12 13 goalie goal keeper football birthday card for son | 
 title = "Age 10 11 12 13 goalie goal keeper football birthday card for son"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "13/06/2024"
 
 productGroup = "cards"

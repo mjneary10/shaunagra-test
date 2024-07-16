@@ -4,7 +4,7 @@ metaTitle ="Personalised female happy birthday card 30 thirty today| Shauna Gra"
 title = "Personalised female happy birthday card 30 thirty today"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "19/04/2024"
 
 productGroup = "cards"

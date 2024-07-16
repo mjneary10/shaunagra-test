@@ -4,7 +4,7 @@ metaTitle ="Custom memorial frame | Shauna Gra"
 title = "Custom memorial frame"
 price = "62.50"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "frames"

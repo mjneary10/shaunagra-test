@@ -4,7 +4,7 @@ metaTitle ="Jungle cute animals new baby personalised frame and card | Shauna Gr
 title = "Jungle cute animals new baby personalised frame and card"
 price = "56.25"
 weight = "1000"
-stock = "0"
+stock = "2"
 creationDate = "06/03/2023"
 
 productGroup = "frames"

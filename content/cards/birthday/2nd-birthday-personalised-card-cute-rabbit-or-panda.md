@@ -4,7 +4,7 @@ metaTitle ="2nd birthday personalised card cute rabbit or panda | Shauna Gra"
 title = "2nd birthday personalised card cute rabbit or panda"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/05/2024"
 
 productGroup = "cards"

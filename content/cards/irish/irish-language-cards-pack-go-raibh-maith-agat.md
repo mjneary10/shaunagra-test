@@ -4,7 +4,7 @@ metaTitle ="Irish language cards pack go raibh maith agat | Shauna Gra"
 title = "Irish language cards pack go raibh maith agat"
 price = "21.95"
 weight = "250"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

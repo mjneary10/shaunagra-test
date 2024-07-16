@@ -4,7 +4,7 @@ metaTitle ="Age 9 gymnatics birthday card for daughter | Shauna Gra"
 title = "Age 9 gymnatics birthday card for daughter"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "14/06/2024"
 
 productGroup = "cards"

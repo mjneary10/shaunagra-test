@@ -4,7 +4,7 @@ metaTitle ="Personalised boy or girl christening card church and flowers | Shaun
 title = "Personalised boy or girl christening card church and flowers"
 price = "5.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

@@ -4,7 +4,7 @@ metaTitle ="Irish thank you card 5 pack go raibh maith agat | Shauna Gra"
 title = "Irish thank you card 5 pack go raibh maith agat"
 price = "24.95"
 weight = "250"
-stock = "0"
+stock = "2"
 creationDate = "09/02/2023"
 
 productGroup = "cards"

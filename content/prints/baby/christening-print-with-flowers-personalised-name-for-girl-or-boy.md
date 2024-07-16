@@ -4,7 +4,7 @@ metaTitle ="Christening print with flowers personalised name for girl or boy | S
 title = "Christening print with flowers personalised name for girl or boy"
 price = "14.95"
 weight = "250" 
-stock = "0"
+stock = "2"
 creationDate = "09/02/2024"
 
 productGroup = "prints"

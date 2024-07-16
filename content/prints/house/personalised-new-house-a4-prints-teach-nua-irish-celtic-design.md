@@ -4,7 +4,7 @@ metaTitle ="Personalised new house A4 prints teach nua Irish celtic design | Sha
 title = "Personalised new house A4 prints teach nua Irish celtic design"
 price = "14.95"
 weight = "250" 
-stock = "0"
+stock = "2"
 creationDate = "23/02/2023"
 
 productGroup = "prints"

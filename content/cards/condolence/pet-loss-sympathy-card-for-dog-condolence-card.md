@@ -4,7 +4,7 @@ metaTitle ="Pet loss sympathy card for dog condolence card | Shauna Gra"
 title = "Pet loss sympathy card for dog condolence card"
 price = "6.95"
 weight = "100"
-stock = "0"
+stock = "2"
 creationDate = "21/02/2023"
 
 productGroup = "cards"

@@ -4,7 +4,7 @@ metaTitle ="Personalised engagement print eucalyptus couple in love on bench | S
 title = "Personalised engagement print eucalyptus couple in love on bench"
 price = "14.95"
 weight = "250" 
-stock = "0"
+stock = "2"
 creationDate = "13/03/2024"
 
 productGroup = "prints"
