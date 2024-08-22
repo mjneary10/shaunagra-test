@@ -41,4 +41,4 @@ Did you know that you can order a handmade personalised wedding card to go with 
 This personalized wedding décor gift is exclusive to Shauna Grá so you can be assured the couple will not receive several of these. It is the perfect wedding present to give to a couple as a wedding token gift and to include if you wanted to give them a voucher too!
 I can easily adapt this design for a gay wedding frame too, please get in touch to discuss.
 
-Specifications are: -
+**Specifications are: -**

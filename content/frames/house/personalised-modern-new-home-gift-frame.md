@@ -4,7 +4,7 @@ metaTitle ="Personalised modern new home gift frame | Shauna Gra"
 title = "Personalised modern new home gift frame"
 price = "43.75"
 weight = "1000"
-stock = "2"
+stock = "0"
 creationDate = "09/02/2023"
 
 productGroup = "frames"
@@ -32,4 +32,4 @@ This personalised modern new home gift frame would be ideal for those special pe
 
 If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-Specifications are: -
+**Specifications are: -**

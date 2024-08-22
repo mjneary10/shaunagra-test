@@ -38,4 +38,4 @@ description = "This Two Grooms Congratulations on your Wedding Day Card has a st
 
 This Two Grooms Congratulations on your Wedding Day Card has a stylish image of two wedding rings in a wedding ring box. At the top it reads Congratulations then it has the couples first names underneath, then it has the image of the two gold wedding rings. Then it has the following text (on your wedding day) Lastly it has the date of the wedding underneath. Click here to buy this unique card as it is an exclusive design by Shauna Gra!
 
-Specifications are: -
+**Specifications are: -**

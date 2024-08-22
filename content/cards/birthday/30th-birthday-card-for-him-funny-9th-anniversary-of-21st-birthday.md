@@ -27,9 +27,9 @@ dataItemCustom4Required = "true"
 
 image ="/img/cards/birthday/30th-birthday-card-for-him-funny-9th-anniversary-of-21st-birthday/30th-birthday-card-for-him-funny-9th-anniversary-of-21st-birthday"
 
-description = "30th birthday card for him funny with 9th anniversary of 21st birthday on it."
+description = "The perfect 30th birthday card for your son, grandson, nephew, or best friend that has a funny image on the front. Text reads (Happy 9th Anniversary) and the bottom of the card reads (Of your 21st Birthday)."
 +++
 
-30th birthday card for him funny with 9th anniversary of 21st birthday on it.
+The perfect 30th birthday card for your son, grandson, nephew, or best friend that has a funny image on the front. Text reads “Happy 9th Anniversary” and the bottom of the card reads “Of your 21st Birthday”. There are 4 different images to choose from a. has a monkey swinging from a tree holding a bunch of balloons, option b. a bear laughing it’s head off, option c. 3 donkeys at a nightclub dancing or lastly option d. a cute rabbit laughing their head off.
 
-Specifications are: -
+**Specifications are:-**

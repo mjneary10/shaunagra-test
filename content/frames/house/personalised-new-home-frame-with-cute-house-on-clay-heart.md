@@ -43,4 +43,4 @@ If you like the idea of this frame but the colour does not suit the couple it is
 
 If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-Specifications are: -
+**Specifications are: -**

@@ -37,4 +37,4 @@ An elegant and custom 60th Birthday card for your best friend or a special woman
 You may like to choose the scallop edge version to make it that extra special of a keepsake 60th birthday card for your best friend.
 I can also change the wording to Mam, Mom or Nana if you would prefer. Just include in your message when ordering.
 
-Specifications are: -
+**Specifications are: -**

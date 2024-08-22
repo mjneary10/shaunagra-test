@@ -41,4 +41,4 @@ Your fur babies can also be included in this frame, I can pop a little bone besi
 
 Please get in touch if you have any questions!
 
-Specifications are: -
+**Specifications are: -**

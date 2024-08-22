@@ -42,4 +42,4 @@ A beautiful new baby gift custom frame with a moon and star embellishment suitab
 
 Why not choose our baby boy or girl frame & card package too so your card will match the same theme as your frame, saving you time & money. The personalised baby girl card to match this particular frame has a cute little elephant on the front sitting on a pink / blue half-moon. You can choose the card for the birth of a baby boy or their christening date. This customised frame design can also be adapted to another colour circle if require. Please contact me if you would like a different colour scheme.
 
-Specifications are: -
+**Specifications are: -**

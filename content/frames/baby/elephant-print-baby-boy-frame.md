@@ -48,4 +48,4 @@ This handmade custom baby girl frame has a silver and pink elephant perfect as a
 
 Why not choose our baby girl or boy frame & card package too so your card will match the same theme as your frame, saving you time & money. You can choose the unique customised newborn card for the birth of a baby girl or their baptism date. This design can also be adapted to a boy version too using blue where I have pink. I keep the elephant just plain with no gems for the boy’s version too. Please contact me if you would like a different colour scheme.
 
-Specifications are: -
+**Specifications are: -**

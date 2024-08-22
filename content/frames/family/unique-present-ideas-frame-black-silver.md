@@ -40,4 +40,4 @@ You may also like to add in a customised card with your order. This will match t
 
 If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-Specifications are: -
+**Specifications are: -**

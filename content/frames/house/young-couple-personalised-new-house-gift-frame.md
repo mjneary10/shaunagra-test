@@ -34,4 +34,4 @@ You can also choose to add in a frame to match the occasion of your card. Please
 
 If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-Specifications are: -
+**Specifications are: -**

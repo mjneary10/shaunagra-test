@@ -60,4 +60,4 @@ OR
 
 Handmade Irish language newborn baby card
 
-Specifications are: -
+**Specifications are: -**

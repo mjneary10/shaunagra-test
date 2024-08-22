@@ -42,4 +42,4 @@ Looking for a jungle themed frame personalised baby frame that is a handmade gif
 
 Why not choose our baby boy or girl personalised frame & card package too so your card will match the same theme as your frame, saving you time & money. You can choose the unique newborn congratulations card for the birth of a baby boy or their christening date. This customised frame design can also be adapted to a girl version too by adding some pink embellishments. Please contact me if you would like a different colour scheme.
 
-Specifications are: -
+**Specifications are: -**

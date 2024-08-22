@@ -52,4 +52,4 @@ or this one for a boy:-
 
 https://shaunagra-custom-frames.ie/cards/birthday/2nd-birthday-personalised-card-son-cute-dinosaur-irish-or-english/
 
-Specifications are: -
+**Specifications are: -**

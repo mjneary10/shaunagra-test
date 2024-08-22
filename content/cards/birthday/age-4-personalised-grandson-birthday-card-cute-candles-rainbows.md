@@ -46,4 +46,4 @@ description = "Age 4 personalised grandson cute birthday card with cute candles 
 
 Are you looking for the perfect and unique personalised grandson birthday greeting card for your grandson aged 4 with their name on it? Take a look at these 4 designs. These customised cards are the perfect keepsake card for your son, grandson, nephew, godson that has a fourth birthday coming up. Card reads “To a special Grandson Happy Birthday, (Grandson's name) then underneath the main image it has their date of birth. There are 4 designs to choose from too! Design A has 4 cute candles, Design B has a vibrant rainbow with a large number 4 candle, Option C has a boho blue rainbow with a large number 4 on it or lastly Option D with neutral tones rainbow and a large number 4 on it.
 
-Specifications are: -
+**Specifications are: -**

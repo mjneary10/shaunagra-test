@@ -40,4 +40,4 @@ The main design has a wooden arch surrounded by delicate pink & white romantic f
 
 You may also like to consider saving yourself time and money by ordering the matching personalised wedding card. There are two types of cards to choose from. You can choose the plain white version which is 250gsm (no embellishments) or the 300gsm version. This type has the 3 rustic heart buttons in three of the corners and the bottom right has a handmade button. Please note on both types of cards the couple is printed on. Please add the frame & card package to your cart if you would like to include the card to match.
 
-Specifications are: -
+**Specifications are: -**

@@ -25,7 +25,7 @@ dataItemCustom2Required = "true"
 
 image ="/img/frames/memorial/custom-memorial-frame/custom-memorial-frame"
 
-description = "Losing a loved one even if it is expected is always extremely hard. Are you looking to have a special memorial frame made to give to a loved one or friend. Please contact me to discuss your options. I have made frames for baby loss, a bereavement of a husband & wife, to name a few. I can also cater for the loss of a pet. As this is such a hard time on a family, I do not post these particular frames up on my website or social media. To give you some ideas though, I have numerous embellishments suitable to use for such occasions e.g. Feathers, angel wings, pet paws, bones. I also do sympathy cards. You can have a look at my website for some of my general card designs."
+description = "Losing a loved one even if it is expected is always extremely hard. Are you looking to have a special memorial frame made to give to a loved one or friend. Please contact me to discuss your options. I have made frames for baby loss, a bereavement of a husband & wife, to name a few. I can also cater for the loss of a pet."
 +++
 
 Loosing a loved one can be an extremely challenging time in someone's life. If you would like to organise a custom memorial frame which is handmade in Dublin, Ireland to honour and loved one that has passed please get in touch. I have made numerous personalised remembrance frames over the years. Out of respect for the families involved and as it is such a delicate and personal time, I do not put these frames up on my website. I have made bereavement frames for miscarriages, death of a loved one, death of fur babies to mention a few. In your sympathy frame you can choose to have (1) wooden tiles (2) printed version or (3) combination of both. A recent keepsake frame that I made included a beautiful, printed robin which I hand painted in similar colours to make the design really stand out. I also handmade a personalised card to match. If you would like a Celtic cross symbol included in a memorial frame do not hesitate to get in touch either.
@@ -37,4 +37,4 @@ Please add to your basket a handmade card if you would like me to make you one o
 
 If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-Specifications are: -
+**Specifications are: -**

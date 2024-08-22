@@ -39,4 +39,4 @@ You may like this card design either:-
 
 https://shaunagra-custom-frames.ie/cards/birthday/personalised-21st-birthday-card-girl-beach-travel/
 
-Specifications are: -
+**Specifications are: -**

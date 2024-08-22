@@ -55,4 +55,4 @@ Please note I do not print off photos to include in the design as sometimes the 
 
 If you have any further queries please do not hesitate to get in touch.
 
-Specifications are: -
+**Specifications are: -**

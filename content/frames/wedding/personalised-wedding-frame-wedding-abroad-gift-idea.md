@@ -39,4 +39,4 @@ This personalised wedding frame is perfectly suited to give to your son, nephew,
 
 I have a Mr & Mrs Tropical Wedding Card to match this personalised Mr & Mrs Wedding frame which has the first names of the couple and the date of their up-and-coming wedding. It has the same tropical leaf border as the frame. There are two types of cards to choose from. You can choose the plain white version which is 250gsm (no embellishments) or the 300gsm version. This type has the 3 rustic heart buttons in three of the corners and the bottom right has a handmade button. Please add the frame & card package to your cart if you would like to include the card to match.
 
-Specifications are: -
+**Specifications are: -**

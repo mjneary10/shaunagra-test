@@ -50,4 +50,4 @@ Please note from time to time due to stock supply I may not have the exact same 
 
 This frame is handmade in Ireland.
 
-Specifications are: -
+**Specifications are: -**

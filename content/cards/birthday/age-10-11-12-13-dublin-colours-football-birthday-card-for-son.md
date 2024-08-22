@@ -38,9 +38,9 @@ dataItemCustom6Required = "true"
 
 image ="/img/cards/birthday/age-10-11-12-13-dublin-colours-football-birthday-card-for-son/age-10-11-12-13-dublin-colours-football-birthday-card-for-son"
 
-description = "Age 10 11 12 13 dublin colours football birthday card for son"
+description = "Age 10 11 12 13 dublin colours football birthday card for son. The perfect birthday card for your son who is football mad. This birthday card is personalised for your son with his name and date of birth on it."
 +++
 
-Age 10 11 12 13 dublin colours football birthday card for son
+The perfect birthday card for your son who is football mad. This birthday card is personalised for your son with his name and date of birth on it. It has the numbers 10, 11, 12 or 13 in a large image with a boy playing football in the Dublin colours. Card text reads To a cool son, Happy Birthday (name personalised on it) then it has the main image and lastly your son’s date of birth at the bottom. There are four different ages to choose from; 10, 11, 12 or 13 depending on what is relevant to your son. If you need this card design changed for another relative, please get in touch, if it is just a title there is no extra charge. Just include in message when ordering.
 
-Specifications are: -
+**Specifications are: -**

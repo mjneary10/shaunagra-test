@@ -42,4 +42,4 @@ A sweet, personalised newborn baby frame with a colourful field with colourful r
 
 Why not choose our baby boy or girl frame & card package too so your card will match the same theme as your frame, saving you time & money. The card to match this particular frame has a pink tree on the front with a cute bunny standing in front. You can choose the personalised baby card for the birth of a baby girl or their baptism / christening date. This customised frame design can also be adapted for a boy if require. Please contact me if you would like a different colour scheme.
 
-Specifications are: -
+**Specifications are: -**

@@ -38,9 +38,9 @@ dataItemCustom6Required = "true"
 
 image ="/img/cards/birthday/age-9-karate-taekwando-birthday-card-for-daughter/age-9-karate-taekwando-birthday-card-for-daughter"
 
-description = "Age 9 karate taekwando birthday card for daughter"
+description = "Age 9 karate taekwando birthday card for daughter. A cute birthday card for your daughter aged 9 who loves taekwondo or karate.  This personalised card has your little girl’s name on it with the following text To a Cool Daughter, Happy Birthday (Name customised)."
 +++
 
-Age 9 karate taekwando birthday card for daughter
+A cute birthday card for your daughter aged 9 who loves taekwondo or karate. This personalised card has your little girl’s name on it with the following text To a Cool Daughter, Happy Birthday (Name customised). The main image has a little girl in her karate or taekwondo outfit busting a move with a large number 9 beside her. Lastly it has your daughter’s date of birth at the very bottom of the design.
 
-Specifications are: -
+**Specifications are: -**

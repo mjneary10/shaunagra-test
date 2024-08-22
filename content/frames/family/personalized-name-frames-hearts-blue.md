@@ -36,4 +36,4 @@ At the top and bottom of some of the names I have finished them off using a litt
 
 Why not add in a customised card with your order for your personalised family name frame and I can make it to go with your name frame depending on what the occasion is for. Any questions don't be afraid to get in touch by email and I will assist you.
 
-Specifications are: -
+**Specifications are: -**

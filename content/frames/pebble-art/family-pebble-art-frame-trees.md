@@ -27,4 +27,4 @@ If you would like to have a pebble art frame made especially for someone please 
 
 If anything is unclear please get in touch and I will be happy to clarify things for you.
 
-Specifications are: -
+**Specifications are: -**
