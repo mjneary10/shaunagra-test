@@ -50,4 +50,4 @@ https://shaunagra-custom-frames.ie/cards/birthday/personalised-2nd-birthday-card
 
 You can choose from two types of cards too!
 
-Specifications are: -
+**Specifications are: -**

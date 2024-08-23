@@ -38,9 +38,9 @@ dataItemCustom6Required = "true"
 
 image ="/img/cards/birthday/21st-birthday-card-daughter-key-personalised/21st-birthday-card-daughter-key-personalised"
 
-description = "21st birthday card daughter key personalised"
+description = "21st birthday card daughter key personalised. A modern 21st birthday card to express to your daughter how much she means to you.  Card text reads, To a special daughter (name personalised)."
 +++
 
-21st birthday card daughter key personalised
+A modern 21st birthday card to express to your daughter how much she means to you. Card text reads, To a special daughter (name personalised). Then it has a large number 21st on it with the silhouette of a key on the number 1. At the bottom of the design it has the date of your daughter’s birth. There are 4 design options to choose from; Option A has a young lady wearing cool shades, Option B has a lady in a fashionista outfit, Option C has a lady in a modern mini and belly top, Option D has a girl in a bandeau type of dress with a full skirt.
 
-Specifications are: -
+**Specifications are: -**

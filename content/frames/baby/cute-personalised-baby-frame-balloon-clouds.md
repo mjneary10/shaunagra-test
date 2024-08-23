@@ -48,4 +48,4 @@ One of a kind unique personalised newborn baby girl frame with a pink hot air ba
 
 Why not choose our baby girl or boy frame & card package too so your card will match the same theme as your frame, saving you time & money. You can choose the personalised baby girl card for the birth of a baby girl or their christening date. This design can also be adapted to a boy version too using blue where I have pink. Please contact me if you would like a different colour scheme.
 
-Specifications are: -
+**Specifications are: -**

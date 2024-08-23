@@ -41,4 +41,4 @@ Are you looking for a special birthday card for your Mam that turns 70 years old
 You may like to choose the scallop edge version to make it that extra special of a keepsake 70th birthday card for your mam.
 I can also change the wording to Mam, Mom or Nana if you would prefer. Just include in your message when ordering.
 
-Specifications are: -
+**Specifications are: -**

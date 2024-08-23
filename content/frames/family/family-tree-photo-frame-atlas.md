@@ -38,4 +38,4 @@ This particular designed background in the personalised family name gift idea is
 
 Why not add in a card with your order for your family name artwork frame and I can make it to go with your name frame depending on what the occasion is for. Any question you may have please get in touch by email and I will be happy to help you.
 
-Specifications are: -
+**Specifications are: -**

@@ -27,9 +27,9 @@ dataItemCustom4Required = "true"
 
 image ="/img/cards/birthday/40th-birthday-card-for-him-funny-animal/40th-birthday-card-for-him-funny-animal"
 
-description = "40th birthday card for him funny animal"
+description = "40th birthday card for him funny animal. Are you looking for a witty 40th Birthday card for your son, grandson, nephew, or friend take a look at this amusing card."
 +++
 
-40th birthday card for him with a very funny animal.
+Are you looking for a witty 40th Birthday card for your son, grandson, nephew, or friend take a look at this amusing card. There are 4 designs to choose from; Top of the card reads “Happy 9th Anniversary” and the bottom of the card reads “Of your 31st Birthday”. The images in the middle are; A. a cute rabbit laughing their head off, b. a bear laughing it’s head off, c. a shark laughing it’s head off, or lastly something slightly different, option d. 3 donkey’s at a nightclub dancing. If you like this card but want it for a different age I can customise this for you at no extra cost too!
 
-Specifications are: -
+**Specifications are: -**

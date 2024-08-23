@@ -50,4 +50,4 @@ OR
 
 6 x 6 inch white scallop edge card on 3 sides. This comes with a matching envelope of 100gsm. It also has 3 rustic heart embellishments on three of the corners and the final bottom right hand corner has a little button with handmae with love on it.
 
-Specifications are: -
+**Specifications are: -**

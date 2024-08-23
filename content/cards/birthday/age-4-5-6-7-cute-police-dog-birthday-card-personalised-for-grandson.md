@@ -46,4 +46,4 @@ description = "Age 4, 5, 6, or 7, cute police dog birthday card that is personal
 
 A cute personalised police / garda / guard dog birthday card for your Grandson, Godson, Son or Nephew that is perfect to celebrate their fourth, fifth, sixth or seventh birthday. This 4th birthday card police dog design has the cutest little puppy on the front wearing a police or garda blue uniform. Card reads “To A Special Grandson, Happy Birthday (Child's first name). Then it has a large number 4, 5, 6 or 7 on it with the sweetest little puppy beside the number. Underneath it has the boy's date of birth. You may like to have a different title on this card too, please include in message when ordering.
 
-Specifications are: -
+**Specifications are: -**

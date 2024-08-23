@@ -42,4 +42,4 @@ https://shaunagra-custom-frames.ie/cards/birthday/personalised-30th-birthday-car
 
 https://shaunagra-custom-frames.ie/cards/birthday/personalised-30th-birthday-card-daughter-makeup-bag-female/
 
-Specifications are: -
+**Specifications are: -**

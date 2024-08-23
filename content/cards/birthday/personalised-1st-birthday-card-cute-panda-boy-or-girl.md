@@ -47,4 +47,4 @@ You may like this design either for a 1 year old!
 
 https://shaunagra-custom-frames.ie/cards/birthday/personalised-1st-birthday-card-cute-lion-or-tiger/
 
-Specifications are: -
+**Specifications are: -**

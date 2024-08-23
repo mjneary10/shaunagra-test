@@ -38,9 +38,9 @@ dataItemCustom6Required = "true"
 
 image ="/img/cards/birthday/age-9-gymnatics-birthday-card-for-daughter/age-9-gymnatics-birthday-card-for-daughter"
 
-description = "Age 9 gymnatics birthday card for daughter"
+description = "Age 9 gymnatics birthday card for daughter. Are you searching for a cute birthday card for your 9 year old daughter that loves gymnastics?  Check this cute card out with a little girl doing gymnastics.  There are 4 nice and vibrant images to choose from."
 +++
 
-Age 9 gymnatics birthday card for daughter
+Are you searching for a cute birthday card for your 9 year old daughter that loves gymnastics? Check this cute card out with a little girl doing gymnastics. There are 4 nice and vibrant images to choose from. Each card has the large number 9 on it too. Your daughter’s name is persoanlised with her date of birth. Card says To a Cool Daughter, Happy Birthday (daughter’s name customised), then it has the cute image and lastly her date of birth at the bottom of my design. Image A has a little lady in a leotard waving a ribbon, image b has a girl doing gymnastics with a ball, Image C the girl has a hoop, and lastly image D has a girl with a ribbon.
 
-Specifications are: -
+**Specifications are: -**

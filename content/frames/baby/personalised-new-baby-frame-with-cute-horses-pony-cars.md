@@ -42,4 +42,4 @@ A colourful bright personalised frame suitable for your son’s nursery. This fr
 
 Why not choose our baby boy or girl frame & card package too so your card will match the same theme as your frame, saving you time & money. The personalised baby congratulations card that I can make to match this particular frame has a rocking horse standing in front of a blue watercolour background. You can choose the card for the birth of a baby boy and their proud parents. You may want to pick the card for their baptism / christening date instead. This customised frame design can also be adapted for a girl if require. Please contact me if you would like a different colour scheme.
 
-Specifications are: -
+**Specifications are: -**

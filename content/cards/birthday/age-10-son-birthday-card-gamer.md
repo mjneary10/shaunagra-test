@@ -38,9 +38,9 @@ dataItemCustom6Required = "true"
 
 image ="/img/cards/birthday/age-10-son-birthday-card-gamer/age-10-son-birthday-card-gamer"
 
-description = "Age 10 son birthday card gamer"
+description = "Age 10 son birthday card gamer. This 10 year old birthday card which is personalised is suitable for your son that is a gamer.  There are 4 main images to choose from all suitable for your son that loves gaming."
 +++
 
-Age 10 son birthday card gamer
+This 10 year old birthday card which is personalised is suitable for your son that is a gamer. There are 4 main images to choose from all suitable for your son that loves gaming. Card text reads To A Cool Son, Happy Birthday (son’s name personalised) on it. Then it has the date of his birth. In the middle of my design it has a large number 10 with an image of a boy playing his games with earphones on him.
 
-Specifications are: -
+**Specifications are: -**

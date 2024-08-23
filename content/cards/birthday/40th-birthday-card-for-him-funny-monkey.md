@@ -27,9 +27,9 @@ dataItemCustom4Required = "true"
 
 image ="/img/cards/birthday/40th-birthday-card-for-him-funny-monkey/40th-birthday-card-for-him-funny-monkey"
 
-description = "40th birthday card for him with very funny monkey on it."
+description = "40th birthday card for him with very funny monkey on it. A funny birthday card for a milestone 40th birthday for your husband, brother, nephew or best friend.  There are 4 monkey images to choose from too."
 +++
 
-40th birthday card for him with very funny monkey on it.
+A funny birthday card for a milestone 40th birthday for your husband, brother, nephew or best friend. There are 4 monkey images to choose from too. Option A has a monkey with a big cheesy grin, option B has a monkey holding birthday balloons swinging from a tree, Option C and D are of some cool dude monkeys wearing shades. This number can be changed too for no extra cost! Please include this in your message when ordering.
 
-Specifications are: -
+**Specifications are: -**
