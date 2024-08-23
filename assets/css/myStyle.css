@@ -408,13 +408,6 @@ body {
   text-decoration: none;
 }
 
-.product-info {
-  grid-column: 1/3;
-}
-.product-info p {
-  text-align: left;
-}
-
 .buyNowButton {
   background-color: #ed9f9d;
   color: #fff;
@@ -538,8 +531,8 @@ body {
     height: 616px;
   }
 
-  .product-info ul {
-    text-align: left;
+  .product-info {
+    grid-column: 1/3;
   }
 
   .product-images {
