@@ -19,9 +19,6 @@ attribute4 = "Envelope included, 100 gsm"
 dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
 
-dataItemCustom2Name = "Boy or girl?"
-dataItemCustom2Required = "true"
-
 dataItemCustom3Name = "Date format"
 dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"

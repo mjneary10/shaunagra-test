@@ -38,9 +38,13 @@ dataItemCustom6Name = "Card options"
 dataItemCustom6Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom6Required = "true"
 
-dataItemCustom7Name = "English or Irish?"
-dataItemCustom7Options = "English|Irish"
+dataItemCustom7Name = "Design options"
+dataItemCustom7Options = "A|B|C|D"
 dataItemCustom7Required = "true"
+
+dataItemCustom8Name = "English or Irish?"
+dataItemCustom8Options = "English|Irish"
+dataItemCustom8Required = "true"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/baby/newborn-personalised-baby-card-with-teddies-irish-or-english/newborn-personalised-baby-card-with-teddies-irish-or-english"

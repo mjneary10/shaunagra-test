@@ -33,6 +33,10 @@ dataItemCustom4Required = "true"
 dataItemCustom5Name = "Card options"
 dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
+
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/baby/personalised-christening-card-boy-or-girl-church/personalised-christening-card-boy-or-girl-church"

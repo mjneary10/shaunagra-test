@@ -22,7 +22,7 @@ dataItemCustom2Name = "Preferred colours"
 dataItemCustom2Required = "true"
 
 dataItemCustom3Name = "Frame & card package"
-dataItemCustom3Options = "Frame only|Frame & package (+3.50 Euro)[+3.50]"
+dataItemCustom3Options = "Frame only|Frame & card package (+3.50 Euro)[+3.50]"
 dataItemCustom3Required = "true"
 #---------------------------------------------------------------------------------------------#
 

@@ -36,6 +36,10 @@ dataItemCustom5Required = "true"
 dataItemCustom6Name = "Card options"
 dataItemCustom6Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom6Required = "true"
+
+dataItemCustom7Name = "Design options"
+dataItemCustom7Options = "A|B|C|D"
+dataItemCustom7Required = "true"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/baby/personalised-new-baby-boy-girl-cards-elephants/personalised-new-baby-boy-girl-cards-elephants"

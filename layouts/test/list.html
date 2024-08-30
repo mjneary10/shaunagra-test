@@ -2,7 +2,7 @@
 <html lang="en">
   <body>
     <main>
-      {{ $showDescriptions := "yes"}}
+      {{ $showDescriptions := "no"}}
       <style>
         .test-table {
           width: max-content;
@@ -25,6 +25,10 @@
         .test-attribute,
         .test-custom {
           width: 200px;
+        }
+
+        .test-customO {
+          width: 500px;
         }
         .test-meta,
         .test-main-desc {
@@ -107,14 +111,23 @@
           <th class="test-attribute">Attribute 4</th>
           <th class="test-attribute">Attribute 5</th>
           <th class="test-custom">Custom 1</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 2</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 3</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 4</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 5</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 6</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 7</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 8</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 9</th>
+          <th class="test-customO">Options</th>
           <th>Content Present</th>
           <th class="test-meta">Meta Description</th>
           <th class="test-main-desc">Main Description</th>
@@ -137,14 +150,23 @@
           <td>{{.Params.attribute4}}</td>
           <td>{{.Params.attribute5}}</td>
           <td>{{.Params.dataItemCustom1Name}}</td>
+          <td>{{.Params.dataItemCustom1Options}}</td>
           <td>{{.Params.dataItemCustom2Name}}</td>
+          <td>{{.Params.dataItemCustom2Options}}</td>
           <td>{{.Params.dataItemCustom3Name}}</td>
+          <td>{{.Params.dataItemCustom3Options}}</td>
           <td>{{.Params.dataItemCustom4Name}}</td>
+          <td>{{.Params.dataItemCustom4Options}}</td>
           <td>{{.Params.dataItemCustom5Name}}</td>
+          <td>{{.Params.dataItemCustom5Options}}</td>
           <td>{{.Params.dataItemCustom6Name}}</td>
+          <td>{{.Params.dataItemCustom6Options}}</td>
           <td>{{.Params.dataItemCustom7Name}}</td>
+          <td>{{.Params.dataItemCustom7Options}}</td>
           <td>{{.Params.dataItemCustom8Name}}</td>
+          <td>{{.Params.dataItemCustom8Options}}</td>
           <td>{{.Params.dataItemCustom9Name}}</td>
+          <td>{{.Params.dataItemCustom9Options}}</td>
           <td>{{if .Content }} Yes {{else}} MISSING {{end}}</td>
           <td>{{.Params.description}}</td>
           <td>{{ if in $showDescriptions "yes"}}{{.Content}}{{end}}</td>
@@ -182,14 +204,23 @@
           <th class="test-attribute">Attribute 4</th>
           <th class="test-attribute">Attribute 5</th>
           <th class="test-custom">Custom 1</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 2</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 3</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 4</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 5</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 6</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 7</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 8</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 9</th>
+          <th class="test-customO">Options</th>
           <th>Content Present</th>
           <th class="test-meta">Meta Description</th>
           <th class="test-main-desc">Main Description</th>
@@ -213,14 +244,23 @@
           <td>{{.Params.attribute5}}</td>
 
           <td>{{.Params.dataItemCustom1Name}}</td>
+          <td>{{.Params.dataItemCustom1Options}}</td>
           <td>{{.Params.dataItemCustom2Name}}</td>
+          <td>{{.Params.dataItemCustom2Options}}</td>
           <td>{{.Params.dataItemCustom3Name}}</td>
+          <td>{{.Params.dataItemCustom3Options}}</td>
           <td>{{.Params.dataItemCustom4Name}}</td>
+          <td>{{.Params.dataItemCustom4Options}}</td>
           <td>{{.Params.dataItemCustom5Name}}</td>
+          <td>{{.Params.dataItemCustom5Options}}</td>
           <td>{{.Params.dataItemCustom6Name}}</td>
+          <td>{{.Params.dataItemCustom6Options}}</td>
           <td>{{.Params.dataItemCustom7Name}}</td>
+          <td>{{.Params.dataItemCustom7Options}}</td>
           <td>{{.Params.dataItemCustom8Name}}</td>
+          <td>{{.Params.dataItemCustom8Options}}</td>
           <td>{{.Params.dataItemCustom9Name}}</td>
+          <td>{{.Params.dataItemCustom9Options}}</td>
           <td>{{if .Content }} Yes {{else}} MISSING {{end}}</td>
           <td>{{.Params.description}}</td>
           <td>{{ if in $showDescriptions "yes"}}{{.Content}}{{end}}</td>
@@ -258,14 +298,23 @@
           <th class="test-attribute">Attribute 4</th>
           <th class="test-attribute">Attribute 5</th>
           <th class="test-custom">Custom 1</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 2</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 3</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 4</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 5</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 6</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 7</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 8</th>
+          <th class="test-customO">Options</th>
           <th class="test-custom">Custom 9</th>
+          <th class="test-customO">Options</th>
           <th>Content Present</th>
           <th class="test-meta">Meta Description</th>
           <th class="test-main-desc">Main Description</th>
@@ -289,14 +338,23 @@
           <td>{{.Params.attribute5}}</td>
 
           <td>{{.Params.dataItemCustom1Name}}</td>
+          <td>{{.Params.dataItemCustom1Options}}</td>
           <td>{{.Params.dataItemCustom2Name}}</td>
+          <td>{{.Params.dataItemCustom2Options}}</td>
           <td>{{.Params.dataItemCustom3Name}}</td>
+          <td>{{.Params.dataItemCustom3Options}}</td>
           <td>{{.Params.dataItemCustom4Name}}</td>
+          <td>{{.Params.dataItemCustom4Options}}</td>
           <td>{{.Params.dataItemCustom5Name}}</td>
+          <td>{{.Params.dataItemCustom5Options}}</td>
           <td>{{.Params.dataItemCustom6Name}}</td>
+          <td>{{.Params.dataItemCustom6Options}}</td>
           <td>{{.Params.dataItemCustom7Name}}</td>
+          <td>{{.Params.dataItemCustom7Options}}</td>
           <td>{{.Params.dataItemCustom8Name}}</td>
+          <td>{{.Params.dataItemCustom8Options}}</td>
           <td>{{.Params.dataItemCustom9Name}}</td>
+          <td>{{.Params.dataItemCustom9Options}}</td>
           <td>{{if .Content }} Yes {{else}} MISSING {{end}}</td>
           <td>{{.Params.description}}</td>
           <td>{{ if in $showDescriptions "yes"}}{{.Content}}{{end}}</td>

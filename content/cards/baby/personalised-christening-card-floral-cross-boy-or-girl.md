@@ -30,11 +30,12 @@ dataItemCustom3Required = "true"
 dataItemCustom4Name = "Date in above format"
 dataItemCustom4Required = "true"
 
-dataItemCustom5Name = "Parents names"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
 
-dataItemCustom6Name = "Card options"
-dataItemCustom6Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
 dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
  
