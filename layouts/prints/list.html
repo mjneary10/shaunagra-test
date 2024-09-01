@@ -1,51 +1,36 @@
 {{ define "main" }}
 <main>
- 
-  
   {{ partial "product/top-filter-buttons.html" . }}
 
-  
-
+  <section class="grid grid-main">
+    <article class="normal-width-element">
+      {{ partial "heading-1.html" . }}
+    </article>
+  </section>
 
   <section class="grid grid-main">
     <aside class="normal-width-element">
-      {{ if eq .RelPermalink "/prints/" }}
-      {{$type :=""}}
-      {{ $section := site.GetPage "prints" }}
-      {{ range $section.Pages }}
-      {{ $type = .Type }}
-   
-      {{ partial "product/list-section-heading.html" . }}
+      {{ if eq .RelPermalink "/prints/" }} {{$type :=""}} {{ $section :=
+      site.GetPage "prints" }} {{ range $section.Pages }} {{ $type = .Type }} {{
+      partial "product/list-section-heading.html" . }}
       <ul class="grid grid-products padding-small text-center list-reset">
-        {{ range (where .Site.Pages "Type" "prints") }}
-        {{ if eq .Params.productType $type }}
-        {{ partial "product/productThumbnail.html" . }}
-        {{ end }}
-        {{ end }}
+        {{ range (where .Site.Pages "Type" "prints") }} {{ if eq
+        .Params.productType $type }} {{ partial "product/productThumbnail.html"
+        . }} {{ end }} {{ end }}
       </ul>
-      {{ end }}
-      {{else}}
-
-      {{$type :=""}}
-      {{ $type = .Type }}
+      {{ end }} {{else}} {{$type :=""}} {{ $type = .Type }}
       <section class="grid grid-main">
         <article class="normal-width-element">
           {{ partial "product/list-section-heading.html" . }}
           <ul class="grid grid-products padding-small text-center list-reset">
-            {{ range (where .Site.Pages "Type" "prints") }}
-            {{ if eq .Params.productType $type }}
-            {{ partial "product/productThumbnail.html" . }}
-            {{ end }}
-            {{ end }}
+            {{ range (where .Site.Pages "Type" "prints") }} {{ if eq
+            .Params.productType $type }} {{ partial
+            "product/productThumbnail.html" . }} {{ end }} {{ end }}
           </ul>
         </article>
       </section>
       {{end}}
-
     </aside>
   </section>
-
-
-
 </main>
 {{end}}
