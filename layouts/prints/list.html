@@ -21,7 +21,6 @@
       {{ end }} {{else}} {{$type :=""}} {{ $type = .Type }}
       <section class="grid grid-main">
         <article class="normal-width-element">
-          {{ partial "product/list-section-heading.html" . }}
           <ul class="grid grid-products padding-small text-center list-reset">
             {{ range (where .Site.Pages "Type" "prints") }} {{ if eq
             .Params.productType $type }} {{ partial
