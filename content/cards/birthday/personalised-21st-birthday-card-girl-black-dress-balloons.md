@@ -9,6 +9,8 @@ creationDate = "23/04/2024"
 
 productGroup = "cards"
 productType = "birthday"
+productFilter = "age-21"
+order = "18"
 
 attribute1 = "6 by 6 inches, 15 by 15 cm" 
 attribute2 = "Plain white card, 250 gsm"

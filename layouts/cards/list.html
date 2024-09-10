@@ -23,8 +23,8 @@
       <section class="grid grid-main">
         <article class="normal-width-element">
           <ul class="grid grid-products padding-small text-center list-reset">
-            {{ range (where .Site.Pages "Type" "cards") }} {{ if eq
-            .Params.productType $type }} {{ partial
+            {{ range sort (where .Site.Pages "Type" "cards") ".Params.order"}}
+            {{ if eq .Params.productType $type }} {{ partial
             "product/productThumbnail.html" . }} {{ end }} {{ end }}
           </ul>
         </article>

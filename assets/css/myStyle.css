@@ -2,6 +2,33 @@
 
 /* Contact form */
 
+/* FIlter div testing */
+
+#myBtnContainer {
+  margin-top: 18px;
+}
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.btn-filter {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn-filter.active {
+  background-color: rgb(234, 218, 250);
+}
+
+.btn-filter:hover {
+  background-color: #ddd;
+}
+
 #contact-container input[type="text"],
 select,
 textarea {

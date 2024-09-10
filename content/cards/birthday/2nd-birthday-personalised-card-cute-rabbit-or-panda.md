@@ -9,6 +9,8 @@ creationDate = "09/05/2024"
 
 productGroup = "cards"
 productType = "birthday"
+productFilter = "age-1-5"
+order = "5"
 
 attribute1 = "6 by 6 inches, 15 by 15 cm" 
 attribute2 = "Plain white card, 250 gsm"
@@ -19,7 +21,6 @@ attribute5 = "Irish or English language"
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "Baby's first name only"
 dataItemCustom1Required = "true"
-dataItemCustom1Display = "Babies Name"
 
 dataItemCustom2Name = "Boy or girl?"
 dataItemCustom2Required = "true"
