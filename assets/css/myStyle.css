@@ -6,6 +6,7 @@
 
 #myBtnContainer {
   margin-top: 18px;
+  margin-bottom: 0;
 }
 .filterDiv {
   display: none;

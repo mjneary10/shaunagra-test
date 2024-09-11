@@ -22,11 +22,24 @@
 
       <section class="grid grid-main">
         <article class="normal-width-element">
+          {{ if eq .RelPermalink "/cards/birthday/" }}
+          <ul class="grid grid-products padding-small text-center list-reset">
+            {{ range sort (where .Site.Pages "Type" "cards") ".Params.order"}}
+            {{ if eq .Params.productType $type }}
+            <div class="filterDiv {{ .Params.productFilter }}">
+              {{ partial "product/productThumbnail.html" . }}
+            </div>
+            {{ end }} {{ end }}
+          </ul>
+
+          {{else}}
           <ul class="grid grid-products padding-small text-center list-reset">
             {{ range sort (where .Site.Pages "Type" "cards") ".Params.order"}}
             {{ if eq .Params.productType $type }} {{ partial
             "product/productThumbnail.html" . }} {{ end }} {{ end }}
           </ul>
+
+          {{end}}
         </article>
       </section>
       {{end}}
