@@ -235,50 +235,40 @@
     <tbody>
       {{ if .Params.dataItemCustom1Name}}
       <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom1Name}}...
-        </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom2Name}}
-      <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom2Name}}...
+        <td class="border-round-edge">{{ .Params.dataItemCustom1Name }}</td>
+        <td class="border-round-edge">
+          {{ if .Params.dataItemCustom2Name}} {{ .Params.dataItemCustom2Name
+          }}{{end}}
         </td>
       </tr>
       {{end}} {{ if .Params.dataItemCustom3Name}}
       <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom3Name}}...
+        <td class="border-round-edge ">
+          {{ .Params.dataItemCustom3Name }}
         </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom4Name}}
-      <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom4Name}}...
+        <td class="border-round-edge ">
+          {{ if .Params.dataItemCustom4Name}} {{ .Params.dataItemCustom4Name
+          }}{{end}}
         </td>
       </tr>
       {{end}} {{ if .Params.dataItemCustom5Name}}
       <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom5Name}}...
+        <td class="border-round-edge ">
+          {{ .Params.dataItemCustom5Name }}
         </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom6Name}}
-      <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom6Name}}...
+        <td class="border-round-edge ">
+          {{ if .Params.dataItemCustom6Name}} {{ .Params.dataItemCustom6Name
+          }}{{end}}
         </td>
       </tr>
       {{end}} {{ if .Params.dataItemCustom7Name}}
       <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom7Name}}...
+        <td class="border-round-edge ">
+          {{ .Params.dataItemCustom7Name }}
         </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom8Name}}
-      <tr>
-        <td class="border-round-edge padding-small">
-          {{.Params.dataItemCustom8Name}}...
+        <td class="border-round-edge ">
+          {{ if .Params.dataItemCustom8Name}} {{ .Params.dataItemCustom8Name
+          }}{{end}}
         </td>
       </tr>
       {{end}}

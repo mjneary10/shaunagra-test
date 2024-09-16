@@ -428,12 +428,17 @@ body {
 
 .product-custom-boxes {
   width: 100%;
+  margin-top: 30px;
 }
 .product-custom-boxes td {
   background-color: white;
 }
 .product-custom-boxes a:hover {
   text-decoration: none;
+}
+
+.product-title {
+  margin-top: 0;
 }
 
 .buyNowButton {
