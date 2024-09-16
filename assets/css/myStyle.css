@@ -419,11 +419,18 @@ body {
 .product-images {
   grid-row: 1;
 }
+.specs {
+  text-align: left;
+}
 
 .product-thumbs {
   gap: 10px;
   grid-row: 2;
   overflow: scroll;
+}
+
+.product-info p {
+  text-align: left;
 }
 
 .product-custom-boxes {

@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+  {{ partial "head.html" . }}
 
-{{ partial "head.html" . }}
-
-<body>
-  {{ block "header" . }}
-  {{ partial "header.html" .}}
-  {{ end }}
-
-  {{ block "main" . }}
-
-  {{ end }}
-
-  {{ block "footer" . }}
-  {{ partial "footer.html" .}}
-  {{ end }}
-
-</body>
-
+  <body>
+    {{ block "header" . }} {{ partial "header.html" .}} {{ end }} {{ block
+    "main" . }} {{ end }} {{ block "footer" . }} {{ partial "footer.html" .}} {{
+    end }} {{ if eq .RelPermalink "/cards/birthday/" }}
+    <script>
+      filterSelection("all");
+    </script>
+    {{end}}
+  </body>
 </html>
