@@ -32,13 +32,13 @@ dataItemCustom5Name = "Frame & card package"
 dataItemCustom5Options = "Frame only|Frame & (Birthday Card) package (+3.50 Euro)[+3.50]|Frame & (Christening Card) package (+3.50 Euro)[+3.50]"
 dataItemCustom5Required = "true"
 
-dataItemCustom6Name = "Parents names"
-dataItemCustom6Required = "true"
+dataItemCustom6Name = "Parents names (for card only)"
+
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/baby/personalised-baby-girl-frame-ballerina-bunny/personalised-baby-girl-frame-ballerina-bunny"
 
-description = "Jungle cute animals new baby personalised frame and a matching card. This is one of our most cute and popular personalised baby frames. With striking colors and the wow factor, it's sure to brighten up your little one's nursery room."
+description = "Are you looking for a personalised baby girl frame with a rabbit or ballerina bunny on it as special nursery decor for your daughter's bedroom."
 +++
 
 Are you looking for a personalised baby girl frame with a rabbit or ballerina bunny on it as special
