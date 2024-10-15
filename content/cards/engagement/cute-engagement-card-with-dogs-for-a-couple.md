@@ -41,3 +41,5 @@ description = "This is one of our cutest personalised engagement cards, with str
 +++
 
 This is one of our cutest personalised engagement cards, with striking colors and cute dogs on it. You can choose from 4 designs at checkout.
+
+**Specifications are: -**

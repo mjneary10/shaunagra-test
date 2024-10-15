@@ -43,3 +43,5 @@ description = "This is one of our cutest personalised boys godson communion card
 +++
 
 This is one of our cutest personalised boys godson communion cards, cute blue and white colours. You can choose from 4 designs at checkout.
+
+**Specifications are: -**

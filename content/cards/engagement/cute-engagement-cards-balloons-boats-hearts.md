@@ -41,3 +41,5 @@ description = "This cute engagement card has balloons, boats and hearts, with br
 +++
 
 This cute engagement card has balloons, boats and hearts, with bright colors and modern design. The card is also available with a scallop edge, you can choose from 4 designs.
+
+**Specifications are: -**
