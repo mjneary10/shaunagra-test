@@ -19,7 +19,6 @@ attribute5 = "Irish or English language"
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "Baby's first name only"
 dataItemCustom1Required = "true"
-dataItemCustom1Display = "Babies Name"
 
 dataItemCustom2Name = "Boy or girl?"
 dataItemCustom2Required = "true"
@@ -31,15 +30,15 @@ dataItemCustom3Required = "true"
 dataItemCustom4Name = "Date in above format"
 dataItemCustom4Required = "true"
 
-dataItemCustom5Name = "Parents names"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
 
-dataItemCustom6Name = "Card options"
-dataItemCustom6Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
 dataItemCustom6Required = "true"
 
-dataItemCustom7Name = "Design options"
-dataItemCustom7Options = "A|B|C|D"
+dataItemCustom7Name = "Parents names"
 dataItemCustom7Required = "true"
 
 dataItemCustom8Name = "English or Irish?"

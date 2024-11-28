@@ -20,7 +20,7 @@ attribute4 = "Envelope included, 100 gsm"
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "Baby's first name only"
 dataItemCustom1Required = "true"
-dataItemCustom1Display = "Babies Name"
+
 
 dataItemCustom2Name = "Boy or girl?"
 dataItemCustom2Required = "true"
