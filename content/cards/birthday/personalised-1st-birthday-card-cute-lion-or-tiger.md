@@ -19,20 +19,20 @@ attribute4 = "Envelope included, 100 gsm"
 attribute5 = "Irish or English language"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Baby's first name only"
+dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
 
-dataItemCustom3Name = "Card options"
-dataItemCustom3Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Design options"
-dataItemCustom4Options = "A|B|C|D"
-dataItemCustom4Required = "true"
-
-dataItemCustom5Name = "English or Irish"
-dataItemCustom5Options = "English|Irish"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
+
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
+
+dataItemCustom8Name = "English or Irish?"
+dataItemCustom8Options = "English|Irish"
+dataItemCustom8Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/personalised-1st-birthday-card-cute-lion-or-tiger/personalised-1st-birthday-card-cute-lion-or-tiger"

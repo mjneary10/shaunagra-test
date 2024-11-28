@@ -18,20 +18,21 @@ attribute3 = "Scallop edge 300 gsm"
 attribute4 = "Envelope included, 100 gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Date format"
-dataItemCustom1Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Date in above format"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Card options"
-dataItemCustom3Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom3Name = "Date format"
+dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"
 
-dataItemCustom4Name = "Design options"
-dataItemCustom4Options = "A|B|C|D"
+dataItemCustom4Name = "Date in above format"
 dataItemCustom4Required = "true"
+
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom5Required = "true"
+
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
+
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/personalised-70th-birthday-card-for-mum-bingo-holiday-vintage/personalised-70th-birthday-card-for-mum-bingo-holiday-vintage"

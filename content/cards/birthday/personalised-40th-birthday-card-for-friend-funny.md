@@ -18,13 +18,13 @@ attribute3 = "Scallop edge 300 gsm"
 attribute4 = "Envelope included, 100 gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom2Name = "Card options"
-dataItemCustom2Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom2Required = "true"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom5Required = "true"
 
-dataItemCustom3Name = "Design options"
-dataItemCustom3Options = "A|B|C|D"
-dataItemCustom3Required = "true"
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/personalised-40th-birthday-card-for-friend-funny/personalised-40th-birthday-card-for-friend-funny"

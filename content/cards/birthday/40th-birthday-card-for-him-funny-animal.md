@@ -18,13 +18,13 @@ attribute3 = "Scallop edge 300 gsm"
 attribute4 = "Envelope included, 100 gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom3Name = "Card options"
-dataItemCustom3Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom3Required = "true"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom5Required = "true"
 
-dataItemCustom4Name = "Design options"
-dataItemCustom4Options = "A|B|C|D"
-dataItemCustom4Required = "true"
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/40th-birthday-card-for-him-funny-animal/40th-birthday-card-for-him-funny-animal"

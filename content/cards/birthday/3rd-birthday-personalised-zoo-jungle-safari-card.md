@@ -18,9 +18,8 @@ attribute3 = "Scallop edge 300 gsm"
 attribute4 = "Envelope included, 100 gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Baby's first name only"
+dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
-
 
 dataItemCustom2Name = "Boy or girl?"
 dataItemCustom2Required = "true"
