@@ -12,7 +12,7 @@ productType = "baby"
 
 attribute1 = "6 by 6 inches, 15 by 15 cm" 
 attribute2 = "Scallop edge 300 gsm"
-attribute3 = "Envelope included, 100 gsm"
+attribute4 = "Envelope included, 100 gsm"
 
 
 #---------------------------------------------------------------------------------------------#
@@ -30,7 +30,7 @@ dataItemCustom4Name = "Date in above format"
 dataItemCustom4Required = "true"
 
 dataItemCustom5Name = "Card options"
-dataItemCustom5ptions = "Scallop edge only"
+dataItemCustom5Options = "Scallop edge only"
 dataItemCustom5Required = "true"
 #---------------------------------------------------------------------------------------------#
 
