@@ -12,8 +12,8 @@ productType = "irish"
 
 attribute1 = "6 by 6 inches, 15 by 15 cm" 
 attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Envelope included, 100 gsm"
-attribute4 = "English or Irish"
+attribute4 = "Envelope included, 100 gsm"
+attribute5 = "English or Irish"
 
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "English or Irish"
