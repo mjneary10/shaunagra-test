@@ -20,13 +20,13 @@ attribute5 = "English or Irish"
 dataItemCustom1Name = "Family surname"
 dataItemCustom1Required = "true"
 
-dataItemCustom2Name = "English or Irish?"
-dataItemCustom2Options = "English|Irish"
+dataItemCustom2Name = "Card options"
+dataItemCustom2Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Card options"
-dataItemCustom3Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom3Required = "true"
+dataItemCustom4Name = "English or Irish?"
+dataItemCustom4Options = "English|Irish"
+dataItemCustom4Required = "true"
 #---------------------------------------------------------------------------------------------#
  
  

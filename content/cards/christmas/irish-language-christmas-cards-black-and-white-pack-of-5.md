@@ -17,17 +17,17 @@ attribute4 = "Envelope included, 100 gsm"
 attribute5 = "English or Irish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "English or Irish?"
-dataItemCustom1Options = "English|Irish"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Design options"
-dataItemCustom2Options = "A|B|C|D|E"
+dataItemCustom2Name = "Card options"
+dataItemCustom2Options = "Plain white card|Scallop edge (+5 Euro)[+5.00]"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Card options"
-dataItemCustom3Options = "Plain white card|Scallop edge (+5 Euro)[+5.00]"
+dataItemCustom3Name = "Design options"
+dataItemCustom3Options = "A|B|C|D|E"
 dataItemCustom3Required = "true"
+
+dataItemCustom4Name = "English or Irish?"
+dataItemCustom4Options = "English|Irish"
+dataItemCustom4Required = "true"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/christmas/irish-language-christmas-cards-black-and-white-pack-of-5/irish-language-christmas-cards-black-and-white-pack-of-5"
