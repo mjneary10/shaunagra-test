@@ -16,22 +16,20 @@ attribute3 = "Scallop edge 300 gsm"
 attribute4 = "Envelope included, 100 gsm"
 
 #---------------------------------------------------------------------------------------------#
-
-dataItemCustom1Name = "Date format"
-dataItemCustom1Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Anniversary date in above format"
+dataItemCustom2Name = "Date format"
+dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Design options"
-dataItemCustom3Options = "A|B|C|D"
+dataItemCustom3Name = "Anniversary date in above format"
 dataItemCustom3Required = "true"
 
 dataItemCustom4Name = "Card options"
 dataItemCustom4Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom4equired = "true"
 
+dataItemCustom5Name = "Design options"
+dataItemCustom5Options = "A|B|C|D"
+dataItemCustom5Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/wedding-anniversary/50th-wedding-anniversary-card-for-mam-and-dad-romantic-card/50th-wedding-anniversary-card-for-mam-and-dad-romantic-card"

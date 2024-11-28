@@ -20,43 +20,41 @@ attribute5 = "English or Irish"
 dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
 
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Wedding date in above format"
+dataItemCustom3Name = "Date format"
+dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"
 
-dataItemCustom4Name = "Design options"
-dataItemCustom4Options = "A|B|C|D"
+dataItemCustom4Name = "Wedding date in above format"
 dataItemCustom4Required = "true"
 
 dataItemCustom5Name = "Card options"
 dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
 
-
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/wedding/custom-wedding-card-for-son-with-beard/custom-wedding-card-for-son-with-beard"
 
 description = "Custom wedding card for son with beard"
 +++
+
 Celebrate your son’s special day with a beautifully crafted, handmade card designed just for him. Made in Ireland with love and care by Shauna Grá, this card is the perfect keepsake for a parent or parents to give their son on his wedding day. Each card is personalised with your son’s name, making it a unique and meaningful gift that will be treasured for years to come.
 
 You can choose from four unique design options:
 
-•	Option A & B: A sleek, minimalist groom silhouette with no facial features, offering a timeless, elegant feel.
+• Option A & B: A sleek, minimalist groom silhouette with no facial features, offering a timeless, elegant feel.
 
-•	Option C & D: A stylish groom with a beard wearing a tuxedo, for a more personalised touch.
+• Option C & D: A stylish groom with a beard wearing a tuxedo, for a more personalised touch.
 
 Personalize your card with the wording:
 
-•	"To our wonderful son, [name]" or
+• "To our wonderful son, [name]" or
 
-•	"To my wonderful son, [name]"
+• "To my wonderful son, [name]"
 
-All designs feature the wedding date at the bottom, making this card a lasting memento of his big day.  Handcrafted with premium materials, this Irish wedding card is a thoughtful way to express your love and pride on your son’s wedding day.
-
+All designs feature the wedding date at the bottom, making this card a lasting memento of his big day. Handcrafted with premium materials, this Irish wedding card is a thoughtful way to express your love and pride on your son’s wedding day.
 
 **Specifications are: -**

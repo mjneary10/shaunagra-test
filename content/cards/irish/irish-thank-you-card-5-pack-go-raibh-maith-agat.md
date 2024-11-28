@@ -19,13 +19,12 @@ attribute4 = "Irish only"
 dataItemCustom1Name = "Irish only"
 dataItemCustom1Options = "Irish"
 
-
 dataItemCustom2Name = "Card pack options"
 dataItemCustom2Options = "One design, 5 cards|5 different designs"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Insert five design numbers below"
-dataItemCustom3Required = "true"
+dataItemCustom4Name = "Insert five design numbers below"
+dataItemCustom4Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 buttonCardPackMultiSelect1 ="One design, 5 cards"

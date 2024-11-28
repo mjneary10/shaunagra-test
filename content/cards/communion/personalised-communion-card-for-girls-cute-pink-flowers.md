@@ -17,23 +17,23 @@ attribute3 = "Scallop edge 300 gsm"
 attribute4 = "Envelope included, 100 gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Kids first name only"
+dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
 
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date in above format"
+dataItemCustom3Name = "Date format"
+dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"
 
-dataItemCustom4Name = "Card options"
-dataItemCustom4Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom4Name = "Date in above format"
 dataItemCustom4Required = "true"
 
-dataItemCustom5Name = "Design options"
-dataItemCustom5Options = "A|B|C|D"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
+
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
  
  

@@ -16,19 +16,19 @@ attribute3 = "Envelopes included, 100 to 120 gsm"
  
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples first names only"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
+dataItemCustom2Name = "Couples first names only"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Wedding date in above format"
+dataItemCustom3Name = "Date format"
+dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"
 
-dataItemCustom4Name = "Card/design options"
-dataItemCustom4Options = "White and silver|Brown and gold"
+dataItemCustom4Name = "Wedding date in above format"
 dataItemCustom4Required = "true"
+
+dataItemCustom7Name = "Card/design options"
+dataItemCustom7Options = "White and silver|Brown and gold"
+dataItemCustom7Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/wedding/ooak-congrats-wedding-card-personalised-handmade/ooak-congrats-wedding-card-personalised-handmade"

@@ -17,23 +17,23 @@ attribute4 = "Envelope included, 100 gsm"
 attribute5 = "English or Irish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples first names only"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
+dataItemCustom2Name = "Couples first names only"
 dataItemCustom2Required = "true"
 
-dataItemCustom3Name = "Wedding date in above format"
+dataItemCustom3Name = "Date format"
+dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"
 
-dataItemCustom4Name = "Card options"
-dataItemCustom4Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
+dataItemCustom4Name = "Wedding date in above format"
 dataItemCustom4Required = "true"
 
-dataItemCustom5Name = "English or Irish"
-dataItemCustom5Options = "English|Irish"
+dataItemCustom5Name = "Card options"
+dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
+
+dataItemCustom8Name = "English or Irish"
+dataItemCustom8Options = "English|Irish"
+dataItemCustom8Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/wedding/personalised-wedding-card-silver-tree-of-life/personalised-wedding-card-silver-tree-of-life"

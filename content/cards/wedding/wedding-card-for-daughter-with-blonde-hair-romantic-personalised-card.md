@@ -19,21 +19,20 @@ attribute4 = "Envelope included, 100 gsm"
 dataItemCustom1Name = "Persons first name only"
 dataItemCustom1Required = "true"
 
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Wedding date in above format"
+dataItemCustom3Name = "Date format"
+dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
 dataItemCustom3Required = "true"
 
-dataItemCustom4Name = "Design options"
-dataItemCustom4Options = "A|B|C|D"
+dataItemCustom4Name = "Wedding date in above format"
 dataItemCustom4Required = "true"
 
 dataItemCustom5Name = "Card options"
 dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
 dataItemCustom5Required = "true"
 
+dataItemCustom6Name = "Design options"
+dataItemCustom6Options = "A|B|C|D"
+dataItemCustom6Required = "true"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/wedding/wedding-card-for-daughter-with-blonde-hair-romantic-personalised-card/wedding-card-for-daughter-with-blonde-hair-romantic-personalised-card"
