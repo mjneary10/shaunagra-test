@@ -16,11 +16,11 @@
     </a>
     <a class="product-title" href="{{ .Permalink }}"> {{ .Params.title}} </a>
   </div>
-  <p class="price">&euro;{{ .Params.price }}</p>
+
   <div class="cta padding-small border-top">
     {{ .Scratch.Set "customBoxes" "no"}} {{ partial
     "product/snipcart-button.html" . }}
   </div>
-  <p>Or sign up for 20% OFF</p>
-  <a href="/signup/" class="filter-buttons">Get discount</a>
+
+  <a href="/signup/" class="filter-buttons">Or sign up for 20% OFF</a>
 </li>

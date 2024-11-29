@@ -74,7 +74,9 @@
       <a href="{{.Permalink}}">Image</a>
       {{end}} {{if not .Params.description }}
       <a href="{{.Permalink}}">description</a>
-      {{end}} {{end}}
+      {{end}} {{if not .Params.dataItemCustom1Name }}
+      <a href="{{.Permalink}}">dataItemCustom1Name</a>
+      {{end}}{{end}}
       <p>{{$counter}} pages checked</p>
 
       <hr />

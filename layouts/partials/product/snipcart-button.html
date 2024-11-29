@@ -231,51 +231,28 @@
 >
   {{ $test := .Scratch.Get "customBoxes" }} {{ if eq $test "yes"}}
 
-  <table class="product-custom-boxes">
-    <tbody>
-      {{ if .Params.dataItemCustom1Name}}
-      <tr>
-        <td class="border-round-edge">{{ .Params.dataItemCustom1Name }}</td>
-        <td class="border-round-edge">
-          {{ if .Params.dataItemCustom2Name}} {{ .Params.dataItemCustom2Name
-          }}{{end}}
-        </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom3Name}}
-      <tr>
-        <td class="border-round-edge ">
-          {{ .Params.dataItemCustom3Name }}
-        </td>
-        <td class="border-round-edge ">
-          {{ if .Params.dataItemCustom4Name}} {{ .Params.dataItemCustom4Name
-          }}{{end}}
-        </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom5Name}}
-      <tr>
-        <td class="border-round-edge ">
-          {{ .Params.dataItemCustom5Name }}
-        </td>
-        <td class="border-round-edge ">
-          {{ if .Params.dataItemCustom6Name}} {{ .Params.dataItemCustom6Name
-          }}{{end}}
-        </td>
-      </tr>
-      {{end}} {{ if .Params.dataItemCustom7Name}}
-      <tr>
-        <td class="border-round-edge ">
-          {{ .Params.dataItemCustom7Name }}
-        </td>
-        <td class="border-round-edge ">
-          {{ if .Params.dataItemCustom8Name}} {{ .Params.dataItemCustom8Name
-          }}{{end}}
-        </td>
-      </tr>
-      {{end}}
-    </tbody>
-  </table>
-  {{end}}
+  <div class="product-button-boxes">
+    {{ if .Params.dataItemCustom1Name}}
+    <div>{{ .Params.dataItemCustom1Name }}</div>
+    {{end}} {{ if .Params.dataItemCustom2Name}}
+    <div>{{ .Params.dataItemCustom2Name }}</div>
+    {{end}} {{ if .Params.dataItemCustom3Name}}
+    <div>{{ .Params.dataItemCustom3Name }}</div>
+    {{end}} {{ if .Params.dataItemCustom4Name}}
+    <div>{{ .Params.dataItemCustom4Name }}</div>
+    {{end}}{{ if .Params.dataItemCustom5Name}}
+    <div>{{ .Params.dataItemCustom5Name }}</div>
+    {{end}} {{ if .Params.dataItemCustom6Name}}
+    <div>{{ .Params.dataItemCustom6Name }}</div>
+    {{end}} {{ if .Params.dataItemCustom7Name}}
+    <div>{{ .Params.dataItemCustom7Name }}</div>
+    {{end}} {{ if .Params.dataItemCustom8Name}}
+    <div>{{ .Params.dataItemCustom8Name }}</div>
+    {{end}}
+  </div>
 
+  {{end}}
+  <p class="price">&euro;{{ .Params.price }}</p>
   <span class="btn buyNowButton">ADD TO CART</span>
 </a>
 

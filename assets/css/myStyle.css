@@ -406,7 +406,7 @@ body {
 }
 
 .price {
-  margin-top: auto;
+  margin-top: 1em;
   font-weight: bold;
   font-size: 1.5em;
   color: red;
@@ -433,20 +433,27 @@ body {
   text-align: left;
 }
 
-.product-custom-boxes {
-  width: 100%;
-  margin-top: 30px;
+.product-button-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.product-custom-boxes td {
+.product-button-boxes * {
   background-color: white;
- 
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
 }
-.product-custom-boxes a:hover {
-  text-decoration: none;
+
+.product-ul-attributes {
+  text-align: left;
 }
 
 .product-title {
   margin-top: 0;
+}
+
+h1.product-title {
+  font-size: 1em;
 }
 
 .buyNowButton {

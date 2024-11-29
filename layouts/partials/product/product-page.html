@@ -51,26 +51,25 @@
       </div>
       <div class="product-details padding-small color1-bg">
         <h1 class="product-title">{{ .Params.title }}</h1>
-        <p class="price">&euro;{{ .Params.price }}</p>
 
-        <ul class="list-reset border-round-edge color2-bg">
+        <ul class="product-ul-attributes">
           {{ if .Params.attribute1}}
-          <li>{{ .Params.attribute1}}</li>
+          <li>{{ .Params.attribute1 }}</li>
           {{end}} {{ if .Params.attribute2}}
-          <li>{{ .Params.attribute2}}</li>
+          <li>{{ .Params.attribute2 }}</li>
           {{end}} {{ if .Params.attribute3}}
-          <li>{{ .Params.attribute3}}</li>
+          <li>{{ .Params.attribute3 }}</li>
           {{end}} {{ if .Params.attribute4}}
-          <li>{{ .Params.attribute4}}</li>
+          <li>{{ .Params.attribute4 }}</li>
           {{end}} {{ if .Params.attribute5}}
-          <li>{{ .Params.attribute5}}</li>
+          <li>{{ .Params.attribute5 }}</li>
           {{end}}
         </ul>
 
         {{ .Scratch.Set "customBoxes" "yes"}} {{partial
         "product/snipcart-button.html" . }}
-        <p>Or sign up for 20% OFF</p>
-        <a href="/signup/" class="filter-buttons">Get discount</a>
+
+        <a href="/signup/" class="filter-buttons">Or sign up for 20% OFF</a>
       </div>
       <article class="product-info">
         <aside class="color3-bg padding-small margin-large-bottom">
