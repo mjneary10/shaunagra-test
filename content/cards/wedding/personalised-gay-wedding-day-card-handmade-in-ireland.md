@@ -10,25 +10,17 @@ creationDate = "09/02/2023"
 productGroup = "cards"
 productType = "wedding"
  
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
  
 #---------------------------------------------------------------------------------------------#
-dataItemCustom2Name = "Couples first names only"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date format"
-dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Wedding date in above format"
-dataItemCustom4Required = "true"
-
-dataItemCustom5Name = "Card options"
-dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom5Required = "true"
+dataItemCustom1Name = "couplesFirstNamesOnly"
+dataItemCustom2Name = "dateFormat"
+dataItemCustom3Name = "dateInAboveFormat"
+dataItemCustom4Name = "cardOptions"
+dataItemCustom4Options = "plainWhiteCardScallopEdgeAt2Euro"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/wedding/personalised-gay-wedding-day-card-handmade-in-ireland/personalised-gay-wedding-day-card-handmade-in-ireland"

@@ -10,23 +10,18 @@ creationDate = "09/02/2023"
 productGroup = "cards"
 productType = "christmas"
  
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "English or Irish"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
+attribute5 = "englishOrIrish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Family surname"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Card options"
-dataItemCustom2Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom4Name = "English or Irish?"
-dataItemCustom4Options = "English|Irish"
-dataItemCustom4Required = "true"
+dataItemCustom1Name = "familySurname"
+dataItemCustom2Name = "cardOptions"
+dataItemCustom2Options = "plainWhiteCardScallopEdgeAt2Euro"
+dataItemCustom3Name = "englishOrIrish"
+dataItemCustom3Options = "englishIrish"
 #---------------------------------------------------------------------------------------------#
  
  

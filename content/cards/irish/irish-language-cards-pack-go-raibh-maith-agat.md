@@ -10,17 +10,16 @@ creationDate = "09/02/2023"
 productGroup = "cards"
 productType = "irish"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "Irish only"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm"
+attribute4 = "envelopeIncluded100Gsm"
+attribute5 = "irishOnly"
  
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Irish only"
-dataItemCustom1Options = "Irish"
-
-dataItemCustom2Name = "Card pack options"
-dataItemCustom2Options = "Pack of 5 only"
+dataItemCustom1Name = "irishOnly"
+dataItemCustom1Options = "irish"
+dataItemCustom2Name = "cardOptions"
+dataItemCustom2Options = "packOf5Only"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/irish/irish-language-cards-pack-go-raibh-maith-agat/irish-language-cards-pack-go-raibh-maith-agat"

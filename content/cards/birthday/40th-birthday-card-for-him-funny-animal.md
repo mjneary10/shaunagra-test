@@ -12,19 +12,16 @@ productType = "birthday"
 productFilter = "age-30-60"
 order = "27"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom5Name = "Card options"
-dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom5Required = "true"
-
-dataItemCustom6Name = "Design options"
-dataItemCustom6Options = "A|B|C|D"
-dataItemCustom6Required = "true"
+dataItemCustom1Name = "cardOptions"
+dataItemCustom1Options = "plainWhiteCardScallopEdgeAt2Euro"
+dataItemCustom2Name = "designOptions"
+dataItemCustom2Options = "abcd"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/40th-birthday-card-for-him-funny-animal/40th-birthday-card-for-him-funny-animal"

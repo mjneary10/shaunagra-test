@@ -10,20 +10,15 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "custom"
  
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
  
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Occasion"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Preferred colours"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Frame & card package"
-dataItemCustom3Options = "Frame only|Frame & card package (+3.50 Euro)[+3.50]"
-dataItemCustom3Required = "true"
+dataItemCustom1Name = "occasion"
+dataItemCustom2Name = "preferredColours"
+dataItemCustom3Name = "frameAndCardPackage"
+dataItemCustom3Options = "frameCardPackageStandard3_50"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/custom/custom-frame/custom-frame"

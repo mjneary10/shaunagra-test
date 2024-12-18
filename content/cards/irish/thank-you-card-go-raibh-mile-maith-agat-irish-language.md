@@ -10,19 +10,16 @@ creationDate = "09/02/2023"
 productGroup = "cards"
 productType = "irish"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "English or Irish"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm"
+attribute4 = "envelopeIncluded100Gsm"
+attribute5 = "englishOrIrish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "English or Irish"
-dataItemCustom1Options = "English|Irish"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Card pack options"
-dataItemCustom2Options = "1 card only|Pack of 5[+16.00]"
-dataItemCustom2Required = "true"
+dataItemCustom1Name = "englishOrIrish"
+dataItemCustom1Options = "englishIrish"
+dataItemCustom2Name = "cardOptions"
+dataItemCustom2Options = "1CardOnlypackOf5at16"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/irish/thank-you-card-go-raibh-mile-maith-agat-irish-language/thank-you-card-go-raibh-mile-maith-agat-irish-language"

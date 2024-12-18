@@ -10,30 +10,18 @@ creationDate = "16/10/2024"
 productGroup = "frames"
 productType = "baby"
 
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Baby's first name only"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Boy or girl?"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date format"
-dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Date in above format"
-dataItemCustom4Required = "true"
-
-dataItemCustom5Name = "Frame & card package"
-dataItemCustom5Options = "Frame only|Frame & (Birthday Card) package (+3.50 Euro)[+3.50]|Frame & (Christening Card) package (+3.50 Euro)[+3.50]"
-dataItemCustom5Required = "true"
-
-dataItemCustom6Name = "Parents names (for card only)"
-
+dataItemCustom1Name = "babysFirstNameOnly"
+dataItemCustom2Name = "boyOrGirl"
+dataItemCustom3Name = "dateFormat"
+dataItemCustom4Name = "dateInAboveFormat"
+dataItemCustom5Name = "frameAndCardPackage"
+dataItemCustom5Options = "frameCardPackageBirthdayChristening3_50"
+dataItemCustom6Name = "parentsNamesForCardOnly"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/baby/personalised-baby-girl-cute-owl-on-branch-frame/personalised-baby-girl-cute-owl-on-branch-frame"

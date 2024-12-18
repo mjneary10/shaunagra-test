@@ -12,27 +12,18 @@ productType = "birthday"
 productFilter = "age-70-100"
 order = "31"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom3Name = "Date format"
-dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Date in above format"
-dataItemCustom4Required = "true"
-
-dataItemCustom5Name = "Card options"
-dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom5Required = "true"
-
-dataItemCustom6Name = "Design options"
-dataItemCustom6Options = "A|B|C|D"
-dataItemCustom6Required = "true"
-
+dataItemCustom1Name = "dateFormat"
+dataItemCustom2Name = "dateInAboveFormat"
+dataItemCustom3Name = "cardOptions"
+dataItemCustom3Options = "plainWhiteCardScallopEdgeAt2Euro"
+dataItemCustom4Name = "designOptions"
+dataItemCustom4Options = "abcd"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/personalised-70th-birthday-card-for-mum-bingo-holiday-vintage/personalised-70th-birthday-card-for-mum-bingo-holiday-vintage"

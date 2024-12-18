@@ -10,24 +10,16 @@ creationDate = "06/03/2023"
 productGroup = "frames"
 productType = "house"
 
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples first names"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date in above format"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Frame & card package"
-dataItemCustom4Options = "Frame only|Frame & card package (3.50 Euro)[+3.50]"
-dataItemCustom4Required = "true"
+dataItemCustom1Name = "couplesFirstNamesOnly"
+dataItemCustom2Name = "dateFormat"
+dataItemCustom3Name = "dateInAboveFormat"
+dataItemCustom4Name = "frameAndCardPackage"
+dataItemCustom4Options = "frameCardPackageStandard3_50"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/house/personalised-new-home-frame-with-cute-house-on-clay-heart/personalised-new-home-frame-with-cute-house-on-clay-heart"

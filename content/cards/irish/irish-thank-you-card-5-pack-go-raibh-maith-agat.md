@@ -10,25 +10,20 @@ creationDate = "09/02/2023"
 productGroup = "cards"
 productType = "irish"
  
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "Irish only"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm"
+attribute4 = "envelopeIncluded100Gsm"
+attribute5 = "irishOnly"
  
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Irish only"
-dataItemCustom1Options = "Irish"
-
-dataItemCustom2Name = "Card pack options"
-dataItemCustom2Options = "One design, 5 cards|5 different designs"
-dataItemCustom2Required = "true"
-
-dataItemCustom4Name = "Insert five design numbers below"
-dataItemCustom4Required = "true"
+dataItemCustom1Name = "irishOnly"
+dataItemCustom1Options = "irish"
+dataItemCustom2Name = "cardOptions"
+dataItemCustom2Options = "oneDesign5Cards5Different"
+dataItemCustom3Name = "insertFiveDesignNumbersBelow"
 #---------------------------------------------------------------------------------------------#
 
-buttonCardPackMultiSelect1 ="One design, 5 cards"
-buttonCardPackMultiSelect2 ="5 different designs"
+
 
 
 image ="/img/cards/irish/irish-thank-you-card-5-pack-go-raibh-maith-agat/irish-thank-you-card-5-pack-go-raibh-maith-agat"

@@ -11,23 +11,15 @@ productGroup = "prints"
 productType = "engagement"
 
  
-attribute1 = "A4 210 x 297mm or 8.3 x 11.7 inches" 
-attribute2 = "300gsm white linen effect cardstock"
-attribute3 = "No frame supplied"
+attribute1 = "a4210X297mmOr8_3X11_7Inches" 
+attribute2 = "300gsmWhiteLinenEffectCardstock"
+attribute3 = "noFrameSupplied"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples first names"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date in above format"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Print only, no frame will be sent (type yes)"
-dataItemCustom4Required = "true"
+dataItemCustom1Name = "couplesFirstNamesOnly"
+dataItemCustom2Name = "dateFormat"
+dataItemCustom3Name = "dateInAboveFormat"
+dataItemCustom4Name = "printOnlyNoFrameWillBeSent"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/prints/engagement/personalised-engagement-print-with-pastel-flowers/personalised-engagement-print-with-pastel-flowers"

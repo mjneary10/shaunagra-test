@@ -10,17 +10,14 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "memorial"
  
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Person or pets name"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Frame & card package"
-dataItemCustom2Options = "Frame only|Frame & card package (3.50 Euro)[+3.50]"
-dataItemCustom2Required = "true"
+dataItemCustom1Name = "personOrPetsName"
+dataItemCustom2Name = "frameAndCardPackage"
+dataItemCustom2Options = "frameCardPackageStandard3_50"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/memorial/custom-memorial-frame/custom-memorial-frame"

@@ -11,13 +11,12 @@ productGroup = "cards"
 productType = "condolence"
  
  
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm" 
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Pet first name"
-dataItemCustom1Required = "true"
+dataItemCustom1Name = "petFirstName"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/condolence/pet-loss-sympathy-card-for-dog-condolence-card/pet-loss-sympathy-card-for-dog-condolence-card"

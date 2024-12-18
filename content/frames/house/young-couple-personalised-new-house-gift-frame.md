@@ -10,17 +10,14 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "house"
 
-attribute1 = "4 by 4 inches, 10 by 10 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "4By4Inches10By10Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples initials"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Frame & card package"
-dataItemCustom2Options = "Frame only|Frame & card package (3.50 Euro)[+3.50]"
-dataItemCustom2Required = "true"
+dataItemCustom1Name = "couplesInitials"
+dataItemCustom2Name = "frameAndCardPackage"
+dataItemCustom2Options = "frameCardPackageStandard3_50"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/house/young-couple-personalised-new-house-gift-frame/young-couple-personalised-new-house-gift-frame"

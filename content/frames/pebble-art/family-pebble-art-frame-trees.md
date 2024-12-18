@@ -10,9 +10,9 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "pebble-art"
 
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Safety perspex"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "safetyPerspex"
+attribute3 = "wallHungOrFreeStanding"
 
 image ="/img/frames/pebble-art/family-pebble-art-frame-trees/family-pebble-art-frame-trees"
 

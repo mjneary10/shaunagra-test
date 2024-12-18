@@ -11,14 +11,13 @@ productGroup = "cards"
 productType = "condolence"
  
  
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm" 
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
  
 #---------------------------------------------------------------------------------------------#
-dataItemCustom2Name = "Card options"
-dataItemCustom2Options = "Pink feather|Pastel feather|Heart white feather|Heart feather birds"
-dataItemCustom2Required = "true"
+dataItemCustom1Name = "cardOptions"
+dataItemCustom1Options = "pinkFeatherpastelFeather"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/condolence/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather/sorry-for-your-loss-sister-card-sympathy-card-sister-with-feather"

@@ -10,17 +10,14 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "family"
  
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
  
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Required names"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Frame & card package"
-dataItemCustom2Options = "Frame (up to 25 letters)|Frame & card package (up to 25 letters) (+3.50 Euro)[+3.50]|Frame (26 to 40 letters) (+5 Euro)[+5]|Frame & card package (26 to 40 letters) (+3.50 Euro)[+8.50]"
-dataItemCustom2Required = "true"
+dataItemCustom1Name = "requiredNames"
+dataItemCustom2Name = "frameAndCardPackage"
+dataItemCustom2Options = "frameCardPackage25To40Letters"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/frames/family/personalized-name-frames-hearts-blue/personalized-name-frames-hearts-blue"

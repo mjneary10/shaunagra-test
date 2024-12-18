@@ -10,24 +10,19 @@ creationDate = "13/10/2024"
 productGroup = "cards"
 productType = "christmas"
  
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "English or Irish"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
+attribute5 = "englishOrIrish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom2Name = "Card options"
-dataItemCustom2Options = "Plain white card|Scallop edge (+5 Euro)[+5.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Design options"
-dataItemCustom3Options = "A|B|C|D|E"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "English or Irish?"
-dataItemCustom4Options = "English|Irish"
-dataItemCustom4Required = "true"
+dataItemCustom1Name = "cardOptions"
+dataItemCustom1Options = "plainWhiteCardScallopEdgeAt5Euro"
+dataItemCustom2Name = "designOptions"
+dataItemCustom2Options = "abcde"
+dataItemCustom3Name = "englishOrIrish"
+dataItemCustom3Options = "englishIrish"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/christmas/irish-language-christmas-cards-black-and-white-pack-of-5/irish-language-christmas-cards-black-and-white-pack-of-5"

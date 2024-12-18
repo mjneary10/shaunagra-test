@@ -11,22 +11,16 @@ productGroup = "prints"
 productType = "house"
 
  
-attribute1 = "A4 210 x 297mm or 8.3 x 11.7 inches" 
-attribute2 = "300gsm white linen effect cardstock"
-attribute3 = "No frame supplied"
+attribute1 = "a4210X297mmOr8_3X11_7Inches" 
+attribute2 = "300gsmWhiteLinenEffectCardstock"
+attribute3 = "noFrameSupplied"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples names / family name"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "House address (optional)"
-
-dataItemCustom3Name = "Design options"
-dataItemCustom3Options = "A|B|C"
-dataItemCustom3Required = "true"
-
-dataItemCustom5Name = "Print only, no frame will be sent (type yes)"
-dataItemCustom5Required = "true"
+dataItemCustom1Name = "couplesNamesFamilyName"
+dataItemCustom2Name = "houseAddress"
+dataItemCustom3Name = "designOptions"
+dataItemCustom3Options = "abc"
+dataItemCustom4Name = "printOnlyNoFrameWillBeSent"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/prints/house/personalised-new-house-a4-prints-teach-nua-irish-celtic-design/personalised-new-house-a4-prints-teach-nua-irish-celtic-design"

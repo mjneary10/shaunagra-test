@@ -10,25 +10,20 @@ creationDate = "19/06/2024"
 productGroup = "cards"
 productType = "irish"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Irish only"
-dataItemCustom1Options = "Irish"
-
-dataItemCustom2Name = "Card pack options"
-dataItemCustom2Options = "Pack of 4 only"
-
-dataItemCustom3Name = "Card options"
-dataItemCustom3Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Design options"
-dataItemCustom4Options = "A|B|C|D"
-dataItemCustom4Required = "true"
+dataItemCustom1Name = "irishOnly"
+dataItemCustom1Options = "irish"
+dataItemCustom2Name = "cardOptions"
+dataItemCustom2Options = "packOf4Only"
+dataItemCustom3Name = "cardOptions"
+dataItemCustom3Options = "plainWhiteCardScallopEdgeAt2Euro"
+dataItemCustom4Name = "designOptions"
+dataItemCustom4Options = "abcd"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/irish/go-raibh-maith-agat-irish-thank-you-bee-card-pack/go-raibh-maith-agat-irish-thank-you-bee-card-pack"

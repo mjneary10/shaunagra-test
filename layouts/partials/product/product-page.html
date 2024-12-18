@@ -6,19 +6,11 @@
     <article class="grid grid-prod-page">
       <div class="product-thumbs flex flex-row">
         {{ range $sequence := (seq 6) }}
-        <img
-          class="demo cursor"
-          src="{{$link}}-{{$sequence}}-small.webp"
-          onclick="currentSlide({{$sequence}})"
-          alt="{{$alt}}"
-        />
+        <img class="demo cursor" src="{{$link}}-{{$sequence}}-small.webp" onclick="currentSlide({{$sequence}})"
+          alt="{{$alt}}" />
         {{end}} {{ range $sequence := (seq 4) }} {{ $count = add $count 1 }}
-        <img
-          class="demo cursor"
-          src="/img/{{$productGroup}}/common/{{$sequence}}-small.webp"
-          onclick="currentSlide({{ $count  }})"
-          alt="{{$alt}}"
-        />
+        <img class="demo cursor" src="/img/{{$productGroup}}/common/{{$sequence}}-small.webp"
+          onclick="currentSlide({{ $count  }})" alt="{{$alt}}" />
         {{end}}
       </div>
 
@@ -27,21 +19,13 @@
         {{ range $sequence := (seq 6) }} {{ $numCount = add $numCount 1 }}
         <div class="mySlides">
           <div class="numbertext">{{$numCount}} / 10</div>
-          <img
-            src="{{$link}}-{{$sequence}}.webp"
-            class="img-responsive"
-            alt="{{$alt}}"
-          />
+          <img src="{{$link}}-{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}" />
         </div>
         {{end}} {{ range $sequence := (seq 4) }} {{ $numCount = add $numCount 1
         }}
         <div class="mySlides">
           <div class="numbertext">{{$numCount}} / 10</div>
-          <img
-            src="/img/{{$productGroup}}/common/{{$sequence}}.webp"
-            class="img-responsive"
-            alt="{{$alt}}"
-          />
+          <img src="/img/{{$productGroup}}/common/{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}" />
         </div>
         {{end}}
 
@@ -54,37 +38,37 @@
 
         <ul class="product-ul-attributes">
           {{ if .Params.attribute1}}
-          <li>{{ .Params.attribute1 }}</li>
+          <li>{{ with .Params.attribute1 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
           {{end}} {{ if .Params.attribute2}}
-          <li>{{ .Params.attribute2 }}</li>
+          <li>{{ with .Params.attribute2 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
           {{end}} {{ if .Params.attribute3}}
-          <li>{{ .Params.attribute3 }}</li>
+          <li>{{ with .Params.attribute3 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
           {{end}} {{ if .Params.attribute4}}
-          <li>{{ .Params.attribute4 }}</li>
+          <li>{{ with .Params.attribute4 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
           {{end}} {{ if .Params.attribute5}}
-          <li>{{ .Params.attribute5 }}</li>
+          <li>{{ with .Params.attribute5 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
           {{end}}
         </ul>
 
         {{ .Scratch.Set "customBoxes" "yes"}} {{partial
         "product/snipcart-button.html" . }}
 
-        
+
       </div>
       <article class="product-info">
         <aside class="color3-bg padding-small margin-large-bottom">
           <p>{{ .Content }}</p>
-          <ul class="list-reset specs">
+          <ul class="specs">
             {{ if .Params.attribute1}}
-            <li>{{ .Params.attribute1}}</li>
+            <li>{{ with .Params.attribute1 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
             {{end}} {{ if .Params.attribute2}}
-            <li>{{ .Params.attribute2}}</li>
+            <li>{{ with .Params.attribute2 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
             {{end}} {{ if .Params.attribute3}}
-            <li>{{ .Params.attribute3}}</li>
+            <li>{{ with .Params.attribute3 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
             {{end}} {{ if .Params.attribute4}}
-            <li>{{ .Params.attribute4}}</li>
+            <li>{{ with .Params.attribute4 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
             {{end}} {{ if .Params.attribute5}}
-            <li>{{ .Params.attribute5}}</li>
+            <li>{{ with .Params.attribute5 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
             {{end}}
           </ul>
         </aside>

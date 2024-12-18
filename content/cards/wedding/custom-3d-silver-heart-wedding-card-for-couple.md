@@ -10,26 +10,17 @@ creationDate = "13/10/2024"
 productGroup = "cards"
 productType = "wedding"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "English or Irish"
+attribute1 = "6By6Inches15By15Cm"  
+attribute2 = "scallopEdge300Gsm" 
+attribute3 = "envelopeIncluded100Gsm"
+attribute4 = "englishOrIrish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom2Name = "Couples first names only"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date format"
-dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Wedding date in above format"
-dataItemCustom4Required = "true"
-
-dataItemCustom6Name = "Design options"
-dataItemCustom6Options = "A|B|C|D"
-dataItemCustom6Required = "true"
+dataItemCustom1Name = "couplesFirstNamesOnly"
+dataItemCustom2Name = "dateFormat"
+dataItemCustom3Name = "dateInAboveFormat"
+dataItemCustom4Name = "designOptions"
+dataItemCustom4Options = "abcd"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/wedding/custom-3d-silver-heart-wedding-card-for-couple/custom-3d-silver-heart-wedding-card-for-couple"

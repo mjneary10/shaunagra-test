@@ -10,32 +10,20 @@ creationDate = "09/02/2023"
 productGroup = "cards"
 productType = "baby"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Baby's first name only"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Boy or girl?"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "Date format"
-dataItemCustom3Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Date in above format"
-dataItemCustom4Required = "true"
-
-dataItemCustom5Name = "Card options"
-dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom5Required = "true"
-
-dataItemCustom6Name = "Design options"
-dataItemCustom6Options = "A|B|C|D"
-dataItemCustom6Required = "true"
+dataItemCustom1Name = "babysFirstNameOnly"
+dataItemCustom2Name = "boyOrGirl"
+dataItemCustom3Name = "dateFormat"
+dataItemCustom4Name = "dateInAboveFormat"
+dataItemCustom5Name = "cardOptions"
+dataItemCustom5Options = "plainWhiteCardScallopEdgeAt2Euro"
+dataItemCustom6Name = "designOptions"
+dataItemCustom6Options = "abcd"
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/baby/personalised-christening-card-floral-cross-boy-or-girl/personalised-christening-card-floral-cross-boy-or-girl"

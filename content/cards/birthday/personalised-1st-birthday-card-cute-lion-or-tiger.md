@@ -12,27 +12,20 @@ productType = "birthday"
 productFilter = "age-1-5"
 order = "2"
 
-attribute1 = "6 by 6 inches, 15 by 15 cm" 
-attribute2 = "Plain white card, 250 gsm"
-attribute3 = "Scallop edge 300 gsm"
-attribute4 = "Envelope included, 100 gsm"
-attribute5 = "Irish or English language"
+attribute1 = "6By6Inches15By15Cm" 
+attribute2 = "plainWhiteCard250Gsm" 
+attribute3 = "scallopEdge300Gsm" 
+attribute4 = "envelopeIncluded100Gsm"
+attribute5 = "englishOrIrish"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Persons first name only"
-dataItemCustom1Required = "true"
-
-dataItemCustom5Name = "Card options"
-dataItemCustom5Options = "Plain white card|Scallop edge (+2 Euro)[+2.00]"
-dataItemCustom5Required = "true"
-
-dataItemCustom6Name = "Design options"
-dataItemCustom6Options = "A|B|C|D"
-dataItemCustom6Required = "true"
-
-dataItemCustom8Name = "English or Irish?"
-dataItemCustom8Options = "English|Irish"
-dataItemCustom8Required = "true"
+dataItemCustom1Name = "personsFirstNameOnly"
+dataItemCustom2Name = "cardOptions"
+dataItemCustom2Options = "plainWhiteCardScallopEdgeAt2Euro"
+dataItemCustom3Name = "designOptions"
+dataItemCustom3Options = "abcd"
+dataItemCustom4Name = "englishOrIrish"
+dataItemCustom4Options = "englishIrish"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/cards/birthday/personalised-1st-birthday-card-cute-lion-or-tiger/personalised-1st-birthday-card-cute-lion-or-tiger"

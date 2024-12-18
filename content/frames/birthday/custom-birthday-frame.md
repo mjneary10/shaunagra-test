@@ -10,31 +10,19 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "birthday"
  
-attribute1 = "10 by 10 inch, 25 by 25 cm" 
-attribute2 = "Real glass"
-attribute3 = "Wall hung or free standing"
+attribute1 = "10By10Inches25By25Cm" 
+attribute2 = "realGlass"
+attribute3 = "wallHungOrFreeStanding"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Required names"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Date format"
-dataItemCustom2Options = "EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]"
-dataItemCustom2Required = "true"
-
-dataItemCustom3Name = "DOB in above format"
-dataItemCustom3Required = "true"
-
-dataItemCustom4Name = "Options"
-dataItemCustom4Options = "Wooden tiles|Print"
-dataItemCustom4Required = "true"
-
-dataItemCustom5Name = "Preferred colours"
-dataItemCustom5Required = "true"
-
-dataItemCustom6Name = "Frame & card package"
-dataItemCustom6Options = "Frame only|Frame & card package (+3.50 Euro)[+3.50]"
-dataItemCustom6Required = "true"
+dataItemCustom1Name = "requiredNames"
+dataItemCustom2Name = "dateFormat"
+dataItemCustom3Name = "dateInAboveFormat"
+dataItemCustom4Name = "options"
+dataItemCustom4Options = "woodenTilesPrint"
+dataItemCustom5Name = "preferredColours"
+dataItemCustom6Name = "frameAndCardPackage"
+dataItemCustom6Options = "frameCardPackageStandard3_50"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/birthday/custom-birthday-frame/custom-birthday-frame"

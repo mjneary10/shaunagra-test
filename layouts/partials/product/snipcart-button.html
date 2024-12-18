@@ -1,253 +1,83 @@
 {{ if .Params.stock }} {{ if not (in .Params.stock "0") }}
 
-<a
-  title="Add To Cart"
-  href="#"
-  class="snipcart-add-item"
-  data-item-id="{{ .Params.title }}"
-  data-item-weight="{{ .Params.weight}}"
-  data-item-name="{{ .Params.title }}"
-  data-item-image="{{ .Params.image }}.webp"
-  data-item-price="{{ .Params.price }}"
-  data-item-url="{{ .Permalink }}"
-  {{
-  if
-  .Params.dataItemCustom1Name
-  }}
-  data-item-custom1-name="{{ .Params.dataItemCustom1Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom1Options
-  }}
-  data-item-custom1-options="{{ .Params.dataItemCustom1Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom1Required
-  }}
-  data-item-custom1-required="{{ .Params.dataItemCustom1Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom2Name
-  }}
-  data-item-custom2-name="{{ .Params.dataItemCustom2Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom2Options
-  }}
-  data-item-custom2-options="{{ .Params.dataItemCustom2Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom2Required
-  }}
-  data-item-custom2-required="{{ .Params.dataItemCustom2Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom3Name
-  }}
-  data-item-custom3-name="{{ .Params.dataItemCustom3Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom3Options
-  }}
-  data-item-custom3-options="{{ .Params.dataItemCustom3Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom3Required
-  }}
-  data-item-custom3-required="{{ .Params.dataItemCustom3Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom4Name
-  }}
-  data-item-custom4-name="{{ .Params.dataItemCustom4Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom4Options
-  }}
-  data-item-custom4-options="{{ .Params.dataItemCustom4Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom4Required
-  }}
-  data-item-custom4-required="{{ .Params.dataItemCustom4Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom5Name
-  }}
-  data-item-custom5-name="{{ .Params.dataItemCustom5Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom5Options
-  }}
-  data-item-custom5-options="{{ .Params.dataItemCustom5Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom5Required
-  }}
-  data-item-custom5-required="{{ .Params.dataItemCustom5Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom6Name
-  }}
-  data-item-custom6-name="{{ .Params.dataItemCustom6Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom6Options
-  }}
-  data-item-custom6-options="{{ .Params.dataItemCustom6Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom6Required
-  }}
-  data-item-custom6-required="{{ .Params.dataItemCustom6Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom7Name
-  }}
-  data-item-custom7-name="{{ .Params.dataItemCustom7Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom7Options
-  }}
-  data-item-custom7-options="{{ .Params.dataItemCustom7Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom7Required
-  }}
-  data-item-custom7-required="{{ .Params.dataItemCustom7Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom8Name
-  }}
-  data-item-custom8-name="{{ .Params.dataItemCustom8Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom8Options
-  }}
-  data-item-custom8-options="{{ .Params.dataItemCustom8Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom8Required
-  }}
-  data-item-custom8-required="{{ .Params.dataItemCustom8Required }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom9Name
-  }}
-  data-item-custom9-name="{{ .Params.dataItemCustom9Name }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom9Options
-  }}
-  data-item-custom9-options="{{ .Params.dataItemCustom9Options }}"
-  {{
-  end
-  }}
-  {{
-  if
-  .Params.dataItemCustom9Required
-  }}
-  data-item-custom9-required="{{ .Params.dataItemCustom9Required }}"
-  {{
-  end
-  }}
-  data-item-custom10-name="Message to Shauna Gra"
-  data-item-custom10-type="textarea"
->
+<a title="Add To Cart" href="#" class="snipcart-add-item" data-item-id="{{ .Params.title }}"
+  data-item-weight="{{ .Params.weight}}" data-item-name="{{ .Params.title }}" data-item-image="{{ .Params.image }}.webp"
+  data-item-price="{{ .Params.price }}" data-item-url="{{ .Permalink }}" {{if .Params.dataItemCustom1Name}}
+  data-item-custom1-name="{{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom1-required="true" {{ end }} {{if eq .Params.dataItemCustom1Name "dateFormat" }}
+  data-item-custom1-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom1Options}}
+  data-item-custom1-options="{{ with .Params.dataItemCustom1Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom2Name}}
+  data-item-custom2-name="{{ with .Params.dataItemCustom2Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom2-required="true" {{ end }} {{if eq .Params.dataItemCustom2Name "dateFormat" }}
+  data-item-custom2-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom2Options}}
+  data-item-custom2-options="{{ with .Params.dataItemCustom2Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom3Name}}
+  data-item-custom3-name="{{ with .Params.dataItemCustom3Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom3-required="true" {{ end }} {{if eq .Params.dataItemCustom3Name "dateFormat" }}
+  data-item-custom3-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom3Options}}
+  data-item-custom3-options="{{ with .Params.dataItemCustom3Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom4Name}}
+  data-item-custom4-name="{{ with .Params.dataItemCustom4Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom4-required="true" {{ end }} {{if eq .Params.dataItemCustom4Name "dateFormat" }}
+  data-item-custom4-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom4Options}}
+  data-item-custom4-options="{{ with .Params.dataItemCustom4Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom5Name}}
+  data-item-custom5-name="{{ with .Params.dataItemCustom5Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom5-required="true" {{ end }} {{if eq .Params.dataItemCustom5Name "dateFormat" }}
+  data-item-custom5-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom5Options}}
+  data-item-custom5-options="{{ with .Params.dataItemCustom5Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom6Name}}
+  data-item-custom6-name="{{ with .Params.dataItemCustom6Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom6-required="true" {{ end }} {{if eq .Params.dataItemCustom6Name "dateFormat" }}
+  data-item-custom6-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom6Options}}
+  data-item-custom6-options="{{ with .Params.dataItemCustom6Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom7Name}}
+  data-item-custom7-name="{{ with .Params.dataItemCustom7Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom7-required="true" {{ end }} {{if eq .Params.dataItemCustom7Name "dateFormat" }}
+  data-item-custom7-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom7Options}}
+  data-item-custom7-options="{{ with .Params.dataItemCustom7Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom8Name}}
+  data-item-custom8-name="{{ with .Params.dataItemCustom8Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom8-required="true" {{ end }} {{if eq .Params.dataItemCustom8Name "dateFormat" }}
+  data-item-custom8-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom8Options}}
+  data-item-custom8-options="{{ with .Params.dataItemCustom8Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} {{if .Params.dataItemCustom9Name}}
+  data-item-custom9-name="{{ with .Params.dataItemCustom9Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  data-item-custom9-required="true" {{ end }} {{if eq .Params.dataItemCustom9Name "dateFormat" }}
+  data-item-custom9-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
+  .Params.dataItemCustom9Options}}
+  data-item-custom9-options="{{ with .Params.dataItemCustom9Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
+  {{ end }} data-item-custom10-name="Message to Shauna Gra" data-item-custom10-type="textarea">
   {{ $test := .Scratch.Get "customBoxes" }} {{ if eq $test "yes"}}
 
   <div class="product-button-boxes">
     {{ if .Params.dataItemCustom1Name}}
-    <div>{{ .Params.dataItemCustom1Name }}</div>
+    <div>{{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}} {{ if .Params.dataItemCustom2Name}}
-    <div>{{ .Params.dataItemCustom2Name }}</div>
+    <div>{{ with .Params.dataItemCustom2Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}} {{ if .Params.dataItemCustom3Name}}
-    <div>{{ .Params.dataItemCustom3Name }}</div>
+    <div>{{ with .Params.dataItemCustom3Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}} {{ if .Params.dataItemCustom4Name}}
-    <div>{{ .Params.dataItemCustom4Name }}</div>
+    <div>{{ with .Params.dataItemCustom4Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}}{{ if .Params.dataItemCustom5Name}}
-    <div>{{ .Params.dataItemCustom5Name }}</div>
+    <div>{{ with .Params.dataItemCustom5Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}} {{ if .Params.dataItemCustom6Name}}
-    <div>{{ .Params.dataItemCustom6Name }}</div>
+    <div>{{ with .Params.dataItemCustom6Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}} {{ if .Params.dataItemCustom7Name}}
-    <div>{{ .Params.dataItemCustom7Name }}</div>
+    <div>{{ with .Params.dataItemCustom7Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}} {{ if .Params.dataItemCustom8Name}}
-    <div>{{ .Params.dataItemCustom8Name }}</div>
+    <div>{{ with .Params.dataItemCustom8Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
+    {{end}} {{ if .Params.dataItemCustom9Name}}
+    <div>{{ with .Params.dataItemCustom9Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
     {{end}}
   </div>
 
@@ -256,6 +86,7 @@
   <span class="btn buyNowButton">ADD TO CART</span>
 </a>
 <a href="/signup/" class="filter-buttons">Or sign up for 20% OFF</a>
+
 {{else }}
 <p class="price">!! Out Of Stock !!</p>
 {{end }} {{end}}

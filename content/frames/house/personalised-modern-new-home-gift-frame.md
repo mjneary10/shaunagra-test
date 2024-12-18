@@ -10,17 +10,14 @@ creationDate = "09/02/2023"
 productGroup = "frames"
 productType = "house"
 
-attribute1 = "6 by 8 inch, 16 by 20 cm" 
-attribute2 = "Safety perspex"
-attribute3 = "Wall hung or free standing"
+attribute1 = "6By8Inches16By20Cm" 
+attribute2 = "safetyPerspex"
+attribute3 = "wallHungOrFreeStanding"
 
 #---------------------------------------------------------------------------------------------#
-dataItemCustom1Name = "Couples initials"
-dataItemCustom1Required = "true"
-
-dataItemCustom2Name = "Frame & card package"
-dataItemCustom2Options = "Frame only|Frame & card package (3.50 Euro)[+3.50]"
-dataItemCustom2Required = "true"
+dataItemCustom1Name = "couplesInitials"
+dataItemCustom2Name = "frameAndCardPackage"
+dataItemCustom2Options = "frameCardPackageStandard3_50"
 #---------------------------------------------------------------------------------------------#
 
 image ="/img/frames/house/personalised-modern-new-home-gift-frame/personalised-modern-new-home-gift-frame"
