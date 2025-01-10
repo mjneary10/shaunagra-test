@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised new parents card for new baby with teddy bear | Shauna Gra"
 title = "Personalised new parents card for new baby with teddy bear"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

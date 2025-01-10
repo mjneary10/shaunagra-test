@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="21st birthday card daughter key personalised | Shauna Gra"
 title = "21st birthday card daughter key personalised"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "15/06/2024"

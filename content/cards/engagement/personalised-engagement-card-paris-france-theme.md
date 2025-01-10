@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised engagement card paris france theme | Shauna Gra"
 title = "Personalised engagement card paris france theme"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "13/10/2024"

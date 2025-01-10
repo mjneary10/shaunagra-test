@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Carta as gaeilge Irish language go raibh maith agat card | Shauna Gra"
 title = "Carta as gaeilge Irish language go raibh maith agat card"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

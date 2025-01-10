@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="30th birthday card for him funny 9th anniversary of 21st birthday | Shauna Gra"
 title = "30th birthday card for him funny 9th anniversary of 21st birthday"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "27/05/2024"

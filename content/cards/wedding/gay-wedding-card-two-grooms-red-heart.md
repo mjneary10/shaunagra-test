@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Gay wedding card two grooms red heart | Shauna Gra"
 title = "Gay wedding card two grooms red heart"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

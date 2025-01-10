@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="50th wedding anniversary card for mam and dad romantic card | Shauna Gra"
 title = "50th wedding anniversary card for mam and dad romantic card"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "15/06/2024"

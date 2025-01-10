@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="3rd birthday personalised zoo jungle safari card  | Shauna Gra"
 title = "3rd birthday personalised zoo jungle safari card "
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/05/2024"

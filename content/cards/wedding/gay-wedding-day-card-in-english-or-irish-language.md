@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Gay wedding day card in English or Irish language | Shauna Gra"
 title = "Gay wedding day card in English or Irish language with Celtic blue heart"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

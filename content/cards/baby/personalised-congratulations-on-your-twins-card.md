@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised congratulations on your twins card | Shauna Gra"
 title = "Personalised congratulations on your twins card"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "30/11/2024"

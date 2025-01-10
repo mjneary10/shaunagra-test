@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Custom congratulations for triplets baby card | Shauna Gra"
 title = "Custom congratulations for triplets baby card"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "30/11/2024"

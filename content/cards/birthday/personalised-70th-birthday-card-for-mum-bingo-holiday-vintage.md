@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised 70th birthday card for mum bingo holiday vintage| Shauna Gra"
 title = "Personalised 70th birthday card for mum bingo holiday vintage"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "23/04/2024"

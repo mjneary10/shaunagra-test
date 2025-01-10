@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Christening card personalised with church design for godchild | Shauna Gra"
 title = "Christening card personalised with church design for godchild"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

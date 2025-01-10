@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised communion card for girls cute pink flowers | Shauna Gra"
 title = "Personalised communion card for girls cute pink flowers"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "13/10/2024"

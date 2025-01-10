@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Age 4 5 6 7 cute police dog birthday card personalised for grandson | Shauna Gra"
 title = "Age 4 5 6 7 cute police dog birthday card personalised for grandson"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "03/05/2024"

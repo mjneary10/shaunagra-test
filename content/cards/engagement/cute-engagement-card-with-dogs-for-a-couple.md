@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Cute engagement card with dogs for a couple | Shauna Gra"
 title = "Cute engagement card with dogs for a couple"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

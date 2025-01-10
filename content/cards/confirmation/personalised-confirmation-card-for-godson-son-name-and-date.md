@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised confirmation card for godson son name and date | Shauna Gra"
 title = "Personalised confirmation card for godson son name and date"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

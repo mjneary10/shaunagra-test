@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Thank you card go raibh mile maith agat Irish language | Shauna Gra"
 title = "Thank you card go raibh mile maith agat Irish language"
-price = "5.95"
+price = "4.95"
 weight = "250"
 stock = "2"
 creationDate = "09/02/2023"

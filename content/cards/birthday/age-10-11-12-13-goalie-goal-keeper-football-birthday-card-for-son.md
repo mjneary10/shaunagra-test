@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Age 10 11 12 13 goalie goal keeper football birthday card for son | Shauna Gra"
 title = "Age 10 11 12 13 goalie goal keeper football birthday card for son"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "13/06/2024"

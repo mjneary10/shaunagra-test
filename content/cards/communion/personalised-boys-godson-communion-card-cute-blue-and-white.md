@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised boys godson communion card cute blue and white | Shauna Gra"
 title = "Personalised boys godson communion card cute blue and white"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

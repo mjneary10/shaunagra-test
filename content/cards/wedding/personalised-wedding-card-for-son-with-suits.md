@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised wedding card for son with suits | Shauna Gra"
 title = "Personalised wedding card for son with suits"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "13/10/2024"

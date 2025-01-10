@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Cute engagement cards balloons boats hearts | Shauna Gra"
 title = "Cute engagement cards balloons boats hearts"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

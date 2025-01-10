@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Custom new baby card washing line | Shauna Gra"
 title = "Custom new baby card washing line"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "25/11/2024"

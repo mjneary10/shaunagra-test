@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised 60th birthday floral card for friend| Shauna Gra"
 title = "Personalised 60th birthday floral card for friend"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "23/04/2024"

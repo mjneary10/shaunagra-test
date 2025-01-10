@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Custom wedding card for son with beard | Shauna Gra"
 title = "Custom wedding card for son with beard"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "13/10/2024"

@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Sorry for your loss sister card sympathy card sister with feather | Shauna Gra"
 title = "Sorry for your loss sister card sympathy card sister with feather"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "09/02/2023"

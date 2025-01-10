@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised 30th birthday card for friend handbag | Shauna Gra"
 title = "Personalised 30th birthday card for friend handbag"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "19/04/2024"

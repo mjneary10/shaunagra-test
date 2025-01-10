@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Age 5 ballerina birthday card for daughter granddaughter son grandson | Shauna Gra"
 title = "Age 5 ballerina birthday card for daughter granddaughter son grandson"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "03/05/2024"

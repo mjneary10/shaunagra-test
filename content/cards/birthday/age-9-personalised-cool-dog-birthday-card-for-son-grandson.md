@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Age 9 personalised cool dog birthday card for son grandson | Shauna Gra"
 title = "Age 9 personalised cool dog birthday card for son grandson"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "03/05/2024"

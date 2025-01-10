@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised 21st birthday card girl black dress balloons| Shauna Gra"
 title = "Personalised 21st birthday card girl black dress balloons"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "23/04/2024"

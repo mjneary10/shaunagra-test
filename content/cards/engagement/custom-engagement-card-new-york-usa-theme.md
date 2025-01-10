@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Custom engagement card new york usa theme | Shauna Gra"
 title = "Custom engagement card new york usa theme"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "13/10/2024"
