@@ -56,7 +56,10 @@
   data-item-custom9-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
   .Params.dataItemCustom9Options}}
   data-item-custom9-options="{{ with .Params.dataItemCustom9Options }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
-  {{ end }} data-item-custom10-name="Message to Shauna Gra" data-item-custom10-type="textarea">
+  {{ end }} data-item-custom10-name="Message to Shauna Gra" data-item-custom10-type="textarea" {{ if in
+  .RelPermalink "/cards/confirmation/" }} data-item-categories="cardsConfirmation" {{end}}>
+
+
   {{ $test := .Scratch.Get "customBoxes" }} {{ if eq $test "yes"}}
 
   <div class="product-button-boxes">
