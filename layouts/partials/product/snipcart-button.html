@@ -1,8 +1,9 @@
 {{ if .Params.stock }} {{ if not (in .Params.stock "0") }}
 
 <a title="Add To Cart" href="#" class="snipcart-add-item" data-item-id="{{ .Params.title }}"
-  data-item-weight="{{ .Params.weight}}" data-item-name="{{ .Params.title }}" data-item-image="{{ .Params.image }}.webp"
-  data-item-price="{{ .Params.price }}" data-item-url="{{ .Permalink }}" {{if .Params.dataItemCustom1Name}}
+  data-item-weight="{{ .Params.weight}}" data-item-name="{{ .Params.title }}"
+  data-item-image="{{ absURL .Params.image }}-1.webp" data-item-price="{{ .Params.price }}"
+  data-item-url="{{ .Permalink }}" {{if .Params.dataItemCustom1Name}}
   data-item-custom1-name="{{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
   data-item-custom1-required="true" {{ end }} {{if eq .Params.dataItemCustom1Name "dateFormat" }}
   data-item-custom1-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
