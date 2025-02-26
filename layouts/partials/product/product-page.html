@@ -7,10 +7,10 @@
       <div class="product-thumbs flex flex-row">
         {{ range $sequence := (seq 6) }}
         <img class="demo cursor" src="{{$link}}-{{$sequence}}-small.webp" onclick="currentSlide({{$sequence}})"
-          alt="{{$alt}}" />
+          alt="{{$alt}}"/>
         {{end}} {{ range $sequence := (seq 4) }} {{ $count = add $count 1 }}
         <img class="demo cursor" src="/img/{{$productGroup}}/common/{{$sequence}}-small.webp"
-          onclick="currentSlide({{ $count  }})" alt="{{$alt}}" />
+          onclick="currentSlide({{ $count  }})" alt="{{$alt}}"/>
         {{end}}
       </div>
 
@@ -19,13 +19,13 @@
         {{ range $sequence := (seq 6) }} {{ $numCount = add $numCount 1 }}
         <div class="mySlides">
           <div class="numbertext">{{$numCount}} / 10</div>
-          <img src="{{$link}}-{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}" />
+          <img src="{{$link}}-{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}"/>
         </div>
         {{end}} {{ range $sequence := (seq 4) }} {{ $numCount = add $numCount 1
         }}
         <div class="mySlides">
           <div class="numbertext">{{$numCount}} / 10</div>
-          <img src="/img/{{$productGroup}}/common/{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}" />
+          <img src="/img/{{$productGroup}}/common/{{$sequence}}.webp" class="img-responsive" alt="{{$alt}}"/>
         </div>
         {{end}}
 

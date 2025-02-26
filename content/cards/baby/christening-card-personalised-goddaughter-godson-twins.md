@@ -9,6 +9,8 @@ creationDate = "09/02/2023"
 
 productGroup = "cards"
 productType = "baby"
+productFilter = "christening"
+order = "1"
 productPlacement = "bestSeller"
 
 testCode = "5.951006psebbddcpda"
