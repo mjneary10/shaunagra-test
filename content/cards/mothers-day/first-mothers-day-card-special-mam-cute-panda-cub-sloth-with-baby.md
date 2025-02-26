@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="First mothers day card special mam cute panda cub sloth with baby | Shauna Gra"
 title = "First mothers day card special mam cute panda cub sloth with baby"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "19/02/2025"

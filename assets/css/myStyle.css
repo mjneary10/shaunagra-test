@@ -71,6 +71,7 @@ input[type="submit"]:hover {
 /* -------------------- */
 a.qqq {
   padding: 50px;
+ 
 }
 
 hr {
@@ -87,6 +88,7 @@ hr {
 a.filter-buttons {
   text-decoration: none;
   text-transform: uppercase;
+  color: black;
 }
 a.filter-buttons:hover {
   background-color: rgb(237, 218, 233);
@@ -218,11 +220,11 @@ a.filter-buttons:hover {
   );
 }
 .gradient-light {
-  background: rgb(230, 123, 46);
+  background: rgb(236, 178, 136);
   background: linear-gradient(
     90deg,
     rgba(230, 123, 46, 0.24870458437281162) 19%,
-    rgba(247, 196, 156, 0.29072139109550066) 63%
+    rgba(245, 207, 178, 0.291) 63%
   );
 }
 

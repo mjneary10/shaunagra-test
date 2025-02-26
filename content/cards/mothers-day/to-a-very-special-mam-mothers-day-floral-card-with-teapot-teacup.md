@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="To a very special mam mothers day floral card with teapot teacup | Shauna Gra"
 title = "To a very special mam mothers day floral card with teapot teacup"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "20/02/2025"

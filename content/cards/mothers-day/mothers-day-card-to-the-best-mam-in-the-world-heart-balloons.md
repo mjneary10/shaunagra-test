@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Mothers day card to the best mam in the world heart balloons | Shauna Gra"
 title = "Mothers day card to the best mam in the world heart balloons"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "20/02/2025"

@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Mothers day card happy mothers day to the kindest person i know | Shauna Gra"
 title = "Mothers day card happy mothers day to the kindest person i know"
-price = "5.95"
+price = "4.95"
 weight = "100"
 stock = "2"
 creationDate = "19/02/2025"
