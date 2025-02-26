@@ -1,7 +1,7 @@
 {{$link := .Params.image }} {{$alt := .Params.title }} {{$productGroup :=
 .Params.productGroup}} {{$count := 6 }} {{$numCount := 0 }}
 
-<section class="grid grid-main">
+<section class="grid grid-main ">
   <section class="normal-width-element">
     <article class="grid grid-prod-page">
       <div class="product-thumbs flex flex-row">
@@ -33,10 +33,19 @@
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <div class="product-details padding-small color1-bg">
-        <h1 class="product-title">{{ .Params.title }}</h1>
+
+
+
+
+      <div class="product-details flex-column flex-space-between padding-small text-center color2-bg box-shadow">
+        <h1 class="product-title padding-small gradient-main">{{ .Params.title }}</h1>
+
+        <a href="#customer-reviews"><img src="/img/reviews.png" class="img-responsive" alt=""></a>
+
+
 
         <ul class="product-ul-attributes">
+
           {{ if .Params.attribute1}}
           <li>{{ with .Params.attribute1 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
           {{end}} {{ if .Params.attribute2}}
@@ -50,14 +59,53 @@
           {{end}}
         </ul>
 
-        {{ .Scratch.Set "customBoxes" "yes"}} {{partial
-        "product/snipcart-button.html" . }}
 
 
+        <div class="product-button-boxes ">
+          {{ if .Params.dataItemCustom1Name}}
+          <div>{{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom2Name}}
+          <div>{{ with .Params.dataItemCustom2Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom3Name}}
+          <div>{{ with .Params.dataItemCustom3Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom4Name}}
+          <div>{{ with .Params.dataItemCustom4Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}}{{ if .Params.dataItemCustom5Name}}
+          <div>{{ with .Params.dataItemCustom5Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom6Name}}
+          <div>{{ with .Params.dataItemCustom6Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom7Name}}
+          <div>{{ with .Params.dataItemCustom7Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom8Name}}
+          <div>{{ with .Params.dataItemCustom8Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}} {{ if .Params.dataItemCustom9Name}}
+          <div>{{ with .Params.dataItemCustom9Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}
+          </div>
+          {{end}}
+        </div>
+
+
+        <p class="price">&euro;{{ .Params.price }}</p>
+
+        <table class="buy-or-signup">
+          <tr>
+            <td> {{partial "product/snipcart-button.html" . }}</td>
+            <td> <a href="#sign-up" class="btn discount">Get 20% OFF</a></td>
+          </tr>
+        </table>
       </div>
-      <article class="product-info">
-        <aside class="color3-bg padding-small margin-large-bottom">
+      <article class="product-info gradient-light margin-large-bottom">
+        <aside class=" padding-small ">
           <p>{{ .Content }}</p>
+
           <ul class="specs">
             {{ if .Params.attribute1}}
             <li>{{ with .Params.attribute1 }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</li>
@@ -73,9 +121,8 @@
           </ul>
         </aside>
       </article>
-      <article class="prod-reviews">
-        <aside class=""></aside>
-      </article>
+
     </article>
+
   </section>
 </section>

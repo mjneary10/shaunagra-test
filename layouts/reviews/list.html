@@ -1,14 +1,8 @@
 {{ define "main" }}
 <main>
-  <section class="grid grid-main">
-    <article class="normal-width-element">
-      {{ partial "heading-1.html" . }}
-    </article>
-  </section>
+  {{partial "heading-1.html" . }}
 
-  <ul class="grid grid-products padding-small list-reset">
-    {{ range .Site.Data.testimonials }} {{ partial "review-snippet.html" . }} {{
-    end }}
-  </ul>
+
+
 </main>
 {{end}}

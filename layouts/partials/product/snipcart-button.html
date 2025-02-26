@@ -1,9 +1,8 @@
 {{ if .Params.stock }} {{ if not (in .Params.stock "0") }}
 
 <a title="Add To Cart" href="#" class="snipcart-add-item" data-item-id="{{ .Params.title }}"
-  data-item-weight="{{ .Params.weight}}" data-item-name="{{ .Params.title }}"
-  data-item-image="{{ absURL .Params.image }}-1.webp" data-item-price="{{ .Params.price }}"
-  data-item-url="{{ .Permalink }}" {{if .Params.dataItemCustom1Name}}
+  data-item-weight="{{ .Params.weight}}" data-item-name="{{ .Params.title }}" data-item-image="{{ .Params.image }}.webp"
+  data-item-price="{{ .Params.price }}" data-item-url="{{ .Permalink }}" {{if .Params.dataItemCustom1Name}}
   data-item-custom1-name="{{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}"
   data-item-custom1-required="true" {{ end }} {{if eq .Params.dataItemCustom1Name "dateFormat" }}
   data-item-custom1-options="EU (day-month-year)(23-5-18)[+0.00]|USA (month-day-year)(5-23-18)[+0.00]" {{else if
@@ -60,36 +59,9 @@
   {{ end }} data-item-custom10-name="Message to Shauna Gra" data-item-custom10-type="textarea" {{ if in
   .RelPermalink "/cards/confirmation/" }} data-item-categories="cardsConfirmation" {{end}}>
 
-
-  {{ $test := .Scratch.Get "customBoxes" }} {{ if eq $test "yes"}}
-
-  <div class="product-button-boxes">
-    {{ if .Params.dataItemCustom1Name}}
-    <div>{{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom2Name}}
-    <div>{{ with .Params.dataItemCustom2Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom3Name}}
-    <div>{{ with .Params.dataItemCustom3Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom4Name}}
-    <div>{{ with .Params.dataItemCustom4Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}}{{ if .Params.dataItemCustom5Name}}
-    <div>{{ with .Params.dataItemCustom5Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom6Name}}
-    <div>{{ with .Params.dataItemCustom6Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom7Name}}
-    <div>{{ with .Params.dataItemCustom7Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom8Name}}
-    <div>{{ with .Params.dataItemCustom8Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}} {{ if .Params.dataItemCustom9Name}}
-    <div>{{ with .Params.dataItemCustom9Name }}{{ $v := index site.Data.product.productData . }}{{ $v }}{{ end }}</div>
-    {{end}}
-  </div>
-
-  {{end}}
-  <p class="price">&euro;{{ .Params.price }}</p>
   <span class="btn buyNowButton">ADD TO CART</span>
 </a>
-<a href="/signup/" class="filter-buttons">Or sign up for 20% OFF</a>
+
 
 {{else }}
 <p class="price">!! Out Of Stock !!</p>

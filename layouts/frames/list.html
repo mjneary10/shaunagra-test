@@ -2,14 +2,10 @@
 <main>
   {{ partial "product/top-filter-buttons.html" . }}
 
-  <section class="grid grid-main">
-    <article class="normal-width-element">
-      {{ partial "heading-1.html" . }}
-    </article>
-  </section>
+  {{partial "heading-1.html" . }}
 
-  <section class="grid grid-main">
-    <aside class="normal-width-element">
+  <section class="grid grid-main gradient-light">
+    <aside class="normal-width-element margin-large-t-b">
       {{ if eq .RelPermalink "/frames/" }} {{$type :=""}} {{ $section :=
       site.GetPage "frames" }} {{ range $section.Pages }} {{ $type = .Type }} {{
       partial "product/list-section-heading.html" . }}
@@ -21,7 +17,7 @@
       {{ end }} {{else}} {{$type :=""}} {{ $type = .Type }}
       <section class="grid grid-main">
         <article class="normal-width-element">
-          <ul class="grid grid-products padding-small text-center list-reset">
+          <ul class="grid grid-products padding-small text-center list-reset ">
             {{ range (where .Site.Pages "Type" "frames") }} {{ if eq
             .Params.productType $type }} {{ partial
             "product/productThumbnail.html" . }} {{ end }} {{ end }}

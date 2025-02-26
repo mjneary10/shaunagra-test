@@ -1,26 +1,20 @@
-<li class="border-round-edge margin-large-bottom">
+<li class="border-round-edge  color2-bg box-shadow flex flex-column flex-space-between">
   <div class="body padding-small">
     <a href="{{ .Permalink }}">
       <picture>
         <source srcset="{{ .Params.image }}-medium.webp" />
         <!-- Fallback -->
-        <img
-          src="{{ .Params.image }}-medium.png"
-          srcset="{{ .Params.image }}-medium.png"
-          alt="{{ .Params.title }}"
-          class="img-responsive"
-          width="400"
-          height="600"
-        />
+        <img src="{{ .Params.image }}-medium.png" srcset="{{ .Params.image }}-medium.png" alt="{{ .Params.title }}"
+          class="img-responsive" width="400" height="600" />
       </picture>
     </a>
-    <a class="product-title" href="{{ .Permalink }}"> {{ .Params.title}} </a>
+    <h3 class="thumb-title">{{ .Params.title}}</h3>
+
   </div>
 
   <div class="cta padding-small border-top">
-    {{ .Scratch.Set "customBoxes" "no"}} {{ partial
-    "product/snipcart-button.html" . }}
+    <p class="price">&euro;{{ .Params.price }}</p>
   </div>
 
-  
+
 </li>

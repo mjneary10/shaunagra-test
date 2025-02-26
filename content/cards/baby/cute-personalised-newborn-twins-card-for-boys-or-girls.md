@@ -9,6 +9,7 @@ creationDate = "09/02/2023"
 
 productGroup = "cards"
 productType = "baby"
+productPlacement = "bestSeller"
 
 attribute1 = "6By6Inches15By15Cm" 
 attribute2 = "plainWhiteCard250Gsm" 

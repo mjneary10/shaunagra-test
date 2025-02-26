@@ -9,6 +9,7 @@ creationDate = "09/02/2023"
 
 productGroup = "cards"
 productType = "baby"
+productPlacement = "bestSeller"
 
 testCode = "5.951006psebbddcpda"
 
