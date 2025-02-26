@@ -69,9 +69,19 @@ input[type="submit"]:hover {
 }
 
 /* -------------------- */
-a.qqq {
-  padding: 50px;
- 
+
+
+.check-out-our-store{
+  display: block;
+  border: 1px solid;
+  margin: 5px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+a.check-out-our-store {
+  color: #000000;
 }
 
 hr {
@@ -270,7 +280,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #e77c30;
+  color: black;
 }
 
 /* mouse over link */
