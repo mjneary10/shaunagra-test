@@ -12,7 +12,7 @@ productType = "wedding"
  
 attribute1 = "6By6Inches15By15Cm" 
 attribute2 = "whiteCard250GsmOrBrownCraftCard280Gsm"
-attribute4 = "envelopesIncluded100To120Gsm"
+attribute3 = "envelopesIncluded100To120Gsm"
  
 
 #---------------------------------------------------------------------------------------------#

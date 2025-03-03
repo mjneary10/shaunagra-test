@@ -10,7 +10,7 @@ creationDate = "23/04/2024"
 productGroup = "cards"
 productType = "birthday"
 productFilter = "age-30-60"
-order = "30"
+order = "30.3"
 
 attribute1 = "6By6Inches15By15Cm" 
 attribute2 = "plainWhiteCard250Gsm" 

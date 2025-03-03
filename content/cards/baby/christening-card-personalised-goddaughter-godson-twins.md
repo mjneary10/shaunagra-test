@@ -13,8 +13,6 @@ productFilter = "christening"
 order = "1"
 productPlacement = "bestSeller"
 
-testCode = "5.951006psebbddcpda"
-
 attribute1 = "6By6Inches15By15Cm" 
 attribute2 = "plainWhiteCard250Gsm" 
 attribute3 = "scallopEdge300Gsm" 

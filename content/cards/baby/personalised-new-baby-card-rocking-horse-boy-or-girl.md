@@ -11,8 +11,8 @@ productGroup = "cards"
 productType = "baby"
 
 attribute1 = "6By6Inches15By15Cm" 
-attribute3 = "scallopEdge300Gsm"
-attribute4 = "envelopeIncluded100Gsm"
+attribute2 = "scallopEdge300Gsm"
+attribute3 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "babysFirstNameOnly"

@@ -4,6 +4,9 @@
     <main>
       {{ $showDescriptions := "no"}}
       <style>
+        .broken{
+          color: red;
+        }
         .test-table {
           width: max-content;
         }
@@ -36,51 +39,108 @@
         }
       </style>
 
-      {{ if eq .RelPermalink "/test/frames/" }} {{end}}
+     
 
       <hr />
-      <h2>Duplicate product titles</h2>
-      <hr />
+      <h2>Product md file (duplicate titles)</h2>
+      
       {{ $value1 :="" }} {{ range ( .Site.RegularPages) }} {{ $counting :=0 }}
-      {{$value1 = .Params.title}} {{ range ( .Site.RegularPages) }} {{ if eq
-      .Params.title $value1}} {{ $counting = add $counting 1 }} {{ if ge
-      $counting 2}}
-
-      <p>{{$value1}} <a href="{{.Permalink}}">Link</a></p>
-
-      {{end}} {{end}} {{end}} {{end}}
+      {{$value1 = .Params.title}} 
+      
+          {{ range ( .Site.RegularPages) }} 
+              {{ if eq
+              .Params.title $value1}} {{ $counting = add $counting 1 }} {{ if ge
+              $counting 2}}
+              <p>{{$value1}} <a href="{{.Permalink}}">Link</a></p>
+              
+              {{end}}
+             
+          {{end}}
+          
+        {{end}}
+        
+    {{end}}
 
       <hr />
-      <h2>Product check</h2>
-      <hr />
+      <h2>Product md file (pageType, metaTitle, title, price, weight, stock, creationDate, productGroup, productType, Image, description, content)</h2>
+    
       {{ $counter :=0 }} {{ range ( .Site.RegularPages) }} {{ $counter = add
-      $counter 1 }} {{if not .Params.pageType }}
-      <a href="{{.Permalink}}">pageType</a>
-      {{end}} {{if not .Params.metaTitle }}
-      <a href="{{.Permalink}}">metaTitle</a>
-      {{end}} {{if not .Params.title }}
-      <a href="{{.Permalink}}">Title</a> | {{end}} {{if not .Params.price }}
-      <a href="{{.Permalink}}">Price</a> | {{end}} {{if not .Params.weight }}
-      <a href="{{.Permalink}}">Weight</a>
-      {{end}} {{if not .Params.stock }}
-      <a href="{{.Permalink}}">stock</a>
-      {{end}} {{if not .Params.creationDate }}
-      <a href="{{.Permalink}}">creationDate</a>
-      {{end}} {{if not .Params.productGroup }}
-      <a href="{{.Permalink}}">productGroup</a>
-      {{end}} {{if not .Params.productType }}
-      <a href="{{.Permalink}}">productType</a>
-      {{end}} {{if not .Params.image }}
-      <a href="{{.Permalink}}">Image</a>
-      {{end}} {{if not .Params.description }}
-      <a href="{{.Permalink}}">description</a>
-      {{end}} {{if not .Params.dataItemCustom1Name }}
-      <a href="{{.Permalink}}">dataItemCustom1Name</a>
-      {{end}}{{end}}
+      $counter 1 }}
+      {{if not .Params.pageType }}<a href="{{.Permalink}}">pageType</a>{{end}}
+      {{if not .Params.metaTitle }}<a href="{{.Permalink}}">metaTitle</a>{{end}}
+      {{if not .Params.title }}<a href="{{.Permalink}}">Title</a>{{end}}
+      {{if not .Params.price }}<a href="{{.Permalink}}">Price</a>{{end}} 
+      {{if not .Params.weight }}<a href="{{.Permalink}}">Weight</a>{{end}}
+      {{if not .Params.stock }}<a href="{{.Permalink}}">stock</a>{{end}}
+      {{if not .Params.creationDate }}<a href="{{.Permalink}}">creationDate</a>{{end}}
+      {{if not .Params.productGroup }}<a href="{{.Permalink}}">productGroup</a>{{end}}
+      {{if not .Params.productType }}<a href="{{.Permalink}}">productType</a>{{end}}
+      {{if not .Params.image }}<a href="{{.Permalink}}">Image</a>{{end}}
+      {{if not .Params.description }}<a href="{{.Permalink}}">description</a>{{end}}
+      {{if not .Content }}<a href="{{.Permalink}}">Content</a>{{end}}
+      {{end}}
+
+ 
       <p>{{$counter}} pages checked</p>
 
       <hr />
 
+      <h2>Product md file (attributes 1 to 3)</h2>
+      
+      {{ $counter :=0 }} {{ range ( .Site.RegularPages) }} {{ $counter = add
+      $counter 1 }}
+      {{if not .Params.attribute1 }} <p class="broken">{{ .Params.title}}</p>{{end}}
+      {{if not .Params.attribute2 }} <p class="broken">{{ .Params.title}}</p>{{end}}
+      {{if not .Params.attribute3 }} <p class="broken">{{ .Params.title}}</p>{{end}}
+     
+      {{end}}
+      <p>{{$counter}} pages checked</p>
+      <hr />
+
+        <h2>Data file (attributes 1 to 5 in yaml file)</h2>
+
+        {{ $counter :=0 }} {{ range ( .Site.RegularPages) }} {{ $counter = add
+          $counter 1 }}
+          {{ if .Params.attribute1}} {{ with .Params.attribute1 }}{{ $v := index site.Data.product.productData . }} {{if not $v }}1, {{ end }}{{ end }} {{end}}
+          {{ if .Params.attribute2}} {{ with .Params.attribute2 }}{{ $v := index site.Data.product.productData . }} {{if not $v }}2, {{ end }}{{ end }} {{end}}
+          {{ if .Params.attribute3}} {{ with .Params.attribute3 }}{{ $v := index site.Data.product.productData . }} {{if not $v }}3, {{ end }}{{ end }} {{end}}
+          {{ if .Params.attribute4}} {{ with .Params.attribute4 }}{{ $v := index site.Data.product.productData . }} {{if not $v }}4, {{ end }}{{ end }} {{end}}
+          {{ if .Params.attribute5}} {{ with .Params.attribute5 }}{{ $v := index site.Data.product.productData . }} {{if not $v }}5, {{ end }}{{ end }} {{end}}
+          {{end}}
+          <p>{{$counter}} pages checked</p>
+<hr>
+
+<h2>Data file (button data 1 to 9 in yaml file)</h2>
+
+        {{ $counter :=0 }} {{ range ( .Site.RegularPages) }} {{ $counter = add
+          $counter 1 }}
+          {{ if .Params.dataItemCustom1Name}} {{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}1 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom2Name}} {{ with .Params.dataItemCustom2Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}2 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom3Name}} {{ with .Params.dataItemCustom3Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}3 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom4Name}} {{ with .Params.dataItemCustom4Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}4 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom5Name}} {{ with .Params.dataItemCustom5Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}5 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom6Name}} {{ with .Params.dataItemCustom6Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}6 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom7Name}} {{ with .Params.dataItemCustom7Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}7 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom8Name}} {{ with .Params.dataItemCustom8Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}8 NAME, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom9Name}} {{ with .Params.dataItemCustom9Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}9 NAME, {{ end }}{{ end }} {{end}}
+
+          {{ if .Params.dataItemCustom1Options}} {{ with .Params.dataItemCustom1Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}1 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom2Options}} {{ with .Params.dataItemCustom2Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}2 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom3Options}} {{ with .Params.dataItemCustom3Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}3 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom4Options}} {{ with .Params.dataItemCustom4Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}4 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom5Options}} {{ with .Params.dataItemCustom5Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}5 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom6Options}} {{ with .Params.dataItemCustom6Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}6 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom7Options}} {{ with .Params.dataItemCustom7Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}7 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom8Options}} {{ with .Params.dataItemCustom8Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}8 OPTIONS, {{ end }}{{ end }} {{end}}
+          {{ if .Params.dataItemCustom9Options}} {{ with .Params.dataItemCustom9Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}9 OPTIONS, {{ end }}{{ end }} {{end}}
+
+         
+          
+          {{end}}
+          <p>{{$counter}} pages checked</p>
+<hr>
+
+          <br><br><br><br>
       <a href="/test/frames/">Frames</a><br />
       <a href="/test/cards/">Cards</a><br />
       <a href="/test/prints/">Prints</a><br />

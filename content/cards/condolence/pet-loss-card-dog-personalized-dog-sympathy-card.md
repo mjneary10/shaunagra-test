@@ -13,7 +13,7 @@ productType = "condolence"
  
 attribute1 = "6By6Inches15By15Cm" 
 attribute2 = "plainWhiteCard250Gsm" 
-attribute4 = "envelopeIncluded100Gsm"
+attribute3 = "envelopeIncluded100Gsm"
 
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "petFirstName"
