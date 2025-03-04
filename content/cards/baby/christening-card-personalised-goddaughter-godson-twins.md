@@ -14,7 +14,7 @@ order = "1"
 productPlacement = "bestSeller"
 
 attribute1 = "6By6Inches15By15Cm" 
-attribute2 = "plainWhiteCard250Gsm" 
+attribute2 = "plainWhiteCard250Gsm"
 attribute3 = "scallopEdge300Gsm" 
 attribute4 = "envelopeIncluded100Gsm"
 

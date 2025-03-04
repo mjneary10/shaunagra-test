@@ -1,4 +1,101 @@
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
 <!-- code for localhost only -->
- local host...
+
+      
+{{ $titleCheck := 1}}
+{{ $value1 :="" }}  {{ $titleCounter :=0 }} {{ range ( .Site.RegularPages) }} {{ $titleCounter :=0 }}
+{{$value1 = .Params.title}} 
+    {{ range ( .Site.RegularPages) }} 
+        {{ if eq .Params.title $value1}} {{ $titleCounter = add $titleCounter 1 }}
+        {{ if ge $titleCounter 2}}
+            {{ $titleCheck = 0 }}
+        {{end}}  
+    {{end}}
+  {{end}}
+{{end}}
+
+
+{{ $mdFileCheck := 1}}
+{{ $attributeCounter :=0 }} {{ range ( .Site.RegularPages) }} {{ $attributeCounter = add
+    $attributeCounter 1 }}
+    {{if not .Params.pageType }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.metaTitle }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.title }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.price }} {{ $mdFileCheck = 0 }}{{end}} 
+    {{if not .Params.weight }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.stock }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.creationDate }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.productGroup }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.productType }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.image }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.description }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Content }} {{ $mdFileCheck = 0 }}{{end}}
+    {{if not .Params.attribute1 }} {{ $mdFileCheck = 0 }} {{end}}
+    {{if not .Params.attribute2 }} {{ $attrmdFileCheckibuteCheck = 0 }} {{end}}
+    {{if not .Params.attribute3 }} {{ $mdFileCheck = 0 }} {{end}}
+{{end}}
+
+{{ $yamlFileCheck := 1}}
+{{ $yamlCounter :=0 }} {{ range ( .Site.RegularPages) }} {{ $yamlCounter = add
+    $yamlCounter 1 }}
+    {{ if .Params.attribute1}} {{ with .Params.attribute1 }}{{ $v := index site.Data.product.productData . }} {{if not $v }} {{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.attribute2}} {{ with .Params.attribute2 }}{{ $v := index site.Data.product.productData . }} {{if not $v }} {{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.attribute3}} {{ with .Params.attribute3 }}{{ $v := index site.Data.product.productData . }} {{if not $v }} {{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.attribute4}} {{ with .Params.attribute4 }}{{ $v := index site.Data.product.productData . }} {{if not $v }} {{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.attribute5}} {{ with .Params.attribute5 }}{{ $v := index site.Data.product.productData . }} {{if not $v }} {{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+
+    {{ if .Params.dataItemCustom1Name}} {{ with .Params.dataItemCustom1Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom2Name}} {{ with .Params.dataItemCustom2Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom3Name}} {{ with .Params.dataItemCustom3Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom4Name}} {{ with .Params.dataItemCustom4Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom5Name}} {{ with .Params.dataItemCustom5Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom6Name}} {{ with .Params.dataItemCustom6Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom7Name}} {{ with .Params.dataItemCustom7Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom8Name}} {{ with .Params.dataItemCustom8Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom9Name}} {{ with .Params.dataItemCustom9Name }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+
+    {{ if .Params.dataItemCustom1Options}} {{ with .Params.dataItemCustom1Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom2Options}} {{ with .Params.dataItemCustom2Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom3Options}} {{ with .Params.dataItemCustom3Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom4Options}} {{ with .Params.dataItemCustom4Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }}, {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom5Options}} {{ with .Params.dataItemCustom5Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom6Options}} {{ with .Params.dataItemCustom6Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom7Options}} {{ with .Params.dataItemCustom7Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom8Options}} {{ with .Params.dataItemCustom8Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+    {{ if .Params.dataItemCustom9Options}} {{ with .Params.dataItemCustom9Options }}{{ $v := index site.Data.product.productData . }} {{if not $v }}{{ $yamlFileCheck = 0 }} {{ end }}{{ end }} {{end}}
+{{end}}
+
+
+
+
+
+
+
+
+<style>
+
+ 
+    
+    .site-test td{
+        border: 1px solid;
+        padding: 5px;
+    }
+    .f{
+        background-color: red;
+    }
+    .p{
+        background-color: rgb(130, 231, 130);
+    }
+</style>
+
+<table class="site-test">
+    <tr>
+        <td>Products: {{ $attributeCounter }}</td>
+        <td> {{ if eq $titleCheck 0 }} <span class="f">Duplicate Titles</span> {{else}}<span class="p">Duplicate Titles</span>{{end}}</td>
+        <td>{{ if eq $mdFileCheck 0 }} <span class="f">Md File</span>{{else}}<span class="p">Md File</span>{{end}}</td>
+        <td>{{ if eq $yamlFileCheck 0 }} <span class="f">Yaml File</span>{{else}}<span class="p">Yaml File</span>{{end}}</td>
+    </tr>
+</table>
+
+<!-- End of localhost check -->
 {{ end }}
