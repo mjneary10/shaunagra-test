@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Personalised handmade irish wedding card sister best friend | Shauna Gra"
 title = "Personalised handmade irish wedding card sister best friend"
-price = "7.95"
+price = "7.50"
 weight = "100"
 stock = "2"
 creationDate = "03/03/2025"

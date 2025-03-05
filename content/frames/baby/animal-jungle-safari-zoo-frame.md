@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Animal jungle safari zoo frame | Shauna Gra"
 title = "Animal jungle safari zoo frame"
-price = "37.50"
+price = "35"
 weight = "1000"
 stock = "2"
 creationDate = "09/02/2023"

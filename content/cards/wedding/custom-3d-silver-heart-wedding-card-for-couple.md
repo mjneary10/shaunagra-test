@@ -2,7 +2,7 @@
 pageType = "product"
 metaTitle ="Custom 3d silver heart wedding card for couple | Shauna Gra"
 title = "Custom 3d silver heart wedding card for couple"
-price = "4.95"
+price = "7.50"
 weight = "100"
 stock = "2"
 creationDate = "13/10/2024"
