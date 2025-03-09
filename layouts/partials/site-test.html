@@ -1,3 +1,10 @@
+{{ $enable := 1}}
+
+
+{{ if eq $enable 1 }}
+
+
+
 {{ if eq (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
 <!-- code for localhost only -->
 
@@ -99,3 +106,10 @@
 
 <!-- End of localhost check -->
 {{ end }}
+
+
+
+
+
+{{end}}
+

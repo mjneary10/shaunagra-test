@@ -3,12 +3,9 @@
   {{ partial "head.html" . }}
 
   <body>
+    {{ partial "javascript-snipcart.html" . }}
     {{ block "header" . }} {{ partial "header.html" .}} {{ end }} {{ block
     "main" . }} {{ end }} {{ block "footer" . }} {{ partial "footer.html" .}} {{
-    end }} {{ if eq .RelPermalink "/cards/birthday/" }}
-    <script>
-      filterSelection("all");
-    </script>
-    {{end}}
+    end }} 
   </body>
 </html>
