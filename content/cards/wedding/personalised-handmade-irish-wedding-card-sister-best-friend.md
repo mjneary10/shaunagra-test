@@ -20,11 +20,11 @@ attribute4 = "envelopeIncluded100Gsm"
 #---------------------------------------------------------------------------------------------#
 dataItemCustom1Name = "personsFirstNameOnly" 
 dataItemCustom2Name = "dateFormat"
-dataItemCustom2Options = "dateInAboveFormat"
-dataItemCustom3Name = "cardOptions" 
-dataItemCustom3Options = "plainWhiteCardScallopEdgeAt2Euro" 
-dataItemCustom4Name = "designOptions" 
-dataItemCustom4Options = "abcd" 
+dataItemCustom3Name = "dateInAboveFormat"
+dataItemCustom4Name = "cardOptions" 
+dataItemCustom4Options = "plainWhiteCardScallopEdgeAt2Euro" 
+dataItemCustom5Name = "designOptions" 
+dataItemCustom5Options = "abcd" 
 #---------------------------------------------------------------------------------------------#
  
 image ="/img/cards/wedding/personalised-handmade-irish-wedding-card-sister-best-friend/personalised-handmade-irish-wedding-card-sister-best-friend"
