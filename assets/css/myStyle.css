@@ -46,6 +46,24 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+#contact-container input[type="email"]
+ {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input#submit-contact{
+  border: 1px solid #ABB0B2;
+  margin: 0;
+  width: 100%;
+}
 
 input#mc-embedded-subscribe{
   margin: 0;
@@ -206,6 +224,7 @@ a.filter-buttons:hover {
     width: 10%;
     text-align: center;
   }
+
 }
 
 /* CSS here to get it working then clean it up at some stage *******************************************/
@@ -608,14 +627,14 @@ width: 100%;
 
 .prev,
 .next {
-  background-color: rgb(241, 198, 157);
+  background-color:black;
   cursor: pointer;
   position: absolute;
-  top: 380px;
+  top: 438px;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: black;
+  color:white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -633,12 +652,14 @@ width: 100%;
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(210, 161, 161, 0.8);
+  background-color:white;
+  color: black;
+  text-decoration: none;
 }
 
 .numbertext {
-  color: black;
-  background-color: rgb(241, 198, 157);
+  color:white;
+  background-color:black;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -676,6 +697,11 @@ width: 100%;
 }
 
 @media screen and (min-width: 600px) {
+
+  .prev, .next{
+    position:absolute;
+    top: 340px;
+  }
   body{
     text-align: left;
   }
