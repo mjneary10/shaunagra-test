@@ -5,4 +5,4 @@ title = "Reviews"
 description = "This is our reviews page. Here are just some of our happy customers"
 +++
 
-Reviews
+This is our reviews page. Here are just some of our happy customers
