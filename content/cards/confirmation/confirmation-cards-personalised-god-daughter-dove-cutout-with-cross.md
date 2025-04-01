@@ -5,7 +5,7 @@ title = "Confirmation cards personalised god daughter dove cutout with cross"
 price = "6.95"
 weight = "100"
 stock = "2"
-creationDate = "10/01/2025"
+creationDate = "01/04/2025"
 
 productGroup = "cards"
 productType = "confirmation"
@@ -23,11 +23,10 @@ dataItemCustom4Name = "dateInAboveFormat"
  
 image ="/img/cards/confirmation/confirmation-cards-personalised-god-daughter-dove-cutout-with-cross/confirmation-cards-personalised-god-daughter-dove-cutout-with-cross"
  
-description = "Confirmation cards personalised god daughter dove cutout with cross Celebrate her special day with a handmade  customised confirmation card crafted in Ireland. Thisexquisite card with a pretty dove and cross detail is perfect for your daughter, granddaughter,goddaughter, niece, sister, or sister-in-law, offering a unique keepsake to commemorate her Confirmation."
+description = "This goddaughter confirmation card is personalised with your confirmation card message. Also perfect for a daughter confirmation card, and has a dove cutout with cross."
 +++
 
-Confirmation cards personalised god daughter dove cutout with cross
-Celebrate her special day with a handmade customised confirmation card crafted in Ireland. This
+Confirmation cards personalised god daughter dove cutout with cross. This goddaughter confirmation card is personalised with your confirmation card message. Also perfect for a daughter confirmation card, and has a dove cutout with cross. Celebrate her special day with a handmade customised confirmation card crafted in Ireland. This
 exquisite card with a pretty dove and cross detail is perfect for your daughter, granddaughter,
 goddaughter, niece, sister, or sister-in-law, offering a unique keepsake to commemorate her
 Confirmation.

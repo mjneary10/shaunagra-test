@@ -5,7 +5,7 @@ title = "Personalised confirmation card for godson son name and date"
 price = "4.95"
 weight = "100"
 stock = "2"
-creationDate = "09/02/2023"
+creationDate = "01/04/2025"
 
 productGroup = "cards"
 productType = "confirmation"
@@ -27,7 +27,7 @@ dataItemCustom5Options = "abcd"
  
 image ="/img/cards/confirmation/personalised-confirmation-card-for-godson-son-name-and-date/personalised-confirmation-card-for-godson-son-name-and-date"
  
-description = "This is one of our cutest personalised confirmation cards, suitable for boys or girls, godson also. You can choose from 4 designs at checkout."
+description = "Godson confirmation card, this is one of our cutest personalised confirmation cards, and you can write your own confirmation wishes for a boy/confirmation card message."
 +++
 
-This is one of our cutest personalised confirmation cards, suitable for boys or girls, godson also. You can choose from 4 designs at checkout.
+Personalised confirmation card for godson son name and date. Godson confirmation card, this is one of our cutest personalised confirmation cards, and you can write your own confirmation wishes for a boy/confirmation card message. You can choose from 4 designs at checkout.

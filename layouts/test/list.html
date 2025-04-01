@@ -5,23 +5,25 @@
      
       <style>
       body{
-        font-size: 25px;
+        font-size: 16px;
       }
-        .test-title{
-          width: 100%;
-        }
+      
         table td {
           padding: 5px;
           border: 1px solid;
+          white-space: nowrap;
+         
         }
 
         table th {
           background-color: antiquewhite;
         }
+
+    
       
       </style>
       {{partial "site-test.html" . }}
-<h1> <a href="/test/frames/">Frames</a> <a href="/test/cards/">Cards</a> <a href="/test/prints/">Prints</a></h1>
+<h1> <a href="/test/frames/">Frames</a> <a href="/test/cards/">Cards</a> <a href="/test/prints/">Prints</a> <a href="/test/seo/">Main Pages</a></h1>
    
    
 
@@ -68,21 +70,28 @@
       <table class="test-table">
         <tr>
           <th>Date</th>
-          <th class="test-title">Title</th>
+          
           <th>Price</th>
           <th>Weight</th>
           <th>Stock</th>
           <th>Link</th>
+          <th class="test-title">Keyword-Title-H1</th>
+          <th>Doc Title</th>
+          <th>Meta Description</th>
         </tr>
         {{ range (where .Site.Pages "Type" "frames") }} {{ if eq
         .Params.productType $type }}
         <tr>
           <td>{{.Params.creationDate }}</td>
-          <td>{{.Params.title}}</td>
+          
           <td>{{.Params.price}}</td>
           <td>{{.Params.weight}}</td>
           <td>{{.Params.stock}}</td>
           <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
+          <td>{{.Params.title}}</td>
+          <td>{{.Params.metaTitle}}</td>
+          <td>{{.Params.description}}</td>
+          
         </tr>
         {{ end }} {{ end }}
       </table>
@@ -100,7 +109,7 @@
    
       <h2>{{ .Params.title }}</h2>
      
-      <table class="test-table">
+      <table class="">
         <tr>
           <th>Date</th>
           <th class="test-title">Title</th>
@@ -118,6 +127,39 @@
           <td>{{.Params.weight}}</td>
           <td>{{.Params.stock}}</td>
           <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
+        </tr>
+        {{ end }} {{ end }}
+      </table>
+      {{ end }} {{end}}
+
+
+
+
+
+      {{ if eq .RelPermalink "/test/seo/" }}
+      {{$type :=""}} {{ $section := site.GetPage "content" }} {{ range
+      $section.Pages }} {{ $type = .Type }}
+   
+      <h2>{{ .Params.title }}</h2>
+     
+      <table class="seo-table">
+        <tr>
+          <th>Date altered</th>
+          <th>Link</th>
+          <th class="test-title">Keyword/H1/Title</th>
+          <th>Doc title</th>
+          <th>Meta description</th>
+
+        </tr>
+        {{ range (where .Site.Pages "Type" "cards") }} {{ if eq
+        .Params.productType $type }}
+        <tr>
+          <td>{{.Params.creationDate }}</td>
+          <td><a href="{{.RelPermalink}}" target="_blank">Link</a></td>
+          <td>{{.Params.title}}</td>
+          <td>{{.Params.metaTitle}}</td>
+          <td>{{.Params.description}}</td>
+          
         </tr>
         {{ end }} {{ end }}
       </table>
