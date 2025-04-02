@@ -1,9 +1,9 @@
 +++
 type = "christmas"
 pageType = "product"
-metaTitle = "Personalised Christmas Cards | Shauna Gra Personalised Frames And Cards"
-title = "Personalised christmas cards"
-description = "Are you looking for a perfect christmas card, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake christmas card."
+metaTitle = "Cards For Christmas Handmade | Shauna Gra"
+title = "Cards For Christmas Handmade"
+description = "Check out our cards for Christmas handmade. We offer personalised Christmas cards made in Ireland. Whether you want handmade Christmas cards for boyfriend, girlfriend, husband, wife, or family, we can make them for you. Fast order turnaround, have your cards in days."
 +++
 
-Are you looking for a perfect christmas card, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake christmas card.
+Check out our cards for Christmas handmade. We offer personalised Christmas cards made in Ireland. Whether you want handmade Christmas cards for boyfriend, girlfriend, husband, wife, or family, we can make them for you. Fast order turnaround, have your cards in days. I am sure to have one that suits to make the perfect keepsake christmas card.
