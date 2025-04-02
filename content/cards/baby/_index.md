@@ -1,9 +1,9 @@
 +++
 type = "baby"
 pageType = "product"
-metaTitle = "Personalised Baby Cards | Shauna Gra Personalised Frames And Cards"
-title = "Personalised baby cards"
-description = "Are you looking for a new baby card that is personalised for a girl or a boy or unisex, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake baby card. Don't forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins."
+metaTitle = "Personalised New Baby Cards Handmade | Shauna Gra"
+title = "Personalised New Baby Cards Handmade"
+description = "Check out our personalised new baby cards handmade in Ireland. I make personalised baby girl cards and also personalised baby boy cards. Fast order turnaround, have your card within days."
 +++
 
-Are you looking for a new baby card that is personalised for a girl or a boy or unisex, well check out my range of cards that are handmade in Ireland. I am sure to have one that suits to make the perfect keepsake baby card. Don't forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins.
+Check out our personalised new baby cards handmade in Ireland. I make personalised baby girl cards and also personalised baby boy cards. Fast order turnaround, have your card within days. I am sure to have one that suits to make the perfect keepsake baby card. Don't forget to check out my range of personalised Christening cards too suitable for a girl, boy or twins.
