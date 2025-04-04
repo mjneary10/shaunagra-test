@@ -3,6 +3,7 @@ type = "condolence"
 pageType = "product"
 metaTitle = "Handmade Condolence Cards | Shauna Gra"
 title = "Handmade Condolence Cards"
+updatedDate = "01/04/2025"
 description = "Check out our range of handmade condolence cards and personalised sympathy cards made in Ireland. We can create a lovely handmade bereavement card to console someone special and show them you care."
 +++
 

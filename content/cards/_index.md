@@ -2,6 +2,7 @@
 pageType = "product"
 metaTitle = "Personalised Handmade Cards | Shauna Gra"
 title = "Personalised Handmade Cards"
+updatedDate = "01/04/2025"
 description = "Here at Shauna Gra we create personalised handmade cards for all occasions. We are in Dublin Ireland and create customised cards for weddings, birthdays, baby, christmas, condolence, communion, confirmation, mothers day, Irish, anniversary and engagement."
 +++
 

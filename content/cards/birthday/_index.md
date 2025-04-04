@@ -3,6 +3,7 @@ type = "birthday"
 pageType = "product"
 metaTitle = "Personalised Birthday Cards | Shauna Gra"
 title = "Personalised birthday cards"
+updatedDate = "01/04/2025"
 description = "Check out our personalised birthday cards handmade in Ireland. We offer unique custom birthday cards to make the birthday memorable. Fast order turnaround, have your card within days."
 +++
 

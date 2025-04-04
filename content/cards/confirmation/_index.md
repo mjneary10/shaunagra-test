@@ -3,6 +3,7 @@ type = "confirmation"
 pageType = "product"
 metaTitle = "Confirmation Cards Personalised | Shauna Gra"
 title = "Confirmation cards personalised"
+updatedDate = "01/04/2025"
 description = "Check out our confirmation cards personalised handmade in Ireland. We offer personalised confirmation cards for girls and boys, many designs to choose from, fast secure shipping, have your cards within days."
 +++
 

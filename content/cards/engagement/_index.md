@@ -3,6 +3,7 @@ type = "engagement"
 pageType = "product"
 metaTitle = "Personalised Engagement Cards | Shauna Gra"
 title = "Personalised engagement cards"
+updatedDate = "01/04/2025"
 description = "Check out our personalised engagement cards handmade in Ireland. We can create a custom engagement card to make the occasion very special. Many designs to choose from, fast shipping, secure payment."
 +++
 
